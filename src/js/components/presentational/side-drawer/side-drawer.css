@@ -1,0 +1,33 @@
+.makeStyles-list-1 .MuiButtonBase-root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.makeStyles-list-1 .MuiButtonBase-root button:focus {
+  background-color: aqua;
+  color: aqua;
+}
+
+.makeStyles-list-1 .MuiListItemIcon-root {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.makeStyles-list-1 .MuiTouchRipple-root {
+  color: #0a6d3d;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.makeStyles-list-1 .MuiListItemText-root span {
+  text-align: left;
+}
+
+#drawer-icons {
+  width: 30px !important;
+  height: 30px !important;
+}
+/*# sourceMappingURL=side-drawer.css.map */

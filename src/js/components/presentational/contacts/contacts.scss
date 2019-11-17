@@ -1,0 +1,113 @@
+@import "../../../../data/shared-styles/variables-mixins.scss";
+
+#map {
+  position: relative;
+  width: 500px;
+  height: inherit;
+  margin-left: 20px;
+  box-shadow: 0px 0px 3px 1px rgb(112, 112, 112);
+}
+
+.contacts-wrapper {
+  z-index: 0;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .contacts-heading {
+    @include headerStyle(row-reverse, $mainBlackColor, 35px, 30px);
+  }  
+}
+
+.flex-wrapper {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.address-details {
+  line-height: 0px;
+  color: white;
+  background-color: rgb(58, 61, 66);
+  box-shadow: 0px 0px 3px 1px rgb(112, 112, 112);
+  width: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 5;
+  height: auto;
+  h4{
+    margin: 20px;
+    padding-top: 20px;
+  }
+  p {
+    margin: 20px;
+    white-space: pre;
+    font-family: Work Sans;
+    span {
+      text-decoration: underline;
+      margin: 20px;
+      cursor:pointer;
+    }
+    &:last-child {
+      padding-bottom: 20px;
+    }
+  }
+}
+
+.address-details > h4 {
+  font-size: 1.563em;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .contacts-wrapper {
+    .contacts-heading {
+      @include headerStyle(column, $mainBlackColor, 55px, 20px);
+    }  
+  }
+  .flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    .address-details {
+      height: 300px;
+      width: 100% !important;
+      margin: 0 auto;
+    }
+  }
+  #map {
+    position: relative;
+    width: auto;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 20px;
+    box-shadow: 0px 3px 6px 2px rgb(112, 112, 112);
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+
+  .flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    .address-details {
+      height: 300px;
+      width: 40.625em;
+      margin: 0 auto;
+    }
+  }
+  #map {
+    position: relative;
+    width: 40.625em;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 20px;
+    box-shadow: 0px 3px 6px 2px rgb(112, 112, 112);
+  }
+}

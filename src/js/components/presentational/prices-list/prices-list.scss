@@ -1,0 +1,76 @@
+@import "../../../../data/shared-styles/variables-mixins.scss";
+
+.prices-wrapper {
+  z-index: 0;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prices-heading {
+  @include headerStyle(row-reverse, $mainBlackColor, 35px, 30px);
+}
+
+.treatments-list-wrapper {
+  padding: 1.25em;
+  display: flex;
+  max-width: 42.6872em;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.treatments-list {
+  width: 45%;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-top: 1px solid black;
+  p:nth-child(1) {
+    color: $mainGreenColor;
+  }
+  p:nth-child(2) {
+    font-size: $mainHeaderSize;
+    span {
+      font-family: Work Sans;
+      font-size: 11px;
+    }
+  }
+  p:nth-child(3) {
+    font-family: Work Sans;
+    font-size: $smallFontSize;
+  }
+}
+
+.treatments-list:nth-child(1) {
+  border-top: none;
+}
+
+.treatments-list:nth-child(2) {
+  border-top: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .treatments-list {
+    width: 95%;
+  }
+  .prices-heading {
+    @include headerStyle(column, $mainBlackColor, 55px, 20px);
+  }
+  .treatments-list:nth-child(1) {
+    border-top: 1px solid black;
+
+  }
+  
+  .treatments-list:nth-child(2) {
+    border-top: 1px solid black;
+  }
+  
+}

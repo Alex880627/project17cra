@@ -1,0 +1,120 @@
+@import "../../../../data/shared-styles/variables-mixins.scss";
+
+#treatments {
+  background-color: white;
+}
+
+.group-sessions-wrapper {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $mainGreenColor;
+  .heading {
+    @include headerStyle(row-reverse, white, 35px, 30px);
+  }
+}
+
+.group-sessions-description > p,
+h4 {
+  color: rgb(255, 255, 255);
+}
+
+.group-sessions-description > p {
+  font-family: Work Sans;
+  font-weight: 100;
+}
+
+.group-sessions-description {
+  color: rgb(0, 0, 0);
+  z-index: 0;
+  max-width: 40.625em;
+  text-align: justify;
+}
+
+td,
+th {
+  font-size: 15px;
+  z-index: 0;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+}
+
+table {
+  z-index: 0;
+  max-width: 40.625em;
+  margin-bottom: 5%;
+  width: 95%;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 10px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+th:first-child {
+  padding: 0;
+}
+
+tr,
+td {
+  width: 15%;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+
+tr,
+td > h3 {
+  line-height: 1em;
+}
+
+tr,
+td > p {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 10px;
+  span {
+    font-size: 14px;
+  }
+}
+
+tr > td:first-child {
+  text-align: center;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 768px) {
+  table {
+    max-width: 95%;
+    p {
+      font-size: 7px;
+    }
+  }
+  td,
+  th {
+    font-size: 2vw;
+  }
+  .group-sessions-description {
+    max-width: 95%;
+  }
+  tr > td:first-child {
+    text-align: center;
+    width: auto;
+  }
+  .group-sessions-wrapper {
+    .heading {
+      @include headerStyle(column, white, 55px, 20px);
+    }
+  }
+}

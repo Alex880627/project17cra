@@ -1,0 +1,29 @@
+@mixin headerStyle($direction, $color, $width, $margin) {
+  margin-top: $margin;
+  margin-bottom: $margin + 20;
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: center;
+  h3 {
+    color: $color;
+    font-size: 25px;
+    font-weight: 100 !important;
+  }
+  img {
+    margin: 22px;
+    width: $width;
+    height: auto;
+  }
+}
+$miniFontSize: 12px;
+$smallFontSize: 15px;
+$midFontSize: 17px;
+$mainHeaderSize: 22px;
+$mainBlackColor: #222222;
+$mainGreenColor: #265c42;
+$mainRedcolor: #EB4335;
+$darkGreenColor: #1F2614;
+$mainGreenColor: #265c42;
+$secondaryGreenColor:rgb(44, 175, 39);
+$mainOpacity: 0.7;

@@ -1,0 +1,181 @@
+{
+  "lang": "Magyar",
+  "navbar": {
+    "treatments": "Kezeléseink »",
+    "group sessions": "Csoportos órák »",
+    "colleagues": "Munkatársaink »",
+    "prices": "Áraink »",
+    "contacts": "Kapcsolat »",
+    "contactUs": "Írj nekünk! »"
+  },
+  "collagues": {
+    "collagues": "Munkatársaink",
+    "details": "Bővebben",
+    "therapists": [
+      {
+        "name": "Sugár Szilvia",
+        "nick name": "Szilvia",
+        "occupation": "Diplomás Gyógytornász",
+        "phone number": "06202441602",
+        "email": "studio17gyogytorna@gmail.com",
+        "details": "Sugár Szilvia is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "color": "#b5ffd9",
+        "techniques": {
+          "title": "Alkalmazott technikák",
+          "data": [
+            "Evminov gerinc-rehabilitáció",
+            "Schroth terápia",
+            "FDM (Fascia Disztorziós Modell)",
+            "Kinesio tape",
+            "Idegmobilizáció"
+          ]
+        }
+      },
+      {
+        "name": "Csikós Panka",
+        "nick name": "Panka",
+        "occupation": "Diplomás Gyógytornász",
+        "phone number": "06202441602",
+        "email": "studio17gyogytorna@gmail.com",
+        "details": "Semmelweis Egyetem Egészségtudományi Karán gyógytornász szakirány Minden korosztály: ovis tartás-, koordináció javítás, lúdtalptorna Gyermekkorban kialakult gerincferdülés (scoliosis) kezelése felnőtt gerinc problémák: kellemetlen derékfájástól - a súlyos gerincbántalmakig, sport sérülések rehabilitációja és visszatérés, funkcionális köredzés, trx, SMR henger időskori preventív torna, ízületi panaszok enyhítése, mobilitás és függetlenség megőrzése Egyéni és kis csoportos órák, mindenkire és minden apró mozdulatra fokozott figyelem egy barátságos, jó hangulatú torna közben Közösen megfogalmazott célok, közösen végrehajtva, soksok munkával és újabb és újabb sikerélményekkel.",
+        "color": "#ade2ff",
+        "techniques": {
+          "title": "Alkalmazott technikák:",
+          "data": [
+            "Svédmasszázs",
+            "Gyógy- és Sportmasszázs",
+            "FDM mozgásterápiás/fájdalomcsillapító terápia",
+            "SI-terápia / AKA gerinc- és nyakkezelés"
+          ]
+        }
+      },
+      {
+        "name": "Erasimus Zsuzsa",
+        "nick name": "Zsuzsa",
+        "occupation": "Gyógymasszőr",
+        "phone number": "06202441602",
+        "email": "studio17gyogytorna@gmail.com",
+        "details": "Erasimus Zsuzsa is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "color": "#e67c6c",
+        "techniques": {
+          "title": "Alkalmazott technikák",
+          "data": [
+            "Svédmasszázs",
+            "Gyógy- és Sportmasszázs",
+            "FDM mozgásterápiás fájdalomcsillapító terápia",
+            "SI-terápia / AKA gerinc- és nyakkezelés"
+          ]
+        }
+      }
+    ]
+  },
+
+  "contacts": {
+    "contacts title": "Hol találsz minket?",
+    "contacts info": {
+      "name": "STUDIO 17",
+      "address": "Falk Miksa utca 17",
+      "city": "Budapest 1055",
+      "ringbell": "Kapucsengő",
+      "ringbell number": "17",
+      "email": "studio17gyogytorna@gmail.com"
+    }
+  },
+  "group sessions": {
+    "group sessions title": "Evminov csoportos órák",
+    "interval": "Időtartam: 45-55 perc",
+    "description": "A csoportos órákra a pontos kezdés miatt érkezz 5-10 perccel korábban, hogy át tudj öltözni kényelmes edző ruhádba. Cipőre nem lesz szükséged. Öltöző, zuhanyzó, törülköző, tusfürdő, papucs, és ivóvíz adott. Az órákon való részvételhez telefonos bejelentkezés szükséges az adott terapeutánál. Lemondás: 12 órával az óra kezdése előtt lehetséges, vagy 50% felszámítás. ",
+    "days": {
+      "monday": "H",
+      "tuesday": "K",
+      "wednesday": "SZ",
+      "thursday": "CS",
+      "friday": "P"
+    }
+  },
+  "prices": {
+    "prices title": "Áraink",
+    "occasion": "alkalom",
+    "treatments": [
+      {
+        "name": "Állapotfelmérés",
+        "price": "10 000 Ft",
+        "description": "Először jösz, ame snaps jujubes. Pastry dragée jelly-o. Cake tart jelly beans icing sugar plum sugar plum tiramisu.",
+        "duration": "55 perc"
+      },
+      {
+        "name": "Egyéni gyógytorna",
+        "price": "8000/4000 Ft",
+        "description": "Egyénileg jösz, ame snaps jujubes. Pastry dragée jelly-o. Cake tart jelly beans icing sugar plum sugar plum tiramisu.",
+        "duration": "55/30 perc"
+      },
+      {
+        "name": "Gyógymasszázs",
+        "price": "8000/4000 Ft",
+        "description": "Félóra gyógytorna, ame snaps jujubes. Pastry dragée jelly-o. Cake tart jelly beans icing sugar plum sugar plum tiramisu.",
+        "duration": "55/30 perc"
+      },
+      {
+        "name": "Csoportos gerictorna",
+        "price": "2500 Ft",
+        "description": "Csoportos gyógytorna, ame snaps jujubes. Pastry dragée jelly-o. Cake tart jelly beans icing sugar plum sugar plum tiramisu.",
+        "duration": "55 perc"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "Minden jog fenntartva. 2019.",
+    "privacy policy": "Adatkezelései tájékoztató",
+    "name": "Studio 17 - Gyógytorna és gyógymasszázs stúdió",
+    "email": {
+      "email header": "Írj nekünk e-mailt!",
+      "email input": "Add meg az e-mail címed",
+      "name input": "Add meg a teljes neved",
+      "message": "Üzeneted...",
+      "send": "Küldés"
+    }
+  },
+  "treatments": {
+    "treatments title": "Kezeléseink",
+    "treatments list": [
+      {
+        "title": "Állapotfelmérés",
+        "description": "Minden kezelésünk során a legelső alkalom egy általános állapotfelmérés, melyen a terapeuta részletesen kikérdezi Önt egészségügyi állapotáról. Orvosi dokumentációját, MR vagy CT felvételeit (amennyiben vannak), kérjük mindképpen hozza magával! A vizsgálat egy órát vesz igénybe, és fehérneműben történik. Az állapotfelmérés a teljes test pontos megfigyelése, vizsgálata miatt elengedhetetlen. A felmérés során a terapeuta folyamatosan tájékoztatást ad a talált elváltozásokról, a lehetséges problémákról és azok okaikról, illetve a különböző kezelési lehetőségekről. A mozgásvizsgálat és a speciális tesztek után a cél egy közös kezelési terv kialakítása, kezdve a rövidtávú célkitűzések meghatározásával."
+      },
+      {
+        "title": "Evminov módszer",
+        "description": "Az Evminov módszer alapját egy speciálisan kifejlesztett ortopédiai segédeszköz, az Evminov Profilaktor képezi, mely a helytelen testtartás, gerincferdülés, porckorongsérv és egyéb gerincbetegségek megelőzésében és enyhítésében nyújt segítséget. A profilaktor egy fából készült, különleges technológiával előállított gerinc-rehabilitációs eszköz, mely megkönnyíti a gerincet érintő problémák helyreállítását, és az esetleges műtét utáni rehabilitációt. A módszer a finoman adagolt nyújtásra, tehermentesítésre és a gerincmelletti mélyizmok erősítésére épül."
+      },
+      {
+        "title": "Schroth terápia",
+        "description": "A gyermekkori gerincferdülés (scoliosis) és a Scheuermann kór kezelésére kialakított módszer rendkívül hatékonyan enyhíti a gerinc kóros görbületének fokozódását és a kialakult – vagy kialakulóban lévő – izomdiszbalanszokat. A terápia ötvözi a különböző testhelyzeketben végzett korrekciós légzést, aktív nyújtózást és izomerősítést. Komoly koncentrációt igénylő torna, mely otthoni gyakorlást is megkíván, ezért kisgyermekkorban eleinte játékkal kevert gyakorlatokkal haladunk. A gyermekkorban kialakult gerincferdülés felnőttkorban is okozhat fájdalmat, így a Schroth terápia nem kizárólag gyerekeknek hasznos."
+      },
+      {
+        "title": "McKenzie torna",
+        "description": "Biomechanikailag, élettanilag és anatómiailag is alátámasztott módszer, mely a páciensek aktív közreműködésével történik. A beteg saját maga képes befolyásolni a kialakuló fájdalmat, aminek hatására bizonyos idő után terapeutától függetlenül is kezelni tudja a problémáit."
+      },
+      {
+        "title": "Kinesio tape ragasztás",
+        "description": "A kinesio tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel nem tartalmaz gyógyszert, mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
+      },
+      {
+        "title": "Gyógymasszázs",
+        "description": "A Gyógymasszázs tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel nem tartalmaz gyógyszert, mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
+      },
+      {
+        "title": "Funkcionális gyógytorna",
+        "description": "Egy komolyabb sérülés, egy műtét, vagy a hosszabb ideje jelen lévő fájdalmak és problémák jelentős mértékben befolyásolják az életünk és a testünk minőségét. Ilyenkor sérülnek a velünk született mozgásminták is, melyek helyreállítása alapvető fontosságú. A rehabilitációhoz minden ilyen esetben funkcionális, egyénre szabott gyógytorna szükséges.A személyre szabott kezelés előnye, hogy a magánóra keretei között a gyógytornász fókuszált figyelmet fordíthat a betegre. A fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája minden esetben az egyéni gyógytorna. Ülő- vagy megterhelő fizikai munka esetén, alak- és egészségmegőrzési célból, az ízületek és izmok mozgékonyságának megőrzésére, esetleg bármilyen későbbi probléma megelőzésére szintén javasolt egyéni kezelést foglalni."
+      }
+    ]
+  },
+  "privacy policy": {
+    "sentence": "Az oldalon a felhasználóélmény javítása érdekében sütiket használunk. Az oldal használatával elfogadod a",
+    "link": "Felhasználási Feltételeinket",
+    "button": "Rendben"
+  },
+  "upButton": ".fel",
+  "landingSentence": {
+    "coverSentenceLeft": "Megszüntetjük Fájdalmát,",
+    "coverSentenceRight": "és Visszaadjuk a Mozgás Örömét."
+  }
+}

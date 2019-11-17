@@ -1,0 +1,67 @@
+.email-section {
+  z-index: 3;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  margin-top: 10%;
+  max-width: 30%;
+  height: 55vh;
+}
+
+.email-section form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.email-section h3 {
+  color: black;
+  text-align: center;
+}
+
+.email-section button {
+  border-radius: 0.188em;
+  color: white;
+  outline: none;
+  resize: vertical;
+  background-color: #265c42;
+  font-weight: bold;
+}
+
+.email-section button:hover {
+  background-color: #265c42;
+}
+
+.email-section input {
+  height: 1.25em;
+}
+
+.email-section h4 {
+  display: block;
+  color: #212121;
+  opacity: 0.8;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  white-space: normal !important;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .email-section {
+    max-width: 70%;
+  }
+}

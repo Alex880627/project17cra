@@ -1,0 +1,179 @@
+#treatments {
+  background-color: white;
+}
+
+.group-sessions-wrapper {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #265c42;
+}
+
+.group-sessions-wrapper .heading {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.group-sessions-wrapper .heading h3 {
+  color: white;
+  font-size: 25px;
+  font-weight: 100 !important;
+}
+
+.group-sessions-wrapper .heading img {
+  margin: 22px;
+  width: 35px;
+  height: auto;
+}
+
+.group-sessions-description > p,
+h4 {
+  color: white;
+}
+
+.group-sessions-description > p {
+  font-family: Work Sans;
+  font-weight: 100;
+}
+
+.group-sessions-description {
+  color: black;
+  z-index: 0;
+  max-width: 40.625em;
+  text-align: justify;
+}
+
+td,
+th {
+  font-size: 15px;
+  z-index: 0;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+table {
+  z-index: 0;
+  max-width: 40.625em;
+  margin-bottom: 5%;
+  width: 95%;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+th:first-child {
+  padding: 0;
+}
+
+tr,
+td {
+  width: 15%;
+  border: 1px solid white;
+  color: white;
+}
+
+tr,
+td > h3 {
+  line-height: 1em;
+}
+
+tr,
+td > p {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 10px;
+}
+
+tr span,
+td > p span {
+  font-size: 14px;
+}
+
+tr > td:first-child {
+  text-align: center;
+  padding: 0;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+@media only screen and (max-width: 768px) {
+  table {
+    max-width: 95%;
+  }
+  table p {
+    font-size: 7px;
+  }
+  td,
+  th {
+    font-size: 2vw;
+  }
+  .group-sessions-description {
+    max-width: 95%;
+  }
+  tr > td:first-child {
+    text-align: center;
+    width: auto;
+  }
+  .group-sessions-wrapper .heading {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .group-sessions-wrapper .heading h3 {
+    color: white;
+    font-size: 25px;
+    font-weight: 100 !important;
+  }
+  .group-sessions-wrapper .heading img {
+    margin: 22px;
+    width: 55px;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=group-sessions.css.map */

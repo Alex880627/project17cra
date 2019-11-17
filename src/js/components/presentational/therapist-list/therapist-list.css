@@ -1,0 +1,460 @@
+.therapist-wrapper {
+  z-index: 0;
+  background-color: #265c42;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+}
+
+.therapist-wrapper .heading {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.therapist-wrapper .heading h3 {
+  color: white;
+  font-size: 25px;
+  font-weight: 100 !important;
+}
+
+.therapist-wrapper .heading img {
+  margin: 22px;
+  width: 35px;
+  height: auto;
+}
+
+.therapist {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin: 0.625em;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 21.875em;
+  height: auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.therapist-pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+}
+
+.therapist-info {
+  color: white;
+  line-height: 0.625em;
+  position: absolute;
+  text-align: center;
+  display: block;
+  pointer-events: none;
+}
+
+.therapist-info button {
+  visibility: hidden;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  margin-bottom: 7%;
+  padding: 0.438em;
+  font-size: 0.813em;
+  border: none;
+  border-radius: 0.125em;
+  background-color: #2caf27;
+}
+
+.therapist-info p {
+  font-size: 0.75em;
+}
+
+.therapist-info h4,
+.therapist-info p {
+  text-shadow: 0px 0px 0.188em black;
+}
+
+.therapist-pictures > div {
+  border-radius: 0.188em;
+}
+
+.therapist-pictures > div > img {
+  border-radius: 0.188em;
+  width: 100%;
+  height: auto;
+}
+
+.therapist-pictures > div > img:hover + .therapist-info button {
+  visibility: visible;
+  -webkit-transition: visibility 0.5s;
+  transition: visibility 0.5s;
+}
+
+.therapist > img {
+  opacity: 0.4;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.therapist-mobile-view {
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.therapist-mobile-view .therapist-info button {
+  visibility: visible;
+  -webkit-transition: visibility 0.5s;
+  transition: visibility 0.5s;
+}
+
+.therapist-mobile-view img {
+  opacity: 0.8;
+}
+
+.therapist-pictures > div > img:hover {
+  opacity: 0.7;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  cursor: pointer;
+}
+
+.therapist-details-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 4;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: width height 0.5s;
+  transition: width height 0.5s;
+}
+
+.therapist-details {
+  overflow: auto;
+  margin: auto;
+  margin-top: 70px;
+  left: 0;
+  right: 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-box-shadow: 0px 0px 1.25em black;
+          box-shadow: 0px 0px 1.25em black;
+  background-color: #cecece;
+  max-width: 43.75em;
+  height: auto;
+  color: black;
+  position: absolute;
+  -webkit-animation: slideInDown 0.3s;
+          animation: slideInDown 0.3s;
+}
+
+.therapist-details .therapist-content {
+  margin: 15px;
+  font-family: Work Sans;
+}
+
+.therapist-details .therapist-heading {
+  background-color: #313235;
+  height: auto;
+  color: white;
+  width: 100%;
+  position: relative;
+  top: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.therapist-details .therapist-heading > div p {
+  margin: 15px;
+  font-size: 15px;
+}
+
+.therapist-details .therapist-heading > div h3 {
+  margin: 15px;
+}
+
+.therapist-details .therapist-heading img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin: 0;
+  margin-right: 15px;
+}
+
+.therapist-details .content-box .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.therapist-details .content-box .details .therapist-techniques {
+  padding: 10px;
+  width: 50%;
+}
+
+.therapist-details .content-box .details .therapist-techniques h4 {
+  color: #272a2f;
+  margin-left: 10px;
+}
+
+.therapist-details .content-box .details .therapist-techniques .MuiChip-root {
+  margin: 2px;
+  background-color: #265c42;
+  color: white;
+}
+
+.therapist-details .content-box .details .therapist-contacts {
+  padding: 10px;
+  width: 50%;
+}
+
+.therapist-details .content-box .details .therapist-contacts h4 {
+  color: #272a2f;
+  margin-left: 10px;
+}
+
+.therapist-details .content-box .details .therapist-contacts .phone,
+.therapist-details .content-box .details .therapist-contacts .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.therapist-details .content-box .details .therapist-contacts .phone a,
+.therapist-details .content-box .details .therapist-contacts .email a {
+  text-decoration: none;
+  color: black;
+}
+
+.therapist-details .content-box .details .therapist-contacts .phone a:hover,
+.therapist-details .content-box .details .therapist-contacts .email a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.therapist-details .content-box .details .therapist-contacts .phone div,
+.therapist-details .content-box .details .therapist-contacts .email div {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #265c42;
+  margin-right: 10px;
+}
+
+.therapist-details .content-box .details .therapist-contacts .phone div img,
+.therapist-details .content-box .details .therapist-contacts .email div img {
+  width: 15px;
+  height: 15px;
+}
+
+.therapist-details .content-box .details .therapist-contacts .email a,
+.therapist-details .content-box .details .therapist-contacts .phone a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.therapist-details .content-box .details .therapist-contacts .email p,
+.therapist-details .content-box .details .therapist-contacts .phone p {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#fade-out-background {
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+#fade-out {
+  -webkit-animation: fadeOut 0.55s;
+          animation: fadeOut 0.55s;
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .therapist-pictures {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .therapist-details {
+    max-width: 95%;
+  }
+  .therapist-details .therapist-content {
+    font-size: 13px;
+  }
+  .therapist-details > .content-box > .details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .therapist-details > .content-box > .details .therapist-contacts {
+    padding: 10px;
+    width: 100%;
+  }
+  .therapist-details > .content-box > .details .therapist-techniques {
+    padding: 10px;
+    width: 100%;
+  }
+  .therapist-wrapper .heading {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .therapist-wrapper .heading h3 {
+    color: white;
+    font-size: 25px;
+    font-weight: 100 !important;
+  }
+  .therapist-wrapper .heading img {
+    margin: 22px;
+    width: 55px;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=therapist-list.css.map */

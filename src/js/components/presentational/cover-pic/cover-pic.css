@@ -1,0 +1,45 @@
+.cover-img {
+  top: 0;
+  z-index: -1;
+  position: fixed;
+  height: 100%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: black;
+}
+
+.cover-img img {
+  position: absolute;
+  background-size: cover;
+  margin: 0 auto;
+  opacity: 1;
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.blur-img img {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+@media only screen and (max-width: 768px) {
+  .cover-img {
+    top: 0;
+    z-index: -1;
+    position: fixed;
+    height: 100%;
+    background-color: black;
+  }
+  .cover-img img {
+    position: absolute;
+    background-size: cover;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=cover-pic.css.map */

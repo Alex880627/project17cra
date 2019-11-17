@@ -1,0 +1,48 @@
+.languagepicker {
+  font-size: 0.875em;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  color: rgba(255, 255, 255, 0.7);
+  overflow: visible;
+  background-color: transparent;
+  display: inline-block;
+  padding: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin: 0 3.125em 0.625em 0;
+  border-radius: 0.313em;
+  cursor: pointer;
+  height: 2.5em;
+}
+
+.languagepicker li {
+  display: block;
+  padding: 0px 1.25em;
+  line-height: 2.5em;
+}
+
+.languagepicker a:first-child li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  background: transparent;
+}
+
+.languagepicker li img {
+  margin-right: 0.313em;
+  width: 1.125em;
+  height: 0.75em;
+}
+
+@media only screen and (min-width: 768px) {
+  .languagepicker:hover {
+    height: 5em;
+  }
+  .languagepicker li:hover {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=language-picker.css.map */

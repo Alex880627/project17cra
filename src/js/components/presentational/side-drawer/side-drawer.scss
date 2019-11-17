@@ -1,0 +1,28 @@
+.makeStyles-list-1 {
+  .MuiButtonBase-root {
+    display: flex;
+    justify-content: space-around;
+    button:focus {
+      background-color: aqua;
+      color: aqua;
+    }
+  }
+  .MuiListItemIcon-root {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .MuiTouchRipple-root {
+    color: rgb(10, 109, 61);
+    transform: scale(1);
+  }
+  .MuiListItemText-root {
+    span {
+      text-align: left;
+    }
+  }
+}
+
+#drawer-icons {
+  width: 30px !important;
+  height: 30px !important;
+}

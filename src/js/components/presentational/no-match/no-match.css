@@ -1,0 +1,55 @@
+.nomatch-comp {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #303030;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nomatch-comp form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nomatch-comp h1 {
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  margin: 0 auto;
+  font-size: 100px;
+}
+
+.nomatch-comp h3 {
+  text-align: center;
+  color: #9b9b9b;
+}
+
+.nomatch-comp button {
+  z-index: 1;
+  width: auto;
+  font-size: 20px;
+  background-color: #EB4335;
+  color: white;
+  border: none;
+}
+/*# sourceMappingURL=no-match.css.map */

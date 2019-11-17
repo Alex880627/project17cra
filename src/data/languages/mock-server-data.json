@@ -1,0 +1,76 @@
+{
+  "sessions dates": [
+    {
+      "day": "monday",
+      "hour": "17:00",
+      "therapist": "Szilvi",
+      "type": "Talaj torna"
+    },
+    {
+      "day": "monday",
+      "hour": "18:00",
+      "therapist": "Szilvi",
+      "type": "Evminov"
+    },
+    {
+      "day": "tuesday",
+      "hour": "7:30",
+      "therapist": "Panka",
+      "type": "Evminov"
+    },
+    {
+      "day": "tuesday",
+      "hour": "13:00",
+      "therapist": "Panka",
+      "type": "Evminov"
+    },
+    {
+      "day": "tuesday",
+      "hour": "17:00",
+      "therapist": "Panka",
+      "type": "Evminov"
+    },
+    {
+      "day": "tuesday",
+      "hour": "18:00",
+      "therapist": "Szilvi",
+      "type": "Taoyin"
+    },
+    {
+      "day": "wednesday",
+      "hour": "18:00",
+      "therapist": "Szilvi",
+      "type": "Evminov"
+    },
+    {
+      "day": "thursday",
+      "hour": "7:30",
+      "therapist": "Panka",
+      "type": "Evminov"
+    },
+    {
+      "day": "thursday",
+      "hour": "17:00",
+      "therapist": "Panka",
+      "type": "Evminov"
+    },
+    {
+      "day": "thursday",
+      "hour": "18:00",
+      "therapist": "Szilvi",
+      "type": "Talaj torna"
+    },
+    {
+      "day": "friday",
+      "hour": "17:00",
+      "therapist": "Anna",
+      "type": "Pilates"
+    },
+    {
+      "day": "friday",
+      "hour": "18:00",
+      "therapist": "Szilvi",
+      "type": "Pilates"
+    }
+  ]
+}
