@@ -123,12 +123,8 @@
 }
 
 .therapist-mobile-view {
-  -webkit-transition: -webkit-transform 0.2s ease-in-out;
-  transition: -webkit-transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .therapist-mobile-view .therapist-info button {
@@ -177,7 +173,7 @@
 }
 
 .therapist-details {
-  overflow: auto;
+  overflow: scroll;
   margin: auto;
   margin-top: 70px;
   left: 0;

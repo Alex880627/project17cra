@@ -79,8 +79,7 @@
 }
 
 .therapist-mobile-view {
-  transition: transform 0.2s ease-in-out;
-  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
   .therapist-info button {
     visibility: visible;
     transition: visibility 0.5s;
@@ -113,7 +112,7 @@
 }
 
 .therapist-details {
-  overflow: auto;
+  overflow: scroll;
   margin: auto;
   margin-top: 70px;
   left: 0;
