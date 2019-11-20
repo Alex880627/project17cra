@@ -22,7 +22,6 @@ const NavigationLinks = (props) => {
     <div
       className="navigation"
       onMouseEnter={() => {
-        console.log(props);
         props.setBlur();
       }}
       onMouseLeave={() => {

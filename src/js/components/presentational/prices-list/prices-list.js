@@ -10,16 +10,16 @@ const PricesComp = props => {
     <div className="prices-wrapper" id="prices">
       <Link name="prices"></Link>
       <div className="prices-heading">
-        <h3>{prices["prices title"]}</h3>
-        <img src={pricesIcon} alt="price icon" />
+        <h3 style={{ animation: "fadeInRightDown 2s ease" }}>{prices["prices title"]}</h3>
+        <img style={{ animation: "fadeInLeftDown 2s ease" }} src={pricesIcon} alt="price icon" />
       </div>
       <div className="treatments-list-wrapper">
         {prices.treatments.map(element => {
           return (
             <div className="treatments-list" key={element.name}>
-                <p>{element.name}</p>
-                <p>{element.price}<span>{`/${prices.occasion} (${element.duration})`}</span></p>
-              <p>{element.description}</p>
+                <p style={{ animation: "fadeInDown 2s ease" }}>{element.name}</p>
+                <p style={{ animation: "fadeInLeft 2s ease" }}>{element.price}<span>{`/${prices.occasion} (${element.duration})`}</span></p>
+              <p style={{ animation: "fadeInUp 2s ease" }}>{element.description}</p>
             </div>
           );
         })}

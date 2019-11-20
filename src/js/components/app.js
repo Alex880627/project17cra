@@ -1,73 +1,29 @@
-import React, { Suspense, lazy } from "react";
-
-import giveProps from "./container/give-props";
+import React from "react";
+import lazyLoadHoc from "./presentational/lazy-load-hoc/lazy-load-hoc";
 import ScrollProgressBar from "./presentational/scroll-progress-bar/scroll-progress-bar";
-import LandinPage from "./presentational/landing-page/landing-page";
 
-const LandingPageWithProps = giveProps(LandinPage);
-const SideDrawerWithProps = lazy(() =>
-  import("./index").then(module => ({ default: module.SideDrawerWithProps }))
-);
-const TreatmentsListWithProps = lazy(() =>
-  import("./index").then(module => ({
-    default: module.TreatmentsListWithProps
-  }))
-);
-const TherapistListWithProps = lazy(() =>
-  import("./index").then(module => ({
-    default: module.TherapistListWithProps
-  }))
-);
-const PricesListWithProps = lazy(() =>
-  import("./index").then(module => ({
-    default: module.PricesListWithProps
-  }))
-);
+import { LandingPageWithProps } from "./index";
+import { SideDrawerWithProps } from "./index";
 
-const GroupSessionsWithProps = lazy(() =>
-  import("./index").then(module => ({
-    default: module.GroupSessionsWithProps
-  }))
-);
-
-const ContactsWithProps = lazy(() =>
-  import("./index").then(module => ({
-    default: module.ContactsWithProps
-  }))
-);
-
-const FooterWithProps = lazy(() =>
-  import("./index").then(module => ({
-    default: module.FooterWithProps
-  }))
-);
+import { TreatmentsListLazy } from "./lazy-load-imports";
+import { TherapistListLazy } from "./lazy-load-imports";
+import { PricesListWithLazy } from "./lazy-load-imports";
+import { GroupSessionsLazy } from "./lazy-load-imports";
+import { ContactsLazy } from "./lazy-load-imports";
+import { FooterLazy } from "./lazy-load-imports"; 
 
 const App = () => {
   return (
     <>
       <ScrollProgressBar />
       <LandingPageWithProps />
-      <Suspense fallback={<div>WHATS UP</div>}>
-        <SideDrawerWithProps />
-      </Suspense>
-      <Suspense fallback={<div>WHATS UP</div>}>
-        <TreatmentsListWithProps />
-      </Suspense>
-      <Suspense fallback={<div>WHATS UP</div>}>
-        <TherapistListWithProps />
-      </Suspense>
-      <Suspense fallback={<div>WHATS UP</div>}>
-        <PricesListWithProps />
-      </Suspense>
-      <Suspense fallback={<div>WHATS UP</div>}>
-        <GroupSessionsWithProps />
-      </Suspense>
-      <Suspense fallback={<div>WHATS UP</div>}>
-        <ContactsWithProps />
-      </Suspense>
-      <Suspense fallback={<div>WHATS UP</div>}>
-        <FooterWithProps />
-      </Suspense>
+      <SideDrawerWithProps />
+      <TreatmentsListLazy />
+      <TherapistListLazy/>
+      <PricesListWithLazy />
+      <GroupSessionsLazy />
+      <ContactsLazy />
+      <FooterLazy />
     </>
   );
 };

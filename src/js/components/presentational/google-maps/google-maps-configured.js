@@ -28,12 +28,6 @@ const GoogleMapConfigured = () => {
         streetViewControl: true,
         styles: styles
       }}
-      mousemove={
-        ()=>{
-          console.log('geci');
-          
-        }
-      }
       onMapLoad={map => {
         var marker = new window.google.maps.Marker({
           position: { lat: 47.512209, lng: 19.048778 },

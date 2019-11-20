@@ -91,13 +91,14 @@
   width: 40px;
   height: 40px;
   float: right;
+  animation: "fadeIn 2s ease";
 }
 .load-more:before {
   position: relative;
   display: block;
   content: "";
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   left: 50%;
   top: 53%;
   margin-top: -15px;
@@ -109,16 +110,17 @@
   border-radius: 0 0 5px 0;
   transform: translate(-50%, -50%) rotate(45deg);
   transition: all 0.4s ease-in-out;
+  animation: "fadeIn 2s ease";
 }
 
 .load-more:after {
   position: relative;
   display: block;
   content: "";
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   left: 50%;
-  top: 35%;
+  top: 53%;
   margin-top: -15px;
   border-width: 2px;
   border-style: solid;
@@ -128,4 +130,5 @@
   border-radius: 0 0 5px 0;
   transform: translate(-50%, -50%) rotate(45deg);
   transition: all 0.4s ease-in-out;
+  animation: "fadeIn 2s ease";
 }

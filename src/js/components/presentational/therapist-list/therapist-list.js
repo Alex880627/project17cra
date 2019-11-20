@@ -1,4 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, {  useRef } from "react";
+import useOnScreen from "../../../hooks/useScreen";
 import therapists from "../../../../data/images/icons/therapists.png";
 import pic1 from "../../../../data/images/therapists/pic1.jpg";
 import pic2 from "../../../../data/images/therapists/pic2.jpg";
@@ -15,21 +16,15 @@ const TherapistList = props => {
   let collagues = props.language.collagues;
   const picArray = [pic1, pic2, pic3];
   const picArrayHover = [pic1hover, pic2hover, pic3hover];
-  let refs = useRef(
-    picArray.map(() => {
-      return React.createRef();
-    })
-  );
-
   return (
     <>
       <div className="therapist-wrapper" id="colleagues">
         <Link name="colleagues"></Link>
-        <div className="heading">
-          <h3>{collagues.collagues}</h3>
-          <img src={therapists} alt="therapist icon" />
+        <div className="heading" >
+          <h3 style={{ animation: "fadeInRightDown 2s ease" }}>{collagues.collagues}</h3>
+          <img style={{ animation: "fadeInLeftDown 2s ease" }} src={therapists} alt="therapist icon" />
         </div>
-        <div className="therapist-pictures">
+        <div className="therapist-pictures" style={{animation: "fadeInRightDown 2s ease"}}>
           {picArray.map((element, index) => {
             return (
               <Therapists
@@ -51,7 +46,6 @@ const TherapistList = props => {
 const Therapists = ({ element, index, picArrayHover, collagues, showTherapistDetails }) => {
   let ref = useRef(null);
   let isOnScreen = useOnScreen(ref);
-
   return (
     <div className={isOnScreen && window.innerWidth<768? "therapist therapist-mobile-view":"therapist"} ref={ref} key={element}>
       <img
@@ -76,28 +70,6 @@ const Therapists = ({ element, index, picArrayHover, collagues, showTherapistDet
   );
 };
 
-function useOnScreen(ref, rootMargin = "0px") {
-  // State and setter for storing whether element is visible
-  const [isIntersecting, setIntersecting] = useState(false);
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        // Update our state when observer callback fires
-        setIntersecting(entry.isIntersecting);
-      },
-      {
-        rootMargin,
-        threshold: 1.0
-      }
-    );
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
-    return () => {
-      observer.unobserve(ref.current);
-    };
-  }, []); // Empty array ensures that effect is only run on mount and unmount
-  return isIntersecting;
-}
+
 
 export default TherapistList;

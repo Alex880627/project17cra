@@ -14,7 +14,6 @@ export default function modal(ComponentParam, storeParam) {
       return s.charAt(0).toUpperCase() + s.slice(1)
     }
     render() {
-      console.log(this.props[`hide${this.capitalize(storeParam)}`]);
       return (
         <div>
           <Modal
