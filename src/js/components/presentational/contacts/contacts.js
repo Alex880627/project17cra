@@ -1,15 +1,12 @@
 import React from "react";
-import Scroll from "react-scroll";
 import GoogleMapConfigured from "../google-maps/google-maps-configured";
 import contactsIcon from "../../../../data/images/icons/contactsIcon.png";
 import './contacts.css';
 
 const Contacts = props => {
-  const Link = Scroll.Element;
   let contacts = props.language.contacts;
   return (
-    <div className="contacts-wrapper" id="contacts">
-      <Link name="contacts"></Link>
+    <div className="contacts-wrapper">
       <div className="contacts-heading">
         <h3>{contacts["contacts title"]}</h3>
         <img src={contactsIcon} alt="contacts icon" />

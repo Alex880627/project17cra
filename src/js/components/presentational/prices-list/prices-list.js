@@ -1,14 +1,11 @@
 import React from "react";
 import pricesIcon from "../../../../data/images/icons/wallet-icon.png";
-import Scroll from "react-scroll";
 import './prices-list.css';
 
 const PricesComp = props => {
-  const Link = Scroll.Element;
   let prices = props.language.prices;
   return (
-    <div className="prices-wrapper" id="prices">
-      <Link name="prices"></Link>
+    <div className="prices-wrapper">
       <div className="prices-heading">
         <h3 style={{ animation: "fadeInRightDown 2s ease" }}>{prices["prices title"]}</h3>
         <img style={{ animation: "fadeInLeftDown 2s ease" }} src={pricesIcon} alt="price icon" />

@@ -1,11 +1,9 @@
 import React from "react";
-import Scroll from "react-scroll";
 import mockdata from "../../../../data/languages/mock-server-data.json";
 import groupIcon from "../../../../data/images/icons/group-icon.png";
 import './group-sessions.css';
 
 const GroupSessionsContainer = props => {
-  const Link = Scroll.Element;
   let groupSessions = props.language["group sessions"];
   const makeMultiArrayFromDataByHours = objArray => {
     objArray.sort((a, b) => parseFloat(a.hour) - parseFloat(b.hour));
@@ -29,8 +27,7 @@ const GroupSessionsContainer = props => {
   };
   return (
     <>
-      <div className="group-sessions-wrapper" id="group-sessions">
-        <Link name="group sessions"></Link>
+      <div className="group-sessions-wrapper">
         <div className="heading">
           <h3>{groupSessions["group sessions title"]}</h3>
           <img src={groupIcon} alt="time table icon" />

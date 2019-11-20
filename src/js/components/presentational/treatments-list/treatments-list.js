@@ -1,5 +1,4 @@
 import React, { useRef, useEffect, useState } from "react";
-import Scroll from "react-scroll";
 import treatmentsIcon from "../../../../data/images/icons/treatments-icon.png";
 import "./treatments-list.css";
 
@@ -69,11 +68,9 @@ const TreatementDropdown = ({ element }) => {
 };
 
 const TreatmentsList = props => {
-  const Link = Scroll.Element;
   let treatments = props.language.treatments;
   return (
-    <div className="treatments-section-wrapper" id="treatments">
-      <Link name="treatements"></Link>
+    <div className="treatments-section-wrapper">
       <div className="heading">
         <h3 style={{ animation: "fadeInRightDown 2s ease" }}>
           {treatments["treatments title"]}

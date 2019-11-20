@@ -44,10 +44,10 @@ export default function SideDrawer(props) {
 
   const link = element => {
     scroller.scrollTo(element, {
-      delay: 100,
-      duration: 300,
+      delay: 0,
+      duration: 0,
       smooth: "easeInOutExpo",
-      offset: 0
+      offset: -50
     });
   };
   const toggleDrawer = (side, open) => event => {

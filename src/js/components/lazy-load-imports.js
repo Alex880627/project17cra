@@ -7,9 +7,9 @@ import { GroupSessionsWithProps } from "./index";
 import { ContactsWithProps } from "./index";
 import { FooterWithProps } from "./index";
 
-export const TreatmentsListLazy = lazyLoadHoc(TreatmentsListWithProps, "white");
-export const TherapistListLazy = lazyLoadHoc(TherapistListWithProps);
-export const PricesListWithLazy = lazyLoadHoc(PricesListWithProps, "white");
-export const GroupSessionsLazy = lazyLoadHoc(GroupSessionsWithProps);
-export const ContactsLazy = lazyLoadHoc(ContactsWithProps);
-export const FooterLazy = lazyLoadHoc(FooterWithProps);
+export const TreatmentsListLazy = lazyLoadHoc(TreatmentsListWithProps,"treatments", "white");
+export const TherapistListLazy = lazyLoadHoc(TherapistListWithProps, "colleagues");
+export const PricesListWithLazy = lazyLoadHoc(PricesListWithProps,"prices", "white");
+export const GroupSessionsLazy = lazyLoadHoc(GroupSessionsWithProps, "group sessions");
+export const ContactsLazy = lazyLoadHoc(ContactsWithProps, "contacts");
+export const FooterLazy = lazyLoadHoc(FooterWithProps, "footer");
