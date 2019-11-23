@@ -8,5 +8,10 @@
 }
 
 .react-images__blanket {
-  z-index: 1000;
+  position: absolute;
+  z-index: 10000 !important;
+}
+
+.react-images__positioner {
+  z-index: 10000 !important;
 }

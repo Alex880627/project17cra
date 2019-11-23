@@ -32,6 +32,10 @@ class Galery extends React.Component {
     this.setState({ currentModal: index });
   };
   render() {
+    const Footer = () => {
+      return <div onClick={()=>{this.setState(state => ({ modalIsOpen: !state.modalIsOpen }))}}>
+      </div>
+    }
     const { modalIsOpen } = this.state;
     return (
       <>
@@ -49,14 +53,14 @@ class Galery extends React.Component {
             );
           })}
         </div>
-        <ModalGateway allowFullscreen={false}>
+        <ModalGateway allowFullscreen={false} touchstart={this.toggleModal}>
           {modalIsOpen ? (
             <Modal
               onClose={this.toggleModal}
               allowFullscreen={false}
               closeOnBackdropClick={true}
             >
-              <Carousel views={images} currentIndex={this.state.currentModal} />
+              <Carousel views={images} components={{Footer: Footer}} currentIndex={this.state.currentModal} />
             </Modal>
           ) : null}
         </ModalGateway>

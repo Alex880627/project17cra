@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start:production": "npm run build && npm run start:prod",
-    "start:prod": "NODE_ENV=production node server",
+    "start:prod": "NODE_ENV=production node build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
