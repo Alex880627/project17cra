@@ -1,5 +1,4 @@
 import React from "react";
-import lazyLoadHoc from "./presentational/lazy-load-hoc/lazy-load-hoc";
 import ScrollProgressBar from "./presentational/scroll-progress-bar/scroll-progress-bar";
 
 import { LandingPageWithProps } from "./index";
@@ -10,7 +9,7 @@ import { TherapistListLazy } from "./lazy-load-imports";
 import { PricesListWithLazy } from "./lazy-load-imports";
 import { GroupSessionsLazy } from "./lazy-load-imports";
 import { ContactsLazy } from "./lazy-load-imports";
-import { FooterLazy } from "./lazy-load-imports"; 
+import { FooterWithProps } from "./index"; 
 
 const App = () => {
   return (
@@ -23,7 +22,7 @@ const App = () => {
       <PricesListWithLazy />
       <GroupSessionsLazy />
       <ContactsLazy />
-      <FooterLazy />
+      <FooterWithProps />
     </>
   );
 };

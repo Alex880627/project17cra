@@ -82,7 +82,6 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  z-index: 5;
   height: auto;
 }
 

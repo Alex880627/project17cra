@@ -1,27 +1,40 @@
-import React, {  useRef } from "react";
+import React, { useRef } from "react";
 import useOnScreen from "../../../hooks/useScreen";
 import therapists from "../../../../data/images/icons/therapists.png";
-import pic1 from "../../../../data/images/therapists/pic1.jpg";
-import pic2 from "../../../../data/images/therapists/pic2.jpg";
-import pic3 from "../../../../data/images/therapists/pic3.jpg";
-import pic1hover from "../../../../data/images/therapists/pic1hover.jpg";
-import pic2hover from "../../../../data/images/therapists/pic2hover.jpg";
-import pic3hover from "../../../../data/images/therapists/pic3hover.jpg";
 import TherapistListDetails from "../therapist-list-details/therapist-list-details";
 import "./therapist-list.css";
 
+function importAll(r) {
+  return r.keys().map((e)=>{return r(e) });
+}
+
+const picArray = importAll(
+  require.context("../../../../data/images/therapists/normal/", false, /\.(png|jpe?g|svg|jpg)$/)
+);
+
+const picArrayHover = importAll(
+  require.context("../../../../data/images/therapists/hover/", false, /\.(png|jpe?g|svg|jpg)$/)
+);
+
+console.log(picArray);
+
+
 const TherapistList = props => {
   let collagues = props.language.collagues;
-  const picArray = [pic1, pic2, pic3];
-  const picArrayHover = [pic1hover, pic2hover, pic3hover];
   return (
     <>
       <div className="therapist-wrapper">
-        <div className="heading" >
-          <h3 style={{ animation: "fadeInRightDown 2s ease" }}>{collagues.collagues}</h3>
-          <img style={{ animation: "fadeInLeftDown 2s ease" }} src={therapists} alt="therapist icon" />
+        <div className="heading">
+          <h3 style={{ animation: "fadeInRightDown 2s ease" }}>
+            {collagues.collagues}
+          </h3>
+          <img
+            style={{ animation: "fadeInLeftDown 2s ease" }}
+            src={therapists}
+            alt="therapist icon"
+          />
         </div>
-        <div className="therapist-pictures" style={{animation: "fadeInRightDown 2s ease"}}>
+        <div className="therapist-pictures">
           {picArray.map((element, index) => {
             return (
               <Therapists
@@ -40,11 +53,25 @@ const TherapistList = props => {
   );
 };
 
-const Therapists = ({ element, index, picArrayHover, collagues, showTherapistDetails }) => {
+const Therapists = ({
+  element,
+  index,
+  picArrayHover,
+  collagues,
+  showTherapistDetails
+}) => {
   let ref = useRef(null);
   let isOnScreen = useOnScreen(ref);
   return (
-    <div className={isOnScreen && window.innerWidth<768? "therapist therapist-mobile-view":"therapist"} ref={ref} key={element}>
+    <div
+      className={
+        isOnScreen && window.innerWidth < 768
+          ? "therapist therapist-mobile-view"
+          : "therapist"
+      }
+      ref={ref}
+      key={element}
+    >
       <img
         key={`${element} image`}
         src={element}
@@ -58,7 +85,11 @@ const Therapists = ({ element, index, picArrayHover, collagues, showTherapistDet
         }}
         alt="studio 17 therapist"
       />
-      <div className="therapist-info" key={`${element} info`}>
+      <div
+        className="therapist-info"
+        key={`${element} info`}
+        style={{ animation: "fadeInUp 1s ease" }}
+      >
         <h4>{collagues.therapists[index].name}</h4>
         <p>{collagues.therapists[index].occupation}</p>
         <button>{collagues.details}</button>
@@ -66,7 +97,5 @@ const Therapists = ({ element, index, picArrayHover, collagues, showTherapistDet
     </div>
   );
 };
-
-
 
 export default TherapistList;

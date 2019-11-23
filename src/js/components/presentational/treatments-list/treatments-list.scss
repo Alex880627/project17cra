@@ -53,20 +53,6 @@
   background-color: white;
 }
 
-.arrow-down {
-  transition: all 0.3s;
-  margin-top: 20px;
-  margin-right: 10px;
-  left: 0;
-  position: relative;
-  float: right;
-  width: 0;
-  height: 0;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-top: 8px solid $secondaryGreenColor;
-}
-
 @media only screen and (max-width: 768px) {
   .treatment {
     width: 90%;

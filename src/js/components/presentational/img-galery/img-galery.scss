@@ -1,0 +1,12 @@
+.galery-wrapper {
+  display: flex;
+  overflow: scroll;
+  img {
+    margin: 5px;
+    cursor: pointer;
+  }
+}
+
+.react-images__blanket {
+  z-index: 1000;
+}

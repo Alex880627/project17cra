@@ -1,5 +1,6 @@
 import React from "react";
 import GoogleMapConfigured from "../google-maps/google-maps-configured";
+import Galery from "../img-galery/img-galery";
 import contactsIcon from "../../../../data/images/icons/contactsIcon.png";
 import './contacts.css';
 
@@ -21,10 +22,10 @@ const Contacts = props => {
             {contacts["contacts info"]["ringbell number"]}
           </p>
           <p>{"Email: "}<span onClick={props.openModal}>{contacts["contacts info"].email}</span></p>
-          
         </div>
         <GoogleMapConfigured />
       </div>
+      <Galery/>
     </div>
   );
 };

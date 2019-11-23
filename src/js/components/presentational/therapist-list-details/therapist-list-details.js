@@ -3,17 +3,21 @@ import Chip from "@material-ui/core/Chip";
 import phone from "../../../../data/images/icons/phone.png";
 import mail from "../../../../data/images/icons/mail-white.png";
 import modal from "../modal/modal";
-import Szilvia from "../../../../data/images/therapists/pic1hover.jpg";
-import Panka from "../../../../data/images/therapists/pic2hover.jpg";
-import Zsuzsa from "../../../../data/images/therapists/pic3hover.jpg";
 
 const ThreapistDetailsComp = props => {
-  let therapistsObject = {
-    Szilvia: Szilvia,
-    Panka: Panka,
-    Zsuzsa: Zsuzsa
-  };
-
+  let therapistsObject = {};
+  function importAll(r) {
+    return r.keys().forEach((e, i) => {
+      therapistsObject[props.language.collagues.therapists[i]["nick name"]] = r(e);
+    });
+  }
+  importAll(
+    require.context(
+      "../../../../data/images/therapists/hover",
+      false,
+      /\.(png|jpe?g|svg|jpg)$/
+    )
+  );
   let therapistName = props.therapistName;
   let filteredArray = props.language.collagues.therapists.filter(element => {
     return element.name === therapistName;
@@ -21,7 +25,7 @@ const ThreapistDetailsComp = props => {
   let therapist = filteredArray[0];
   const getTherapistPic = () => {
     return therapistsObject[therapist["nick name"]];
-  }
+  };
   return (
     <div className="therapist-details">
       <div className="therapist-heading">

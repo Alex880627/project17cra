@@ -120,12 +120,6 @@
   height: auto;
 }
 
-.therapist-pictures > div > img:hover + .therapist-info button {
-  visibility: visible;
-  -webkit-transition: visibility 0.5s;
-  transition: visibility 0.5s;
-}
-
 .therapist > img {
   opacity: 0.4;
   -webkit-transition: opacity 0.5s;
@@ -145,13 +139,6 @@
 
 .therapist-mobile-view img {
   opacity: 0.8;
-}
-
-.therapist-pictures > div > img:hover {
-  opacity: 0.7;
-  -webkit-transition: opacity 0.5s;
-  transition: opacity 0.5s;
-  cursor: pointer;
 }
 
 .therapist-details-container {
@@ -393,6 +380,20 @@
   to {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .therapist-pictures > div > img:hover + .therapist-info button {
+    visibility: visible;
+    -webkit-transition: visibility 0.5s;
+    transition: visibility 0.5s;
+  }
+  .therapist-pictures > div > img:hover {
+    opacity: 0.7;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    cursor: pointer;
   }
 }
 

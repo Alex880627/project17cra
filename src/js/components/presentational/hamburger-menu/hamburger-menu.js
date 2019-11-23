@@ -3,14 +3,14 @@ import './hamburger-menu.css'
 
 const HamburgerMenu = ({ openSideBar, closeSideBar, sideBar }) => {
   const toogleNavbar = () => {
-    if (sideBar === "open") {
+    if (sideBar === true) {
       closeSideBar();
     } else {
       openSideBar();
     }
   };
   return (
-    <div id="nav-icon1" className={sideBar} onClick={toogleNavbar}>
+    <div id="nav-icon1" onClick={toogleNavbar}>
       <span />
       <span />
       <span />
