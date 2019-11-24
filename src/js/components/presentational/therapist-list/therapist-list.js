@@ -16,9 +16,6 @@ const picArrayHover = importAll(
   require.context("../../../../data/images/therapists/hover/", false, /\.(png|jpe?g|svg|jpg)$/)
 );
 
-console.log(picArray);
-
-
 const TherapistList = props => {
   let collagues = props.language.collagues;
   return (
