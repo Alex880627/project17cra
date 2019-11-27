@@ -1,7 +1,7 @@
 import React from "react";
 import mockdata from "../../../../data/languages/mock-server-data.json";
 import groupIcon from "../../../../data/images/icons/group-icon.png";
-import './group-sessions.css';
+import "./group-sessions.css";
 
 const GroupSessionsContainer = props => {
   let groupSessions = props.language["group sessions"];
@@ -36,41 +36,47 @@ const GroupSessionsContainer = props => {
           <p>{groupSessions.description}</p>
           <h4>{groupSessions.interval}</h4>
         </div>
-        <table>
-          <tbody>
-            <tr>
-              <th />
-              {Object.entries(groupSessions.days).map(element => {
-                return <th key={element[0]}>{element[1]}</th>;
-              })}
-            </tr>
-            {makeMultiArrayFromDataByHours(mockdata["sessions dates"]).map(
-              element => {
-                return (
-                  <tr key={`${Math.random()}`}>
-                    <td>{element[0].hour}</td>
-                    {Object.keys(groupSessions.days).map(day => {
-                      const filteredTableData = element.filter(data => {
-                        return data.day === day;
-                      });
-                      return filteredTableData.length !== 0 ? (
-                        <td
-                          key={`${Math.random()}`}
-                        >
-                          {" "}
-                          <h3>{filteredTableData[0].type}</h3>
-                          <p><span>(</span>{filteredTableData[0].therapist}<span>)</span></p>
-                        </td>
-                      ) : (
-                        <td key={`${Math.random()}`} /> // eslint-disable-line no-use-before-define
-                      );
-                    })}
-                  </tr>
-                );
-              }
-            )}
-          </tbody>
-        </table>
+        <div className="group-sessions-table-wrapper">
+        <div className="group-sessions-table">
+          <div className="table-header">
+            <div className="table-element header" />
+            {Object.entries(groupSessions.days).map(element => {
+              return (
+                <div className="table-element header" key={element[0]}>
+                  {element[1]}
+                </div>
+              );
+            })}
+          </div>
+          {makeMultiArrayFromDataByHours(mockdata["sessions dates"]).map(
+            element => {
+              return (
+                <div className="table-row" key={`${Math.random()}`}>
+                  <div className="table-element"><h3>{element[0].hour}</h3></div>
+                  {Object.keys(groupSessions.days).map(day => {
+                    const filteredTableData = element.filter(data => {
+                      return data.day === day;
+                    });
+                    return filteredTableData.length !== 0 ? (
+                      <div className="table-element" key={`${Math.random()}`}>
+                        {" "}
+                        <h3>{filteredTableData[0].type}</h3>
+                        <p>
+                          <span>(</span>
+                          {filteredTableData[0].therapist}
+                          <span>)</span>
+                        </p>
+                      </div>
+                    ) : (
+                      <div className="table-element" key={`${Math.random()}`} /> // eslint-disable-line no-use-before-define
+                    );
+                  })}
+                </div>
+              );
+            }
+          )}
+          </div>
+        </div>
       </div>
     </>
   );

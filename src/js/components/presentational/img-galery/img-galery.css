@@ -7,10 +7,6 @@
   -webkit-overflow-scrolling: touch;
 }
 
-.galery-wrapper ::-webkit-scrollbar {
-  height: 20px;
-}
-
 .galery-wrapper img {
   margin: 5px;
   cursor: pointer;

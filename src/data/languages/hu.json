@@ -86,11 +86,11 @@
     "interval": "Időtartam: 45-55 perc",
     "description": "A csoportos órákra a pontos kezdés miatt érkezz 5-10 perccel korábban, hogy át tudj öltözni kényelmes edző ruhádba. Cipőre nem lesz szükséged. Öltöző, zuhanyzó, törülköző, tusfürdő, papucs, és ivóvíz adott. Az órákon való részvételhez telefonos bejelentkezés szükséges az adott terapeutánál. Lemondás: 12 órával az óra kezdése előtt lehetséges, vagy 50% felszámítás. ",
     "days": {
-      "monday": "H",
-      "tuesday": "K",
-      "wednesday": "SZ",
-      "thursday": "CS",
-      "friday": "P"
+      "monday": "Hétfő",
+      "tuesday": "Kedd",
+      "wednesday": "Szerda",
+      "thursday": "Csütörtök",
+      "friday": "Péntek"
     }
   },
   "prices": {

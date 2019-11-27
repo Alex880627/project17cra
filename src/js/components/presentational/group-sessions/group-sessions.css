@@ -69,84 +69,86 @@ h4 {
   text-align: justify;
 }
 
-td,
-th {
+.group-sessions-table-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 70px;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.group-sessions-table {
+  margin: 0 auto;
+  position: relative;
+  max-width: 41.825em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.group-sessions-table .table-header {
+  height: 50px;
+  color: white;
+}
+
+.group-sessions-table .table-row {
+  margin: 5px 10px 5px 10px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 2px 1px black;
+          box-shadow: 0 0 2px 1px black;
+}
+
+.group-sessions-table div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+}
+
+.group-sessions-table div .table-element {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.group-sessions-table div .table-element h3,
+.group-sessions-table div .table-element p {
+  margin: 0;
   font-size: 15px;
-  z-index: 0;
+  color: #265c42;
+}
+
+.group-sessions-table div .table-element p {
+  font-size: 12px;
+}
+
+.group-sessions-table div .header {
   background-color: transparent;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-}
-
-table {
-  z-index: 0;
-  max-width: 40.625em;
-  margin-bottom: 5%;
-  width: 95%;
-  border-collapse: collapse;
-}
-
-th {
-  padding: 10px;
-  background-color: transparent;
-  color: white;
-  border: 1px solid white;
-}
-
-th:first-child {
-  padding: 0;
-}
-
-tr,
-td {
-  width: 15%;
-  border: 1px solid white;
-  color: white;
-}
-
-tr,
-td > h3 {
-  line-height: 1em;
-}
-
-tr,
-td > p {
-  font-style: italic;
-  font-weight: 100;
-  font-size: 10px;
-}
-
-tr span,
-td > p span {
-  font-size: 14px;
-}
-
-tr > td:first-child {
-  text-align: center;
-  padding: 0;
-  color: white;
-  background-color: transparent;
-  border: 1px solid white;
 }
 
 @media only screen and (max-width: 768px) {
-  table {
-    max-width: 95%;
-  }
-  table p {
-    font-size: 7px;
-  }
-  td,
-  th {
-    font-size: 2vw;
-  }
   .group-sessions-description {
     max-width: 95%;
-  }
-  tr > td:first-child {
-    text-align: center;
-    width: auto;
   }
   .group-sessions-wrapper .heading {
     margin-top: 20px;

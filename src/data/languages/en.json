@@ -74,11 +74,11 @@
     "interval": "Time interval: 45-55 minutes",
     "description": "Az Evminov padon fekve, nyújtózkodó helyzetben végzett izomerősítő gyakorlatok hatékonyan és gyorsan csökkentik a porckorng problémák miatt kialakult fájdalmakat. Miközben a gerincmelletti mély hátizmokat és a hasizmokat is erősíti, így a padról leszállva, a nyújtott helyzett végével sem szűnik meg hatása. A csoportos órán bemelgítés után, nyújtó és erősítő gyakorlatok kombinációja zajlik. Időt hagyva a megfelelő mennyiségű pihenésnek is.  Napod bármelyik pontján kikapcsol és átmozgat! ",
     "days": {
-      "monday": "M",
-      "tuesday": "T",
-      "wednesday": "W",
-      "thursday": "T",
-      "friday": "F"
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday"
     }
   },
   "prices": {

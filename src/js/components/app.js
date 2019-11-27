@@ -3,7 +3,6 @@ import ScrollProgressBar from "./presentational/scroll-progress-bar/scroll-progr
 
 import { LandingPageWithProps } from "./index";
 import { SideDrawerWithProps } from "./index";
-
 import { TreatmentsListLazy } from "./lazy-load-imports";
 import { TherapistListLazy } from "./lazy-load-imports";
 import { PricesListWithLazy } from "./lazy-load-imports";
