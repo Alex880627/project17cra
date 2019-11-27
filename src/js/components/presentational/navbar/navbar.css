@@ -1,5 +1,5 @@
 .main-navbar {
-  font-size: 15px;
+  font-size: 12px;
   width: 100%;
   position: absolute;
   padding: 0;
@@ -20,12 +20,9 @@
   transition: all 0.3s;
 }
 
-.main-navbar .navigation > div > a {
-  font-weight: bold;
-  background-color: #265C42;
-  padding: 6px 4px 2px 4px;
-  border-radius: 2px;
-  cursor: pointer;
+.main-navbar img {
+  height: 50px;
+  width: 150px;
 }
 
 .main-navbar > .navigation {

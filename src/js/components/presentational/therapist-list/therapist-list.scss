@@ -29,7 +29,7 @@
 .therapist-pictures {
   display: flex;
   justify-content: space-evenly;
-  width: 850px;
+  max-width: 850px;
   height: auto;
 }
 
@@ -268,10 +268,18 @@
   }
   .therapist-details {
     max-width: 95%;
+    position: relative;
+    overflow-x: hidden;
     .therapist-content {
       font-size: 13px;
     }
   }
+  .therapist-pictures > div > img {
+    border-radius: 0.188em;
+    width: 100%;
+    height: auto;
+  }
+  
   .therapist-details > .content-box > .details {
     display: flex;
     flex-direction: column;

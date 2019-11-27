@@ -6,6 +6,7 @@ import EmailSending from "../email-sending/email-sending";
 import HamburgerMenu from "../hamburger-menu/hamburger-menu";
 import Loader from "../loader/loader";
 import CoverPic from "../cover-pic/cover-pic";
+import logo from "../../../../data/images/icons/logo-small.png";
 import './navbar.css';
 
 const NavBar = props => {
@@ -28,7 +29,7 @@ const NavBar = props => {
       <CoverPic {...props} />
       <nav className="main-navbar">
         <HamburgerMenu {...props} />
-        <div />
+        <img src={logo}/>
         {innerWidth > 768 ? <NavigationLinks {...props} /> : null}
         <Loader {...props}/>
         <UpNavButton />

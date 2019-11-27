@@ -75,7 +75,7 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 70px;
-  overflow-y: scroll;
+  overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
 }
 

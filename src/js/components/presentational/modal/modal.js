@@ -22,6 +22,7 @@ export default function modal(ComponentParam, storeParam) {
             open={this.props[`${storeParam}`]}
             onClose={this.props[`hide${this.capitalize(storeParam)}`]}
             children={<ComponentParam {...this.props} />}
+            style={{overflow: "scroll"}}
           >
           </Modal>
         </div>
