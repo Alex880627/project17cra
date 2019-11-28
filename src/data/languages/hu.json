@@ -137,34 +137,56 @@
   },
   "treatments": {
     "treatments title": "Kezeléseink",
+    "provider sentence": "Melyik munkatársunkhoz fordulj ha ezt a kezelést vállasztanád?",
     "treatments list": [
       {
         "title": "Állapotfelmérés",
-        "description": "Minden kezelésünk során a legelső alkalom egy általános állapotfelmérés, melyen a terapeuta részletesen kikérdezi Önt egészségügyi állapotáról. Orvosi dokumentációját, MR vagy CT felvételeit (amennyiben vannak), kérjük mindképpen hozza magával! A vizsgálat egy órát vesz igénybe, és fehérneműben történik. Az állapotfelmérés a teljes test pontos megfigyelése, vizsgálata miatt elengedhetetlen. A felmérés során a terapeuta folyamatosan tájékoztatást ad a talált elváltozásokról, a lehetséges problémákról és azok okaikról, illetve a különböző kezelési lehetőségekről. A mozgásvizsgálat és a speciális tesztek után a cél egy közös kezelési terv kialakítása, kezdve a rövidtávú célkitűzések meghatározásával."
+        "description": "Minden kezelésünk során a legelső alkalom egy általános állapotfelmérés, melyen a terapeuta részletesen kikérdezi Önt egészségügyi állapotáról. Orvosi dokumentációját, MR vagy CT felvételeit (amennyiben vannak), kérjük mindképpen hozza magával! A vizsgálat egy órát vesz igénybe, és fehérneműben történik. Az állapotfelmérés a teljes test pontos megfigyelése, vizsgálata miatt elengedhetetlen. A felmérés során a terapeuta folyamatosan tájékoztatást ad a talált elváltozásokról, a lehetséges problémákról és azok okaikról, illetve a különböző kezelési lehetőségekről. A mozgásvizsgálat és a speciális tesztek után a cél egy közös kezelési terv kialakítása, kezdve a rövidtávú célkitűzések meghatározásával.",
+        "therapist": [
+          "Zsuzsa", "Panka", "Szilvia"
+        ]
       },
       {
         "title": "Evminov módszer",
-        "description": "Az Evminov módszer alapját egy speciálisan kifejlesztett ortopédiai segédeszköz, az Evminov Profilaktor képezi, mely a helytelen testtartás, gerincferdülés, porckorongsérv és egyéb gerincbetegségek megelőzésében és enyhítésében nyújt segítséget. A profilaktor egy fából készült, különleges technológiával előállított gerinc-rehabilitációs eszköz, mely megkönnyíti a gerincet érintő problémák helyreállítását, és az esetleges műtét utáni rehabilitációt. A módszer a finoman adagolt nyújtásra, tehermentesítésre és a gerincmelletti mélyizmok erősítésére épül."
+        "description": "Az Evminov módszer alapját egy speciálisan kifejlesztett ortopédiai segédeszköz, az Evminov Profilaktor képezi, mely a helytelen testtartás, gerincferdülés, porckorongsérv és egyéb gerincbetegségek megelőzésében és enyhítésében nyújt segítséget. A profilaktor egy fából készült, különleges technológiával előállított gerinc-rehabilitációs eszköz, mely megkönnyíti a gerincet érintő problémák helyreállítását, és az esetleges műtét utáni rehabilitációt. A módszer a finoman adagolt nyújtásra, tehermentesítésre és a gerincmelletti mélyizmok erősítésére épül.",
+        "therapist": [
+          "Zsuzsa"
+        ]
       },
       {
         "title": "Schroth terápia",
-        "description": "A gyermekkori gerincferdülés (scoliosis) és a Scheuermann kór kezelésére kialakított módszer rendkívül hatékonyan enyhíti a gerinc kóros görbületének fokozódását és a kialakult – vagy kialakulóban lévő – izomdiszbalanszokat. A terápia ötvözi a különböző testhelyzeketben végzett korrekciós légzést, aktív nyújtózást és izomerősítést. Komoly koncentrációt igénylő torna, mely otthoni gyakorlást is megkíván, ezért kisgyermekkorban eleinte játékkal kevert gyakorlatokkal haladunk. A gyermekkorban kialakult gerincferdülés felnőttkorban is okozhat fájdalmat, így a Schroth terápia nem kizárólag gyerekeknek hasznos."
+        "description": "A gyermekkori gerincferdülés (scoliosis) és a Scheuermann kór kezelésére kialakított módszer rendkívül hatékonyan enyhíti a gerinc kóros görbületének fokozódását és a kialakult – vagy kialakulóban lévő – izomdiszbalanszokat. A terápia ötvözi a különböző testhelyzeketben végzett korrekciós légzést, aktív nyújtózást és izomerősítést. Komoly koncentrációt igénylő torna, mely otthoni gyakorlást is megkíván, ezért kisgyermekkorban eleinte játékkal kevert gyakorlatokkal haladunk. A gyermekkorban kialakult gerincferdülés felnőttkorban is okozhat fájdalmat, így a Schroth terápia nem kizárólag gyerekeknek hasznos.",
+        "therapist": [
+          "Zsuzsa", "Panka", "Szilvia"
+        ]
       },
       {
         "title": "McKenzie torna",
         "description": "Biomechanikailag, élettanilag és anatómiailag is alátámasztott módszer, mely a páciensek aktív közreműködésével történik. A beteg saját maga képes befolyásolni a kialakuló fájdalmat, aminek hatására bizonyos idő után terapeutától függetlenül is kezelni tudja a problémáit."
+        ,"therapist": [
+          "Panka", "Szilvia"
+        ]
       },
       {
         "title": "Kinesio tape ragasztás",
         "description": "A kinesio tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel nem tartalmaz gyógyszert, mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
+        ,"therapist": [
+          "Zsuzsa", "Panka", "Szilvia"
+        ]
       },
       {
         "title": "Gyógymasszázs",
         "description": "A Gyógymasszázs tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel nem tartalmaz gyógyszert, mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
+        ,"therapist": [
+          "Szilvia"
+        ]
       },
       {
         "title": "Funkcionális gyógytorna",
         "description": "Egy komolyabb sérülés, egy műtét, vagy a hosszabb ideje jelen lévő fájdalmak és problémák jelentős mértékben befolyásolják az életünk és a testünk minőségét. Ilyenkor sérülnek a velünk született mozgásminták is, melyek helyreállítása alapvető fontosságú. A rehabilitációhoz minden ilyen esetben funkcionális, egyénre szabott gyógytorna szükséges.A személyre szabott kezelés előnye, hogy a magánóra keretei között a gyógytornász fókuszált figyelmet fordíthat a betegre. A fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája minden esetben az egyéni gyógytorna. Ülő- vagy megterhelő fizikai munka esetén, alak- és egészségmegőrzési célból, az ízületek és izmok mozgékonyságának megőrzésére, esetleg bármilyen későbbi probléma megelőzésére szintén javasolt egyéni kezelést foglalni."
+        ,"therapist": [
+          "Panka"
+        ]
       }
     ]
   },

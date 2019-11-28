@@ -39,6 +39,8 @@ h4 {
   width: 100%;
   display: flex;
   margin-bottom: 70px;
+  -ms-overflow-style: none; /* IE 11 */
+  scrollbar-width: none; /* Firefox 64 */
   overflow-x:scroll;
   -webkit-overflow-scrolling: touch;
 }

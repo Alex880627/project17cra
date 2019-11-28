@@ -42,6 +42,27 @@
   }
 }
 
+.choose-therapist-section {
+  .provider-question {
+    font-style: italic;
+    font-size: 12px;
+  }
+  .therapist-details-list {
+    display: flex;
+    p {
+      padding:5px;
+      margin-left: 5px;
+      margin-right: 5px;
+      border: 1px solid $mainGreenColor;
+      color: $mainGreenColor;
+      border-radius: 5px;
+      &:hover {
+        background-color: rgba($mainGreenColor, 0.3);
+      }
+    }
+  }
+}
+
 .treatments-wrapper {
   position: relative;
   width: 100%;

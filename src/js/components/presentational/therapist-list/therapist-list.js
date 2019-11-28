@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import useOnScreen from "../../../hooks/useScreen";
 import therapists from "../../../../data/images/icons/therapists.png";
-import TherapistListDetails from "../therapist-list-details/therapist-list-details";
 import "./therapist-list.css";
 
 function importAll(r) {
@@ -45,7 +44,6 @@ const TherapistList = props => {
           })}
         </div>
       </div>
-      <TherapistListDetails {...props} />
     </>
   );
 };

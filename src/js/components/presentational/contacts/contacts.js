@@ -21,7 +21,7 @@ const Contacts = props => {
             {contacts["contacts info"].ringbell}:{" "}
             {contacts["contacts info"]["ringbell number"]}
           </p>
-          <p>{"Email: "}<span onClick={props.openModal}>{contacts["contacts info"].email}</span></p>
+          <p>{"Email: "}<span onClick={props.showEmail}>{contacts["contacts info"].email}</span></p>
         </div>
         <GoogleMapConfigured />
       </div>

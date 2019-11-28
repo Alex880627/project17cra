@@ -29,8 +29,8 @@ const GroupSessionsContainer = props => {
     <>
       <div className="group-sessions-wrapper">
         <div className="heading">
-          <h3>{groupSessions["group sessions title"]}</h3>
-          <img src={groupIcon} alt="time table icon" />
+          <h3 style={{ animation: "fadeInRightDown 2s ease" }}>{groupSessions["group sessions title"]}</h3>
+          <img style={{ animation: "fadeInLeftDown 2s ease" }} src={groupIcon} alt="time table icon" />
         </div>
         <div className="group-sessions-description">
           <p>{groupSessions.description}</p>

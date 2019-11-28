@@ -2,7 +2,8 @@ import React, { useRef, useEffect, useState } from "react";
 import treatmentsIcon from "../../../../data/images/icons/treatments-icon.png";
 import "./treatments-list.css";
 
-const TreatementDropdown = ({ element }) => {
+const TreatementDropdown = ({ element, props }) => {
+  const language = props.language;
   const [open, setOpen] = useState(false);
   let treatmentRef = useRef(null);
   useEffect(() => {
@@ -63,6 +64,20 @@ const TreatementDropdown = ({ element }) => {
       />
       <h3 style={{ animation: "fadeInLeft 2s ease" }}>{element.title}</h3>
       <p>{element.description}</p>
+      <div className="choose-therapist-section">
+        <p className="provider-question">{language.treatments["provider sentence"]}</p>
+        <div className="therapist-details-list">
+        {element.therapist.map(therapist => {
+         return (<p onClick={(e) => {
+           e.stopPropagation();
+          const therapistObjectFromNickname = language.collagues.therapists.filter((e)=>{
+            return e["nick name"]===therapist;
+          })
+          props.showTherapistDetails(therapistObjectFromNickname[0].name);
+        }}>{therapist}</p>)
+        })}
+        </div>
+      </div>
     </div>
   );
 };
@@ -83,7 +98,13 @@ const TreatmentsList = props => {
       </div>
       <div className="treatments-wrapper">
         {treatments["treatments list"].map(element => {
-          return <TreatementDropdown key={element.title} element={element} />;
+          return (
+            <TreatementDropdown
+              key={element.title}
+              element={element}
+              props={props}
+            />
+          );
         })}
       </div>
     </div>

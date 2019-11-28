@@ -7,6 +7,8 @@ body {
   ::-webkit-scrollbar {
     display: none;
   }
+  -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none; /* Firefox 64 */
   font-family: Arbutus Slab;
   /* font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace; */
 }
