@@ -5,7 +5,6 @@
   width: 500px;
   height: inherit;
   margin-left: 20px;
-  box-shadow: 0px 0px 3px 1px rgb(112, 112, 112);
 }
 
 .contacts-wrapper {
@@ -29,26 +28,35 @@
 .address-details {
   line-height: 0px;
   color: white;
-  background-color: $mainGreenColor;
-  box-shadow: 0px 0px 3px 1px rgb(112, 112, 112);
+  background-color: #252F3E;
   width: 500px;
   position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
+  border: 1px solid $mainGreenColor;
   height: auto;
+  .logo-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    img {
+      margin: 20px;
+      max-width: 200px;
+    }
+  }
   h4{
     margin: 20px;
     padding-top: 20px;
+    color: white;
   }
   p {
     margin: 20px;
     white-space: pre;
-    font-family: Work Sans;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     span {
       text-decoration: underline;
-      margin: 20px;
       cursor:pointer;
     }
     &:last-child {
@@ -60,7 +68,6 @@
 .address-details > h4 {
   font-size: 1.563em;
 }
-
 
 @media only screen and (max-width: 768px) {
   .contacts-wrapper {

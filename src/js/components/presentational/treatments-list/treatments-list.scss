@@ -57,7 +57,8 @@
       color: $mainGreenColor;
       border-radius: 5px;
       &:hover {
-        background-color: rgba($mainGreenColor, 0.3);
+        background-color: rgba($mainGreenColor, .8);
+        color: white;
       }
     }
   }

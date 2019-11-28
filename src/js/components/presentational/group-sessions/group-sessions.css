@@ -52,9 +52,12 @@
   height: auto;
 }
 
-.group-sessions-description > p,
-h4 {
+.group-sessions-description > p, h5 {
   color: white;
+}
+
+.group-sessions-description > h5 {
+  font-style: italic;
 }
 
 .group-sessions-description > p {

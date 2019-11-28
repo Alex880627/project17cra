@@ -34,7 +34,7 @@ const GroupSessionsContainer = props => {
         </div>
         <div className="group-sessions-description">
           <p>{groupSessions.description}</p>
-          <h4>{groupSessions.interval}</h4>
+          <h5>{groupSessions.interval}</h5>
         </div>
         <div className="group-sessions-table-wrapper">
         <div className="group-sessions-table">

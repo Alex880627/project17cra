@@ -98,7 +98,8 @@
 }
 
 .choose-therapist-section .therapist-details-list p:hover {
-  background-color: rgba(38, 92, 66, 0.3);
+  background-color: rgba(38, 92, 66, 0.8);
+  color: white;
 }
 
 .treatments-wrapper {

@@ -3,8 +3,6 @@
   width: 500px;
   height: inherit;
   margin-left: 20px;
-  -webkit-box-shadow: 0px 0px 3px 1px #707070;
-          box-shadow: 0px 0px 3px 1px #707070;
 }
 
 .contacts-wrapper {
@@ -64,9 +62,7 @@
 .address-details {
   line-height: 0px;
   color: white;
-  background-color: #265c42;
-  -webkit-box-shadow: 0px 0px 3px 1px #707070;
-          box-shadow: 0px 0px 3px 1px #707070;
+  background-color: #252F3E;
   width: 500px;
   position: relative;
   display: -webkit-box;
@@ -82,23 +78,39 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  border: 1px solid #265c42;
   height: auto;
+}
+
+.address-details .logo-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.address-details .logo-wrapper img {
+  margin: 20px;
+  max-width: 200px;
 }
 
 .address-details h4 {
   margin: 20px;
   padding-top: 20px;
+  color: white;
 }
 
 .address-details p {
   margin: 20px;
   white-space: pre;
-  font-family: Work Sans;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .address-details p span {
   text-decoration: underline;
-  margin: 20px;
   cursor: pointer;
 }
 

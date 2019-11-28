@@ -26,6 +26,7 @@ const GoogleMapConfigured = () => {
         center: { lat: 47.512209, lng: 19.048778 },
         zoom: 16,
         streetViewControl: true,
+        mapTypeControl: false,
         styles: styles
       }}
       onMapLoad={map => {
@@ -58,17 +59,17 @@ const styles = [
   {
     featureType: 'poi.park',
     elementType: 'geometry',
-    stylers: [{color: '#263c3f'}]
+    stylers: [{color: '#265C42'}]
   },
   {
     featureType: 'poi.park',
     elementType: 'labels.text.fill',
-    stylers: [{color: '#6b9a76'}]
+    stylers: [{color: '#d59563'}]
   },
   {
     featureType: 'road',
     elementType: 'geometry',
-    stylers: [{color: '#38414e'}]
+    stylers: [{color: '#265C42'}]
   },
   {
     featureType: 'road',

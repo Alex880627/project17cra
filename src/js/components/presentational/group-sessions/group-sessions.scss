@@ -18,9 +18,13 @@
   }
 }
 
-.group-sessions-description > p,
-h4 {
+.group-sessions-description > p, h5 {
   color: rgb(255, 255, 255);
+  
+}
+
+.group-sessions-description > h5 {
+  font-style: italic;
 }
 
 .group-sessions-description > p {
