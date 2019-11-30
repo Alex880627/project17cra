@@ -3,9 +3,9 @@
   z-index: -1;
   position: fixed;
   height: 100%;
+  background-color: black;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  background-color: black;
 }
 
 .cover-img img {
@@ -22,10 +22,16 @@
 .blur-img img {
   -webkit-filter: blur(2px);
           filter: blur(2px);
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
   -webkit-transition: all 1s;
   transition: all 1s;
+}
+
+@-moz-document url-prefix() {
+  .blur-img img {
+    filter: blur(0px);
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
 }
 
 @media only screen and (max-width: 768px) {

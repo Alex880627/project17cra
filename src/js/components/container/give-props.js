@@ -23,8 +23,12 @@ import {
   openSnackBarError,
   closeSnackBar
 } from "../../actions/snack-bar-actions";
-
-
+import {
+  getSessionDates,
+  getSessionDatesSuccess,
+  getSessionDatesFail
+} from "../../actions/get-group-session-dates-actions";
+import getData from "../../services/get-data";
 
 const mapDispatchToProps = dispatch => ({
   changeLanguageToHU: () => {
@@ -72,9 +76,19 @@ const mapDispatchToProps = dispatch => ({
   closeSnackBar: () => {
     dispatch(closeSnackBar());
   },
+  getGroupSessionDates: () => {
+    dispatch(getSessionDates());
+    getData("https://studio17.duckdns.org/api/csoporttorna/lista").then((data)=>{
+      dispatch(getSessionDatesSuccess(data))
+    }).catch((error)=>{
+      console.log(error);
+      dispatch(getSessionDatesFail(error.error))
+    })
+  } 
 });
 
 const mapStateToProps = state => ({
+  groupSessionDates: state.groupSessionDatesReducer.groupSessionDates,
   language: state.changeLanguage.language,
   loading: state.loadingReducer.loading,
   sideBar: state.toogleSideBar.sideBar,

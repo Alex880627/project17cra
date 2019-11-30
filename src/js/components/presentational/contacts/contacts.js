@@ -13,9 +13,12 @@ const Contacts = props => {
         <h3>{contacts["contacts title"]}</h3>
         <img src={contactsIcon} alt="contacts icon" />
       </div>
-      <div className="flex-wrapper">
-        <div className="address-details">
-          <div className="logo-wrapper"><img src={logo} /></div>
+      <div className="vertical-flex-wrapper">
+        <div className="flex-wrapper">
+          <div className="address-details">
+            <div className="logo-wrapper">
+              <img src={logo} />
+            </div>
             <p>{contacts["contacts info"].address}</p>
             <p>{contacts["contacts info"].city}</p>
             <p>
@@ -28,9 +31,10 @@ const Contacts = props => {
               </span>
             </p>
           </div>
-        <GoogleMapConfigured />
+          <GoogleMapConfigured />
+        </div>
+        <Galery />
       </div>
-      <Galery />
     </div>
   );
 };

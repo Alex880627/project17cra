@@ -1,9 +1,10 @@
 import React from "react";
-import mockdata from "../../../../data/languages/mock-server-data.json";
+import groupSessionDates from "../../../../data/languages/mock-server-data.json";
 import groupIcon from "../../../../data/images/icons/group-icon.png";
 import "./group-sessions.css";
 
 const GroupSessionsContainer = props => {
+  const groupSessionDates = [...props.groupSessionDates];
   let groupSessions = props.language["group sessions"];
   const makeMultiArrayFromDataByHours = objArray => {
     objArray.sort((a, b) => parseFloat(a.hour) - parseFloat(b.hour));
@@ -48,7 +49,7 @@ const GroupSessionsContainer = props => {
               );
             })}
           </div>
-          {makeMultiArrayFromDataByHours(mockdata["sessions dates"]).map(
+          {makeMultiArrayFromDataByHours(groupSessionDates).map(
             element => {
               return (
                 <div className="table-row" key={`${Math.random()}`}>

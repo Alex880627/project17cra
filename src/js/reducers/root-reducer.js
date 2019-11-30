@@ -7,8 +7,10 @@ import therapistReducer from "./therapist-details-reducer";
 import snackBarReducer from "./snack-bar-reducer";
 import blurReducer from "./blur-reducer";
 import loadingReducer from "./loading-reducer";
+import groupSessionDatesReducer from "./get-group-session-dates-reducer";
 
 const rootReducer = combineReducers({
+  groupSessionDatesReducer,
   changeLanguage,
   toogleSideBar,
   emailReducer,

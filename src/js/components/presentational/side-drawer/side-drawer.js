@@ -108,7 +108,7 @@ export default function SideDrawer(props) {
 
   return (
     <div>
-      <SwipeableDrawer open={props.sideBar} onClose={toggleDrawer("left", false)}>
+      <SwipeableDrawer open={props.sideBar} onOpen={toggleDrawer("left", true)} onClose={toggleDrawer("left", false)}>
           {sideList("left")}
           <Divider />
       </SwipeableDrawer>

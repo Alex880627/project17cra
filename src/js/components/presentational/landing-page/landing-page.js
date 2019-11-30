@@ -6,6 +6,7 @@ import TherapistListDetails from "../therapist-list-details/therapist-list-detai
 import "./landing-page.css";
 
 const LandinPage = props => {
+  props.getGroupSessionDates();
   let landingSentence = props.language.landingSentence;
   return (
     <>

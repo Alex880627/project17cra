@@ -4,15 +4,25 @@ import therapists from "../../../../data/images/icons/therapists.png";
 import "./therapist-list.css";
 
 function importAll(r) {
-  return r.keys().map((e)=>{return r(e) });
+  return r.keys().map(e => {
+    return r(e);
+  });
 }
 
 const picArray = importAll(
-  require.context("../../../../data/images/therapists/normal/", false, /\.(png|jpe?g|svg|jpg)$/)
+  require.context(
+    "../../../../data/images/therapists/normal/",
+    false,
+    /\.(png|jpe?g|svg|jpg)$/
+  )
 );
 
 const picArrayHover = importAll(
-  require.context("../../../../data/images/therapists/hover/", false, /\.(png|jpe?g|svg|jpg)$/)
+  require.context(
+    "../../../../data/images/therapists/hover/",
+    false,
+    /\.(png|jpe?g|svg|jpg)$/
+  )
 );
 
 const TherapistList = props => {
@@ -34,6 +44,7 @@ const TherapistList = props => {
           {picArray.map((element, index) => {
             return (
               <Therapists
+                key={element}
                 element={element}
                 index={index}
                 picArrayHover={picArrayHover}
