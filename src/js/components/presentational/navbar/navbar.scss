@@ -75,21 +75,17 @@
   right: 3%;
 }
 
-.up-button > a {
-  position: relative;
-  z-index: 1;
-  width: 5em;
-  height: 5em;
-  text-decoration: none;
-  color: black;
-}
 
-.up-button > a > img {
+.up-button > img {
   transition: opacity 0.3s;
+  width: 100%;
+  height: 100%;
   z-index: 1;
-  width: 5em;
-  height: 4.688em;
-  font-size: 30px;
+  opacity: 0.3;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
 }
 
 .visible {

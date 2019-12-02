@@ -13,7 +13,6 @@ const Contacts = props => {
         <h3>{contacts["contacts title"]}</h3>
         <img src={contactsIcon} alt="contacts icon" />
       </div>
-      <div className="vertical-flex-wrapper">
         <div className="flex-wrapper">
           <div className="address-details">
             <div className="logo-wrapper">
@@ -33,9 +32,7 @@ const Contacts = props => {
           </div>
           <GoogleMapConfigured />
         </div>
-        <Galery />
       </div>
-    </div>
   );
 };
 

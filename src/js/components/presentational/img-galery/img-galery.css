@@ -1,27 +1,37 @@
 .galery-wrapper {
-  margin-top: 20px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1020px;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-  background-color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .galery-wrapper .thumbnails {
   padding: 0px;
   margin: 0px;
-  background-color: white;
+  width: 101px;
+  height: 101px;
+  background-color: black;
 }
 
 .galery-wrapper .thumbnails img {
-  border: 1px solid black;
-  border-right: none;
+  opacity: 0.7;
+  max-width: 100%;
+  width: auto;
+  height: auto;
   cursor: pointer;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+}
+
+.galery-wrapper .thumbnails img:hover {
+  opacity: 1;
 }
 
 .react-images__blanket {
@@ -31,12 +41,6 @@
 
 .react-images__positioner {
   z-index: 10000 !important;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
-  .galery-wrapper {
-    width: 650px;
-  }
 }
 
 @media only screen and (max-width: 768px) {

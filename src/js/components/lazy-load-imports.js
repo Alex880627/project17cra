@@ -11,5 +11,5 @@ export const TreatmentsListLazy = lazyLoadHoc(TreatmentsListWithProps,"treatment
 export const TherapistListLazy = lazyLoadHoc(TherapistListWithProps, "colleagues");
 export const PricesListWithLazy = lazyLoadHoc(PricesListWithProps,"prices", "white");
 export const GroupSessionsLazy = lazyLoadHoc(GroupSessionsWithProps, "group sessions");
-export const ContactsLazy = lazyLoadHoc(ContactsWithProps, "contacts");
+export const ContactsLazy = lazyLoadHoc(ContactsWithProps, "contacts", "white");
 export const FooterLazy = lazyLoadHoc(FooterWithProps, "footer");

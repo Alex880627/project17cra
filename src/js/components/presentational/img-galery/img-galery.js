@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel, { Modal, ModalGateway } from "react-images";
+import Loader from "../loader/loader";
 import "./img-galery.css";
 
 function importAll(r) {
@@ -33,9 +34,14 @@ class Galery extends React.Component {
   };
   render() {
     const Footer = () => {
-      return <div onClick={()=>{this.setState(state => ({ modalIsOpen: !state.modalIsOpen }))}}>
-      </div>
-    }
+      return (
+        <div
+          onClick={() => {
+            this.setState(state => ({ modalIsOpen: !state.modalIsOpen }));
+          }}
+        ></div>
+      );
+    };
     const { modalIsOpen } = this.state;
     return (
       <>
@@ -60,7 +66,11 @@ class Galery extends React.Component {
               allowFullscreen={false}
               closeOnBackdropClick={true}
             >
-              <Carousel views={images} components={{Footer: Footer}} currentIndex={this.state.currentModal} />
+              <Carousel
+                views={images}
+                components={{ Footer: Footer }}
+                currentIndex={this.state.currentModal}
+              />
             </Modal>
           ) : null}
         </ModalGateway>
