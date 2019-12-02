@@ -52,7 +52,7 @@
     width: 100%;
     line-height: 0;
     p {
-      padding: 20px;
+      padding: 10px;
       color: white;
       text-align: center;
       font-size: 0.813em;
@@ -78,8 +78,7 @@
         width: 40%;
         .footer-logo {
           img {
-            min-width: 100%;
-            max-width: 300px;
+            width: 300px;
           }
         }
       }

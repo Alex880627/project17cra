@@ -35,6 +35,13 @@
 
 @media only screen and (max-width: 768px) {
   .galery-wrapper {
-    width: 100%;
+    width: 350px;
+    .thumbnails {
+      width: 81px;
+      height: 81px;
+      img {
+        max-width:80px;
+      }
+    }
   }
 }

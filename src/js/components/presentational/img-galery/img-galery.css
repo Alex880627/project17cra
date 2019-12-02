@@ -45,7 +45,14 @@
 
 @media only screen and (max-width: 768px) {
   .galery-wrapper {
-    width: 100%;
+    width: 350px;
+  }
+  .galery-wrapper .thumbnails {
+    width: 81px;
+    height: 81px;
+  }
+  .galery-wrapper .thumbnails img {
+    max-width: 80px;
   }
 }
 /*# sourceMappingURL=img-galery.css.map */

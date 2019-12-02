@@ -95,7 +95,7 @@
 }
 
 .footer-wrapper .footer p {
-  padding: 20px;
+  padding: 10px;
   color: white;
   text-align: center;
   font-size: 0.813em;
@@ -119,8 +119,7 @@
     width: 40%;
   }
   .footer-wrapper .pre-footer .contact-info-footer .footer-logo img {
-    min-width: 100%;
-    max-width: 300px;
+    width: 300px;
   }
 }
 
