@@ -6,6 +6,8 @@ const CoverPic = props => {
   const screenRatio = () => window.screen.width / window.screen.height;
 
   const isBigSreen = () => window.innerWidth / window.innerHeight > 1.765;
+  console.log("width :"+ window.screen.height * screenRatio(), "height: "+ window.screen.height );
+  
   return (
     <div className={`cover-img ${props.blur ? "blur-img" : ""}`}>
       <img
@@ -13,7 +15,7 @@ const CoverPic = props => {
         style={
           isBigSreen
             ? { width: window.screen.width }
-            : { width: window.screen.height * screenRatio(), height: window.screen.height  }
+            : { width: window.screen.height * 1.765, height: window.screen.height  }
         }
       />
     </div>
