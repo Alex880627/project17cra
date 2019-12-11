@@ -9,7 +9,7 @@ import mail from "../../../../data/images/icons/mail-icon-white.png";
 const Scroll = require("react-scroll");
 const scroller = Scroll.scroller;
 
-const NavigationLinks = (props) => {
+const NavigationLinks = props => {
   let navbar = props.language.navbar;
   const link = element => {
     scroller.scrollTo(element, {
@@ -33,40 +33,66 @@ const NavigationLinks = (props) => {
           link("colleagues");
         }}
       >
-        <img src={therapists}/>
-        {navbar.colleagues}
+        <img src={therapists} />
+        <span>
+          {navbar.colleagues}
+          <span className="double-arrow">{" »"}</span>
+        </span>
       </a>
       <a
         onClick={() => {
           link("treatments");
         }}
-      ><img src={treatmentsIcon}/>
-        {navbar["treatments"]}
+      >
+        <img src={treatmentsIcon} />
+        <span>
+          {navbar["treatments"]}
+          <span className="double-arrow">{" »"}</span>
+        </span>
       </a>
       <a
         onClick={() => {
           link("prices");
         }}
-      ><img src={walletIcon}/>
-        {navbar.prices}
+      >
+        <img src={walletIcon} />
+        <span>
+          {navbar.prices}
+          <span className="double-arrow">{" »"}</span>
+        </span>
       </a>
       <a
         onClick={() => {
           link("group sessions");
         }}
-      ><img src={groupIcon}/>
-        {navbar["group sessions"]}
+      >
+        <img src={groupIcon} />
+        <span>
+          {" "}
+          {navbar["group sessions"]}
+          <span className="double-arrow">{" »"}</span>
+        </span>
       </a>
       <a
         onClick={() => {
           link("contacts");
         }}
-      ><img src={contactsIcon}/>
-        {navbar.contacts}
+      >
+        <img src={contactsIcon} />
+        <span>
+          {" "}
+          {navbar.contacts}
+          <span className="double-arrow">{" »"}</span>
+        </span>
       </a>
       <a onClick={props.showEmail}>
-      <img src={mail}/>
-      {navbar.contactUs}</a>
+        <img src={mail} />
+        <span>
+          {" "}
+          {navbar.contactUs}
+          <span className="double-arrow">{" »"}</span>
+        </span>
+      </a>
     </div>
   );
 };

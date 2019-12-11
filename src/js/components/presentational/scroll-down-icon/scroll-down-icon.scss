@@ -1,3 +1,4 @@
+@import "../../../../data/shared-styles/variables-mixins.scss";
 
 .scroll-down {
   z-index: inherit;
@@ -35,7 +36,7 @@
   top: 0;
   height: 100%;
   width: 51%;
-  background: #fff;
+  background: $secondaryGreenColor;
 }
 
 .chevron:before {

@@ -6,9 +6,8 @@ const CoverPic = (props) => {
   return (
     <div
       className={`cover-img ${props.blur? "blur-img":""}`}
-      style={{ width: window.innerWidth <= 1275 ? "1275px" : "100%" }}
     >
-      <img src={pic7} />
+      <img src={pic7}  style={{ width: window.screen.width}}/>
     </div>
   );
 };

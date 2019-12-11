@@ -1,21 +1,17 @@
 .cover-img {
+  display: table;
   top: 0;
   z-index: -1;
   position: fixed;
+  margin: 0 auto;
   height: 100%;
   background-color: black;
-  transform: scale(1.1);
   img {
-    position: absolute;
-    background-size: cover;
-    margin: 0 auto;
     opacity: 1;
     filter: blur(0px);
     transition: all 1s;
   }
 }
-
-
 
 .blur-img {
   img {
@@ -33,17 +29,4 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .cover-img {
-    top: 0;
-    z-index: -1;
-    position: fixed;
-    height: 100%;
-    background-color: black;
-    img {
-      position: absolute;
-      background-size: cover;
-      margin: 0 auto;
-    }
-  }
-}
+@media only screen and (max-width: 768px) {}

@@ -1,12 +1,12 @@
 {
   "lang": "Magyar",
   "navbar": {
-    "treatments": "Kezeléseink »",
-    "group sessions": "Csoportos órák »",
-    "colleagues": "Munkatársaink »",
-    "prices": "Áraink »",
-    "contacts": "Kapcsolat »",
-    "contactUs": "Írj nekünk! »"
+    "treatments": "Kezeléseink",
+    "group sessions": "Csoportos órák",
+    "colleagues": "Munkatársaink",
+    "prices": "Áraink",
+    "contacts": "Kapcsolat",
+    "contactUs": "Írj nekünk!"
   },
   "collagues": {
     "collagues": "Munkatársaink",

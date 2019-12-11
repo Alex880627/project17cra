@@ -5,9 +5,10 @@ import NavigationLinks from "../navigation-links/navigation-links";
 import EmailSending from "../email-sending/email-sending";
 import HamburgerMenu from "../hamburger-menu/hamburger-menu";
 import Loader from "../loader/loader";
+import logo from "../../../../data/images/icons/just-logo.png";
+import logoAndText from "../../../../data/images/icons/logo-small.png";
 import CoverPic from "../cover-pic/cover-pic";
-import logo from "../../../../data/images/icons/logo-small.png";
-import './navbar.css';
+import "./navbar.css";
 
 const NavBar = props => {
   const [innerWidth, setInnerWidth] = useState(window.innerWidth);
@@ -21,7 +22,7 @@ const NavBar = props => {
       });
     };
   }, []);
-  if (innerWidth > 768) {
+  if (innerWidth > 1000) {
     props.closeSideBar();
   }
   return (
@@ -29,9 +30,13 @@ const NavBar = props => {
       <CoverPic {...props} />
       <nav className="main-navbar">
         <HamburgerMenu {...props} />
-        <img src={logo}/>
-        {innerWidth > 768 ? <NavigationLinks {...props} /> : null}
-        <Loader {...props}/>
+        {innerWidth > 1000 ? (
+          <NavigationLinks {...props} />
+        ) : (
+          <img id="front-mobile-logo" src={innerWidth > 768? logoAndText:logo} />
+        )}
+
+        <Loader {...props} />
         <UpNavButton />
         <EmailSending {...props} />
         <LanguagePicker {...props} />

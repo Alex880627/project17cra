@@ -4,6 +4,9 @@ import groupIcon from "../../../../data/images/icons/group-icon.png";
 import "./group-sessions.css";
 
 const GroupSessionsContainer = props => {
+  if(props.groupSessionDates<1){
+    props.getGroupSessionDates();
+  }
   const groupSessionDates = [...props.groupSessionDates];
   let groupSessions = props.language["group sessions"];
   const makeMultiArrayFromDataByHours = objArray => {

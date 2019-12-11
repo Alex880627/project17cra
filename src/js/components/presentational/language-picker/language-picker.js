@@ -1,6 +1,6 @@
 import huFlag from "../../../../data/images/icons/hu-flag.jpg";
 import enFlag from "../../../../data/images/icons/en-flag.jpg";
-import './language-picker.css'
+import "./language-picker.css";
 
 import React, { useState, useEffect } from "react";
 
@@ -23,7 +23,7 @@ const LanguagePickerButton = ({
   }, [language]);
   return (
     <ul className="languagepicker">
-      {window.innerWidth > 768 ? (
+      {window.innerWidth > 1000 ? (
         <li
           onClick={() => {
             height === "2.5em" ? setHeight("5em") : setHeight("2.5em");
@@ -41,7 +41,7 @@ const LanguagePickerButton = ({
         }}
       >
         <img src={language.lang === "Magyar" ? enFlag : huFlag} alt="flag" />
-        {language.lang  === "Magyar" ? "English" : "Magyar"}
+        {language.lang === "Magyar" ? "English" : "Magyar"}
       </li>
     </ul>
   );

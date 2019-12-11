@@ -12,7 +12,7 @@
   overflow: hidden;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  margin: 0 3.125em 0.625em 0;
+  margin: 0 1em 0.625em 0;
   border-radius: 0.313em;
   cursor: pointer;
   height: 2.5em;
@@ -35,7 +35,10 @@
   height: 0.75em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
+  .languagepicker {
+    margin: 0 3.625em 0.625em 0;
+  }
   .languagepicker:hover {
     height: 5em;
   }

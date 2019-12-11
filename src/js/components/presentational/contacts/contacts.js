@@ -10,8 +10,8 @@ const Contacts = props => {
   return (
     <div className="contacts-wrapper">
       <div className="contacts-heading">
-        <h3>{contacts["contacts title"]}</h3>
-        <img src={contactsIcon} alt="contacts icon" />
+        <h3 style={{ animation: "fadeInRightDown 2s ease" }}>{contacts["contacts title"]}</h3>
+        <img style={{ animation: "fadeInLeftDown 2s ease" }} src={contactsIcon} alt="contacts icon" />
       </div>
         <div className="flex-wrapper">
           <div className="address-details">

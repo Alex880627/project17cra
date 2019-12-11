@@ -78,13 +78,14 @@ const mapDispatchToProps = dispatch => ({
   },
   getGroupSessionDates: () => {
     dispatch(getSessionDates());
-    getData("https://studio17.duckdns.org/api/csoporttorna/lista").then((data)=>{
-      dispatch(getSessionDatesSuccess(data))
-    }).catch((error)=>{
-      console.log(error);
-      dispatch(getSessionDatesFail(error.error))
-    })
-  } 
+    getData("https://studio17.duckdns.org/api/csoporttorna/lista")
+      .then(data => {
+        dispatch(getSessionDatesSuccess(data));
+      })
+      .catch(error => {
+        dispatch(getSessionDatesFail());
+      });
+  }
 });
 
 const mapStateToProps = state => ({

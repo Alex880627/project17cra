@@ -1,5 +1,6 @@
 import React from "react";
 import './hamburger-menu.css'
+import logo from "../../../../data/images/icons/logo-small.png";
 
 const HamburgerMenu = ({ openSideBar, closeSideBar, sideBar }) => {
   const toogleNavbar = () => {
@@ -10,6 +11,8 @@ const HamburgerMenu = ({ openSideBar, closeSideBar, sideBar }) => {
     }
   };
   return (
+    window.innerWidth>1000?
+    <img src={logo} className="header-logo"/>:
     <div id="nav-icon1" onClick={toogleNavbar}>
       <span />
       <span />

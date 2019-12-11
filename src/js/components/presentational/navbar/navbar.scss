@@ -28,6 +28,15 @@
   justify-content: space-between;
 }
 
+.double-arrow {
+  color: $secondaryGreenColor;
+}
+
+#front-mobile-logo {
+  margin-top: -8px;
+  width: auto;
+  height: 40px;
+}
 
 .main-navbar > div > a {
   margin-right: 1.875em;
@@ -136,7 +145,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   .main-navbar {
     position: fixed;
     top: 0;

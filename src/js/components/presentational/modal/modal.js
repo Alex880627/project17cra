@@ -15,7 +15,6 @@ export default function modal(ComponentParam, storeParam) {
     }
     render() {
       return (
-        <div>
           <Modal
             /*             aria-labelledby="Üzenj nekünk"
             aria-describedby="Gyogytorna jelentkezes üzenetben" */
@@ -25,7 +24,6 @@ export default function modal(ComponentParam, storeParam) {
             style={{overflow: "scroll"}}
           >
           </Modal>
-        </div>
       );
     }
   };

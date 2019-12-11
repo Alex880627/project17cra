@@ -1,5 +1,9 @@
+.header-logo {
+  margin-left: 30px;
+  margin-top: -10px;
+}
+
 #nav-icon1 {
-  visibility: hidden;
   width: 3em;
   height: 2.813em;
   position: relative;
@@ -55,9 +59,9 @@
   transform: rotate(-135deg);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   #nav-icon1 {
-    visibility: visible;
+    margin-left: 1em;
   }
 }
 /*# sourceMappingURL=hamburger-menu.css.map */
