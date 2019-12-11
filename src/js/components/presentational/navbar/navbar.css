@@ -22,7 +22,7 @@
 
 .main-navbar img {
   height: 50px;
-  width: 150px;
+  width: auto;
 }
 
 .main-navbar > .navigation {
