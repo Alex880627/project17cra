@@ -3,10 +3,9 @@ import pic7 from "../../../../data/images/pic7.jpg";
 import "./cover-pic.css";
 
 const CoverPic = props => {
-  const screenRatio = () => window.innerWidth / window.innerHeight;
+  const screenRatio = () => window.screen.width / window.screen.height;
 
   const isBigSreen = () => window.innerWidth / window.innerHeight > 1.765;
-
   return (
     <div className={`cover-img ${props.blur ? "blur-img" : ""}`}>
       <img
