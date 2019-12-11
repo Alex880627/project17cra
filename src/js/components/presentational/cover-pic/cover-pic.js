@@ -13,7 +13,7 @@ const CoverPic = props => {
         style={
           isBigSreen
             ? { width: window.screen.width }
-            : { width: window.screen.height * screenRatio() }
+            : { width: window.screen.height * screenRatio(), height: window.screen.height  }
         }
       />
     </div>
