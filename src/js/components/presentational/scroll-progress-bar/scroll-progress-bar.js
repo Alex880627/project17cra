@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const ScrollProgress = () => {
   const calculate = () => {
     let height = document.body.scrollHeight-window.innerHeight;
-    let current = Math.floor((window.scrollY/height)*window.innerWidth);
+    let current = Math.floor((window.scrollY/height)*window.visualViewport.width);
     return current;
   }
   const [width, setWidth] = useState(0);
@@ -24,7 +24,7 @@ const ScrollProgress = () => {
     zIndex: 40,
     height: "3px",
     backgroundColor: "#FF3366",
-    width: `${width}px`
+    /* width: `${width}px` */
   }
   return <div style={style}></div>;;
 };

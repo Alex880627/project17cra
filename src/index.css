@@ -18,7 +18,10 @@ body ::-webkit-scrollbar {
 }
 
 #root {
-  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

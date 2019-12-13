@@ -5,7 +5,6 @@ import NavigationLinks from "../navigation-links/navigation-links";
 import EmailSending from "../email-sending/email-sending";
 import HamburgerMenu from "../hamburger-menu/hamburger-menu";
 import Loader from "../loader/loader";
-import logo from "../../../../data/images/icons/just-logo.png";
 import logoAndText from "../../../../data/images/icons/logo-small.png";
 import CoverPic from "../cover-pic/cover-pic";
 import "./navbar.css";
@@ -28,12 +27,12 @@ const NavBar = props => {
   return (
     <>
       <CoverPic {...props} />
-      <nav className="main-navbar">
+      <nav className="main-navbar" style={{width: '100vw'}}>
         <HamburgerMenu {...props} />
         {innerWidth > 1000 ? (
           <NavigationLinks {...props} />
         ) : (
-          <img id="front-mobile-logo" src={innerWidth > 768? logoAndText:logo} />
+          <img id="front-mobile-logo" src={innerWidth > 768? logoAndText:null} />
         )}
 
         <Loader {...props} />

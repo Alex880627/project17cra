@@ -32,7 +32,7 @@
 }
 
 .footer-wrapper .pre-footer .pictures-galery {
-  width: 500px;
+  max-width: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
