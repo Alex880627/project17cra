@@ -24,7 +24,7 @@ const ScrollProgress = () => {
     zIndex: 40,
     height: "3px",
     backgroundColor: "#FF3366",
-    /* width: `${width}px` */
+    width: `${width}px`
   }
   return <div style={style}></div>;;
 };
