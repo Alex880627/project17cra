@@ -9,6 +9,7 @@ const GroupSessionsContainer = props => {
   }
   const groupSessionDates = [...props.groupSessionDates];
   let groupSessions = props.language["group sessions"];
+
   const makeMultiArrayFromDataByHours = objArray => {
     objArray.sort((a, b) => parseFloat(a.hour) - parseFloat(b.hour));
     let resultArr = [];
@@ -67,7 +68,7 @@ const GroupSessionsContainer = props => {
                         <h3>{filteredTableData[0].type}</h3>
                         <p>
                           <span>(</span>
-                          {filteredTableData[0].therapist}
+                          <span>{filteredTableData[0].therapist}</span>
                           <span>)</span>
                         </p>
                       </div>

@@ -80,7 +80,7 @@ const Therapists = ({
     >
       <img
         key={`${element} image`}
-        src={isOnScreen && window.innerWidth < 768? picArrayHover[index]:element}
+        src={element}
         onMouseOver={e => {
           e.currentTarget.src = picArrayHover[index];
         }}

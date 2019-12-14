@@ -1,6 +1,5 @@
 import React from "react";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import Loader from "../loader/loader";
 import "./img-galery.css";
 
 function importAll(r) {

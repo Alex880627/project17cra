@@ -76,7 +76,7 @@
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-width: 850px;
+  max-width: 1000px;
   height: auto;
   margin-bottom: 100px;
 }
@@ -118,7 +118,7 @@
 
 .therapist-pictures > div > img {
   border-radius: 0.188em;
-  width: 100%;
+  width: 300px;
   height: auto;
 }
 

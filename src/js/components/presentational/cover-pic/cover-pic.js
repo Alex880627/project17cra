@@ -1,21 +1,26 @@
 import React from "react";
-import pic7 from "../../../../data/images/pic7.jpg";
+import coverBig from "../../../../data/images/cover-big.jpg";
+import coverMobile from "../../../../data/images/cover-mobile.jpg";
 import "./cover-pic.css";
 
 const CoverPic = props => {
-  const screenRatio = () => window.screen.width / window.screen.height;
-
+  let coverPic = coverBig;
+  const screenRatio = () => window.innerWidth / window.innerHeight;
   const isBigSreen = () => window.innerWidth / window.innerHeight > 1.765;
-  console.log("width :"+ window.screen.height * screenRatio(), "height: "+ window.screen.height, isBigSreen() );
-  
+  let ratio = 1.765;
+  if(screenRatio()<1){
+    ratio=1;
+    coverPic=coverMobile;
+  }
+
   return (
     <div className={`cover-img ${props.blur ? "blur-img" : ""}`}>
       <img
-        src={pic7}
+        src={coverPic}
         style={
           isBigSreen()
             ? { width: window.screen.width }
-            : { width: window.screen.height * 1.765, height: window.screen.height  }
+            : { width: window.innerHeight * ratio, height: window.innerHeight  }
         }
       />
     </div>

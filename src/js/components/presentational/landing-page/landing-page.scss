@@ -23,6 +23,18 @@
   }
 }
 
+.cover-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 50%;
+    position: relative;
+  }
+}
+
 @keyframes bounceInLeft {
   from,
   60%,

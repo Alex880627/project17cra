@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const ScrollProgress = () => {
   const calculate = () => {
     let height = document.body.scrollHeight-window.innerHeight;
-    let current = Math.floor((window.scrollY/height)*window.visualViewport.width);
+    let current = Math.floor((window.scrollY/height)*window.innerWidth);
     return current;
   }
   const [width, setWidth] = useState(0);
