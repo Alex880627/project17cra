@@ -1,5 +1,5 @@
 import React from "react";
-import coverBig from "../../../../data/images/cover-big.jpg";
+import coverBig from "../../../../data/images/cover-big.jpeg";
 import coverMobile from "../../../../data/images/cover-mobile.jpg";
 import "./cover-pic.css";
 

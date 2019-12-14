@@ -13,7 +13,7 @@ const NavigationLinks = props => {
   let navbar = props.language.navbar;
   const link = element => {
     scroller.scrollTo(element, {
-      duration: 400,
+      duration: 0,
       smooth: "easeInOutExpo",
       offset: 0
     });
