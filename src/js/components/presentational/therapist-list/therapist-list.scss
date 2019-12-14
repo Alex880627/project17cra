@@ -4,7 +4,6 @@
   z-index: 0;
   background-color: #265c42;
   width: 100%;
-  min-height: 100vh;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -29,8 +28,10 @@
 .therapist-pictures {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   max-width: 850px;
   height: auto;
+  margin-bottom: 100px;
 }
 
 .therapist-info {
@@ -72,19 +73,8 @@
 }
 
 .therapist > img {
-  opacity: 0.4;
+  opacity: 1;
   transition: opacity 0.5s;
-}
-
-.therapist-mobile-view {
-  transition: all 0.2s ease-in-out;
-  .therapist-info button {
-    visibility: visible;
-    transition: visibility 0.5s;
-  }
-  img {
-    opacity: 0.8;
-  }
 }
 
 .therapist-details-container {
@@ -253,13 +243,27 @@
     transition: visibility 0.5s;
   }
   .therapist-pictures > div > img:hover {
-    opacity: 0.7;
+    opacity: 0.5;
     transition: opacity 0.5s;
     cursor: pointer;
   }
 }
 
 @media only screen and (max-width: 768px) {
+  .therapist > img {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+  }
+  .therapist-mobile-view {
+    transition: all 0.2s ease-in-out;
+    .therapist-info button {
+      visibility: visible;
+      transition: visibility 0.5s;
+    }
+    img {
+      opacity: 1;
+    }
+  }
   .therapist-pictures {
     display: flex;
     flex-direction: column;

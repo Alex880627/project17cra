@@ -13,20 +13,19 @@
     "details": "Bővebben",
     "therapists": [
       {
-        "name": "Sugár Szilvia",
-        "nick name": "Szilvia",
+        "name": "Agócs Szilvia",
+        "nick name": "Szilvia ",
         "occupation": "Diplomás Gyógytornász",
-        "phone number": "06202441602",
+        "phone number": "06304019871",
         "email": "studio17gyogytorna@gmail.com",
-        "details": "Sugár Szilvia is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "details": "2016-ban a Semmelweis Egyetem Egészségtudományi Karán Gyógytornász-fizioterapeuta szakirányon végeztem. Ezt követően az Országos Reumatológiai és Fizioterápiás Intézetben kezdtem el dolgozni, azóta is a reumatológiai rehabilitáció területén segítem a páciensek gyógyulását. Soha nem volt számomra kérdés, hogy segítő szakmában fogok elhelyezkedni, ez a hivatásom. A páciensekkel való közvetlen kapcsolat kialakítása fontos alapját képezi a munkámnak, a panaszok megértéséhez elengedhetetlennek tartom a közvetlen beszélgetést, a személyes motivációk megértését, az alapos anamnézis felvételt.  Szeretnék a hozzám betérő vendégeknek feszültség és stresszmentes légkört biztosítani és olyan gyakorlatokkal és tanácsokkal ellátni őket, amelyeket a mindennapi rutinjukba is könnyen betudnak illeszteni. Kórházi munkám során rengeteg foglalkozási ártalommal, mozgásszervi panasszal rendelkező pácienssel találkozom nap, mint nap, melyek kezelésében sok gyakorlati tapasztalatot szereztem az elmúlt 3 évben. (nyak, hát, derékfájás, kopásos ízületi panaszok, gyulladással járó betegségek) Gyakran alkalmazom a porckorong eredetű panaszok visszaszorítására világszerte elismert McKenzie módszert. Célom, hogy az eddig megszerzett tudásommal a hozzám betérő vendégek elérjék a számukra kitűzött célt, legyen szó a panaszmentes mindennapokról, a sporthoz való visszatalálásról, vagy preventív mozgásformával az esetlegesen kialakuló panaszok megelőzéséről.",
         "color": "#b5ffd9",
         "techniques": {
           "title": "Alkalmazott technikák",
           "data": [
-            "Evminov gerinc-rehabilitáció",
-            "Schroth terápia",
+            "McKenzie módszer (nyak és gerinc)",
             "FDM (Fascia Disztorziós Modell)",
-            "Kinesio tape",
+            "Kinesio tape ragasztás",
             "Idegmobilizáció"
           ]
         }
@@ -34,7 +33,7 @@
       {
         "name": "Csikós Panka",
         "nick name": "Panka",
-        "occupation": "Diplomás Gyógytornász",
+        "occupation": "Gyógytornász",
         "phone number": "06202441602",
         "email": "studio17gyogytorna@gmail.com",
         "details": "Semmelweis Egyetem Egészségtudományi Karán gyógytornász szakirány Minden korosztály: ovis tartás-, koordináció javítás, lúdtalptorna Gyermekkorban kialakult gerincferdülés (scoliosis) kezelése felnőtt gerinc problémák: kellemetlen derékfájástól - a súlyos gerincbántalmakig, sport sérülések rehabilitációja és visszatérés, funkcionális köredzés, trx, SMR henger időskori preventív torna, ízületi panaszok enyhítése, mobilitás és függetlenség megőrzése Egyéni és kis csoportos órák, mindenkire és minden apró mozdulatra fokozott figyelem egy barátságos, jó hangulatú torna közben Közösen megfogalmazott célok, közösen végrehajtva, soksok munkával és újabb és újabb sikerélményekkel.",
@@ -64,6 +63,43 @@
             "Gyógy- és Sportmasszázs",
             "FDM mozgásterápiás fájdalomcsillapító terápia",
             "SI-terápia / AKA gerinc- és nyakkezelés"
+          ]
+        }
+      },
+      {
+        "name": "Sugár Szilvia",
+        "nick name": "Szilvia",
+        "occupation": "Diplomás Gyógytornász",
+        "phone number": "06202441602",
+        "email": "studio17gyogytorna@gmail.com",
+        "details": "Sugár Szilvia is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "color": "#b5ffd9",
+        "techniques": {
+          "title": "Alkalmazott technikák",
+          "data": [
+            "Evminov gerinc-rehabilitáció",
+            "Schroth terápia",
+            "FDM (Fascia Disztorziós Modell)",
+            "Kinesio tape",
+            "Idegmobilizáció"
+          ]
+        }
+      },
+      {
+        "name": "Andorka Eszter",
+        "nick name": "Eszter",
+        "occupation": "Diplomás Gyógytornász",
+        "phone number": "06301966193",
+        "email": "studio17gyogytorna@gmail.com",
+        "details": "2016-ban végeztem a Semmelweis Egyetemen gyógytornász-fizioterapeutaként, majd 2019-ben mesterszakon okleveles fizioterapeutaként. A testmozgás iránti kíváncsiságom gyermekkorom óta az életem része, 10 éven keresztül hivatásszerűen táncoltam, míg végül amellett döntöttem, hogy mélyebben megismerkedem az emberi test működésével. Tanulmányaim mellett gyógytornára jártam, mert fontosnak tartottam, hogy pontosan megérezzem azokat a mozdulatokat, melyek majd később pácienseimnek gyógyulásául szolgálhatnak. Tanulmányaimat követően az Országos Reumatológiai és Fizioterápiás Intézetben kezdtem el dolgozni, ahol jelenleg is dolgozom. Munkahelyemen főként degeneratív valamint gyulladásos eredetű mozgásszervi problémákkal küzdő páciensekkel találkozom, akikkel egyéni és csoportos kezelések formájában is dolgozom. Munkám során főként gerincproblémákkal (derék-, hát-, és nyakfájás), valamint csípő-, térd-, és bokaízületi panaszokkal küzdő pácienseknek segítek, illetve különös gondot fordítok a nyaki eredetű gerincproblémákkal valamint az állkapocs ízületi problémákkal küzdő páciensek tüneteinek enyhítésére. Emellett fontosnak tartom a prevenciót, a sérülések és az ülő életmódból adódó gerinc és más ízületi panaszok megelőzését is, így külön figyelmet szentelek az ergonómiai szempontok átbeszélésére is. Az óráimon igyekszem olyan barátságos hangulatot kialakítani, mely során pácienseimet legjobb tudásomnak és szakmai igényességemnek megfelelően, egyénre szabottan, célzott terápiában részesítem, hogy újra megtapasztalhassák a mozgás szabadságának örömét.",
+        "color": "#b5ffd9",
+        "techniques": {
+          "title": "Alkalmazott technikák",
+          "data": [
+            "McKenzie módszer (nyak, hát, gerinc)",
+            "FDM (Fascia Disztorziós Modell)",
+            "Kinesio tape ragasztás",
+            "Idegmobilizáció"
           ]
         }
       }
@@ -142,51 +178,37 @@
       {
         "title": "Állapotfelmérés",
         "description": "Minden kezelésünk során a legelső alkalom egy általános állapotfelmérés, melyen a terapeuta részletesen kikérdezi Önt egészségügyi állapotáról. Orvosi dokumentációját, MR vagy CT felvételeit (amennyiben vannak), kérjük mindképpen hozza magával! A vizsgálat egy órát vesz igénybe, és fehérneműben történik. Az állapotfelmérés a teljes test pontos megfigyelése, vizsgálata miatt elengedhetetlen. A felmérés során a terapeuta folyamatosan tájékoztatást ad a talált elváltozásokról, a lehetséges problémákról és azok okaikról, illetve a különböző kezelési lehetőségekről. A mozgásvizsgálat és a speciális tesztek után a cél egy közös kezelési terv kialakítása, kezdve a rövidtávú célkitűzések meghatározásával.",
-        "therapist": [
-          "Zsuzsa", "Panka", "Szilvia"
-        ]
+        "therapist": ["Zsuzsa", "Panka", "Szilvia"]
       },
       {
         "title": "Evminov módszer",
         "description": "Az Evminov módszer alapját egy speciálisan kifejlesztett ortopédiai segédeszköz, az Evminov Profilaktor képezi, mely a helytelen testtartás, gerincferdülés, porckorongsérv és egyéb gerincbetegségek megelőzésében és enyhítésében nyújt segítséget. A profilaktor egy fából készült, különleges technológiával előállított gerinc-rehabilitációs eszköz, mely megkönnyíti a gerincet érintő problémák helyreállítását, és az esetleges műtét utáni rehabilitációt. A módszer a finoman adagolt nyújtásra, tehermentesítésre és a gerincmelletti mélyizmok erősítésére épül.",
-        "therapist": [
-          "Zsuzsa"
-        ]
+        "therapist": ["Zsuzsa"]
       },
       {
         "title": "Schroth terápia",
         "description": "A gyermekkori gerincferdülés (scoliosis) és a Scheuermann kór kezelésére kialakított módszer rendkívül hatékonyan enyhíti a gerinc kóros görbületének fokozódását és a kialakult – vagy kialakulóban lévő – izomdiszbalanszokat. A terápia ötvözi a különböző testhelyzeketben végzett korrekciós légzést, aktív nyújtózást és izomerősítést. Komoly koncentrációt igénylő torna, mely otthoni gyakorlást is megkíván, ezért kisgyermekkorban eleinte játékkal kevert gyakorlatokkal haladunk. A gyermekkorban kialakult gerincferdülés felnőttkorban is okozhat fájdalmat, így a Schroth terápia nem kizárólag gyerekeknek hasznos.",
-        "therapist": [
-          "Zsuzsa", "Panka", "Szilvia"
-        ]
+        "therapist": ["Zsuzsa", "Panka", "Szilvia"]
       },
       {
         "title": "McKenzie torna",
-        "description": "Biomechanikailag, élettanilag és anatómiailag is alátámasztott módszer, mely a páciensek aktív közreműködésével történik. A beteg saját maga képes befolyásolni a kialakuló fájdalmat, aminek hatására bizonyos idő után terapeutától függetlenül is kezelni tudja a problémáit."
-        ,"therapist": [
-          "Panka", "Szilvia"
-        ]
+        "description": "Biomechanikailag, élettanilag és anatómiailag is alátámasztott módszer, mely a páciensek aktív közreműködésével történik. A beteg saját maga képes befolyásolni a kialakuló fájdalmat, aminek hatására bizonyos idő után terapeutától függetlenül is kezelni tudja a problémáit.",
+        "therapist": ["Panka", "Szilvia"]
       },
       {
         "title": "Kinesio tape ragasztás",
-        "description": "A kinesio tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel nem tartalmaz gyógyszert, mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
-        ,"therapist": [
-          "Zsuzsa", "Panka", "Szilvia"
-        ]
+        "description": "A kinesio tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel nem tartalmaz gyógyszert, mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele.",
+        "therapist": ["Zsuzsa", "Panka", "Szilvia"]
       },
       {
         "title": "Gyógymasszázs",
-        "description": "A Gyógymasszázs tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel nem tartalmaz gyógyszert, mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
-        ,"therapist": [
-          "Szilvia"
-        ]
+        "description": "A Gyógymasszázs tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel nem tartalmaz gyógyszert, mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele.",
+        "therapist": ["Szilvia"]
       },
       {
         "title": "Funkcionális gyógytorna",
-        "description": "Egy komolyabb sérülés, egy műtét, vagy a hosszabb ideje jelen lévő fájdalmak és problémák jelentős mértékben befolyásolják az életünk és a testünk minőségét. Ilyenkor sérülnek a velünk született mozgásminták is, melyek helyreállítása alapvető fontosságú. A rehabilitációhoz minden ilyen esetben funkcionális, egyénre szabott gyógytorna szükséges.A személyre szabott kezelés előnye, hogy a magánóra keretei között a gyógytornász fókuszált figyelmet fordíthat a betegre. A fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája minden esetben az egyéni gyógytorna. Ülő- vagy megterhelő fizikai munka esetén, alak- és egészségmegőrzési célból, az ízületek és izmok mozgékonyságának megőrzésére, esetleg bármilyen későbbi probléma megelőzésére szintén javasolt egyéni kezelést foglalni."
-        ,"therapist": [
-          "Panka"
-        ]
+        "description": "Egy komolyabb sérülés, egy műtét, vagy a hosszabb ideje jelen lévő fájdalmak és problémák jelentős mértékben befolyásolják az életünk és a testünk minőségét. Ilyenkor sérülnek a velünk született mozgásminták is, melyek helyreállítása alapvető fontosságú. A rehabilitációhoz minden ilyen esetben funkcionális, egyénre szabott gyógytorna szükséges.A személyre szabott kezelés előnye, hogy a magánóra keretei között a gyógytornász fókuszált figyelmet fordíthat a betegre. A fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája minden esetben az egyéni gyógytorna. Ülő- vagy megterhelő fizikai munka esetén, alak- és egészségmegőrzési célból, az ízületek és izmok mozgékonyságának megőrzésére, esetleg bármilyen későbbi probléma megelőzésére szintén javasolt egyéni kezelést foglalni.",
+        "therapist": ["Panka"]
       }
     ]
   },
