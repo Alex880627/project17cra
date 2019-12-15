@@ -1,5 +1,5 @@
 import React from "react";
-import groupSessionDates from "../../../../data/languages/mock-server-data.json";
+import { OvalButton } from "../oval-button/oval-button";
 import groupIcon from "../../../../data/images/icons/group-icon.png";
 import "./group-sessions.css";
 
@@ -82,6 +82,7 @@ const GroupSessionsContainer = props => {
           )}
           </div>
         </div>
+        <OvalButton text={groupSessions.buttonText} onClick={props.showEmail}/>
       </div>
     </>
   );

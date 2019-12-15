@@ -178,6 +178,7 @@
 .therapist-details .therapist-content {
   margin: 15px;
   font-family: Work Sans;
+  white-space: pre-line;
 }
 
 .therapist-details .therapist-heading {

@@ -91,7 +91,7 @@
         "occupation": "Diplomás Gyógytornász",
         "phone number": "06301966193",
         "email": "studio17gyogytorna@gmail.com",
-        "details": "2016-ban végeztem a Semmelweis Egyetemen gyógytornász-fizioterapeutaként, majd 2019-ben mesterszakon okleveles fizioterapeutaként. A testmozgás iránti kíváncsiságom gyermekkorom óta az életem része, 10 éven keresztül hivatásszerűen táncoltam, míg végül amellett döntöttem, hogy mélyebben megismerkedem az emberi test működésével. Tanulmányaim mellett gyógytornára jártam, mert fontosnak tartottam, hogy pontosan megérezzem azokat a mozdulatokat, melyek majd később pácienseimnek gyógyulásául szolgálhatnak. Tanulmányaimat követően az Országos Reumatológiai és Fizioterápiás Intézetben kezdtem el dolgozni, ahol jelenleg is dolgozom. Munkahelyemen főként degeneratív valamint gyulladásos eredetű mozgásszervi problémákkal küzdő páciensekkel találkozom, akikkel egyéni és csoportos kezelések formájában is dolgozom. Munkám során főként gerincproblémákkal (derék-, hát-, és nyakfájás), valamint csípő-, térd-, és bokaízületi panaszokkal küzdő pácienseknek segítek, illetve különös gondot fordítok a nyaki eredetű gerincproblémákkal valamint az állkapocs ízületi problémákkal küzdő páciensek tüneteinek enyhítésére. Emellett fontosnak tartom a prevenciót, a sérülések és az ülő életmódból adódó gerinc és más ízületi panaszok megelőzését is, így külön figyelmet szentelek az ergonómiai szempontok átbeszélésére is. Az óráimon igyekszem olyan barátságos hangulatot kialakítani, mely során pácienseimet legjobb tudásomnak és szakmai igényességemnek megfelelően, egyénre szabottan, célzott terápiában részesítem, hogy újra megtapasztalhassák a mozgás szabadságának örömét.",
+        "details": "2016-ban végeztem a Semmelweis Egyetemen gyógytornász-fizioterapeutaként, majd 2019-ben mesterszakon okleveles fizioterapeutaként. \n \b \b A testmozgás iránti kíváncsiságom gyermekkorom óta az életem része, 10 éven keresztül hivatásszerűen táncoltam, míg végül amellett döntöttem, hogy mélyebben megismerkedem az emberi test működésével. Tanulmányaim mellett gyógytornára jártam, mert fontosnak tartottam, hogy pontosan megérezzem azokat a mozdulatokat, melyek majd később pácienseimnek gyógyulásául szolgálhatnak. Tanulmányaimat követően az Országos Reumatológiai és Fizioterápiás Intézetben kezdtem el dolgozni, ahol jelenleg is dolgozom. Munkahelyemen főként degeneratív valamint gyulladásos eredetű mozgásszervi problémákkal küzdő páciensekkel találkozom, akikkel egyéni és csoportos kezelések formájában is dolgozom. Munkám során főként gerincproblémákkal (derék-, hát-, és nyakfájás), valamint csípő-, térd-, és bokaízületi panaszokkal küzdő pácienseknek segítek, illetve különös gondot fordítok a nyaki eredetű gerincproblémákkal valamint az állkapocs ízületi problémákkal küzdő páciensek tüneteinek enyhítésére. Emellett fontosnak tartom a prevenciót, a sérülések és az ülő életmódból adódó gerinc és más ízületi panaszok megelőzését is, így külön figyelmet szentelek az ergonómiai szempontok átbeszélésére is. Az óráimon igyekszem olyan barátságos hangulatot kialakítani, mely során pácienseimet legjobb tudásomnak és szakmai igényességemnek megfelelően, egyénre szabottan, célzott terápiában részesítem, hogy újra megtapasztalhassák a mozgás szabadságának örömét.",
         "color": "#b5ffd9",
         "techniques": {
           "title": "Alkalmazott technikák",
@@ -100,6 +100,24 @@
             "FDM (Fascia Disztorziós Modell)",
             "Kinesio tape ragasztás",
             "Idegmobilizáció"
+          ]
+        }
+      },
+      {
+        "name": "Veress Livienne",
+        "nick name": "Livienne",
+        "occupation": "Gyógymasszőr",
+        "phone number": "06301966193",
+        "email": "studio17gyogytorna@gmail.com",
+        "details": "Hawai'i-on vegeztem gyógymasszőrkent,mikozben egy helyi shámántol tanultam ősi Polinéz gyógyitásmódokat, mint például a Lomi Lomi masszázst is. Hawai'i-on egyszerre nyilt alkalmam betekinteni a modern es osi rehabilitacios technikak rejtelmeibe,amibol rengeteget tanultam. Vallom,hogy minden mindennel osszefugg, ezert a test-lelek-szellem harmasat egyuttesen,egymast tamogatva erdemes kezelni. Az emberi test egy csoda! Kaprazatbaejto dolgokra kepes,ha megfeleloen tamogatjuk es torodunk vele. Ebben szeretnek segitseget nyujtani a hozzam forduloknak. Kezeleseim mindig szemelyreszabottak, a paciens aktualis testi-lelki allapotat figyelembe veve, az alabbi technikakat vegyitve:",
+        "color": "#b5ffd9",
+        "techniques": {
+          "title": "Alkalmazott technikák",
+          "data": [
+            "Mélyszoveti masszázs",
+            "Sportmasszázs",
+            "Svédmasszázs",
+            "Lomi Lomi"
           ]
         }
       }
@@ -121,6 +139,7 @@
     "group sessions title": "Csoportos órák",
     "interval": "Időtartam: 45-55 perc",
     "description": "A csoportos órákra a pontos kezdés miatt érkezz 5-10 perccel korábban, hogy át tudj öltözni kényelmes edző ruhádba. Cipőre nem lesz szükséged. Öltöző, zuhanyzó, törülköző, tusfürdő, papucs, és ivóvíz adott. Az órákon való részvételhez telefonos bejelentkezés szükséges az adott terapeutánál. Lemondás: 12 órával az óra kezdése előtt lehetséges, vagy 50% felszámítás. ",
+    "buttonText":"Kérdésed van? Tedd fel bátran!",
     "days": {
       "monday": "Hétfő",
       "tuesday": "Kedd",
@@ -131,7 +150,7 @@
   },
   "prices": {
     "prices title": "Áraink",
-    "occasion": "alkalom",
+    "occasion": "/alkalom",
     "treatments": [
       {
         "name": "Állapotfelmérés",
@@ -198,7 +217,7 @@
       {
         "title": "Kinesio tape ragasztás",
         "description": "A kinesio tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel nem tartalmaz gyógyszert, mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele.",
-        "therapist": ["Zsuzsa", "Panka", "Szilvia"]
+        "therapist": ["Zsuzsa", "Panka", "Szilvia "]
       },
       {
         "title": "Gyógymasszázs",
@@ -209,6 +228,11 @@
         "title": "Funkcionális gyógytorna",
         "description": "Egy komolyabb sérülés, egy műtét, vagy a hosszabb ideje jelen lévő fájdalmak és problémák jelentős mértékben befolyásolják az életünk és a testünk minőségét. Ilyenkor sérülnek a velünk született mozgásminták is, melyek helyreállítása alapvető fontosságú. A rehabilitációhoz minden ilyen esetben funkcionális, egyénre szabott gyógytorna szükséges.A személyre szabott kezelés előnye, hogy a magánóra keretei között a gyógytornász fókuszált figyelmet fordíthat a betegre. A fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája minden esetben az egyéni gyógytorna. Ülő- vagy megterhelő fizikai munka esetén, alak- és egészségmegőrzési célból, az ízületek és izmok mozgékonyságának megőrzésére, esetleg bármilyen későbbi probléma megelőzésére szintén javasolt egyéni kezelést foglalni.",
         "therapist": ["Panka"]
+      },
+      {
+        "title": "Lomi Lomi",
+        "description": "A Lomi lomi egy osi polinez gyogymod. Eredetileg titkos, csak a kivalasztottak tanulhattak ezt a gyogyitasi technikai,hogy aztan gyogyitsak a falu nepet, vagy adott esetben elkiserjek a harcosokat a haboruba, es roluk gondoskodjanak. A lomi lomi tobb mint masszazs, ez egy nagyon intuitiv body work. Aunty Margaret Machado (o a Lomi Lomi egyik elso nagy tanitoja) megfogalmazasa szerint a Lomi a szeretet erintese -a kezek, a test es lelek osszekottetese az Elet energiajaval. Nalam a Lomi Lomi egy kis rahangolodassal, tanmesevel kezdodik,mert as osi Hawai'iak is igy tanitottak/tanultak. A lomi lomi egy nema pule-vel (osszekapcsolodas, szandek meghatarozas,ima) kezdodik, a kezeles kozben a terapeuta tanca (a hawai'i hula mozdulatai is felfedezhetoek) es ritmikus mozdulatai az ocean ringato hullamaira emlekeztnek leginkabb. A technika kulonlegessege meg a kulonfele testtajak egyideju kezelese, ami miatt az idegrendszer elveszti a fonalat, igy meg a legfeszultebbek is kepesek ellazulni es atadni magukat a torteneseknek. A technika mellett a legfontosabb a szereto erintes jelenlete. Az itelkezesmentes, feltetel nelkuli elfogadas es szereto figyeltem amiben a kezelest kapo reszesul. Az intuitiv lomi lomi kezeles mindig egyenreszabott,mindig az adott pillanatban a leheto legmegfelelobb az erintett szamara mind testileg,mind lelkileg. A kezeles kozben felcsendulo Hawai'i ima, a kezeles veget jelento ritualis lab lemos, es gyakran a kezeles kozben erkezo intuitiv uzenetek megosztasa a kelest kovetoen mind mind a Lomi Lomi csodalatos belso utazasanak resze. A Hawai'iak szerint nem kell minden aron 'helyrehozni' a kezelest befogadot, inkabb elkiserni ot a gyogyulas osvenyen, tartani szamara a teret amig visszatalal a sajat egyensulyahoz, harmoniajahoz, mana-jahoz (eletenergia) es ujra aloha (az eletenergia oromteli aramoltatasa a jelen pillanatban megelve)",
+        "therapist": ["Livienne"]
       }
     ]
   },

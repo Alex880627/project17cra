@@ -15,7 +15,8 @@ const PricesComp = props => {
           return (
             <div className="treatments-list" key={element.name}>
                 <p style={{ animation: "fadeInDown 2s ease" }}>{element.name}</p>
-                <p style={{ animation: "fadeInLeft 2s ease" }}>{element.price}<span>{`/${prices.occasion} (${element.duration})`}</span></p>
+                <p style={{ animation: "fadeInLeft 2s ease" }}>{element.price}</p>
+                <span>{`${prices.occasion} (${element.duration})`}</span>
               <p style={{ animation: "fadeInUp 2s ease" }}>{element.description}</p>
             </div>
           );
