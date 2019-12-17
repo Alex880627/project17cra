@@ -244,6 +244,7 @@
   "upButton": ".fel",
   "landingSentence": {
     "coverSentenceLeft": "Megszüntetjük Fájdalmát,",
-    "coverSentenceRight": "és Visszaadjuk a Mozgás Örömét."
+    "coverSentenceRight": "és Visszaadjuk a ",
+    "coverSentenceColored": "Mozgás Örömét."
   }
 }

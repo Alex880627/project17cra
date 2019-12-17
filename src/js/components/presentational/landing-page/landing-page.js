@@ -24,6 +24,7 @@ const LandinPage = props => {
             </h3>
             <h3 className="right-sentence">
               {landingSentence.coverSentenceRight}
+              <span>{landingSentence.coverSentenceColored}</span>
             </h3>
           </>
         ) : (

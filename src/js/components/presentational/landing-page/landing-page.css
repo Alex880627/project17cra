@@ -27,6 +27,12 @@
   text-shadow: 1px 1px 1px black;
 }
 
+.landing-page h3 span {
+  color: #2caf27;
+  opacity: 0.6;
+  text-shadow: 1px 1px 1px black;
+}
+
 .landing-page .right-sentence {
   -webkit-animation: bounceInRight 1s;
           animation: bounceInRight 1s;
