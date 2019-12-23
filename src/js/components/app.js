@@ -8,7 +8,7 @@ import { TherapistListLazy } from "./lazy-load-imports";
 import { PricesListWithLazy } from "./lazy-load-imports";
 import { GroupSessionsLazy } from "./lazy-load-imports";
 import { ContactsLazy } from "./lazy-load-imports";
-import { FooterWithProps } from "./index"; 
+import { FooterLazy } from "./lazy-load-imports"; 
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
       <PricesListWithLazy />
       <GroupSessionsLazy />
       <ContactsLazy />
-      <FooterWithProps />
+      <FooterLazy />
     </>
   );
 };

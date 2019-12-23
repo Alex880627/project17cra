@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Chip from "@material-ui/core/Chip";
 import phone from "../../../../data/images/icons/phone.png";
 import mail from "../../../../data/images/icons/mail-white.png";
@@ -8,7 +8,9 @@ const ThreapistDetailsComp = props => {
   let therapistsObject = {};
   function importAll(r) {
     return r.keys().forEach((e, i) => {
-      therapistsObject[props.language.collagues.therapists[i]["nick name"]] = r(e);
+      therapistsObject[props.language.collagues.therapists[i]["nick name"]] = r(
+        e
+      );
     });
   }
   importAll(
@@ -23,11 +25,15 @@ const ThreapistDetailsComp = props => {
     return element.name === therapistName;
   });
   let therapist = filteredArray[0];
+
   const getTherapistPic = () => {
     return therapistsObject[therapist["nick name"]];
   };
+  const ref = useRef(null)
+
   return (
-    <div className="therapist-details">
+    <div className="therapist-details" ref={ref} onFocus={(e)=>{console.log(e);
+    }}>
       <div className="therapist-heading">
         <div>
           <h3>{therapist.name}</h3>
