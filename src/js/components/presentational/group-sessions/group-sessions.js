@@ -37,10 +37,6 @@ const GroupSessionsContainer = props => {
           <h3 style={{ animation: "fadeInRightDown 2s ease" }}>{groupSessions["group sessions title"]}</h3>
           <img style={{ animation: "fadeInLeftDown 2s ease" }} src={groupIcon} alt="time table icon" />
         </div>
-        <div className="group-sessions-description">
-          <p>{groupSessions.description}</p>
-          <h5>{groupSessions.interval}</h5>
-        </div>
         <div className="group-sessions-table-wrapper">
         <div className="group-sessions-table">
           <div className="table-header">
@@ -81,6 +77,11 @@ const GroupSessionsContainer = props => {
             }
           )}
           </div>
+        </div>
+        <div className="group-sessions-description">
+          <h1>{groupSessions.heading}</h1>
+          <p>{groupSessions.description}</p>
+          <h5>{groupSessions.interval}</h5>
         </div>
         <OvalButton text={groupSessions.buttonText} onClick={props.showEmail}/>
       </div>

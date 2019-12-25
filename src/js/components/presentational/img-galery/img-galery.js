@@ -26,7 +26,7 @@ const thumbnails = importAll(
 
 class Galery extends React.Component {
   state = { modalIsOpen: false };
-  state = { currentModal: null };
+  state = { currentModal: null }
   toggleModal = index => {
     this.setState(state => ({ modalIsOpen: !state.modalIsOpen }));
     this.setState({ currentModal: index });
@@ -67,6 +67,7 @@ class Galery extends React.Component {
             >
               <Carousel
                 views={images}
+                currentImage
                 components={{ Footer: Footer }}
                 currentIndex={this.state.currentModal}
               />

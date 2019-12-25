@@ -52,17 +52,43 @@
   height: auto;
 }
 
+.group-sessions-description {
+  width: 40%;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 35px;
+}
+
 .group-sessions-description > p, h5 {
   color: white;
+  width: 90%;
 }
 
 .group-sessions-description > h5 {
   font-style: italic;
+  font-size: 12px;
+}
+
+.group-sessions-description > h1 {
+  margin-top: 20px;
+  font-size: 15px;
+  color: white;
 }
 
 .group-sessions-description > p {
   font-family: Work Sans;
   font-weight: 100;
+  font-size: 12px;
 }
 
 .group-sessions-description {
@@ -155,7 +181,7 @@
 
 @media only screen and (max-width: 768px) {
   .group-sessions-description {
-    max-width: 95%;
+    width: 80%;
   }
   .group-sessions-wrapper .heading {
     margin-top: 20px;

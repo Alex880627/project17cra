@@ -18,18 +18,36 @@
   }
 }
 
+.group-sessions-description {
+  width: 40%;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-top: 1px solid rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+
 .group-sessions-description > p, h5 {
   color: rgb(255, 255, 255);
-  
+  width: 90%;
 }
 
 .group-sessions-description > h5 {
   font-style: italic;
+  font-size: $miniFontSize;
+}
+
+.group-sessions-description > h1 {
+  margin-top: 20px;
+  font-size: $smallFontSize;
+  color: white;
 }
 
 .group-sessions-description > p {
   font-family: Work Sans;
   font-weight: 100;
+  font-size: $miniFontSize;
 }
 
 .group-sessions-description {
@@ -93,7 +111,7 @@
 
 @media only screen and (max-width: 768px) {
   .group-sessions-description {
-    max-width: 95%;
+    width: 80%;
   }
   .group-sessions-wrapper {
     .heading {

@@ -1,7 +1,9 @@
 @import "../../../../data/shared-styles/variables-mixins.scss";
 
 .main-navbar {
-  font-size:$miniFontSize;
+  width: 100%;
+  width: 100vw;
+  font-size: $miniFontSize;
   position: absolute;
   padding: 0;
   padding-top: 2.375em;
@@ -18,60 +20,125 @@
     height: 50px;
     width: auto;
   }
+  .navigation {
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  div > a {
+    margin-right: 1.875em;
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+    img {
+      padding: 5px;
+      width: 30px;
+      height: 30px;
+    }
+  }
+  a:last-child {
+    margin-right: 1.25em;
+  }
+  a::after {
+    content: "";
+    margin-top: 0.313em;
+    display: block;
+    width: 0;
+    height: 1px;
+    background: rgb(255, 255, 255);
+    transition: width 0.3s;
+  }
+  a:hover {
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+  }
+  a:hover::after {
+    width: 100%;
+  }
+  #front-mobile-logo {
+    margin-top: -8px;
+    width: auto;
+    height: 40px;
+  }
 }
 
-.main-navbar > .navigation {
-  color: rgba(255, 255, 255, 0.8);
+.main-navbar-sticky {
+  width: 100%;
+  width: 100vw;
+  font-size: $miniFontSize;
+  position: fixed;
+  padding: 0;
+  padding-top: 0.8em;
+  padding-bottom: 0.2em;
+  overflow: visible;
+  height: 2.125em;
+  z-index: 3;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.6);
+  white-space: nowrap;
+  transition: all 0.3s;
+  img {
+    visibility: none;
+    height: 30px;
+    width: auto;
+    margin-top: -7px;
+  }
+  .navigation {
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .languagepicker {
+    margin-top: -6px;
+  }
+  div > a {
+    margin-right: 1.875em;
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+    img {
+      width: 0px;
+      height: 0px;
+    }
+  }
+  a:last-child {
+    margin-right: 1.25em;
+  }
+  a::after {
+    content: "";
+    margin-top: 0.313em;
+    display: block;
+    width: 0;
+    height: 1px;
+    background: rgb(255, 255, 255);
+    transition: width 0.3s;
+  }
+  a:hover {
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+  }
+  a:hover::after {
+    width: 100%;
+  }
+  #front-mobile-logo {
+    margin-top: -8px;
+    width: auto;
+    height: 40px;
+  }
+  transition: all 0.5s;
 }
 
 .double-arrow {
   color: $secondaryGreenColor;
-}
-
-#front-mobile-logo {
-  margin-top: -8px;
-  width: auto;
-  height: 40px;
-}
-
-.main-navbar > div > a {
-  margin-right: 1.875em;
-  color: rgba(255, 255, 255, 0.8);
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  text-decoration: none;
-  img {
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-  }
-}
-
-.main-navbar > div > a:last-child {
-  margin-right: 1.25em;
-}
-
-.main-navbar > div > a::after {
-  content: "";
-  margin-top: 0.313em;
-  display: block;
-  width: 0;
-  height: 1px;
-  background: rgb(255, 255, 255);
-  transition: width 0.3s;
-}
-
-.main-navbar > div > a:hover {
-  color: rgba(255, 255, 255, 1);
-  cursor: pointer;
-}
-
-.main-navbar > div > a:hover::after {
-  width: 100%;
 }
 
 .up-button {
@@ -82,7 +149,6 @@
   top: 80%;
   right: 3%;
 }
-
 
 .up-button > img {
   transition: opacity 0.3s;
@@ -156,9 +222,8 @@
   }
 }
 
-
 @media only screen and (max-width: 1000px) {
   .main-navbar {
-    font-size:$miniFontSize;
+    font-size: $miniFontSize;
   }
 }

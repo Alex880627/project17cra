@@ -128,7 +128,7 @@
     "contacts title": "Hol találsz minket?",
     "contacts info": {
       "name": "STUDIO 17",
-      "address": "Falk Miksa utca 17",
+      "address": "Falk Miksa utca 17,  2. emelet 6os ajtó",
       "city": "Budapest 1055",
       "ringbell": "Kapucsengő",
       "ringbell number": "17",
@@ -138,6 +138,7 @@
   "group sessions": {
     "group sessions title": "Csoportos órák",
     "interval": "Időtartam: 45-55 perc",
+    "heading": "Hogyan készülj a csoportos órákra?",
     "description": "A csoportos órákra a pontos kezdés miatt érkezz 5-10 perccel korábban, hogy át tudj öltözni kényelmes edző ruhádba. Cipőre nem lesz szükséged. Öltöző, zuhanyzó, törülköző, tusfürdő, papucs, és ivóvíz adott. Az órákon való részvételhez telefonos bejelentkezés szükséges az adott terapeutánál. Lemondás: 12 órával az óra kezdése előtt lehetséges, vagy 50% felszámítás. ",
     "buttonText":"Kérdésed van? Tedd fel bátran!",
     "days": {

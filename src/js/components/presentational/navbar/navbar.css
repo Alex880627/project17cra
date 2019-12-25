@@ -1,4 +1,6 @@
 .main-navbar {
+  width: 100%;
+  width: 100vw;
   font-size: 12px;
   position: absolute;
   padding: 0;
@@ -24,7 +26,7 @@
   width: auto;
 }
 
-.main-navbar > .navigation {
+.main-navbar .navigation {
   color: rgba(255, 255, 255, 0.8);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,17 +39,7 @@
           justify-content: space-between;
 }
 
-.double-arrow {
-  color: #2caf27;
-}
-
-#front-mobile-logo {
-  margin-top: -8px;
-  width: auto;
-  height: 40px;
-}
-
-.main-navbar > div > a {
+.main-navbar div > a {
   margin-right: 1.875em;
   color: rgba(255, 255, 255, 0.8);
   display: -webkit-inline-box;
@@ -63,17 +55,17 @@
   text-decoration: none;
 }
 
-.main-navbar > div > a img {
+.main-navbar div > a img {
   padding: 5px;
   width: 30px;
   height: 30px;
 }
 
-.main-navbar > div > a:last-child {
+.main-navbar a:last-child {
   margin-right: 1.25em;
 }
 
-.main-navbar > div > a::after {
+.main-navbar a::after {
   content: "";
   margin-top: 0.313em;
   display: block;
@@ -84,13 +76,123 @@
   transition: width 0.3s;
 }
 
-.main-navbar > div > a:hover {
+.main-navbar a:hover {
   color: white;
   cursor: pointer;
 }
 
-.main-navbar > div > a:hover::after {
+.main-navbar a:hover::after {
   width: 100%;
+}
+
+.main-navbar #front-mobile-logo {
+  margin-top: -8px;
+  width: auto;
+  height: 40px;
+}
+
+.main-navbar-sticky {
+  width: 100%;
+  width: 100vw;
+  font-size: 12px;
+  position: fixed;
+  padding: 0;
+  padding-top: 0.8em;
+  padding-bottom: 0.2em;
+  overflow: visible;
+  height: 2.125em;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.6);
+  white-space: nowrap;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.main-navbar-sticky img {
+  visibility: none;
+  height: 30px;
+  width: auto;
+  margin-top: -7px;
+}
+
+.main-navbar-sticky .navigation {
+  color: rgba(255, 255, 255, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-navbar-sticky .languagepicker {
+  margin-top: -6px;
+}
+
+.main-navbar-sticky div > a {
+  margin-right: 1.875em;
+  color: rgba(255, 255, 255, 0.8);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.main-navbar-sticky div > a img {
+  width: 0px;
+  height: 0px;
+}
+
+.main-navbar-sticky a:last-child {
+  margin-right: 1.25em;
+}
+
+.main-navbar-sticky a::after {
+  content: "";
+  margin-top: 0.313em;
+  display: block;
+  width: 0;
+  height: 1px;
+  background: white;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+.main-navbar-sticky a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.main-navbar-sticky a:hover::after {
+  width: 100%;
+}
+
+.main-navbar-sticky #front-mobile-logo {
+  margin-top: -8px;
+  width: auto;
+  height: 40px;
+}
+
+.double-arrow {
+  color: #2caf27;
 }
 
 .up-button {

@@ -18,9 +18,9 @@ const ScrollDown = () => {
         link("treatments");
       }}
     >
-      <div class="chevron"></div>
-      <div class="chevron"></div>
-      <div class="chevron"></div>
+      <div className="chevron"></div>
+      <div className="chevron"></div>
+      <div className="chevron"></div>
     </a>
   );
 };
