@@ -49,7 +49,6 @@
 }
 
 .treatments-list-wrapper {
-  padding: 1.25em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,6 +147,23 @@
   }
   .treatments-list:nth-child(2) {
     border-top: 1px solid black;
+  }
+  .treatments-list-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 95%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 /*# sourceMappingURL=prices-list.css.map */

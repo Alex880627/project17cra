@@ -6,7 +6,7 @@
   border-top: 1px solid rgb(143, 143, 143);
   width: 40em;
   color: #212121;
-  padding: 10px;
+  padding: 2px;
   margin: 0px;
   height: 3em;
   overflow: hidden;
@@ -18,14 +18,13 @@
     text-align: left;
     margin-left: 20px;
     margin-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
   p {
     text-align: justify;
     font-size: $miniFontSize;
     font-family: Work Sans;
   }
-  
 }
 
 .treatments-section-wrapper {
@@ -50,14 +49,14 @@
   .therapist-details-list {
     display: flex;
     p {
-      padding:5px;
+      padding: 5px;
       margin-left: 5px;
       margin-right: 5px;
       border: 1px solid $mainGreenColor;
       color: $mainGreenColor;
       border-radius: 5px;
       &:hover {
-        background-color: rgba($mainGreenColor, .8);
+        background-color: rgba($mainGreenColor, 0.8);
         color: white;
       }
     }
@@ -89,10 +88,8 @@
   }
 }
 
-
 .load-more {
   left: 0;
-  margin-top: 15px;
   position: relative;
   display: block;
   cursor: pointer;
@@ -109,7 +106,7 @@
   height: 10px;
   left: 50%;
   top: 53%;
-  margin-top: -15px;
+  margin-top: -5px;
   border-width: 2px;
   border-style: solid;
   border-color: transparent;

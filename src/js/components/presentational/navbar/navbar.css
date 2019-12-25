@@ -91,14 +91,14 @@
   height: 40px;
 }
 
-.main-navbar-sticky {
+.main-navbar {
   width: 100%;
   width: 100vw;
   font-size: 12px;
   position: fixed;
   padding: 0;
-  padding-top: 0.8em;
-  padding-bottom: 0.2em;
+  padding-top: 3px;
+  padding-bottom: 3px;
   overflow: visible;
   height: 2.125em;
   z-index: 3;
@@ -116,14 +116,14 @@
   transition: all 0.5s;
 }
 
-.main-navbar-sticky img {
+.main-navbar img {
   visibility: none;
   height: 30px;
   width: auto;
-  margin-top: -7px;
+  margin-top: -2px;
 }
 
-.main-navbar-sticky .navigation {
+.main-navbar .navigation {
   color: rgba(255, 255, 255, 0.8);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -136,11 +136,11 @@
           justify-content: space-between;
 }
 
-.main-navbar-sticky .languagepicker {
-  margin-top: -6px;
+.main-navbar .languagepicker {
+  margin-top: -1px;
 }
 
-.main-navbar-sticky div > a {
+.main-navbar div > a {
   margin-right: 1.875em;
   color: rgba(255, 255, 255, 0.8);
   display: -webkit-inline-box;
@@ -156,16 +156,16 @@
   text-decoration: none;
 }
 
-.main-navbar-sticky div > a img {
+.main-navbar div > a img {
   width: 0px;
   height: 0px;
 }
 
-.main-navbar-sticky a:last-child {
+.main-navbar a:last-child {
   margin-right: 1.25em;
 }
 
-.main-navbar-sticky a::after {
+.main-navbar a::after {
   content: "";
   margin-top: 0.313em;
   display: block;
@@ -176,16 +176,16 @@
   transition: width 0.3s;
 }
 
-.main-navbar-sticky a:hover {
+.main-navbar a:hover {
   color: white;
   cursor: pointer;
 }
 
-.main-navbar-sticky a:hover::after {
+.main-navbar a:hover::after {
   width: 100%;
 }
 
-.main-navbar-sticky #front-mobile-logo {
+.main-navbar #front-mobile-logo {
   margin-top: -8px;
   width: auto;
   height: 40px;

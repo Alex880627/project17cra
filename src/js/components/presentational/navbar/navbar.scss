@@ -66,14 +66,14 @@
   }
 }
 
-.main-navbar-sticky {
+.main-navbar {
   width: 100%;
   width: 100vw;
   font-size: $miniFontSize;
   position: fixed;
   padding: 0;
-  padding-top: 0.8em;
-  padding-bottom: 0.2em;
+  padding-top: 3px;
+  padding-bottom: 3px;
   overflow: visible;
   height: 2.125em;
   z-index: 3;
@@ -86,7 +86,7 @@
     visibility: none;
     height: 30px;
     width: auto;
-    margin-top: -7px;
+    margin-top: -2px;
   }
   .navigation {
     color: rgba(255, 255, 255, 0.8);
@@ -95,7 +95,7 @@
     justify-content: space-between;
   }
   .languagepicker {
-    margin-top: -6px;
+    margin-top: -1px;
   }
   div > a {
     margin-right: 1.875em;

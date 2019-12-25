@@ -10,7 +10,7 @@ const TreatementDropdown = ({ element, props }) => {
     if (!treatmentRef.current) {
       treatmentRef.current = true;
     } else {
-      treatmentRef.current.style.height === "3em"
+      treatmentRef.current.style.height === "2.5em"
         ? setOpen(false)
         : setOpen(true);
     }
@@ -19,14 +19,14 @@ const TreatementDropdown = ({ element, props }) => {
   const changeHeight = () => {
     let currentElement = treatmentRef.current;
     if (currentElement) {
-      if (currentElement.style.height === "3em") {
+      if (currentElement.style.height === "2.5em") {
         open ? setOpen(false) : setOpen(true);
         currentElement.style.height = `${(currentElement.scrollHeight / 100) *
           6}em`;
         currentElement.style.borderBottom = "1px solid rgb(143, 143, 143)";
         currentElement.style.margin = "13px";
       } else {
-        currentElement.style.height = "3em";
+        currentElement.style.height = "2.5em";
         currentElement.style.margin = "0px";
         currentElement.style.borderBottom = "0px solid black";
         setOpen(false);
@@ -34,7 +34,7 @@ const TreatementDropdown = ({ element, props }) => {
       currentElement.parentNode.childNodes.forEach(element => {
         element.childNodes[0].style.transform = "scaleY(1)";
         return element !== treatmentRef.current
-          ? ((element.style.height = "3em"),
+          ? ((element.style.height = "2.5em"),
             (element.style.margin = "0px"),
             (element.style.borderBottom = "0px solid black"))
           : null;
@@ -47,7 +47,7 @@ const TreatementDropdown = ({ element, props }) => {
       className="treatment"
       onClick={changeHeight}
       style={{
-        height: "3em",
+        height: "2.5em",
         transition: "all 0.3s",
         cursor: "pointer"
       }}

@@ -4,7 +4,7 @@
   border-top: 1px solid #8f8f8f;
   width: 40em;
   color: #212121;
-  padding: 10px;
+  padding: 2px;
   margin: 0px;
   height: 3em;
   overflow: hidden;
@@ -18,7 +18,7 @@
   text-align: left;
   margin-left: 20px;
   margin-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .treatment p {
@@ -158,7 +158,6 @@
 
 .load-more {
   left: 0;
-  margin-top: 15px;
   position: relative;
   display: block;
   cursor: pointer;
@@ -177,7 +176,7 @@
   height: 10px;
   left: 50%;
   top: 53%;
-  margin-top: -15px;
+  margin-top: -5px;
   border-width: 2px;
   border-style: solid;
   border-color: transparent;

@@ -15,7 +15,6 @@
 }
 
 .treatments-list-wrapper {
-  padding: 1.25em;
   display: flex;
   max-width: 42.6872em;
   flex-wrap: wrap;
@@ -73,5 +72,12 @@
   .treatments-list:nth-child(2) {
     border-top: 1px solid black;
   }
-  
+  .treatments-list-wrapper {
+    display: flex;
+    max-width: 95%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
 }

@@ -51,17 +51,16 @@
     height: auto;
     width: 100%;
     line-height: 0;
+    font-size: $miniFontSize;
     p {
       padding: 10px;
       color: white;
       text-align: center;
-      font-size: 0.813em;
     }
     a {
       padding: 20px;
       color: white;
       text-align: center;
-      font-size: 0.813em;
       text-decoration: none;
       &:hover {
         cursor: pointer;
