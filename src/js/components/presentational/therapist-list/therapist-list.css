@@ -176,7 +176,9 @@
 }
 
 .therapist-details .therapist-content {
+  text-indent: 10px;
   margin: 15px;
+  font-size: 12px;
   font-family: Work Sans;
   white-space: pre-line;
 }
@@ -206,7 +208,7 @@
 
 .therapist-details .therapist-heading > div p {
   margin: 15px;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .therapist-details .therapist-heading > div h3 {

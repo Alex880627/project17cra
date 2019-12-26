@@ -20,6 +20,9 @@
     margin-top: 10px;
     padding-bottom: 15px;
   }
+  > p {
+    text-indent: 10px;
+  }
   p {
     text-align: justify;
     font-size: $miniFontSize;

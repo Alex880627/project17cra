@@ -14,6 +14,31 @@ const FooterComp = props => {
           <div className="footer-logo">
             <img src={logoHorizontal} />
           </div>
+          <div className="contact-description">
+            <iframe
+              src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/Studio17gyogytorna&tabs&width=300&height=120&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=299633294303411"
+              width="300"
+              height="120"
+              style={{ border: "none", overflow: "hidden" }}
+              scrolling="no"
+              frameborder="0"
+              allowTransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+            {/* <div>
+              Icons made by{" "}
+              <a
+                href="https://www.flaticon.com/authors/freepik"
+                title="Freepik"
+              >
+                Freepik
+              </a>{" "}
+              from{" "}
+              <a href="https://www.flaticon.com/" title="Flaticon">
+                www.flaticon.com
+              </a>
+            </div> */}
+          </div>
         </div>
         <div className="pictures-galery">
           <Galery />

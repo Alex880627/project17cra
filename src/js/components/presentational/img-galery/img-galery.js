@@ -16,6 +16,9 @@ const images = importAll(
   )
 );
 
+console.log(images);
+
+
 const thumbnails = importAll(
   require.context(
     "../../../../data/images/galery/thumbnails",

@@ -32,8 +32,7 @@ const ThreapistDetailsComp = props => {
   const ref = useRef(null)
 
   return (
-    <div className="therapist-details" ref={ref} onFocus={(e)=>{console.log(e);
-    }}>
+    <div className="therapist-details" ref={ref} >
       <div className="therapist-heading">
         <div>
           <h3>{therapist.name}</h3>

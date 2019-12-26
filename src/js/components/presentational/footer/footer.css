@@ -113,6 +113,17 @@
   text-decoration: underline;
 }
 
+.contact-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
+  height: auto;
+}
+
 @media only screen and (max-width: 1000px) {
   .footer-wrapper .pre-footer .contact-info-footer {
     width: 40%;

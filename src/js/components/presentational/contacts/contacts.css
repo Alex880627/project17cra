@@ -5,6 +5,13 @@
   margin-left: 20px;
 }
 
+.exercise-picture {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 150px;
+}
+
 .contacts-wrapper {
   z-index: 0;
   background-color: white;
@@ -170,6 +177,12 @@
     height: 300px;
     margin-left: 0px;
     margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .exercise-picture {
+    visibility: hidden;
   }
 }
 

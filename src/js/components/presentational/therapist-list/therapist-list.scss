@@ -108,7 +108,9 @@
   position: absolute;
   animation: slideInDown 0.3s;
   .therapist-content {
+    text-indent: 10px;
     margin: 15px;
+    font-size: $miniFontSize;
     font-family: Work Sans;
     white-space: pre-line;
   }
@@ -127,7 +129,7 @@
     > div {
       p {
         margin: 15px;
-        font-size: 15px;
+        font-size: $miniFontSize;
       }
       h3 {
         margin: 15px;
@@ -209,6 +211,7 @@
   }
 }
 
+
 #fade-out-background {
   opacity: 0;
   transition: opacity 1s;
@@ -284,7 +287,7 @@
     width: 100%;
     height: auto;
   }
-  
+
   .therapist-details > .content-box > .details {
     display: flex;
     flex-direction: column;
@@ -303,5 +306,3 @@
     }
   }
 }
-
-
