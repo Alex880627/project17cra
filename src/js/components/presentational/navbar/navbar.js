@@ -12,8 +12,8 @@ import "./navbar.css";
 
 const NavBar = props => {
   const [innerWidth, setInnerWidth] = useState(window.innerWidth);
-  const ref = useRef(null);
-  const isOnScreen = useOnScreen(ref, 0.7);
+  const ref = useRef(null)
+  const onScreen = useOnScreen(ref, 0.01);
   useEffect(() => {
     window.addEventListener("resize", () => {
       setInnerWidth(window.innerWidth);
@@ -29,8 +29,8 @@ const NavBar = props => {
   }
   return (
     <>
-      <CoverPic {...props} />
-      <nav className={"main-navbar"} ref={ref}>
+      <CoverPic {...props}/>
+      <nav className={onScreen? "main-navbar-shrink":"main-navbar"}>
         <HamburgerMenu {...props} />
         {innerWidth > 1000 ? (
           <NavigationLinks {...props} />
@@ -43,6 +43,7 @@ const NavBar = props => {
         <EmailSending {...props} />
         <LanguagePicker {...props} />
       </nav>
+      <div className="helperDiv" ref={ref}></div>
     </>
   );
 };

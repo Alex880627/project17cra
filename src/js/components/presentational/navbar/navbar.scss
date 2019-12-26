@@ -4,7 +4,7 @@
   width: 100%;
   width: 100vw;
   font-size: $miniFontSize;
-  position: absolute;
+  position: fixed;
   padding: 0;
   padding-top: 2.375em;
   padding-bottom: 2.375em;
@@ -19,6 +19,7 @@
   img {
     height: 50px;
     width: auto;
+    transition: all 1s;
   }
   .navigation {
     color: rgba(255, 255, 255, 0.8);
@@ -38,6 +39,7 @@
       padding: 5px;
       width: 30px;
       height: 30px;
+      transition: all 1s;
     }
   }
   a:last-child {
@@ -64,9 +66,10 @@
     width: auto;
     height: 40px;
   }
+  transition: all 1s;
 }
 
-.main-navbar {
+.main-navbar-shrink {
   width: 100%;
   width: 100vw;
   font-size: $miniFontSize;
@@ -87,6 +90,7 @@
     height: 30px;
     width: auto;
     margin-top: -2px;
+    transition: all 1s;
   }
   .navigation {
     color: rgba(255, 255, 255, 0.8);
@@ -108,6 +112,7 @@
     img {
       width: 0px;
       height: 0px;
+      transition: all 1s;
     }
   }
   a:last-child {
@@ -134,11 +139,20 @@
     width: auto;
     height: 40px;
   }
-  transition: all 0.5s;
+  transition: all 1s;
 }
 
 .double-arrow {
   color: $secondaryGreenColor;
+}
+
+.helperDiv {
+  position: absolute;
+  top: 110vh;
+  margin: 0 auto;
+  height: 100%;
+  z-index: 0;
+  background-color: black;
 }
 
 .up-button {
@@ -217,13 +231,11 @@
     padding-top: 1em;
     padding-bottom: 1em;
   }
+  .main-navbar-shrink {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
   .up-button {
     visibility: hidden;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .main-navbar {
-    font-size: $miniFontSize;
   }
 }
