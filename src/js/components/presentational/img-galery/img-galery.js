@@ -8,16 +8,22 @@ function importAll(r) {
   });
 }
 
-const images = importAll(
+const isBigScreen = () => window.innerWidth / window.innerHeight>1.35;
+console.log(isBigScreen());
+
+const images = isBigScreen()? importAll(
   require.context(
     "../../../../data/images/galery/images",
     false,
     /\.(png|jpe?g|svg|jpg)$/
   )
+):importAll(
+  require.context(
+    "../../../../data/images/galery/images-mobile",
+    false,
+    /\.(png|jpe?g|svg|jpg)$/
+  )
 );
-
-console.log(images);
-
 
 const thumbnails = importAll(
   require.context(
