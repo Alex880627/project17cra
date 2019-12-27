@@ -2,7 +2,16 @@ import React, { useEffect, useState } from "react";
 
 const ScrollProgress = () => {
   const calculate = () => {
-    let height = document.documentElement.scrollHeight - window.innerHeight;
+    let body = document.body,
+      html = document.documentElement;
+    let height =
+      Math.max(
+        body.scrollHeight,
+        body.offsetHeight,
+        html.clientHeight,
+        html.scrollHeight,
+        html.offsetHeight
+      ) - window.innerHeight;
     let current = Math.floor((window.scrollY / height) * window.innerWidth);
     return current;
   };
@@ -11,7 +20,7 @@ const ScrollProgress = () => {
     const measureProgress = () => {
       setWidth(calculate());
     };
-    
+
     window.addEventListener("scroll", measureProgress);
     return () => {
       window.removeEventListener("scroll", measureProgress);
