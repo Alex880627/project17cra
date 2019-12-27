@@ -8,22 +8,13 @@ function importAll(r) {
   });
 }
 
-const isBigScreen = () => window.innerWidth / window.innerHeight>1.35;
-console.log(isBigScreen());
-
-const images = isBigScreen()? importAll(
+const images = importAll(
   require.context(
     "../../../../data/images/galery/images",
     false,
     /\.(png|jpe?g|svg|jpg)$/
   )
-):importAll(
-  require.context(
-    "../../../../data/images/galery/images-mobile",
-    false,
-    /\.(png|jpe?g|svg|jpg)$/
-  )
-);
+)
 
 const thumbnails = importAll(
   require.context(
@@ -77,7 +68,7 @@ class Galery extends React.Component {
             >
               <Carousel
                 views={images}
-                currentImage
+                currentImage={this.state.currentModal}
                 components={{ Footer: Footer }}
                 currentIndex={this.state.currentModal}
               />
