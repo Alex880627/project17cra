@@ -50,7 +50,8 @@ class Galery extends React.Component {
         <div className="galery-wrapper">
           {thumbnails.map((element, index) => {
             return (
-              <div className="thumbnails">
+              <div className="thumbnails"
+              key={element.source}>
                 <img
                   src={element.source}
                   onClick={() => {

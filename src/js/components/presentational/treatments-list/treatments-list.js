@@ -65,17 +65,30 @@ const TreatementDropdown = ({ element, props }) => {
       <h3 style={{ animation: "fadeInLeft 2s ease" }}>{element.title}</h3>
       <p>{element.description}</p>
       <div className="choose-therapist-section">
-        <p className="provider-question">{language.treatments["provider sentence"]}</p>
+        <p className="provider-question">
+          {language.treatments["provider sentence"]}
+        </p>
         <div className="therapist-details-list">
-        {element.therapist.map(therapist => {
-         return (<p onClick={(e) => {
-           e.stopPropagation();
-          const therapistObjectFromNickname = language.collagues.therapists.filter((e)=>{
-            return e["nick name"]===therapist;
-          })
-          props.showTherapistDetails(therapistObjectFromNickname[0].name);
-        }}>{therapist}</p>)
-        })}
+          {element.therapist.map(therapist => {
+            return (
+              <p
+                key={therapist}
+                onClick={e => {
+                  e.stopPropagation();
+                  const therapistObjectFromNickname = language.collagues.therapists.filter(
+                    e => {
+                      return e["nick name"] === therapist;
+                    }
+                  );
+                  props.showTherapistDetails(
+                    therapistObjectFromNickname[0].name
+                  );
+                }}
+              >
+                {therapist}
+              </p>
+            );
+          })}
         </div>
       </div>
     </div>
@@ -93,18 +106,12 @@ const TreatmentsList = props => {
         <img
           style={{ animation: "fadeInLeftDown 2s ease" }}
           src={treatmentsIcon}
-          alt="treatments icon"
+          alt="Kezelések ikon"
         />
       </div>
       <div className="treatments-wrapper">
         {treatments["treatments list"].map(element => {
-          return (
-            <TreatementDropdown
-              key={element.title}
-              element={element}
-              props={props}
-            />
-          );
+          return <TreatementDropdown element={element} props={props}  key={element.title}/>;
         })}
       </div>
     </div>

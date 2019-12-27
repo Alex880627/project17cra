@@ -13,7 +13,7 @@ const ScrollDown = () => {
   };
   return (
     <a
-      class="scroll-down"
+      className="scroll-down"
       onClick={() => {
         link("treatments");
       }}

@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 
 const ScrollProgress = () => {
   const calculate = () => {
-    let height = document.body.scrollHeight-window.innerHeight;
-    let current = Math.floor((window.scrollY/height)*window.innerWidth);
+    let height = document.documentElement.scrollHeight - window.innerHeight;
+    let current = Math.floor((window.scrollY / height) * window.innerWidth);
     return current;
-  }
+  };
   const [width, setWidth] = useState(0);
   useEffect(() => {
     const measureProgress = () => {
@@ -21,12 +21,12 @@ const ScrollProgress = () => {
     position: "fixed",
     top: 0,
     left: 0,
-    zIndex: 40,
-    height: "3px",
+    zIndex: 99999,
+    height: "2px",
     backgroundColor: "#FF3366",
     width: `${width}px`
-  }
-  return <div style={style}></div>;;
+  };
+  return <div style={style}></div>;
 };
 
 export default ScrollProgress;
