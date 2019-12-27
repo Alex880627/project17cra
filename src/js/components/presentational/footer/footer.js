@@ -16,8 +16,8 @@ const FooterComp = props => {
           </div>
           <div className="contact-description">
             <iframe
-              src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/Studio17gyogytorna&tabs&width=300&height=120&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=299633294303411"
-              maxwidth="95%"
+              src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/Studio17gyogytorna&tabs&width=300&height=120&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=299633294303411"
+              maxwidth="300px"
               height="120"
               style={{ border: "none", overflow: "hidden" }}
               scrolling="no"

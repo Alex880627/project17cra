@@ -15,6 +15,8 @@ const images = importAll(
     /\.(png|jpe?g|svg|jpg)$/
   )
 )
+console.log(images);
+
 
 const thumbnails = importAll(
   require.context(
@@ -68,7 +70,6 @@ class Galery extends React.Component {
             >
               <Carousel
                 views={images}
-                currentImage={this.state.currentModal}
                 components={{ Footer: Footer }}
                 currentIndex={this.state.currentModal}
               />
