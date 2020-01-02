@@ -11,7 +11,7 @@
 }
 
 .treatment h3 {
-  font-size: 15px;
+  font-size: 17px;
   color: #000000;
   width: 100%;
   font-weight: 100 !important;
@@ -27,7 +27,7 @@
 
 .treatment p {
   text-align: justify;
-  font-size: 12px;
+  font-size: 14px;
   font-family: Work Sans;
 }
 
@@ -83,7 +83,7 @@
 
 .choose-therapist-section .provider-question {
   font-style: italic;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .choose-therapist-section .therapist-details-list {

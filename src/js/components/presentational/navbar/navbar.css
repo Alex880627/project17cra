@@ -1,7 +1,7 @@
 .main-navbar {
   width: 100%;
   width: 100vw;
-  font-size: 12px;
+  font-size: 14px;
   position: fixed;
   padding: 0;
   padding-top: 2.375em;
@@ -100,7 +100,7 @@
 .main-navbar-shrink {
   width: 100%;
   width: 100vw;
-  font-size: 12px;
+  font-size: 14px;
   position: fixed;
   padding: 0;
   padding-top: 3px;
@@ -124,7 +124,7 @@
 
 .main-navbar-shrink img {
   visibility: none;
-  height: 30px;
+  height: 37px;
   width: auto;
   margin-top: -2px;
   -webkit-transition: all 1s;
@@ -150,6 +150,7 @@
 
 .main-navbar-shrink div > a {
   margin-right: 1.875em;
+  margin-top: 8px;
   color: rgba(255, 255, 255, 0.8);
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;

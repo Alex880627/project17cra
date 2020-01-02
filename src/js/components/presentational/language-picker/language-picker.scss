@@ -1,5 +1,7 @@
+@import "../../../../data/shared-styles/variables-mixins.scss";
+
 .languagepicker {
-  font-size: 0.875em;
+  font-size: 12px;
   border: 1px solid rgba(255, 255, 255, 0.7);
   min-width: fit-content;
   color: rgba(255, 255, 255, 0.7);

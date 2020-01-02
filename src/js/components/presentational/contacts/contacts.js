@@ -1,7 +1,7 @@
 import React from "react";
 import GoogleMapConfigured from "../google-maps/google-maps-configured";
 import contactsIcon from "../../../../data/images/icons/contactsIcon.png";
-import logo from "../../../../data/images/icons/logo-horizontal.png";
+import logo from "../../../../data/images/icons/logo-horizontal-big.svg";
 import exercise from "../../../../data/images/icons/exercise.png";
 import "./contacts.css";
 

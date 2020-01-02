@@ -76,19 +76,19 @@
 
 .group-sessions-description > h5 {
   font-style: italic;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .group-sessions-description > h1 {
   margin-top: 20px;
-  font-size: 15px;
+  font-size: 17px;
   color: white;
 }
 
 .group-sessions-description > p {
   font-family: Work Sans;
   font-weight: 100;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .group-sessions-description {
@@ -167,12 +167,12 @@
 .group-sessions-table div .table-element h3,
 .group-sessions-table div .table-element p {
   margin: 0;
-  font-size: 15px;
+  font-size: 17px;
   color: #265c42;
 }
 
 .group-sessions-table div .table-element p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .group-sessions-table div .header {

@@ -15,8 +15,6 @@ const images = importAll(
     /\.(png|jpe?g|svg|jpg)$/
   )
 )
-console.log(images);
-
 
 const thumbnails = importAll(
   require.context(

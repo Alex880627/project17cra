@@ -30,23 +30,23 @@ const NavigationLinks = props => {
     >
       <a
         onClick={() => {
-          link("colleagues");
-        }}
-      >
-        <img src={therapists} />
-        <span>
-          {navbar.colleagues}
-          <span className="double-arrow">{" »"}</span>
-        </span>
-      </a>
-      <a
-        onClick={() => {
           link("treatments");
         }}
       >
         <img src={treatmentsIcon} />
         <span>
           {navbar["treatments"]}
+          <span className="double-arrow">{" »"}</span>
+        </span>
+      </a>
+      <a
+        onClick={() => {
+          link("colleagues");
+        }}
+      >
+        <img src={therapists} />
+        <span>
+          {navbar.colleagues}
           <span className="double-arrow">{" »"}</span>
         </span>
       </a>

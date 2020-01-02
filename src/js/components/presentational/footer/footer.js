@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.css";
-import logoHorizontal from "../../../../data/images/icons/logo-horizontal-big.svg";
 import Galery from "../img-galery/img-galery";
 import privacyPdf from "../../../../data/privacy-policy/privacy-policy.pdf";
 
@@ -11,18 +10,15 @@ const FooterComp = props => {
     <div className="footer-wrapper">
       <div className="pre-footer">
         <div className="contact-info-footer">
-          <div className="footer-logo">
-            <img src={logoHorizontal} />
-          </div>
           <div className="contact-description">
             <iframe
-              src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/Studio17gyogytorna&tabs&width=300&height=120&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=299633294303411"
-              maxwidth="300px"
+              src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/Studio17gyogytorna&width=308&height=120&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=299633294303411"
+              width="308"
               height="120"
-              style={{ border: "none", overflow: "hidden" }}
+              style={{border:"none",overflow:"hidden"}}
               scrolling="no"
-              frameBorder="0"
-              allowtransparency="true"
+              frameborder="0"
+              allowTransparency="true"
               allow="encrypted-media"
             ></iframe>
             {/* <div>
