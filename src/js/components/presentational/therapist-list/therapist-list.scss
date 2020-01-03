@@ -97,19 +97,24 @@
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 10%;
   left: 0;
   right: 0;
   box-sizing: content-box;
   box-shadow: 0px 0px 1.25em black;
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
   max-width: 43.75em;
   height: auto;
   color: black;
   position: absolute;
   .therapist-content {
     text-indent: 10px;
-    margin: 15px;
+    background-color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 0;
     font-size: $miniFontSize;
     font-family: Work Sans;
     line-height: $defaultLineHeight;
@@ -132,6 +137,7 @@
       p {
         margin: 15px;
         font-size: $miniFontSize;
+        
       }
       h3 {
         margin: 15px;
@@ -146,6 +152,7 @@
     }
   }
   .content-box {
+    background-color: #ffffff;
     .details {
       display: flex;
       justify-content: space-between;

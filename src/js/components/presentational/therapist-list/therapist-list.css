@@ -160,14 +160,14 @@
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 10%;
   left: 0;
   right: 0;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   -webkit-box-shadow: 0px 0px 1.25em black;
           box-shadow: 0px 0px 1.25em black;
-  background-color: white;
+  background-color: transparent;
   max-width: 43.75em;
   height: auto;
   color: black;
@@ -176,7 +176,12 @@
 
 .therapist-details .therapist-content {
   text-indent: 10px;
-  margin: 15px;
+  background-color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin: 0;
   font-size: 14px;
   font-family: Work Sans;
   line-height: 20px;
@@ -222,6 +227,10 @@
   border-radius: 50%;
   margin: 0;
   margin-right: 15px;
+}
+
+.therapist-details .content-box {
+  background-color: #ffffff;
 }
 
 .therapist-details .content-box .details {

@@ -3,6 +3,7 @@ import Chip from "@material-ui/core/Chip";
 import phone from "../../../../data/images/icons/phone.png";
 import mail from "../../../../data/images/icons/mail-white.png";
 import swipeableModal from "../swipeable-drawer/swipeable-drawer";
+import modal from "../modal/modal";
 
 const ThreapistDetailsComp = props => {
   let therapistsObject = {};
@@ -29,10 +30,10 @@ const ThreapistDetailsComp = props => {
   const getTherapistPic = () => {
     return therapistsObject[therapist["nick name"]];
   };
-  const ref = useRef(null)
+  const ref = useRef(null);
 
   return (
-    <div className="therapist-details" ref={ref} >
+    <div className="therapist-details" ref={ref}>
       <div className="therapist-heading">
         <div>
           <h3>{therapist.name}</h3>
@@ -76,6 +77,9 @@ const ThreapistDetailsComp = props => {
   );
 };
 
-const TherapistListDetails = swipeableModal(ThreapistDetailsComp, "therapistDetails");
+const TherapistListDetails =
+  window.innerWidth > 768
+    ? modal(ThreapistDetailsComp, "therapistDetails")
+    : swipeableModal(ThreapistDetailsComp, "therapistDetails");
 
 export default TherapistListDetails;
