@@ -17,7 +17,7 @@ export default function swipeableModal(ComponentParam, storeParam) {
     render() {
       return (
         <SwipeableDrawer
-          anchor="bottom"
+          anchor="left"
           ModalProps={{
             onClose: ()=>this.props[`hide${this.capitalize(storeParam)}`]
           }}
