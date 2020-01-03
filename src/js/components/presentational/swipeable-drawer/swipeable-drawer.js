@@ -12,7 +12,7 @@ export class BackDropIOSWorkaround extends React.PureComponent {
     event.preventDefault();
   }
   render() {
-    return <Backdrop {...this.props} onTouchMove={this.onTouchMove} />;
+    return <Backdrop {...this.props} onClose={this.props.onCloseMobile} onTouchMove={this.onTouchMove} />;
   }
 }
 
@@ -30,20 +30,18 @@ export default function swipeableModal(ComponentParam, storeParam) {
     render() {
       return (
         <SwipeableDrawer
+          className="swipeable-modal"
           anchor="left"
+          disableBackdropClick={false}
+          onBackdropClick={{onClose: () => this.props[`hide${this.capitalize(storeParam)}`]}}
           BackdropInvisible={false}
           anchorOrigin={{ vertical: "top", horizontal: "left" }}
           transformOrigin={{ vertical: "top", horizontal: "left" }}
           BackdropComponent={BackDropIOSWorkaround}
-          ModalProps={{
-            onClose: () => this.props[`hide${this.capitalize(storeParam)}`]
-          }}
           open={this.props[`${storeParam}`]}
           onClose={this.props[`hide${this.capitalize(storeParam)}`]}
           children={<ComponentParam {...this.props} />}
-          /* style={{
-            overflow: "scroll",
-          }} */
+
         ></SwipeableDrawer>
       );
     }

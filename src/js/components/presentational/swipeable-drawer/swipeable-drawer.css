@@ -1,14 +1,8 @@
-.MuiBackdrop-root {
+.swipeable-modal .MuiBackdrop-root {
   background-color: transparent !important;
 }
 
-/* .MuiDrawer-root .MuiDrawer-modal {
-  background-color: transparent !important;
-} */
-/* .MuiPaper-root {
-  background-color: transparent !important;
-} */
-.MuiPaper-elevation16 {
+.swipeable-modal .MuiPaper-elevation16 {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
   background-color: transparent !important;
