@@ -32,6 +32,8 @@ export default function swipeableModal(ComponentParam, storeParam) {
         <SwipeableDrawer
           anchor="left"
           BackdropInvisible={false}
+          anchorOrigin={{ vertical: "top", horizontal: "left" }}
+          transformOrigin={{ vertical: "top", horizontal: "left" }}
           BackdropComponent={BackDropIOSWorkaround}
           ModalProps={{
             onClose: () => this.props[`hide${this.capitalize(storeParam)}`]
