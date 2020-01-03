@@ -9,7 +9,6 @@ export const OvalButton = ({ text, onClick }) => {
       variant="outlined"
       onClick={onClick}
       style={{
-        backgroundColor: "red",
         borderRadius: "20px",
         backgroundColor: "rgb(44, 175, 39)",
         border: "none",

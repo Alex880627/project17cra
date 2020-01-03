@@ -96,7 +96,7 @@
 .therapist-details {
   overflow: scroll;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 20px;
   left: 0;
   right: 0;
   box-sizing: content-box;
@@ -106,12 +106,12 @@
   height: auto;
   color: black;
   position: absolute;
-  animation: slideInDown 0.3s;
   .therapist-content {
     text-indent: 10px;
     margin: 15px;
     font-size: $miniFontSize;
     font-family: Work Sans;
+    line-height: $defaultLineHeight;
     white-space: pre-line;
   }
   .therapist-heading {
@@ -212,7 +212,7 @@
 }
 
 
-#fade-out-background {
+/* #fade-out-background {
   opacity: 0;
   transition: opacity 1s;
 }
@@ -239,7 +239,7 @@
   to {
     transform: translate3d(0, 0, 0);
   }
-}
+} */
 
 @media only screen and (min-width: 768px) {
   .therapist-pictures > div > img:hover + .therapist-info button {

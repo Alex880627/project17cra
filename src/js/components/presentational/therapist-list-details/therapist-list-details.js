@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import Chip from "@material-ui/core/Chip";
 import phone from "../../../../data/images/icons/phone.png";
 import mail from "../../../../data/images/icons/mail-white.png";
-import modal from "../modal/modal";
+import swipeableModal from "../swipeable-drawer/swipeable-drawer";
 
 const ThreapistDetailsComp = props => {
   let therapistsObject = {};
@@ -76,6 +76,6 @@ const ThreapistDetailsComp = props => {
   );
 };
 
-const TherapistListDetails = modal(ThreapistDetailsComp, "therapistDetails");
+const TherapistListDetails = swipeableModal(ThreapistDetailsComp, "therapistDetails");
 
 export default TherapistListDetails;

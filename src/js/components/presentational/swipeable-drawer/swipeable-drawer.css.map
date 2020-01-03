@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAChB,gBAAgB,EAAE,sBAAsB;CACzC;;AAED,AAAA,cAAc,CAAC;EACb,gBAAgB,EAAE,sBAAsB;CACzC;;AAED,AAAA,qBAAqB,CAAC;EACpB,UAAU,EAAE,eAAe;CAC5B",
+    "sources": [
+        "swipeable-drawer.scss"
+    ],
+    "names": [],
+    "file": "swipeable-drawer.css"
+}

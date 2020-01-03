@@ -13,7 +13,6 @@ const therapistReducer = (state=initState, action) => {
     case 'HIDE_THERAPIST':
       return Object.assign({}, state, {
         therapistDetails: false,
-        therapistName: ""
       });
     default:
       return state;

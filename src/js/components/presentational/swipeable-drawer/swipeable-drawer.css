@@ -1,0 +1,13 @@
+.MuiBackdrop-root {
+  background-color: transparent !important;
+}
+
+.MuiPaper-root {
+  background-color: transparent !important;
+}
+
+.MuiPaper-elevation16 {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+/*# sourceMappingURL=swipeable-drawer.css.map */

@@ -159,7 +159,7 @@
 .therapist-details {
   overflow: scroll;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 20px;
   left: 0;
   right: 0;
   -webkit-box-sizing: content-box;
@@ -171,8 +171,6 @@
   height: auto;
   color: black;
   position: absolute;
-  -webkit-animation: slideInDown 0.3s;
-          animation: slideInDown 0.3s;
 }
 
 .therapist-details .therapist-content {
@@ -180,6 +178,7 @@
   margin: 15px;
   font-size: 14px;
   font-family: Work Sans;
+  line-height: 20px;
   white-space: pre-line;
 }
 
@@ -320,24 +319,13 @@
   cursor: pointer;
 }
 
-#fade-out-background {
+/* #fade-out-background {
   opacity: 0;
-  -webkit-transition: opacity 1s;
   transition: opacity 1s;
 }
 
 #fade-out {
-  -webkit-animation: fadeOut 0.55s;
-          animation: fadeOut 0.55s;
-}
-
-@-webkit-keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
+  animation: fadeOut 0.55s;
 }
 
 @keyframes fadeOut {
@@ -349,30 +337,16 @@
   }
 }
 
-@-webkit-keyframes slideInDown {
-  from {
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0);
-    visibility: visible;
-  }
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-  }
-}
-
 @keyframes slideInDown {
   from {
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
     visibility: visible;
   }
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-  }
-}
 
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+} */
 @media only screen and (min-width: 768px) {
   .therapist-pictures > div > img:hover + .therapist-info button {
     visibility: visible;
