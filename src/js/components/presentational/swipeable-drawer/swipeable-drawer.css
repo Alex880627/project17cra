@@ -2,14 +2,12 @@
   background-color: transparent !important;
 }
 
-.MuiDrawer-root .MuiDrawer-modal {
+/* .MuiDrawer-root .MuiDrawer-modal {
   background-color: transparent !important;
-}
-
-.MuiPaper-root {
+} */
+/* .MuiPaper-root {
   background-color: transparent !important;
-}
-
+} */
 .MuiPaper-elevation16 {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;

@@ -24,9 +24,9 @@ export default function swipeableModal(ComponentParam, storeParam) {
           open={this.props[`${storeParam}`]}
           onClose={this.props[`hide${this.capitalize(storeParam)}`]}
           children={<ComponentParam {...this.props} />}
-          style={{
+          /* style={{
             overflow: "scroll",
-          }}
+          }} */
         ></SwipeableDrawer>
       );
     }
