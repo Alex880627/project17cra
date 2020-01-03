@@ -285,10 +285,12 @@
   }
   .therapist-details {
     max-width: 95%;
+    height: 100%;
+    margin: 0;
     position: relative;
     overflow-x: hidden;
     .therapist-content {
-      font-size: 13px;
+      font-size: 14px;
     }
   }
   .therapist-pictures > div > img {
