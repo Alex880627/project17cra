@@ -1,7 +1,20 @@
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
 import Drawer from "@material-ui/core/Drawer";
 import React from "react";
-import './swipeable-drawer.css';
+import "./swipeable-drawer.css";
+import Backdrop from "@material-ui/core/Modal/SimpleBackdrop";
+
+/**
+ * Prevents scrolling of content behind the backdrop.
+ */
+export class BackDropIOSWorkaround extends React.PureComponent {
+  onTouchMove(event) {
+    event.preventDefault();
+  }
+  render() {
+    return <Backdrop {...this.props} onTouchMove={this.onTouchMove} />;
+  }
+}
 
 export default function swipeableModal(ComponentParam, storeParam) {
   return class extends React.Component {
@@ -18,8 +31,10 @@ export default function swipeableModal(ComponentParam, storeParam) {
       return (
         <SwipeableDrawer
           anchor="left"
+          BackdropInvisible={false}
+          BackdropComponent={BackDropIOSWorkaround}
           ModalProps={{
-            onClose: ()=>this.props[`hide${this.capitalize(storeParam)}`]
+            onClose: () => this.props[`hide${this.capitalize(storeParam)}`]
           }}
           open={this.props[`${storeParam}`]}
           onClose={this.props[`hide${this.capitalize(storeParam)}`]}
