@@ -157,7 +157,8 @@
     background-color: #ffffff;
     .details {
       display: flex;
-      justify-content: space-between;
+      width: 100%;
+      overflow: hidden;
       .therapist-techniques {
         padding: 10px;
         width: 50%;
@@ -307,11 +308,11 @@
     flex-direction: column;
     .therapist-contacts {
       padding: 10px;
-      width: 100%;
+      width: auto;
     }
     .therapist-techniques {
       padding: 10px;
-      width: 100%;
+      width: auto;
     }
   }
   .therapist-wrapper {

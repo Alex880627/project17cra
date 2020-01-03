@@ -240,9 +240,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
 }
 
 .therapist-details .content-box .details .therapist-techniques {
@@ -461,11 +460,11 @@
   }
   .therapist-details > .content-box > .details .therapist-contacts {
     padding: 10px;
-    width: 100%;
+    width: auto;
   }
   .therapist-details > .content-box > .details .therapist-techniques {
     padding: 10px;
-    width: 100%;
+    width: auto;
   }
   .therapist-wrapper .heading {
     margin-top: 20px;
