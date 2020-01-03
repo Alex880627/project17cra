@@ -438,6 +438,8 @@
     margin: 0;
     position: relative;
     overflow-x: hidden;
+    -webkit-animation: none;
+            animation: none;
   }
   .therapist-details .therapist-content {
     font-size: 14px;
