@@ -1,4 +1,3 @@
-require('dotenv').config();
 import React from "react";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import { Provider } from "react-redux";
