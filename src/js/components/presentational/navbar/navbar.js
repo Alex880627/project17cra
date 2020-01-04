@@ -35,7 +35,7 @@ const NavBar = props => {
         {innerWidth > 1000 ? (
           <NavigationLinks {...props} />
         ) : (
-          <img id="front-mobile-logo" src={innerWidth > 768? logoAndText:null} />
+          <img id="front-mobile-logo" src={innerWidth > 768? logoAndText:null} alt="studio17 logo"/>
         )}
 
         <Loader {...props} />
