@@ -19,7 +19,7 @@
 }
 
 .group-sessions-description {
-  width: 40%;
+  width: 60%;
   border-bottom: 1px solid rgb(255, 255, 255);
   border-top: 1px solid rgb(255, 255, 255);
   display: flex;
@@ -28,7 +28,8 @@
   margin-bottom: 35px;
 }
 
-.group-sessions-description > p, h5 {
+.group-sessions-description > p,
+h5 {
   color: rgb(255, 255, 255);
   width: 90%;
 }
@@ -36,6 +37,17 @@
 .group-sessions-description > h5 {
   font-style: italic;
   font-size: $miniFontSize;
+  margin-top: 3px;
+  margin-bottom: 6px;
+  span {
+    font-weight: 100;
+    font-style: normal;
+    font-family: Work Sans;
+  }
+}
+
+.group-sessions-description >:last-child {
+  margin-bottom: 20px;
 }
 
 .group-sessions-description > h1 {
@@ -63,13 +75,14 @@
   margin-bottom: 30px;
   -ms-overflow-style: none; /* IE 11 */
   scrollbar-width: none; /* Firefox 64 */
-  overflow-x:scroll;
+  overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
 }
 .group-sessions-table {
   margin: 0 auto;
   position: relative;
   max-width: 41.825em;
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   .table-header {

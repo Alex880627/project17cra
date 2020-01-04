@@ -40,7 +40,7 @@ const TherapistList = props => {
             alt="therapist icon"
           />
         </div>
-        <div className="therapist-pictures">
+        <div className="therapist-pictures" style={{animation: "fadeIn 3s ease"}}>
           {picArray.map((element, index) => {
             return (
               <Therapists

@@ -103,8 +103,8 @@
   font-size: 14px;
   position: fixed;
   padding: 0;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-top: 1em;
+  padding-bottom: 1em;
   overflow: visible;
   height: 2.125em;
   z-index: 3;
@@ -142,10 +142,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.main-navbar-shrink .languagepicker {
-  margin-top: -1px;
 }
 
 .main-navbar-shrink div > a {

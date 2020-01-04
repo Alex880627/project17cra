@@ -63,7 +63,9 @@ const TreatementDropdown = ({ element, props }) => {
         }
       />
       <h3 style={{ animation: "fadeInLeft 2s ease" }}>{element.title}</h3>
-      <p>{element.description}</p>
+      {element.description.map(e => (
+        <p>{e}</p>
+      ))}
       <div className="choose-therapist-section">
         <p className="provider-question">
           {language.treatments["provider sentence"]}
@@ -111,7 +113,13 @@ const TreatmentsList = props => {
       </div>
       <div className="treatments-wrapper">
         {treatments["treatments list"].map(element => {
-          return <TreatementDropdown element={element} props={props}  key={element.title}/>;
+          return (
+            <TreatementDropdown
+              element={element}
+              props={props}
+              key={element.title}
+            />
+          );
         })}
       </div>
     </div>

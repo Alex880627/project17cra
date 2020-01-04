@@ -53,7 +53,7 @@
 }
 
 .group-sessions-description {
-  width: 40%;
+  width: 60%;
   border-bottom: 1px solid white;
   border-top: 1px solid white;
   display: -webkit-box;
@@ -69,7 +69,8 @@
   margin-bottom: 35px;
 }
 
-.group-sessions-description > p, h5 {
+.group-sessions-description > p,
+h5 {
   color: white;
   width: 90%;
 }
@@ -77,6 +78,18 @@
 .group-sessions-description > h5 {
   font-style: italic;
   font-size: 14px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+
+.group-sessions-description > h5 span {
+  font-weight: 100;
+  font-style: normal;
+  font-family: Work Sans;
+}
+
+.group-sessions-description > :last-child {
+  margin-bottom: 20px;
 }
 
 .group-sessions-description > h1 {
@@ -116,6 +129,7 @@
   margin: 0 auto;
   position: relative;
   max-width: 41.825em;
+  min-height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -19,7 +19,10 @@
         "school": "(Semmelweis Egyetem)",
         "phone number": "0630 401 9871",
         "email": "studio17gyogytorna@gmail.com",
-        "details": "Számomra soha nem volt kérdés, hogy segítő szakmában fogok elhelyezkedni: ez a hivatásom. A pácienseimmel való közvetlen kapcsolat kialakítása fontos alapját képezi a munkámnak, a panaszok kezeléséhez elengedhetetlennek tartom a személyes motivációk megértését. Kórházi munkám során számtalan foglalkozási ártalommal, mozgásszervi panasszal találkozom nap mint nap, melyek kezelésében széleskörű tapasztalatot szereztem az elmúlt években. Gyakran alkalmazom a porckorong eredetű panaszok visszaszorítására világszerte elismert McKenzie módszert. \n \b \b Célom, hogy az eddig megszerzett tudásommal a hozzám betérő vendégek elérjék a számukra kitűzött célt, legyen szó a panaszmentes mindennapokról, a sporthoz való visszatalálásról, vagy az esetlegesen kialakuló panaszok megelőzéséről.",
+        "details": [
+          "Számomra soha nem volt kérdés, hogy segítő szakmában fogok elhelyezkedni: ez a hivatásom. A pácienseimmel való közvetlen kapcsolat kialakítása fontos alapját képezi a munkámnak, a panaszok kezeléséhez elengedhetetlennek tartom a személyes motivációk megértését. Kórházi munkám során számtalan foglalkozási ártalommal, mozgásszervi panasszal találkozom nap mint nap, melyek kezelésében széleskörű tapasztalatot szereztem az elmúlt években. Gyakran alkalmazom a porckorong eredetű panaszok visszaszorítására világszerte elismert McKenzie módszert.",
+          "Célom, hogy az eddig megszerzett tudásommal a hozzám betérő vendégek elérjék a számukra kitűzött célt, legyen szó a panaszmentes mindennapokról, a sporthoz való visszatalálásról, vagy az esetlegesen kialakuló panaszok megelőzéséről."
+        ],
         "color": "#b5ffd9",
         "techniques": {
           "title": "Alkalmazott technikák",
@@ -38,7 +41,9 @@
         "school": "(Semmelweis Egyetem)",
         "phone number": "0620 244 1602",
         "email": "studio17gyogytorna@gmail.com",
-        "details": "Gyógytornászként sokféle korosztályt érintő változatos panaszokkal foglalkozom. Egyéni és kiscsoportos óráimon mindenkire és minden apró mozdulatra fokozott figyelmet fordítok, ám közben hasonlóan fontosnak tartom, hogy a torna barátságos, jó hangulatban teljen. Gyógytornászként hiszek a közösen megfogalmazott és közösen elért célokban, melyek a sok-sok munka mellett újabb és újabb sikerélmények átéléséhez vezetnek.",
+        "details": [
+          "Gyógytornászként sokféle korosztályt érintő változatos panaszokkal foglalkozom. Egyéni és kiscsoportos óráimon mindenkire és minden apró mozdulatra fokozott figyelmet fordítok, ám közben hasonlóan fontosnak tartom, hogy a torna barátságos, jó hangulatban teljen. Gyógytornászként hiszek a közösen megfogalmazott és közösen elért célokban, melyek a sok-sok munka mellett újabb és újabb sikerélmények átéléséhez vezetnek."
+        ],
         "color": "#ade2ff",
         "techniques": {
           "title": "Alkalmazott technikák:",
@@ -57,7 +62,10 @@
         "occupation": "Gyógymasszőr",
         "phone number": "0620 244 1602",
         "email": "studio17gyogytorna@gmail.com",
-        "details": "Két fiúgyermek büszke anyukája vagyok. 2016-ban végeztem el a svédmasszőri-, majd a rákövetkező évben a gyógy-és sportmasszőri képzéseket, illetve azóta is folyamatosan képzem magam. \n \b \b  Egy hosszan elhúzódó mozgásszervi probléma sokak életét megkeserítheti, kortól függetlenül. A sportolói teljesítmény növelése, az aktív korú munkavállalók napi szintű stresszkezelése, illetve az idősödő korosztály aktívan töltött éveinek meghosszabbítása egyaránt munkám fontos területeit képezik. Akár a mozgásszegény és stresszes életmódnak, akár a genetikának köszönhetőek a panaszok, a masszázsterápia minden esetben bizonyítottan kedvező hatással van rájuk. Személyre szabott kezeléssorozata után garantáltan jobban érzi majd magát a bőrében. Keressen bizalommal!",
+        "details": [
+          "Két fiúgyermek büszke anyukája vagyok. 2016-ban végeztem el a svédmasszőri-, majd a rákövetkező évben a gyógy-és sportmasszőri képzéseket, illetve azóta is folyamatosan képzem magam.",
+          "Egy hosszan elhúzódó mozgásszervi probléma sokak életét megkeserítheti, kortól függetlenül. A sportolói teljesítmény növelése, az aktív korú munkavállalók napi szintű stresszkezelése, illetve az idősödő korosztály aktívan töltött éveinek meghosszabbítása egyaránt munkám fontos területeit képezik. Akár a mozgásszegény és stresszes életmódnak, akár a genetikának köszönhetőek a panaszok, a masszázsterápia minden esetben bizonyítottan kedvező hatással van rájuk. Személyre szabott kezeléssorozata után garantáltan jobban érzi majd magát a bőrében. Keressen bizalommal!"
+        ],
         "color": "#e67c6c",
         "techniques": {
           "title": "Alkalmazott technikák",
@@ -79,10 +87,12 @@
         "name": "Sugár Szilvia",
         "nick name": "Szilvia",
         "occupation": "Gyógytornász",
-        "school":"(Debreceni Egyetem)",
+        "school": "(Debreceni Egyetem)",
         "phone number": "0620 244 1602",
         "email": "studio17gyogytorna@gmail.com",
-        "details": "Gyermekkorom óta komoly gerincproblémákkal küzdök, így a praxisomban kiemelt fontossággal bír, hogy a saját tapasztalatból szerzett fájdalomcsillapítás és -megszűntetés technikáit más betegeknek is átadhassam. Célom, hogy a különböző ízületi, izom és egyéb forrásból eredő ortopédiai, reumatológiai, traumatológiai, valamint neurológiai problémák speciális kezelése mindenki számára elsajátítható legyen. Stúdiónkban számos speciális kezelés elérhető, melyek az említett problémák esetében hatékony és gyors segítséget nyújtanak.",
+        "details": [
+          "Gyermekkorom óta komoly gerincproblémákkal küzdök, így a praxisomban kiemelt fontossággal bír, hogy a saját tapasztalatból szerzett fájdalomcsillapítás és -megszűntetés technikáit más betegeknek is átadhassam. Célom, hogy a különböző ízületi, izom és egyéb forrásból eredő ortopédiai, reumatológiai, traumatológiai, valamint neurológiai problémák speciális kezelése mindenki számára elsajátítható legyen. Stúdiónkban számos speciális kezelés elérhető, melyek az említett problémák esetében hatékony és gyors segítséget nyújtanak."
+        ],
         "color": "#b5ffd9",
         "techniques": {
           "title": "Alkalmazott technikák",
@@ -102,7 +112,11 @@
         "school": "(Semmelweis Egyetem)",
         "phone number": "06301966193",
         "email": "studio17gyogytorna@gmail.com",
-        "details": "A testmozgás iránti kíváncsiságom gyermekkorom óta az életem része: 10 éven keresztül hivatásszerűen táncoltam, míg végül amellett döntöttem, hogy mélyebben megismerkedem az emberi test működésével. \n \b \b Kórházi munkám során főként degeneratív és gyulladásos eredetű mozgásszervi problémákkal küzdő páciensekkel találkozom. Gerincproblémákkal, csípő-, térd-, és bokaízületi panaszokkal foglalkozom, illetve különös gondot fordítok a nyaki eredetű gerincproblémákkal és az állkapocs ízületi gondokkal járó tünetek enyhítésére. Munkám fontos része a prevenció, külön figyelmet szentelek az ergonómiai szempontok átbeszélésére is. \n \b \b Óráimon pácienseimet legjobb tudásomnak és szakmai igényességemnek megfelelően, egyénre szabottan, célzott terápiában részesítem, hogy újra megtapasztalhassák a mozgás szabadságának örömét.",
+        "details": [
+          "A testmozgás iránti kíváncsiságom gyermekkorom óta az életem része: 10 éven keresztül hivatásszerűen táncoltam, míg végül amellett döntöttem, hogy mélyebben megismerkedem az emberi test működésével.",
+          "Kórházi munkám során főként degeneratív és gyulladásos eredetű mozgásszervi problémákkal küzdő páciensekkel találkozom. Gerincproblémákkal, csípő-, térd-, és bokaízületi panaszokkal foglalkozom, illetve különös gondot fordítok a nyaki eredetű gerincproblémákkal és az állkapocs ízületi gondokkal járó tünetek enyhítésére. Munkám fontos része a prevenció, külön figyelmet szentelek az ergonómiai szempontok átbeszélésére is.",
+          "Óráimon pácienseimet legjobb tudásomnak és szakmai igényességemnek megfelelően, egyénre szabottan, célzott terápiában részesítem, hogy újra megtapasztalhassák a mozgás szabadságának örömét."
+        ],
         "color": "#b5ffd9",
         "techniques": {
           "title": "Alkalmazott technikák",
@@ -123,12 +137,14 @@
         "occupation": "Gyógymasszőr",
         "phone number": "06301966193",
         "email": "studio17gyogytorna@gmail.com",
-        "details": "Gyógymasszőri tanulmányaimat Hawaiin végeztem, ahol egy helyi sámántól ősi polinéz gyógymódokat is tanultam (így például a Lomi Lomi masszázst), így egyszerre nyerhettem betekintést a modern és az ősi rehabilitációs technikák rejtelmeibe. Holisztikus szemlélettel dolgozom: vallom, hogy az emberi test, lélek és szellem hármasát együttesen, egymást támogatva érdemes kezelni. Testünk káprázatos dolgokra képes, ha megfelelően támogatjuk és törődünk vele. Kezeléseimet minden esetben személyre szabva, a páciens aktuális testi-lelki állapotát figyelembe véve, több technikát vegyítve állítom össze.",
+        "details": [
+          "Gyógymasszőri tanulmányaimat Hawaiin végeztem, ahol egy helyi sámántól ősi polinéz gyógymódokat is tanultam (így például a Lomi Lomi masszázst), így egyszerre nyerhettem betekintést a modern és az ősi rehabilitációs technikák rejtelmeibe. Holisztikus szemlélettel dolgozom: vallom, hogy az emberi test, lélek és szellem hármasát együttesen, egymást támogatva érdemes kezelni. Testünk káprázatos dolgokra képes, ha megfelelően támogatjuk és törődünk vele. Kezeléseimet minden esetben személyre szabva, a páciens aktuális testi-lelki állapotát figyelembe véve, több technikát vegyítve állítom össze."
+        ],
         "color": "#b5ffd9",
         "techniques": {
           "title": "Alkalmazott technikák",
           "data": [
-            "Mélyszoveti masszázs",
+            "Mélyszöveti masszázs",
             "Sportmasszázs",
             "Svédmasszázs",
             "Lomi Lomi",
@@ -155,10 +171,13 @@
   },
   "group sessions": {
     "group sessions title": "Csoportos órák",
-    "interval": "Időtartam: 45-55 perc",
+    "interval": "Időtartam:",
+    "intervalText": " 45-55 perc",
     "heading": "Hogyan készülj a csoportos órákra?",
-    "description": "A csoportos órákra a pontos kezdés miatt érkezz 5-10 perccel korábban, hogy át tudj öltözni kényelmes edző ruhádba. Cipőre nem lesz szükséged. Öltöző, zuhanyzó, törülköző, tusfürdő, papucs, és ivóvíz adott. Az órákon való részvételhez telefonos bejelentkezés szükséges az adott terapeutánál. Lemondás: 12 órával az óra kezdése előtt lehetséges, vagy 50% felszámítás. ",
-    "buttonText": "Kérdésed van? Tedd fel bátran!",
+    "description": "Kérjük, hogy csoportos óráinkra a pontos kezdés érdekében érkezzen 5-10 perccel korábban, hogy az átöltözésre is maradjon idő. Az alkalmakra kényelmes, szabad mozgást biztosító ruhát javaslunk. Cipőre nincs szükség. Stúdiónkban öltöző, zuhanyzó, törülköző, tusfürdő, vendégpapucs és ivóvíz áll vendégeink rendelkezésére.",
+    "buttonText": "Kérdése van? Keressen bizalommal!",
+    "resignation": "Lemondás:",
+    "resignationText": " A részvétel 12 órával a torna kezdete előtt telefonon lemondható. Ennél közelebbi órakezdés esetén a részvételi díj 50%-át felszámítjuk.",
     "days": {
       "monday": "Hétfő",
       "tuesday": "Kedd",
@@ -174,25 +193,25 @@
       {
         "name": "Állapotfelmérés",
         "price": "10 000 Ft",
-        "description": "Először jösz, ame snaps jujubes. Pastry dragée jelly-o. Cake tart jelly beans icing sugar plum sugar plum tiramisu.",
+        "description": "A legelső kezelési alkalom egy egyórás általános állapotfelmérés egy közös kezelési terv kialakításához.",
         "duration": "55 perc"
       },
       {
         "name": "Egyéni gyógytorna",
         "price": "8000/4000 Ft",
-        "description": "Egyénileg jösz, ame snaps jujubes. Pastry dragée jelly-o. Cake tart jelly beans icing sugar plum sugar plum tiramisu.",
+        "description": "A személyre szabott gyógytorna a fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája.",
         "duration": "55/30 perc"
       },
       {
         "name": "Gyógymasszázs",
         "price": "8000/4000 Ft",
-        "description": "Félóra gyógytorna, ame snaps jujubes. Pastry dragée jelly-o. Cake tart jelly beans icing sugar plum sugar plum tiramisu.",
+        "description": "Stúdiónkban számos típusú gyógymasszázs elérhető, legyen szó a napi szintű stresszkezelésről, a sportolói teljesítmény növeléséről, vagy a prevencióról.",
         "duration": "55/30 perc"
       },
       {
         "name": "Csoportos gerictorna",
         "price": "2500 Ft",
-        "description": "Csoportos gyógytorna, ame snaps jujubes. Pastry dragée jelly-o. Cake tart jelly beans icing sugar plum sugar plum tiramisu.",
+        "description": "Csoportos Evminov- és gerinctornáink ideális megoldást jelenthetnek az egésznapos ülőmunkát végzőknek. Kortól függetlenül kikapcsolnak, átmozgatnak.",
         "duration": "55 perc"
       }
     ]
@@ -212,46 +231,115 @@
   },
   "treatments": {
     "treatments title": "Kezeléseink",
-    "provider sentence": "Melyik munkatársunkhoz fordulj ha ezt a kezelést vállasztanád?",
+    "provider sentence": "Melyik munkatársunkhoz forduljon?",
     "treatments list": [
       {
         "title": "Állapotfelmérés",
-        "description": "Minden kezelésünk során a legelső alkalom egy általános állapotfelmérés, melyen a terapeuta részletesen kikérdezi Önt egészségügyi állapotáról. Orvosi dokumentációját, MR vagy CT felvételeit (amennyiben vannak), kérjük mindképpen hozza magával! A vizsgálat egy órát vesz igénybe, és fehérneműben történik. Az állapotfelmérés a teljes test pontos megfigyelése, vizsgálata miatt elengedhetetlen. A felmérés során a terapeuta folyamatosan tájékoztatást ad a talált elváltozásokról, a lehetséges problémákról és azok okaikról, illetve a különböző kezelési lehetőségekről. A mozgásvizsgálat és a speciális tesztek után a cél egy közös kezelési terv kialakítása, kezdve a rövidtávú célkitűzések meghatározásával.",
+        "description": [
+          "Minden kezelésünk során a legelső alkalom egy általános állapotfelmérés, melyen a terapeuta részletesen kikérdezi Önt egészségügyi állapotáról. Kérjük mindenképpen hozza magával orvosi dokumentációját, illetve (amennyiben van) MR vagy CT felvételeit is!",
+          "A vizsgálat egy órát vesz igénybe, és fehérneműben történik. Az állapotfelmérés a teljes test pontos megfigyelése, vizsgálata miatt elengedhetetlen. A felmérés során a terapeuta folyamatosan tájékoztatást ad a talált elváltozásokról, a lehetséges problémákról és azok okaikról, illetve a különböző kezelési lehetőségekről. A mozgásvizsgálat és a speciális tesztek után a cél egy közös kezelési terv kialakítása, kezdve a rövidtávú célkitűzések meghatározásával."
+        ],
         "therapist": ["Zsuzsa", "Panka", "Szilvia"]
       },
       {
         "title": "Evminov módszer",
-        "description": "Az Evminov módszer alapját egy speciálisan kifejlesztett ortopédiai segédeszköz, az Evminov Profilaktor képezi, mely a helytelen testtartás, gerincferdülés, porckorongsérv és egyéb gerincbetegségek megelőzésében és enyhítésében nyújt segítséget. A profilaktor egy fából készült, különleges technológiával előállított gerinc-rehabilitációs eszköz, mely megkönnyíti a gerincet érintő problémák helyreállítását, és az esetleges műtét utáni rehabilitációt. A módszer a finoman adagolt nyújtásra, tehermentesítésre és a gerincmelletti mélyizmok erősítésére épül.",
+        "description": [
+          "Az Evminov módszer egy speciálisan kifejlesztett ortopédiai segédeszköz, az Evminov Profilaktor használatán alapszik. A módszer hatékony segítséget nyújt a helytelen testtartás, a gerincferdülés, a porckorongsérv és egyéb gerincbetegségek megelőzésében és enyhítésében.",
+          "A profilaktor egy fából készült, különleges technológiával előállított gerinc-rehabilitációs eszköz, mely megkönnyíti a gerincet érintő problémák helyreállítását, és az esetleges műtét utáni rehabilitációt. Az Evminov torna a finoman adagolt nyújtásra, tehermentesítésre és a gerinc melletti mélyizmok erősítésére épül."
+        ],
         "therapist": ["Zsuzsa"]
       },
       {
         "title": "Schroth terápia",
-        "description": "A gyermekkori gerincferdülés (scoliosis) és a Scheuermann kór kezelésére kialakított módszer rendkívül hatékonyan enyhíti a gerinc kóros görbületének fokozódását és a kialakult – vagy kialakulóban lévő – izomdiszbalanszokat. A terápia ötvözi a különböző testhelyzeketben végzett korrekciós légzést, aktív nyújtózást és izomerősítést. Komoly koncentrációt igénylő torna, mely otthoni gyakorlást is megkíván, ezért kisgyermekkorban eleinte játékkal kevert gyakorlatokkal haladunk. A gyermekkorban kialakult gerincferdülés felnőttkorban is okozhat fájdalmat, így a Schroth terápia nem kizárólag gyerekeknek hasznos.",
+        "description": [
+          "A gyermekkori gerincferdülés (scoliosis) és a Scheuermann kór kezelésére kialakított módszer rendkívül hatékonyan enyhíti a gerinc kóros görbületének fokozódását és a kialakult – vagy kialakulóban lévő – izomdiszbalanszokat. A terápia ötvözi a különböző testhelyzeketben végzett korrekciós légzést, aktív nyújtózást és izomerősítést. Komoly koncentrációt igénylő torna, mely otthoni gyakorlást is megkíván, ezért kisgyermekkorban eleinte játékkal kevert gyakorlatokkal haladunk. A gyermekkorban kialakult gerincferdülés felnőttkorban is okozhat fájdalmat, így a Schroth terápia nem kizárólag gyerekeknek hasznos."
+        ],
         "therapist": ["Zsuzsa", "Panka", "Szilvia"]
       },
       {
         "title": "McKenzie torna",
-        "description": "Biomechanikailag, élettanilag és anatómiailag is alátámasztott módszer, mely a páciensek aktív közreműködésével történik. A beteg saját maga képes befolyásolni a kialakuló fájdalmat, aminek hatására bizonyos idő után terapeutától függetlenül is kezelni tudja a problémáit.",
+        "description": [
+          "A McKenzie módszer egy biomechanikailag, élettanilag és anatómiailag is alátámasztott terápia, melyet mindig a páciensek aktív közreműködésével alkalmazunk. A torna során a beteg saját maga képes befolyásolni a kialakuló fájdalmat, aminek segítségével bizonyos idő után terapeutától függetlenül is kezelni tudja a panaszait."
+        ],
         "therapist": ["Panka", "Szilvia"]
       },
       {
         "title": "Kinesio tape ragasztás",
-        "description": "A kinesio tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel nem tartalmaz gyógyszert, mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele.",
+        "description": [
+          "A kinesio tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel anyaga nem tartalmaz gyógyszert, a mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
+        ],
         "therapist": ["Zsuzsa", "Panka", "Szilvia "]
       },
       {
         "title": "Gyógymasszázs",
-        "description": "A Gyógymasszázs tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel nem tartalmaz gyógyszert, mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele.",
+        "description": [
+          "A Gyógymasszázs tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel nem tartalmaz gyógyszert, mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
+        ],
         "therapist": ["Szilvia"]
       },
       {
         "title": "Funkcionális gyógytorna",
-        "description": "Egy komolyabb sérülés, egy műtét, vagy a hosszabb ideje jelen lévő fájdalmak és problémák jelentős mértékben befolyásolják az életünk és a testünk minőségét. Ilyenkor sérülnek a velünk született mozgásminták is, melyek helyreállítása alapvető fontosságú. A rehabilitációhoz minden ilyen esetben funkcionális, egyénre szabott gyógytorna szükséges.A személyre szabott kezelés előnye, hogy a magánóra keretei között a gyógytornász fókuszált figyelmet fordíthat a betegre. A fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája minden esetben az egyéni gyógytorna. Ülő- vagy megterhelő fizikai munka esetén, alak- és egészségmegőrzési célból, az ízületek és izmok mozgékonyságának megőrzésére, esetleg bármilyen későbbi probléma megelőzésére szintén javasolt egyéni kezelést foglalni.",
+        "description": [
+          "Egy komolyabb sérülés, egy műtét, vagy egyes, hosszabb ideje jelen lévő fájdalmak és problémák jelentős mértékben befolyásolják az életünk és a testünk minőségét. Ilyenkor sérülnek a velünk született mozgásminták is, melyek helyreállítása alapvető fontosságú. A rehabilitációhoz minden ilyen esetben funkcionális, egyénre szabott gyógytorna szükséges.",
+          "A személyre szabott kezelés előnye, hogy a magánóra keretei között a gyógytornász fókuszált figyelmet fordíthat a betegre. A fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája minden esetben az egyéni gyógytorna. Ülő- vagy megterhelő fizikai munka esetén, alak- és egészségmegőrzési célból, az ízületek és izmok mozgékonyságának megőrzésére, esetleg bármilyen későbbi probléma megelőzésére szintén javasolt egyéni kezelést foglalni."
+        ],
         "therapist": ["Panka"]
       },
       {
+        "title": "FDM (Fascia Disztorziós Modell)",
+        "description": [
+          "Az FDM módszer egy új, különösen hatékony mozgásterápiás eljárás, melyet ma már világszerte egyre szélesebb körben alkalmaznak. Az FDM elismerten a leggyorsabban terjedő fájdalomcsillapító terápia: szinte azonnal jelentkező pozitív hatása ízületi, izom és szervi problémákra is megoldást jelenthet."
+        ],
+        "therapist": ["Panka", "Livienne"]
+      },
+      {
+        "title": "SI-terápia (AKA gerinc- és nyakkezelés)",
+        "description": [
+          "A SI-terápia alapját a Japánban kifejlesztett AKA gerinckezelés képezi. A kezelés során a keresztcsont és a csípőcsont közötti ízületet – a SI ízületet – kimozgatva feloldjuk az ízületben keletkezett feszültséget, ezáltal csökkenve vagy teljesen megszűntetve a deréktáji és nyaki fájdalmat. A módszer gerinc- és mozgásszervi problémák kezelése egyaránt alkalmas."
+        ],
+        "therapist": ["Panka", "Livienne", "Szilvia "]
+      },
+      {
         "title": "Lomi Lomi",
-        "description": "A Lomi lomi egy osi polinez gyogymod. Eredetileg titkos, csak a kivalasztottak tanulhattak ezt a gyogyitasi technikai,hogy aztan gyogyitsak a falu nepet, vagy adott esetben elkiserjek a harcosokat a haboruba, es roluk gondoskodjanak. A lomi lomi tobb mint masszazs, ez egy nagyon intuitiv body work. Aunty Margaret Machado (o a Lomi Lomi egyik elso nagy tanitoja) megfogalmazasa szerint a Lomi a szeretet erintese -a kezek, a test es lelek osszekottetese az Elet energiajaval. Nalam a Lomi Lomi egy kis rahangolodassal, tanmesevel kezdodik,mert as osi Hawai'iak is igy tanitottak/tanultak. A lomi lomi egy nema pule-vel (osszekapcsolodas, szandek meghatarozas,ima) kezdodik, a kezeles kozben a terapeuta tanca (a hawai'i hula mozdulatai is felfedezhetoek) es ritmikus mozdulatai az ocean ringato hullamaira emlekeztnek leginkabb. A technika kulonlegessege meg a kulonfele testtajak egyideju kezelese, ami miatt az idegrendszer elveszti a fonalat, igy meg a legfeszultebbek is kepesek ellazulni es atadni magukat a torteneseknek. A technika mellett a legfontosabb a szereto erintes jelenlete. Az itelkezesmentes, feltetel nelkuli elfogadas es szereto figyeltem amiben a kezelest kapo reszesul. Az intuitiv lomi lomi kezeles mindig egyenreszabott,mindig az adott pillanatban a leheto legmegfelelobb az erintett szamara mind testileg,mind lelkileg. A kezeles kozben felcsendulo Hawai'i ima, a kezeles veget jelento ritualis lab lemos, es gyakran a kezeles kozben erkezo intuitiv uzenetek megosztasa a kelest kovetoen mind mind a Lomi Lomi csodalatos belso utazasanak resze. A Hawai'iak szerint nem kell minden aron 'helyrehozni' a kezelest befogadot, inkabb elkiserni ot a gyogyulas osvenyen, tartani szamara a teret amig visszatalal a sajat egyensulyahoz, harmoniajahoz, mana-jahoz (eletenergia) es ujra aloha (az eletenergia oromteli aramoltatasa a jelen pillanatban megelve)",
+        "description": [
+          "Ez az ősi polinéz gyógymód nem puszta masszázs: központjában a teljes test kezelése áll. A Lomi Lomi titkos technikáját a régi korokban csak a kiválasztottak sajátíthatták el, hogy így gyógyítsák a falu népét, vagy harcosaikat kísérjék a háborúba. A hawaiiak szerint a befogadót nem helyrehozni kell, hanem végigkísérni a testi-lelki gyógyulás ösvényén. A Lomi Lomi egy csodálatos belső utazás: a különböző testtájak egyidejű kezelésének, az elfogadó, szerető érintésnek és az egyénre szabott terápiának köszönhetően még a legfeszültebbek is képesek ellazulni."
+        ],
+        "therapist": ["Livienne"]
+      },
+      {
+        "title": "Nyirokmasszázs",
+        "description": [
+          "A nyirokdrenázsként, nyirokelvezetésként is ismert módszer olyan speciális masszázsfajta, amely a nyirokelfolyást javítja. Rendszeres alkalmazása megszűnteti a szöveti nyirokpangást, aktiválja az immunrendszert, serkenti a salakanyagok elszállítását, így a sejtek és a szövetek regenerálódását, csökkenti a gyulladáskészséget, illetve elősegíti a meglevő gyulladások, sebek gyógyulását."
+        ],
+        "therapist": ["Livienne"]
+      },
+      {
+        "title": "Flossing terápia",
+        "description": [
+          "Kompressziós terápia, melyet ízületi és izombántalmak hatékony, gyors kezelésére, illetve fájdalomcsillapításra alkalmazunk. A módszer a szöveti regenerációt is radikálisan serkenti. A kezelés során 1,5-2 percre erős gumiszalagokat tekerünk a panaszos terület köré, majd ezeket gyorsan visszaeresztve érjük el a jótékony hatást."
+        ],
+        "therapist": ["Livienne"]
+      },
+      {
+        "title": "Köpölyözés",
+        "description": [
+          "A kínai orvoslásban a köpölyözés a test energia-áramlását (azaz a csí áramlását) befolyásolja: a terápiát blokkolt vagy stagnáló áramlás újraindítására alkalmazzák. A nyugati szakemberek az izmok kezelésére és a véráram felpezsdítésére használják a köpölyözést."
+        ],
+        "therapist": ["Livienne"]
+      },
+      {
+        "title": "Derék- és nyakprotokoll",
+        "description": [
+          "A mozgásszervi problémák kezelésére összeállított „protokoll” eljárások ötvözik a modern nyugati oszteopátia és a hagyományos kínai manuálterápia módszereit. A meghatározott sorrendben végzett lazító és nyújtó fogások, a kineziológiai tapasz, illetve a fülakupunktúra együttes alkalmazása gyors és eredményes gyógyulást biztosít.",
+          "A kezelés időtartama: 90 perc"
+        ],
+        "therapist": ["Livienne"]
+      },
+      {
+        "title": "Gua Sha masszázs",
+        "description": [
+          "A kínai orvoslás elismert reflexológiai kezelése szó szerint annyit tesz, hogy „minden rossz kikaparása”. A masszázs hagyományosan egy csontból vagy kőből készült lemezzel történik; a kezelt testrészeken megjelenő bőrirritáció pontos diagnózist nyújt az egyes helytelenül működő belső szervekről."
+        ],
         "therapist": ["Livienne"]
       }
     ]

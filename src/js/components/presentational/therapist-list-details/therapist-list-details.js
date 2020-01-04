@@ -94,7 +94,11 @@ const ThreapistDetailsComp = props => {
           </div>
         </div>
       </div>
-      <p className="therapist-content">{therapist.details}</p>
+      <div className="therapist-content">
+      {therapist.details.map(e => {
+        return <p>{e}</p>;
+      })}
+      </div>
     </div>
   );
 };

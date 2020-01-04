@@ -191,6 +191,10 @@
   white-space: pre-line;
 }
 
+.therapist-details .therapist-content p {
+  margin: 0;
+}
+
 .therapist-details .therapist-heading {
   background-color: #313235;
   height: auto;

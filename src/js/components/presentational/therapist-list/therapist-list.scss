@@ -121,6 +121,9 @@
     font-family: Work Sans;
     line-height: $defaultLineHeight;
     white-space: pre-line;
+    p {
+      margin: 0;
+    }
   }
   .therapist-heading {
     background-color: rgb(49, 50, 53);
@@ -139,7 +142,6 @@
       p {
         margin: 15px;
         font-size: $miniFontSize;
-        
       }
       h3 {
         margin: 15px;

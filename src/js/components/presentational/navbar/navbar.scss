@@ -75,8 +75,8 @@
   font-size: $miniFontSize;
   position: fixed;
   padding: 0;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-top: 1em;
+  padding-bottom: 1em;
   overflow: visible;
   height: 2.125em;
   z-index: 3;
@@ -97,9 +97,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  .languagepicker {
-    margin-top: -1px;
   }
   div > a {
     margin-right: 1.875em;

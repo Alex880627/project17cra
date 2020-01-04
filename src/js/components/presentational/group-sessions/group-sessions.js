@@ -4,7 +4,7 @@ import groupIcon from "../../../../data/images/icons/group-icon.png";
 import "./group-sessions.css";
 
 const GroupSessionsContainer = props => {
-  if(props.groupSessionDates<1){
+  if (props.groupSessionDates < 1) {
     props.getGroupSessionDates();
   }
   const groupSessionDates = [...props.groupSessionDates];
@@ -34,26 +34,33 @@ const GroupSessionsContainer = props => {
     <>
       <div className="group-sessions-wrapper">
         <div className="heading">
-          <h3 style={{ animation: "fadeInRightDown 2s ease" }}>{groupSessions["group sessions title"]}</h3>
-          <img style={{ animation: "fadeInLeftDown 2s ease" }} src={groupIcon} alt="time table icon" />
+          <h3 style={{ animation: "fadeInRightDown 2s ease" }}>
+            {groupSessions["group sessions title"]}
+          </h3>
+          <img
+            style={{ animation: "fadeInLeftDown 2s ease" }}
+            src={groupIcon}
+            alt="time table icon"
+          />
         </div>
-        <div className="group-sessions-table-wrapper">
-        <div className="group-sessions-table">
-          <div className="table-header">
-            <div className="table-element header" />
-            {Object.entries(groupSessions.days).map(element => {
-              return (
-                <div className="table-element header" key={element[0]}>
-                  {element[1]}
-                </div>
-              );
-            })}
-          </div>
-          {makeMultiArrayFromDataByHours(groupSessionDates).map(
-            element => {
+        <div className="group-sessions-table-wrapper" style={{animation: "fadeIn 3s ease"}}>
+          <div className="group-sessions-table">
+            <div className="table-header">
+              <div className="table-element header" />
+              {Object.entries(groupSessions.days).map(element => {
+                return (
+                  <div className="table-element header" key={element[0]}>
+                    {element[1]}
+                  </div>
+                );
+              })}
+            </div>
+            {makeMultiArrayFromDataByHours(groupSessionDates).map(element => {
               return (
                 <div className="table-row" key={`${Math.random()}`}>
-                  <div className="table-element"><h3>{element[0].hour}</h3></div>
+                  <div className="table-element">
+                    <h3>{element[0].hour}</h3>
+                  </div>
                   {Object.keys(groupSessions.days).map(day => {
                     const filteredTableData = element.filter(data => {
                       return data.day === day;
@@ -74,16 +81,22 @@ const GroupSessionsContainer = props => {
                   })}
                 </div>
               );
-            }
-          )}
+            })}
           </div>
         </div>
         <div className="group-sessions-description">
           <h1>{groupSessions.heading}</h1>
           <p>{groupSessions.description}</p>
-          <h5>{groupSessions.interval}</h5>
+          <h5>
+            {groupSessions.interval}
+            <span>{groupSessions.intervalText}</span>
+          </h5>
+          <h5>
+            {groupSessions.resignation}{" "}
+            <span>{groupSessions.resignationText}</span>
+          </h5>
         </div>
-        <OvalButton text={groupSessions.buttonText} onClick={props.showEmail}/>
+        <OvalButton text={groupSessions.buttonText} onClick={props.showEmail} />
       </div>
     </>
   );
