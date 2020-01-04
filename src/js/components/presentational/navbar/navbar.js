@@ -12,7 +12,7 @@ import "./navbar.css";
 
 const NavBar = props => {
   const [innerWidth, setInnerWidth] = useState(window.innerWidth);
-  const ref = useRef(null)
+  const ref = useRef(null);
   const onScreen = useOnScreen(ref, 0.01);
   useEffect(() => {
     window.addEventListener("resize", () => {
@@ -29,14 +29,14 @@ const NavBar = props => {
   }
   return (
     <>
-      <CoverPic {...props}/>
-      <nav className={onScreen? "main-navbar-shrink":"main-navbar"}>
+      <CoverPic {...props} />
+      <nav className={onScreen ? "main-navbar-shrink" : "main-navbar"}>
         <HamburgerMenu {...props} />
         {innerWidth > 1000 ? (
           <NavigationLinks {...props} />
-        ) : (
-          <img id="front-mobile-logo" src={innerWidth > 768? logoAndText:null} alt="studio17 logo"/>
-        )}
+        ) : innerWidth > 768 ? (
+          <img id="front-mobile-logo" src={logoAndText} alt="studio17 logo" />
+        ) : null}
 
         <Loader {...props} />
         <UpNavButton />
