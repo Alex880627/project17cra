@@ -29,14 +29,14 @@ class Galery extends React.Component {
   state = { currentModal: null };
   state = { pictures: [] };
   toggleModal = index => {
-    console.log(this.state.pictures, images);
-    
     this.setState(state => ({ modalIsOpen: !state.modalIsOpen }));
     this.setState({ currentModal: index });
   };
   setImage = index => {
     return new Promise((res, rej) => {
-      this.setState(state => ({ pictures: [images[index]] }));
+      this.setState(state => ({
+        pictures: [images[index]]
+      }));
       return res("geci");
     });
   };
@@ -60,12 +60,22 @@ class Galery extends React.Component {
                 <img
                   src={element.source}
                   onClick={() => {
-                    this.setImage(index).then(() => {
-                      console.log("genyau");
-                      
-                      this.toggleModal(index);
-                    });
-                  }}
+                    this.setImage(index)
+                      .then(() => {
+                        this.toggleModal(index+1);
+                      })
+                      .then(() => {
+                        this.setState(state => ({
+                          pictures: [...this.state.pictures, images[index]]
+                        }));
+                      }).then(() => {
+                        this.setState(state => ({
+                          pictures: [images[index + 2], ...this.state.pictures]
+                        }));
+                      })
+                  console.log(this.state.pictures, this.state.currentModal);
+                  }
+                }
                 />
               </div>
             );
@@ -75,7 +85,7 @@ class Galery extends React.Component {
           {modalIsOpen ? (
             <Modal
               onClose={this.toggleModal}
-              allowFullscreen={false}
+              allowFullscreen={true}
               closeOnBackdropClick={true}
             >
               <Carousel
