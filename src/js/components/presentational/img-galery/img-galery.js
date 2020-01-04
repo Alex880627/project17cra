@@ -14,7 +14,7 @@ const images = importAll(
     false,
     /\.(png|jpe?g|svg|jpg)$/
   )
-)
+);
 
 const thumbnails = importAll(
   require.context(
@@ -26,10 +26,19 @@ const thumbnails = importAll(
 
 class Galery extends React.Component {
   state = { modalIsOpen: false };
-  state = { currentModal: null }
+  state = { currentModal: null };
+  state = { pictures: [] };
   toggleModal = index => {
+    console.log(this.state.pictures, images);
+    
     this.setState(state => ({ modalIsOpen: !state.modalIsOpen }));
     this.setState({ currentModal: index });
+  };
+  setImage = index => {
+    return new Promise((res, rej) => {
+      this.setState(state => ({ pictures: [images[index]] }));
+      return res("geci");
+    });
   };
   render() {
     const Footer = () => {
@@ -47,12 +56,15 @@ class Galery extends React.Component {
         <div className="galery-wrapper">
           {thumbnails.map((element, index) => {
             return (
-              <div className="thumbnails"
-              key={element.source}>
+              <div className="thumbnails" key={element.source}>
                 <img
                   src={element.source}
                   onClick={() => {
-                    this.toggleModal(index);
+                    this.setImage(index).then(() => {
+                      console.log("genyau");
+                      
+                      this.toggleModal(index);
+                    });
                   }}
                 />
               </div>
@@ -67,7 +79,7 @@ class Galery extends React.Component {
               closeOnBackdropClick={true}
             >
               <Carousel
-                views={images}
+                views={this.state.pictures}
                 components={{ Footer: Footer }}
                 currentIndex={this.state.currentModal}
               />
