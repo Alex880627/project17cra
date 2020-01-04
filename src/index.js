@@ -5,6 +5,7 @@ import ReactDOM from "react-dom";
 import App from "./js/components/app";
 import NoMatch from "./js/components/presentational/no-match/no-match";
 import './index.css'
+require('dotenv').config();
 
 import * as serviceWorker from "./js/services/serviceWorker";
 import configureStore from "./js/store/configure-store";
