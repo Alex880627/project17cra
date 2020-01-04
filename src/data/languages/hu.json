@@ -15,18 +15,19 @@
       {
         "name": "Agócs Szilvia",
         "nick name": "Szilvia ",
-        "occupation": "Diplomás Gyógytornász",
-        "phone number": "06304019871",
+        "occupation": "Gyógytornász",
+        "school": "(Semmelweis Egyetem)",
+        "phone number": "0630 401 9871",
         "email": "studio17gyogytorna@gmail.com",
-        "details": "2016-ban a Semmelweis Egyetem Egészségtudományi Karán Gyógytornász-fizioterapeuta szakirányon végeztem. Ezt követően az Országos Reumatológiai és Fizioterápiás Intézetben kezdtem el dolgozni, azóta is a reumatológiai rehabilitáció területén segítem a páciensek gyógyulását. Soha nem volt számomra kérdés, hogy segítő szakmában fogok elhelyezkedni, ez a hivatásom. A páciensekkel való közvetlen kapcsolat kialakítása fontos alapját képezi a munkámnak, a panaszok megértéséhez elengedhetetlennek tartom a közvetlen beszélgetést, a személyes motivációk megértését, az alapos anamnézis felvételt.  Szeretnék a hozzám betérő vendégeknek feszültség és stresszmentes légkört biztosítani és olyan gyakorlatokkal és tanácsokkal ellátni őket, amelyeket a mindennapi rutinjukba is könnyen betudnak illeszteni. Kórházi munkám során rengeteg foglalkozási ártalommal, mozgásszervi panasszal rendelkező pácienssel találkozom nap, mint nap, melyek kezelésében sok gyakorlati tapasztalatot szereztem az elmúlt 3 évben. (nyak, hát, derékfájás, kopásos ízületi panaszok, gyulladással járó betegségek) Gyakran alkalmazom a porckorong eredetű panaszok visszaszorítására világszerte elismert McKenzie módszert. Célom, hogy az eddig megszerzett tudásommal a hozzám betérő vendégek elérjék a számukra kitűzött célt, legyen szó a panaszmentes mindennapokról, a sporthoz való visszatalálásról, vagy preventív mozgásformával az esetlegesen kialakuló panaszok megelőzéséről.",
+        "details": "Számomra soha nem volt kérdés, hogy segítő szakmában fogok elhelyezkedni: ez a hivatásom. A pácienseimmel való közvetlen kapcsolat kialakítása fontos alapját képezi a munkámnak, a panaszok kezeléséhez elengedhetetlennek tartom a személyes motivációk megértését. Kórházi munkám során számtalan foglalkozási ártalommal, mozgásszervi panasszal találkozom nap mint nap, melyek kezelésében széleskörű tapasztalatot szereztem az elmúlt években. Gyakran alkalmazom a porckorong eredetű panaszok visszaszorítására világszerte elismert McKenzie módszert. \n \b \b Célom, hogy az eddig megszerzett tudásommal a hozzám betérő vendégek elérjék a számukra kitűzött célt, legyen szó a panaszmentes mindennapokról, a sporthoz való visszatalálásról, vagy az esetlegesen kialakuló panaszok megelőzéséről.",
         "color": "#b5ffd9",
         "techniques": {
           "title": "Alkalmazott technikák",
           "data": [
-            "McKenzie módszer (nyak és gerinc)",
+            "McKenzie módszer",
             "FDM (Fascia Disztorziós Modell)",
-            "Kinesio tape ragasztás",
-            "Idegmobilizáció"
+            "Kinesio tape",
+            "SMR henger"
           ]
         }
       },
@@ -34,48 +35,13 @@
         "name": "Csikós Panka",
         "nick name": "Panka",
         "occupation": "Gyógytornász",
-        "phone number": "06202441602",
+        "school": "(Semmelweis Egyetem)",
+        "phone number": "0620 244 1602",
         "email": "studio17gyogytorna@gmail.com",
-        "details": "Semmelweis Egyetem Egészségtudományi Karán gyógytornász szakirány Minden korosztály: ovis tartás-, koordináció javítás, lúdtalptorna Gyermekkorban kialakult gerincferdülés (scoliosis) kezelése felnőtt gerinc problémák: kellemetlen derékfájástól - a súlyos gerincbántalmakig, sport sérülések rehabilitációja és visszatérés, funkcionális köredzés, trx, SMR henger időskori preventív torna, ízületi panaszok enyhítése, mobilitás és függetlenség megőrzése Egyéni és kis csoportos órák, mindenkire és minden apró mozdulatra fokozott figyelem egy barátságos, jó hangulatú torna közben Közösen megfogalmazott célok, közösen végrehajtva, soksok munkával és újabb és újabb sikerélményekkel.",
+        "details": "Gyógytornászként sokféle korosztályt érintő változatos panaszokkal foglalkozom. Egyéni és kiscsoportos óráimon mindenkire és minden apró mozdulatra fokozott figyelmet fordítok, ám közben hasonlóan fontosnak tartom, hogy a torna barátságos, jó hangulatban teljen. Gyógytornászként hiszek a közösen megfogalmazott és közösen elért célokban, melyek a sok-sok munka mellett újabb és újabb sikerélmények átéléséhez vezetnek.",
         "color": "#ade2ff",
         "techniques": {
           "title": "Alkalmazott technikák:",
-          "data": [
-            "Svédmasszázs",
-            "Gyógy- és Sportmasszázs",
-            "FDM mozgásterápiás/fájdalomcsillapító terápia",
-            "SI-terápia / AKA gerinc- és nyakkezelés"
-          ]
-        }
-      },
-      {
-        "name": "Erasimus Zsuzsa",
-        "nick name": "Zsuzsa",
-        "occupation": "Gyógymasszőr",
-        "phone number": "06202441602",
-        "email": "studio17gyogytorna@gmail.com",
-        "details": "Erasimus Zsuzsa is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "color": "#e67c6c",
-        "techniques": {
-          "title": "Alkalmazott technikák",
-          "data": [
-            "Svédmasszázs",
-            "Gyógy- és Sportmasszázs",
-            "FDM mozgásterápiás fájdalomcsillapító terápia",
-            "SI-terápia / AKA gerinc- és nyakkezelés"
-          ]
-        }
-      },
-      {
-        "name": "Sugár Szilvia",
-        "nick name": "Szilvia",
-        "occupation": "Diplomás Gyógytornász",
-        "phone number": "06202441602",
-        "email": "studio17gyogytorna@gmail.com",
-        "details": "Sugár Szilvia is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "color": "#b5ffd9",
-        "techniques": {
-          "title": "Alkalmazott technikák",
           "data": [
             "Evminov gerinc-rehabilitáció",
             "Schroth terápia",
@@ -86,20 +52,68 @@
         }
       },
       {
-        "name": "Andorka Eszter",
-        "nick name": "Eszter",
-        "occupation": "Diplomás Gyógytornász",
-        "phone number": "06301966193",
+        "name": "Erasimus Zsuzsa",
+        "nick name": "Zsuzsa",
+        "occupation": "Gyógymasszőr",
+        "phone number": "0620 244 1602",
         "email": "studio17gyogytorna@gmail.com",
-        "details": "2016-ban végeztem a Semmelweis Egyetemen gyógytornász-fizioterapeutaként, majd 2019-ben mesterszakon okleveles fizioterapeutaként. \n \b \b A testmozgás iránti kíváncsiságom gyermekkorom óta az életem része, 10 éven keresztül hivatásszerűen táncoltam, míg végül amellett döntöttem, hogy mélyebben megismerkedem az emberi test működésével. Tanulmányaim mellett gyógytornára jártam, mert fontosnak tartottam, hogy pontosan megérezzem azokat a mozdulatokat, melyek majd később pácienseimnek gyógyulásául szolgálhatnak. Tanulmányaimat követően az Országos Reumatológiai és Fizioterápiás Intézetben kezdtem el dolgozni, ahol jelenleg is dolgozom. Munkahelyemen főként degeneratív valamint gyulladásos eredetű mozgásszervi problémákkal küzdő páciensekkel találkozom, akikkel egyéni és csoportos kezelések formájában is dolgozom. Munkám során főként gerincproblémákkal (derék-, hát-, és nyakfájás), valamint csípő-, térd-, és bokaízületi panaszokkal küzdő pácienseknek segítek, illetve különös gondot fordítok a nyaki eredetű gerincproblémákkal valamint az állkapocs ízületi problémákkal küzdő páciensek tüneteinek enyhítésére. Emellett fontosnak tartom a prevenciót, a sérülések és az ülő életmódból adódó gerinc és más ízületi panaszok megelőzését is, így külön figyelmet szentelek az ergonómiai szempontok átbeszélésére is. Az óráimon igyekszem olyan barátságos hangulatot kialakítani, mely során pácienseimet legjobb tudásomnak és szakmai igényességemnek megfelelően, egyénre szabottan, célzott terápiában részesítem, hogy újra megtapasztalhassák a mozgás szabadságának örömét.",
+        "details": "Két fiúgyermek büszke anyukája vagyok. 2016-ban végeztem el a svédmasszőri-, majd a rákövetkező évben a gyógy-és sportmasszőri képzéseket, illetve azóta is folyamatosan képzem magam. \n \b \b  Egy hosszan elhúzódó mozgásszervi probléma sokak életét megkeserítheti, kortól függetlenül. A sportolói teljesítmény növelése, az aktív korú munkavállalók napi szintű stresszkezelése, illetve az idősödő korosztály aktívan töltött éveinek meghosszabbítása egyaránt munkám fontos területeit képezik. Akár a mozgásszegény és stresszes életmódnak, akár a genetikának köszönhetőek a panaszok, a masszázsterápia minden esetben bizonyítottan kedvező hatással van rájuk. Személyre szabott kezeléssorozata után garantáltan jobban érzi majd magát a bőrében. Keressen bizalommal!",
+        "color": "#e67c6c",
+        "techniques": {
+          "title": "Alkalmazott technikák",
+          "data": [
+            "Svédmasszázs",
+            "Gyógymasszázs",
+            "Sportmasszázs",
+            "FDM (Fascia Disztorziós Modell)",
+            "SI-terápia / AKA gerinc- és nyakkezelés",
+            "Nyirokmasszázs",
+            "Derék- és nyakprotokoll",
+            "Flossing terápia",
+            "Köpöly",
+            "Gua Sha masszázs"
+          ]
+        }
+      },
+      {
+        "name": "Sugár Szilvia",
+        "nick name": "Szilvia",
+        "occupation": "Diplomás Gyógytornász",
+        "school":"(Debreceni Egyetem)",
+        "phone number": "0620 244 1602",
+        "email": "studio17gyogytorna@gmail.com",
+        "details": "Gyermekkorom óta komoly gerincproblémákkal küzdök, így a praxisomban kiemelt fontossággal bír, hogy a saját tapasztalatból szerzett fájdalomcsillapítás és -megszűntetés technikáit más betegeknek is átadhassam. Célom, hogy a különböző ízületi, izom és egyéb forrásból eredő ortopédiai, reumatológiai, traumatológiai, valamint neurológiai problémák speciális kezelése mindenki számára elsajátítható legyen. Stúdiónkban számos speciális kezelés elérhető, melyek az említett problémák esetében hatékony és gyors segítséget nyújtanak.",
         "color": "#b5ffd9",
         "techniques": {
           "title": "Alkalmazott technikák",
           "data": [
-            "McKenzie módszer (nyak, hát, gerinc)",
+            "Evminov gerinc-rehabilitáció",
+            "Schroth terápia",
+            "McKenczie módszer",
+            "Kinesio tape",
+            "Soft lézer"
+          ]
+        }
+      },
+      {
+        "name": "Andorka Eszter",
+        "nick name": "Eszter",
+        "occupation": "Diplomás Gyógytornász",
+        "school": "(Semmelweis Egyetem)",
+        "phone number": "06301966193",
+        "email": "studio17gyogytorna@gmail.com",
+        "details": "A testmozgás iránti kíváncsiságom gyermekkorom óta az életem része: 10 éven keresztül hivatásszerűen táncoltam, míg végül amellett döntöttem, hogy mélyebben megismerkedem az emberi test működésével. \n \b \b Kórházi munkám során főként degeneratív és gyulladásos eredetű mozgásszervi problémákkal küzdő páciensekkel találkozom. Gerincproblémákkal, csípő-, térd-, és bokaízületi panaszokkal foglalkozom, illetve különös gondot fordítok a nyaki eredetű gerincproblémákkal és az állkapocs ízületi gondokkal járó tünetek enyhítésére. Munkám fontos része a prevenció, külön figyelmet szentelek az ergonómiai szempontok átbeszélésére is. \n \b \b Óráimon pácienseimet legjobb tudásomnak és szakmai igényességemnek megfelelően, egyénre szabottan, célzott terápiában részesítem, hogy újra megtapasztalhassák a mozgás szabadságának örömét.",
+        "color": "#b5ffd9",
+        "techniques": {
+          "title": "Alkalmazott technikák",
+          "data": [
+            "McKenzie módszer",
             "FDM (Fascia Disztorziós Modell)",
             "Kinesio tape ragasztás",
-            "Idegmobilizáció"
+            "Állkapocs ízületi terápia",
+            "Függesztési technikák",
+            "Kinesio tape",
+            "Lágyrész manuálterápia"
           ]
         }
       },
@@ -140,7 +154,7 @@
     "interval": "Időtartam: 45-55 perc",
     "heading": "Hogyan készülj a csoportos órákra?",
     "description": "A csoportos órákra a pontos kezdés miatt érkezz 5-10 perccel korábban, hogy át tudj öltözni kényelmes edző ruhádba. Cipőre nem lesz szükséged. Öltöző, zuhanyzó, törülköző, tusfürdő, papucs, és ivóvíz adott. Az órákon való részvételhez telefonos bejelentkezés szükséges az adott terapeutánál. Lemondás: 12 órával az óra kezdése előtt lehetséges, vagy 50% felszámítás. ",
-    "buttonText":"Kérdésed van? Tedd fel bátran!",
+    "buttonText": "Kérdésed van? Tedd fel bátran!",
     "days": {
       "monday": "Hétfő",
       "tuesday": "Kedd",
@@ -245,8 +259,8 @@
   },
   "upButton": ".fel",
   "landingSentence": {
-    "coverSentenceLeft": "Megszüntetjük Fájdalmát,",
-    "coverSentenceRight": "és Visszaadjuk a ",
-    "coverSentenceColored": "Mozgás Örömét."
+    "coverSentenceLeft": "Nincs több fájdalom, ",
+    "coverSentenceRight": "csak ",
+    "coverSentenceColored": "szabad mozgás!"
   }
 }

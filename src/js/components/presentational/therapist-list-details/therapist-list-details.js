@@ -4,6 +4,7 @@ import phone from "../../../../data/images/icons/phone.png";
 import mail from "../../../../data/images/icons/mail-white.png";
 import swipeableModal from "../swipeable-drawer/swipeable-drawer";
 import modal from "../modal/modal";
+import ToolTip from "../tool-tip/tool-tip";
 
 const ThreapistDetailsComp = props => {
   let therapistsObject = {};
@@ -32,20 +33,25 @@ const ThreapistDetailsComp = props => {
   };
   const ref = useRef(null);
 
+  const getDescriptionFromTechnique = technique => {};
   return (
     <div className="therapist-details" ref={ref}>
       <div className="therapist-heading">
         <div>
           <h3>{therapist.name}</h3>
-          <p>{`${therapist.occupation}`}</p>
+          <p>{`${therapist.occupation}`}<span>{therapist.school? ` ${therapist.school}`:""}</span></p>
         </div>
         <img src={getTherapistPic()} />
       </div>
       <div className="content-box">
         <div className="details">
           <div className="therapist-techniques">
-            {therapist.techniques.data.map(techniq => {
-              return <Chip variant="outlined" size="small" label={techniq} />;
+            {therapist.techniques.data.map(technique => {
+              return (
+                <>
+                  <ToolTip technique={technique} />
+                </>
+              );
             })}
           </div>
           <div className="therapist-contacts">

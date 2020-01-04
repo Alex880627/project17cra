@@ -3,6 +3,10 @@
   margin-top: -10px;
 }
 
+.header-logo:hover {
+  cursor: pointer;
+}
+
 #nav-icon1 {
   width: 3em;
   height: 2.813em;

@@ -2,6 +2,9 @@
 .header-logo {
   margin-left: 30px;
   margin-top: -10px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 #nav-icon1 {
