@@ -111,6 +111,11 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+      window.onunload = function() {
+        window.scrollTo(0, 0);
+      };
+    </script>
     <div id="root"></div>
     <!--
       This HTML file is a template.

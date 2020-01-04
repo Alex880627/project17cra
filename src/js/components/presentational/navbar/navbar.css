@@ -198,6 +198,12 @@
   height: 40px;
 }
 
+.main-navbar-shrink .languagepicker {
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.7);
+}
+
 .double-arrow {
   color: #2caf27;
 }
