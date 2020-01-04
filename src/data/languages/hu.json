@@ -78,7 +78,7 @@
       {
         "name": "Sugár Szilvia",
         "nick name": "Szilvia",
-        "occupation": "Diplomás Gyógytornász",
+        "occupation": "Gyógytornász",
         "school":"(Debreceni Egyetem)",
         "phone number": "0620 244 1602",
         "email": "studio17gyogytorna@gmail.com",
@@ -98,7 +98,7 @@
       {
         "name": "Andorka Eszter",
         "nick name": "Eszter",
-        "occupation": "Diplomás Gyógytornász",
+        "occupation": "Gyógytornász",
         "school": "(Semmelweis Egyetem)",
         "phone number": "06301966193",
         "email": "studio17gyogytorna@gmail.com",
@@ -123,7 +123,7 @@
         "occupation": "Gyógymasszőr",
         "phone number": "06301966193",
         "email": "studio17gyogytorna@gmail.com",
-        "details": "Hawai'i-on vegeztem gyógymasszőrkent,mikozben egy helyi shámántol tanultam ősi Polinéz gyógyitásmódokat, mint például a Lomi Lomi masszázst is. Hawai'i-on egyszerre nyilt alkalmam betekinteni a modern es osi rehabilitacios technikak rejtelmeibe,amibol rengeteget tanultam. Vallom,hogy minden mindennel osszefugg, ezert a test-lelek-szellem harmasat egyuttesen,egymast tamogatva erdemes kezelni. Az emberi test egy csoda! Kaprazatbaejto dolgokra kepes,ha megfeleloen tamogatjuk es torodunk vele. Ebben szeretnek segitseget nyujtani a hozzam forduloknak. Kezeleseim mindig szemelyreszabottak, a paciens aktualis testi-lelki allapotat figyelembe veve, az alabbi technikakat vegyitve:",
+        "details": "Gyógymasszőri tanulmányaimat Hawaiin végeztem, ahol egy helyi sámántól ősi polinéz gyógymódokat is tanultam (így például a Lomi Lomi masszázst), így egyszerre nyerhettem betekintést a modern és az ősi rehabilitációs technikák rejtelmeibe. Holisztikus szemlélettel dolgozom: vallom, hogy az emberi test, lélek és szellem hármasát együttesen, egymást támogatva érdemes kezelni. Testünk káprázatos dolgokra képes, ha megfelelően támogatjuk és törődünk vele. Kezeléseimet minden esetben személyre szabva, a páciens aktuális testi-lelki állapotát figyelembe véve, több technikát vegyítve állítom össze.",
         "color": "#b5ffd9",
         "techniques": {
           "title": "Alkalmazott technikák",
@@ -131,7 +131,11 @@
             "Mélyszoveti masszázs",
             "Sportmasszázs",
             "Svédmasszázs",
-            "Lomi Lomi"
+            "Lomi Lomi",
+            "Köpöly",
+            "Streching",
+            "Neuromuszkuláris technika (NMT)",
+            "Kua Lua"
           ]
         }
       }

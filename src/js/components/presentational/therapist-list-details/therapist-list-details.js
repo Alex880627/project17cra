@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import Chip from "@material-ui/core/Chip";
 import phone from "../../../../data/images/icons/phone.png";
 import mail from "../../../../data/images/icons/mail-white.png";
 import swipeableModal from "../swipeable-drawer/swipeable-drawer";
@@ -33,13 +32,24 @@ const ThreapistDetailsComp = props => {
   };
   const ref = useRef(null);
 
-  const getDescriptionFromTechnique = technique => {};
+  const getDescriptionFromTechnique = technique => {
+    let searchedTechnique = props.language.treatments[
+      "treatments list"
+    ].filter(e => e.title.includes(technique));
+
+    return searchedTechnique.length > 0
+      ? searchedTechnique[0]
+      : { title: "Huppsz not implemented yet", description: "" };
+  };
   return (
     <div className="therapist-details" ref={ref}>
       <div className="therapist-heading">
         <div>
           <h3>{therapist.name}</h3>
-          <p>{`${therapist.occupation}`}<span>{therapist.school? ` ${therapist.school}`:""}</span></p>
+          <p>
+            {`${therapist.occupation}`}
+            <span>{therapist.school ? ` ${therapist.school}` : ""}</span>
+          </p>
         </div>
         <img src={getTherapistPic()} />
       </div>
@@ -47,9 +57,15 @@ const ThreapistDetailsComp = props => {
         <div className="details">
           <div className="therapist-techniques">
             {therapist.techniques.data.map(technique => {
+              let searchText = technique.split(" ")[0];
+              let techniqueObject = getDescriptionFromTechnique(searchText);
               return (
                 <>
-                  <ToolTip technique={technique} />
+                  <ToolTip
+                    technique={technique}
+                    techniqueTitle={techniqueObject.title}
+                    description={techniqueObject.description}
+                  />
                 </>
               );
             })}
