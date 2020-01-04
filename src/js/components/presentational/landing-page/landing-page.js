@@ -16,7 +16,7 @@ const LandinPage = props => {
       <NavBar {...props} />
       <TherapistListDetails {...props} />
       <ScrollDown />
-      <div className="landing-page" id="page-up">
+      <div className="landing-page" id="page-up" role="main" aria-labelledby="treatments">
         {isBigScreen() ? (
           <>
             <h3 className="left-sentence">
@@ -29,7 +29,7 @@ const LandinPage = props => {
           </>
         ) : (
           <div className="cover-logo">
-            <img src={logoVertical} />
+            <img src={logoVertical} alt="Studio17 logo"/>
           </div>
         )}
       </div>
