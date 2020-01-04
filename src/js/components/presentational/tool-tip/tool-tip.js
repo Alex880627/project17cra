@@ -9,12 +9,12 @@ import "./tool-tip.scss";
 
 const HtmlTooltip = withStyles(theme => ({
   tooltip: {
-    backgroundColor: "#f5f5f9",
+    backgroundColor: "white",
     margin: "20px",
-    color: "rgba(0, 0, 0, 0.87)",
+    color: "black",
+    boxShadow: "0px 0px 20px 1px black",
     maxWidth: 400,
     fontSize: theme.typography.pxToRem(12),
-    border: "1px solid #dadde9"
   }
 }))(Tooltip);
 
