@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AACE,gBADc,CACd,iBAAiB,CAAC;EAChB,gBAAgB,EAAE,sBAAsB;CACzC;;AAHH,AAKE,gBALc,CAKd,qBAAqB,CAAC;EACpB,UAAU,EAAE,eAAe;EAC3B,gBAAgB,EAAE,sBAAsB;CACzC",
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACf,0BAA0B,EAAE,KAAK;CASlC;;AAVD,AAEE,gBAFc,CAEd,iBAAiB,CAAC;EAChB,gBAAgB,EAAE,sBAAsB;CACzC;;AAJH,AAME,gBANc,CAMd,qBAAqB,CAAC;EACpB,UAAU,EAAE,eAAe;EAC3B,gBAAgB,EAAE,sBAAsB;CACzC",
     "sources": [
         "swipeable-drawer.scss"
     ],

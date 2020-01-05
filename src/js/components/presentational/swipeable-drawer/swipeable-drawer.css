@@ -1,3 +1,7 @@
+.swipeable-modal {
+  -webkit-overflow-scrolling: touch;
+}
+
 .swipeable-modal .MuiBackdrop-root {
   background-color: transparent !important;
 }

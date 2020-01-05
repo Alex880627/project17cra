@@ -67,6 +67,7 @@ export default function SideDrawer(props) {
   const sideList = side => (
     <div
       className={classes.list}
+      style={{"-webkit-overflow-scrolling": "touch"}}
       role="presentation"
       onClick={toggleDrawer(side, false)}
       onKeyDown={toggleDrawer(side, false)}
