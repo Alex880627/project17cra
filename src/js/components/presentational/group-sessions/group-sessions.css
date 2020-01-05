@@ -73,11 +73,12 @@
 h5 {
   color: white;
   width: 90%;
+  font-family: Arbutus Slab;
 }
 
 .group-sessions-description > h5 {
-  font-style: italic;
   font-size: 0.9375rem;
+  font-family: Arbutus Slab;
   margin-top: 3px;
   margin-bottom: 6px;
 }
@@ -94,7 +95,8 @@ h5 {
 
 .group-sessions-description > h1 {
   margin-top: 20px;
-  font-size: 0.9375rem;
+  font-family: Arbutus Slab;
+  font-size: 1rem;
   color: white;
 }
 
@@ -183,12 +185,13 @@ h5 {
 .group-sessions-table div .table-element h3,
 .group-sessions-table div .table-element p {
   margin: 0;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   color: #265c42;
 }
 
 .group-sessions-table div .table-element p {
-  font-size: 0.9375rem;
+  padding-top: 3px;
+  font-size: 0.8125rem;
 }
 
 .group-sessions-table div .header {

@@ -32,11 +32,12 @@
 h5 {
   color: rgb(255, 255, 255);
   width: 90%;
+  font-family: Arbutus Slab;
 }
 
 .group-sessions-description > h5 {
-  font-style: italic;
   font-size: $miniFontSize;
+  font-family: Arbutus Slab;
   margin-top: 3px;
   margin-bottom: 6px;
   span {
@@ -52,6 +53,7 @@ h5 {
 
 .group-sessions-description > h1 {
   margin-top: 20px;
+  font-family: Arbutus Slab;
   font-size: $smallFontSize;
   color: white;
 }
@@ -115,7 +117,8 @@ h5 {
         color: $mainGreenColor;
       }
       p {
-        font-size: $miniFontSize;
+        padding-top: 3px;
+        font-size: $extraMiniFontSize;
       }
     }
     .header {
