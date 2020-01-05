@@ -10,9 +10,11 @@ import "./tool-tip.scss";
 const HtmlTooltip = withStyles(theme => ({
   tooltip: {
     backgroundColor: "white",
+    opacity: 1,
     margin: "20px",
     color: "black",
     boxShadow: "0px 0px 20px 1px black",
+    lineHeight: "20px",
     maxWidth: 400,
     fontSize: theme.typography.pxToRem(12),
   }

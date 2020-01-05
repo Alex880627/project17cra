@@ -185,9 +185,9 @@
   padding-bottom: 15px;
   padding-top: 15px;
   margin: 0;
-  font-size: 14px;
+  font-size: 15px;
   font-family: Work Sans;
-  line-height: 20px;
+  line-height: 23px;
   white-space: pre-line;
 }
 
@@ -221,7 +221,7 @@
 
 .therapist-details .therapist-heading > div p {
   margin: 15px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .therapist-details .therapist-heading > div h3 {

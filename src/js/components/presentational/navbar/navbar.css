@@ -1,7 +1,7 @@
 .main-navbar {
   width: 100%;
   width: 100vw;
-  font-size: 14px;
+  font-size: 13px;
   position: fixed;
   padding: 0;
   padding-top: 2.375em;
@@ -100,7 +100,7 @@
 .main-navbar-shrink {
   width: 100%;
   width: 100vw;
-  font-size: 14px;
+  font-size: 13px;
   position: fixed;
   padding: 0;
   padding-top: 1em;

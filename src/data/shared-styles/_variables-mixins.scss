@@ -16,9 +16,10 @@
     height: auto;
   }
 }
-$miniFontSize: 14px;
+$extraMiniFontSize: 13px;
+$miniFontSize: 15px;
 $smallFontSize: 17px;
-$midFontSize: 19px;
+$midFontSize: 20px;
 $mainHeaderSize: 22px;
 $mainBlackColor: #222222;
 $mainRedcolor: #EB4335;
@@ -26,4 +27,4 @@ $darkGreenColor: #1F2614;
 $mainGreenColor: #265c42;
 $secondaryGreenColor:rgb(44, 175, 39);
 $mainOpacity: 0.7;
-$defaultLineHeight: 20px;
+$defaultLineHeight: 23px;

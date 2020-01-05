@@ -28,9 +28,9 @@
 
 .treatment p {
   text-align: justify;
-  font-size: 14px;
+  font-size: 15px;
   font-family: Work Sans;
-  line-height: 20px;
+  line-height: 23px;
 }
 
 .treatments-section-wrapper {
@@ -85,7 +85,7 @@
 
 .choose-therapist-section .provider-question {
   font-style: italic;
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 0;
 }
 

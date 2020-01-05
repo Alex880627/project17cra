@@ -64,13 +64,14 @@
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-bottom: 60px;
 }
 
 .treatments-list {
   width: 45%;
+  min-height: 260px;
   color: black;
   text-align: left;
-  margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,12 +96,13 @@
 
 .treatments-list span {
   font-family: Work Sans;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .treatments-list p:nth-child(4) {
   font-family: Work Sans;
-  font-size: 14px;
+  line-height: 23px;
+  font-size: 15px;
 }
 
 .treatments-list:nth-child(1) {

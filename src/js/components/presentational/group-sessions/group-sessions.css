@@ -77,7 +77,7 @@ h5 {
 
 .group-sessions-description > h5 {
   font-style: italic;
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 3px;
   margin-bottom: 6px;
 }
@@ -101,7 +101,7 @@ h5 {
 .group-sessions-description > p {
   font-family: Work Sans;
   font-weight: 100;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .group-sessions-description {
@@ -186,7 +186,7 @@ h5 {
 }
 
 .group-sessions-table div .table-element p {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .group-sessions-table div .header {
