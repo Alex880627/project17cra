@@ -221,11 +221,13 @@
 
 .therapist-details .therapist-heading > div p {
   margin: 15px;
+  margin-right: 0px;
   font-size: 15px;
 }
 
 .therapist-details .therapist-heading > div h3 {
   margin: 15px;
+  margin-right: 0px;
 }
 
 .therapist-details .therapist-heading img {
@@ -298,8 +300,8 @@
 
 .therapist-details .content-box .details .therapist-contacts .phone div,
 .therapist-details .content-box .details .therapist-contacts .email div {
-  width: 30px;
-  height: 30px;
+  width: 28px !important;
+  height: 28px !important;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -315,13 +317,13 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: #265c42;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .therapist-details .content-box .details .therapist-contacts .phone div img,
 .therapist-details .content-box .details .therapist-contacts .email div img {
-  width: 15px;
-  height: 15px;
+  width: 14px;
+  height: 14px;
 }
 
 .therapist-details .content-box .details .therapist-contacts .email a,
