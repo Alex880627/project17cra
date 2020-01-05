@@ -22,7 +22,7 @@ const TreatementDropdown = ({ element, props }) => {
       if (currentElement.style.height === "2.5em") {
         open ? setOpen(false) : setOpen(true);
         currentElement.style.height = `${(currentElement.scrollHeight / 100) *
-          6}em`;
+          6.4}em`;
         currentElement.style.borderBottom = "1px solid rgb(143, 143, 143)";
         currentElement.style.margin = "13px";
       } else {
@@ -58,8 +58,8 @@ const TreatementDropdown = ({ element, props }) => {
         style={window.innerWidth > 768 ? { cursor: "pointer" } : null}
         style={
           open === true
-            ? { transform: "scaleY(-1)", transition: "transform 0.1s" }
-            : { transform: "scaleY(1)", transition: "transform 0.1s" }
+            ? { transform: "scaleY(-1)", transition: "transform 0.2s" }
+            : { transform: "scaleY(1)", transition: "transform 0.2s" }
         }
       />
       <h3 style={{ animation: "fadeInLeft 2s ease" }}>{element.title}</h3>
