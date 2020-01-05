@@ -16,15 +16,14 @@
     height: auto;
   }
 }
-$extraMiniFontSize: 13px;
-$miniFontSize: 15px;
-$smallFontSize: 17px;
-$midFontSize: 20px;
-$mainHeaderSize: 22px;
+$extraMiniFontSize: 0.8125rem;
+$smallFontSize: 0.9375rem;
+$midFontSize: 1.0625rem;
+$mainHeaderSize: 1.375rem;
 $mainBlackColor: #222222;
 $mainRedcolor: #EB4335;
 $darkGreenColor: #1F2614;
 $mainGreenColor: #265c42;
 $secondaryGreenColor:rgb(44, 175, 39);
 $mainOpacity: 0.7;
-$defaultLineHeight: 23px;
+$defaultLineHeight: 1.25rem;

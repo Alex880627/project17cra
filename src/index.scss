@@ -10,6 +10,7 @@ body {
   -ms-overflow-style: none; /* IE 11 */
     scrollbar-width: none; /* Firefox 64 */
   font-family: Arbutus Slab;
+  font-size: 100%;
   /* font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace; */
 }
 
@@ -29,17 +30,5 @@ body {
     -webkit-overflow-scrolling: touch;
   }
 }
-$smallFontSize: 15px;
-$midFontSize: 17px;
-$mainHeaderSize: 22px;
-$mainBlackColor: #222222;
-$mainGreenColor: #265c42;
-$mainRedcolor: #EB4335;
-$mainBlackColor: #222222;
-$darkGreenColor: #1F2614;
-$mainGreenColor: #265c42;
-$secondaryGreenColor:rgb(44, 175, 39);
-$mainOpacity: 0.7;
-$defaultLineHeight: 20px;
 
 @import "./data/shared-styles/shared-animations";
