@@ -11,7 +11,7 @@
 }
 
 .treatment h3 {
-  font-size: 17px;
+  font-size: 0.9375rem;
   color: #000000;
   width: 100%;
   font-weight: 100 !important;
@@ -28,9 +28,9 @@
 
 .treatment p {
   text-align: justify;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: Work Sans;
-  line-height: 23px;
+  line-height: 1.5rem;
 }
 
 .treatments-section-wrapper {
@@ -85,7 +85,7 @@
 
 .choose-therapist-section .provider-question {
   font-style: italic;
-  font-size: 15px;
+  font-size: 0.9375rem;
   margin-bottom: 0;
 }
 

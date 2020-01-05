@@ -129,6 +129,7 @@
 }
 
 .therapist-details-container {
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -157,7 +158,7 @@
 }
 
 .therapist-details {
-  overflow: scroll;
+  overflow: auto;
   -webkit-overflow-scrolling: touch;
   margin: auto;
   margin-top: 10%;
@@ -185,9 +186,9 @@
   padding-bottom: 15px;
   padding-top: 15px;
   margin: 0;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: Work Sans;
-  line-height: 23px;
+  line-height: 1.5rem;
   white-space: pre-line;
 }
 
@@ -222,7 +223,7 @@
 .therapist-details .therapist-heading > div p {
   margin: 15px;
   margin-right: 0px;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .therapist-details .therapist-heading > div h3 {

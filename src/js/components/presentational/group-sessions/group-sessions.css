@@ -77,7 +77,7 @@ h5 {
 
 .group-sessions-description > h5 {
   font-style: italic;
-  font-size: 15px;
+  font-size: 0.9375rem;
   margin-top: 3px;
   margin-bottom: 6px;
 }
@@ -94,17 +94,19 @@ h5 {
 
 .group-sessions-description > h1 {
   margin-top: 20px;
-  font-size: 17px;
+  font-size: 0.9375rem;
   color: white;
 }
 
 .group-sessions-description > p {
   font-family: Work Sans;
   font-weight: 100;
-  font-size: 15px;
+  line-height: 1.2rem;
+  font-size: 0.9375rem;
 }
 
 .group-sessions-description {
+  line-height: 1.2rem;
   color: black;
   z-index: 0;
   max-width: 40.625em;
@@ -181,12 +183,12 @@ h5 {
 .group-sessions-table div .table-element h3,
 .group-sessions-table div .table-element p {
   margin: 0;
-  font-size: 17px;
+  font-size: 0.9375rem;
   color: #265c42;
 }
 
 .group-sessions-table div .table-element p {
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .group-sessions-table div .header {

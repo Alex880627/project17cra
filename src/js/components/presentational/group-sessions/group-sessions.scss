@@ -59,10 +59,12 @@ h5 {
 .group-sessions-description > p {
   font-family: Work Sans;
   font-weight: 100;
+  line-height: $smallLineHeight;
   font-size: $miniFontSize;
 }
 
 .group-sessions-description {
+  line-height: $smallLineHeight;
   color: rgb(0, 0, 0);
   z-index: 0;
   max-width: 40.625em;

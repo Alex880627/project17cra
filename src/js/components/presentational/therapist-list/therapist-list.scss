@@ -78,6 +78,7 @@
 }
 
 .therapist-details-container {
+  overflow: hidden;
   display: flex;
   flex-grow: 1;
   justify-content: center;
@@ -94,7 +95,7 @@
 }
 
 .therapist-details {
-  overflow: scroll;
+  overflow: auto;
   -webkit-overflow-scrolling: touch;
   margin: auto;
   margin-top: 10%;
