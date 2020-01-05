@@ -1,5 +1,7 @@
 import React from "react";
 import Carousel, { Modal, ModalGateway } from "react-images";
+import CircularProgress from '@material-ui/core/CircularProgress';
+
 import "./img-galery.css";
 
 function importAll(r) {
@@ -32,12 +34,12 @@ class Galery extends React.Component {
     this.setState(state => ({ modalIsOpen: !state.modalIsOpen }));
     this.setState({ currentModal: index });
   };
-  setImage = index => {
+  setImage = () => {
     return new Promise((res, rej) => {
-      this.setState(state => ({
-        pictures: [images[index]]
-      }));
-      return res("geci");
+      this.setState({
+        pictures: images
+      });
+      return res("done");
     });
   };
   render() {
@@ -60,22 +62,17 @@ class Galery extends React.Component {
                 <img
                   src={element.source}
                   onClick={() => {
-                    this.setImage(index)
+                    if(this.state.pictures.length<1){
+                      this.setImage()
                       .then(() => {
-                        this.toggleModal(index+1);
+                        this.toggleModal(index);
+                        console.log("genyua")
+                        
                       })
-                      .then(() => {
-                        this.setState(state => ({
-                          pictures: [...this.state.pictures, images[index]]
-                        }));
-                      }).then(() => {
-                        this.setState(state => ({
-                          pictures: [images[index + 2], ...this.state.pictures]
-                        }));
-                      })
-                  console.log(this.state.pictures, this.state.currentModal);
-                  }
-                }
+                    }else{
+                      this.toggleModal(index);
+                    }
+                  }}
                 />
               </div>
             );
@@ -95,6 +92,7 @@ class Galery extends React.Component {
               />
             </Modal>
           ) : null}
+          <CircularProgress disableShrink />
         </ModalGateway>
       </>
     );
