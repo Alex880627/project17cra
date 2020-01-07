@@ -2,7 +2,7 @@ import React from "react";
 import pricesIcon from "../../../../data/images/icons/wallet-icon.png";
 import './prices-list.css';
 
-const PricesComp = props => {
+const PricesComp = React.memo(props => {
   let prices = props.language.prices;
   return (
     <div className="prices-wrapper">
@@ -24,6 +24,6 @@ const PricesComp = props => {
       </div>
     </div>
   );
-};
+});
 
 export default PricesComp;

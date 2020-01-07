@@ -1,5 +1,6 @@
 
 import giveProps from "./container/give-props";
+
 import LandingPage from "./presentational/landing-page/landing-page";
 import SideDrawer from "./presentational/side-drawer/side-drawer";
 import TreatmentsList from "./presentational/treatments-list/treatments-list";
@@ -8,7 +9,6 @@ import PricesList from "./presentational/prices-list/prices-list";
 import GroupSessions from "./presentational/group-sessions/group-sessions";
 import Contacts from "./presentational/contacts/contacts";
 import Footer from "./presentational/footer/footer";
-
 
 export const LandingPageWithProps = giveProps(LandingPage);
 export const SideDrawerWithProps = giveProps(SideDrawer);

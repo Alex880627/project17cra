@@ -4,7 +4,12 @@ import "./language-picker.css";
 
 import React, { useState, useEffect } from "react";
 
-const LanguagePickerButton = ({
+if (process.env.NODE_ENV !== 'production') {
+  const whyDidYouRender = require('@welldone-software/why-did-you-render');
+  whyDidYouRender(React);
+}
+
+const LanguagePickerButton = React.memo(({
   language,
   changeLanguageToEN,
   changeLanguageToHU,
@@ -16,6 +21,7 @@ const LanguagePickerButton = ({
     setLoading();
     setTimeout(() => {
       language.lang === "Magyar" ? changeLanguageToEN() : changeLanguageToHU();
+    
     }, 300);
   };
   useEffect(() => {
@@ -45,6 +51,8 @@ const LanguagePickerButton = ({
       </li>
     </ul>
   );
-};
+});
+
+LanguagePickerButton.whyDidYouRender=true;
 
 export default LanguagePickerButton;

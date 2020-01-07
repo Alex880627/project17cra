@@ -2,7 +2,12 @@ import React, { useRef, useEffect, useState } from "react";
 import treatmentsIcon from "../../../../data/images/icons/treatments-icon.png";
 import "./treatments-list.css";
 
-const TreatementDropdown = ({ element, props }) => {
+if (process.env.NODE_ENV !== "production") {
+  const whyDidYouRender = require("@welldone-software/why-did-you-render");
+  whyDidYouRender(React);
+}
+
+const TreatementDropdown = React.memo(({ element, props }) => {
   const language = props.language;
   const [open, setOpen] = useState(false);
   let treatmentRef = useRef(null);
@@ -95,9 +100,9 @@ const TreatementDropdown = ({ element, props }) => {
       </div>
     </div>
   );
-};
+});
 
-const TreatmentsList = props => {
+const TreatmentsList = React.memo( props => {
   let treatments = props.language.treatments;
   return (
     <div className="treatments-section-wrapper">
@@ -124,6 +129,9 @@ const TreatmentsList = props => {
       </div>
     </div>
   );
-};
+});
+
+TreatementDropdown.whyDidYouRender = true;
+TreatmentsList.whyDidYouRender = true;
 
 export default TreatmentsList;

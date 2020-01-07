@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from "react";
+if (process.env.NODE_ENV !== 'production') {
+  const whyDidYouRender = require('@welldone-software/why-did-you-render');
+  whyDidYouRender(React);
+}
 
-const ScrollProgress = () => {
+const ScrollProgress = React.memo(() => {
   const calculate = () => {
     let body = document.body,
       html = document.documentElement;
@@ -37,6 +41,8 @@ const ScrollProgress = () => {
     width: `${width}px`
   };
   return <div style={style}></div>;
-};
+});
+
+ScrollProgress.whyDidYouRender=true;
 
 export default ScrollProgress;

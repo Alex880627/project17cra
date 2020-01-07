@@ -1,9 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import buttonUp from "../../../../data/images/icons/button-up-png.png";
 const Scroll = require("react-scroll");
 const scroller = Scroll.scroller;
 
-const UpNavButton = () => {
+if (process.env.NODE_ENV !== "production") {
+  const whyDidYouRender = require("@welldone-software/why-did-you-render");
+  whyDidYouRender(React);
+}
+
+const UpNavButton = React.memo(({ onScreen }) => {
   const link = element => {
     scroller.scrollTo(element, {
       duration: 500,
@@ -11,22 +16,8 @@ const UpNavButton = () => {
       offset: 0
     });
   };
-  const [visibility, setVisibility] = useState("hidden");
-  const onScroll = () => {
-    if (window.pageYOffset > 400) {
-      setVisibility("visible");
-    } else if (window.pageYOffset < 400) {
-      setVisibility("hidden");
-    }
-  };
-  useEffect(() => {
-    window.addEventListener("scroll", onScroll);
-    return () => {
-      window.removeEventListener("scroll", onScroll);
-    };
-  }, []);
   return (
-    <nav className={`up-button ${visibility}`}>
+    <nav className={`up-button ${onScreen? "visible":"hidden"}`}>
       <img
         src={buttonUp}
         onClick={() => {
@@ -35,6 +26,7 @@ const UpNavButton = () => {
       />
     </nav>
   );
-};
+});
 
+UpNavButton.whyDidYouRender = true;
 export default UpNavButton;

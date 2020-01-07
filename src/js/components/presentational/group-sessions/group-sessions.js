@@ -3,7 +3,12 @@ import { OvalButton } from "../oval-button/oval-button";
 import groupIcon from "../../../../data/images/icons/group-icon.png";
 import "./group-sessions.css";
 
-const GroupSessionsContainer = props => {
+if (process.env.NODE_ENV !== "production") {
+  const whyDidYouRender = require("@welldone-software/why-did-you-render");
+  whyDidYouRender(React);
+}
+
+const GroupSessionsContainer = React.memo(props => {
   if (props.groupSessionDates < 1) {
     props.getGroupSessionDates();
   }
@@ -43,7 +48,10 @@ const GroupSessionsContainer = props => {
             alt="time table icon"
           />
         </div>
-        <div className="group-sessions-table-wrapper" style={{animation: "fadeIn 3s ease"}}>
+        <div
+          className="group-sessions-table-wrapper"
+          style={{ animation: "fadeIn 3s ease" }}
+        >
           <div className="group-sessions-table">
             <div className="table-header">
               <div className="table-element header" />
@@ -100,6 +108,8 @@ const GroupSessionsContainer = props => {
       </div>
     </>
   );
-};
+});
+
+GroupSessionsContainer.whyDidYouRender = true;
 
 export default GroupSessionsContainer;

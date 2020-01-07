@@ -10,7 +10,12 @@ import CoverPic from "../cover-pic/cover-pic";
 import useOnScreen from "../../../hooks/useScreen";
 import "./navbar.css";
 
-const NavBar = props => {
+if (process.env.NODE_ENV !== 'production') {
+  const whyDidYouRender = require('@welldone-software/why-did-you-render');
+  whyDidYouRender(React);
+}
+
+const NavBar = React.memo(props => {
   const [innerWidth, setInnerWidth] = useState(window.innerWidth);
   const ref = useRef(null);
   const onScreen = useOnScreen(ref, 0.01);
@@ -24,9 +29,6 @@ const NavBar = props => {
       });
     };
   }, []);
-  if (innerWidth > 1000) {
-    props.closeSideBar();
-  }
   return (
     <>
       <CoverPic {...props} />
@@ -46,6 +48,8 @@ const NavBar = props => {
       <div className="helperDiv" ref={ref}></div>
     </>
   );
-};
+});
+
+NavBar.whyDidYouRender= true;
 
 export default NavBar;

@@ -29,6 +29,10 @@ import {
   getSessionDatesFail
 } from "../../actions/get-group-session-dates-actions";
 import getData from "../../services/get-data";
+import {
+  setHeaderUnderlineAction,
+  unsetHeaderUnderlineAction,
+} from "../../actions/setHeader-underline";
 
 const mapDispatchToProps = dispatch => ({
   changeLanguageToHU: () => {
@@ -85,6 +89,12 @@ const mapDispatchToProps = dispatch => ({
       .catch(error => {
         dispatch(getSessionDatesFail());
       });
+  },
+  setHeaderUnderLine: (payload) => {
+    dispatch(setHeaderUnderlineAction(payload));
+  },
+  unsetHeaderUnderLine: () => {
+    dispatch(unsetHeaderUnderlineAction());
   }
 });
 
@@ -95,6 +105,7 @@ const mapStateToProps = state => ({
   sideBar: state.toogleSideBar.sideBar,
   email: state.emailReducer.email,
   blur: state.blurReducer.blur,
+  header: state.headerReducer.header,
   therapistDetails: state.therapistReducer.therapistDetails,
   therapistName: state.therapistReducer.therapistName,
   snackBar: state.snackBarReducer.snackBar

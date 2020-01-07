@@ -2,7 +2,13 @@ import React, { useState, useEffect } from "react";
 import privacyPdf from "../../../../data/privacy-policy/privacy-policy.pdf"
 import "./privacy-policy.css";
 
-const PrivacyPolicyComp = props => {
+if (process.env.NODE_ENV !== 'production') {
+  const whyDidYouRender = require('@welldone-software/why-did-you-render');
+  whyDidYouRender(React);
+}
+
+
+const PrivacyPolicyComp = React.memo( props => {
   const storage = window.localStorage;
   const [show, setShow] = useState(false);
   useEffect(() => {
@@ -29,6 +35,8 @@ const PrivacyPolicyComp = props => {
       </p>
     </div>
   );
-};
+});
+
+PrivacyPolicyComp.whyDidYouRender = true;
 
 export default PrivacyPolicyComp;

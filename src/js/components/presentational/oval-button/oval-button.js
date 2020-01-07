@@ -2,7 +2,12 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import "./oval-button.css";
 
-export const OvalButton = ({ text, onClick }) => {
+if (process.env.NODE_ENV !== 'production') {
+  const whyDidYouRender = require('@welldone-software/why-did-you-render');
+  whyDidYouRender(React);
+}
+
+export const OvalButton = React.memo(({ text, onClick }) => {
   return (
     <Button
       className="oval-button"
@@ -21,4 +26,6 @@ export const OvalButton = ({ text, onClick }) => {
       <p>{text}</p>
     </Button>
   );
-};
+});
+
+OvalButton.whyDidYouRender=true;

@@ -1,6 +1,11 @@
 import React from "react";
 import Modal from "@material-ui/core/Modal";
 
+if (process.env.NODE_ENV !== 'production') {
+  const whyDidYouRender = require('@welldone-software/why-did-you-render');
+  whyDidYouRender(React);
+}
+
 export default function modal(ComponentParam, storeParam) {
   return class extends React.Component {
     constructor(props) {
@@ -25,3 +30,5 @@ export default function modal(ComponentParam, storeParam) {
     }
   };
 }
+
+modal.whyDidYouRender=true;

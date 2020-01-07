@@ -1,13 +1,19 @@
-import React from 'react';
-import './loader.css';
+import React from "react";
+import "./loader.css";
 
-const LoaderComp = (props) => {
-  return props.loading?
-   (
+
+if (process.env.NODE_ENV !== "production") {
+  const whyDidYouRender = require("@welldone-software/why-did-you-render");
+  whyDidYouRender(React);
+}
+
+const LoaderComp = React.memo(({ loading }) => {
+  return loading ? (
     <div className="loader-wrapper">
       <div className="loader" />
     </div>
-  ):null
-}
+  ) : null;
+});
 
+LoaderComp.whyDidYouRender = true;
 export default LoaderComp;

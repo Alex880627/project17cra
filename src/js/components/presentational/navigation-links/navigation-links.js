@@ -6,16 +6,21 @@ import walletIcon from "../../../../data/images/icons/wallet-icon-white.png";
 import groupIcon from "../../../../data/images/icons/group-icon.png";
 import mail from "../../../../data/images/icons/mail-icon-white.png";
 
+if (process.env.NODE_ENV !== 'production') {
+  const whyDidYouRender = require('@welldone-software/why-did-you-render');
+  whyDidYouRender(React);
+}
+
 const Scroll = require("react-scroll");
 const scroller = Scroll.scroller;
 
-const NavigationLinks = props => {
+const NavigationLinks = React.memo(props => {
   let navbar = props.language.navbar;
   const link = element => {
     scroller.scrollTo(element, {
       duration: 0,
       smooth: "easeInOutExpo",
-      offset: 0
+      offset: -53
     });
   };
   return (
@@ -29,6 +34,7 @@ const NavigationLinks = props => {
       }}
     >
       <a
+        className={props.header === "treatments" ? "underline" : ""}
         onClick={() => {
           link("treatments");
         }}
@@ -40,6 +46,7 @@ const NavigationLinks = props => {
         </span>
       </a>
       <a
+        className={props.header === "colleagues" ? "underline" : ""}
         onClick={() => {
           link("colleagues");
         }}
@@ -51,6 +58,7 @@ const NavigationLinks = props => {
         </span>
       </a>
       <a
+        className={props.header === "prices" ? "underline" : ""}
         onClick={() => {
           link("prices");
         }}
@@ -62,6 +70,7 @@ const NavigationLinks = props => {
         </span>
       </a>
       <a
+        className={props.header === "group sessions" ? "underline" : ""}
         onClick={() => {
           link("group sessions");
         }}
@@ -74,6 +83,7 @@ const NavigationLinks = props => {
         </span>
       </a>
       <a
+        className={props.header === "contacts" ? "underline" : ""}
         onClick={() => {
           link("contacts");
         }}
@@ -95,6 +105,8 @@ const NavigationLinks = props => {
       </a>
     </div>
   );
-};
+});
+
+NavigationLinks.whyDidYouRender = true
 
 export default NavigationLinks;

@@ -1,4 +1,5 @@
 import React from "react";
+
 import ScrollProgressBar from "./presentational/scroll-progress-bar/scroll-progress-bar";
 
 import { LandingPageWithProps } from "./index";
@@ -9,6 +10,11 @@ import { PricesListWithLazy } from "./lazy-load-imports";
 import { GroupSessionsLazy } from "./lazy-load-imports";
 import { ContactsLazy } from "./lazy-load-imports";
 import { FooterLazy } from "./lazy-load-imports"; 
+
+if (process.env.NODE_ENV !== 'production') {
+  const whyDidYouRender = require('@welldone-software/why-did-you-render');
+  whyDidYouRender(React);
+}
 
 const App = () => {
   return (
@@ -25,5 +31,7 @@ const App = () => {
     </>
   );
 };
+
+App.whyDidYouRender = true
 
 export default App;

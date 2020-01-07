@@ -1,7 +1,12 @@
 import React from "react";
-import './no-match.css';
+import "./no-match.css";
 
-const NoMatchComponent = () => (
+if (process.env.NODE_ENV !== "production") {
+  const whyDidYouRender = require("@welldone-software/why-did-you-render");
+  whyDidYouRender(React);
+}
+
+const NoMatchComponent = React.memo( () => (
   <div className="nomatch-comp">
     <form action="/">
       <h1>{"404"}</h1>
@@ -9,6 +14,7 @@ const NoMatchComponent = () => (
       <button type="submit">{"Vissza a főoldalra"}</button>
     </form>
   </div>
-);
+));
 
+NoMatchComponent.whyDidYouRender = true;
 export default NoMatchComponent;

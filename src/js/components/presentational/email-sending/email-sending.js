@@ -5,6 +5,10 @@ import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
 import './email-sending.css';
 import modal from "../modal/modal";
+if (process.env.NODE_ENV !== 'production') {
+  const whyDidYouRender = require('@welldone-software/why-did-you-render');
+  whyDidYouRender(React);
+}
 
 const LoaderComp = () => {
   return (
@@ -31,7 +35,7 @@ const CssTextField = withStyles({
   }
 })(TextField);
 
-const EmailSendingComp = ({ language, openSnackBarSuccess, openSnackBarError, hideEmail }) => {
+const EmailSendingComp = React.memo(({ language, openSnackBarSuccess, openSnackBarError, hideEmail }) => {
   const [message, setMessage] = useState("");
   const [userEmail, setUserEmail] = useState("");
   const [userName, setUserName] = useState("");
@@ -122,8 +126,10 @@ const EmailSendingComp = ({ language, openSnackBarSuccess, openSnackBarError, hi
       {isLoading ? <LoaderComp /> : null}
     </>
   );
-};
+})
 
 const EmailSending = modal(EmailSendingComp, "email");
+
+EmailSendingComp.whyDidYouRender=true;
 
 export default EmailSending;

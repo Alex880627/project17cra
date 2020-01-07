@@ -8,6 +8,7 @@ import snackBarReducer from "./snack-bar-reducer";
 import blurReducer from "./blur-reducer";
 import loadingReducer from "./loading-reducer";
 import groupSessionDatesReducer from "./get-group-session-dates-reducer";
+import headerReducer from "./header-reducer";
 
 const rootReducer = combineReducers({
   groupSessionDatesReducer,
@@ -17,6 +18,7 @@ const rootReducer = combineReducers({
   loadingReducer,
   therapistReducer,
   snackBarReducer,
+  headerReducer,
   routing: routerReducer,
   blurReducer
 });

@@ -67,7 +67,12 @@ MySnackbarContentWrapper.propTypes = {
   variant: PropTypes.oneOf(['error','success']).isRequired,
 };
 
-export default function GlobalSnackbar(props) {
+if (process.env.NODE_ENV !== 'production') {
+  const whyDidYouRender = require('@welldone-software/why-did-you-render');
+  whyDidYouRender(React);
+}
+
+const GlobalSnackbar = React.memo((props) => {
   let snackBar = props.snackBar;
   return (
     <div>
@@ -88,4 +93,6 @@ export default function GlobalSnackbar(props) {
       </Snackbar>
     </div>
   );
-}
+})
+
+export default GlobalSnackbar; 

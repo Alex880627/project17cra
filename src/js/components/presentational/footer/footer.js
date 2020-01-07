@@ -3,7 +3,12 @@ import "./footer.css";
 import Galery from "../img-galery/img-galery";
 import privacyPdf from "../../../../data/privacy-policy/privacy-policy.pdf";
 
-const FooterComp = props => {
+if (process.env.NODE_ENV !== "production") {
+  const whyDidYouRender = require("@welldone-software/why-did-you-render");
+  whyDidYouRender(React);
+}
+
+const FooterComp = React.memo( props => {
   let footer = props.language.footer;
   let contacts = props.language.contacts;
   return (
@@ -15,7 +20,7 @@ const FooterComp = props => {
               src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/Studio17gyogytorna&width=308&height=120&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=299633294303411"
               width="308"
               height="120"
-              style={{border:"none",overflow:"hidden"}}
+              style={{ border: "none", overflow: "hidden" }}
               scrolling="no"
               frameborder="0"
               allowTransparency="true"
@@ -50,6 +55,8 @@ const FooterComp = props => {
       </div>
     </div>
   );
-};
+})
+
+FooterComp.whyDidYouRender = true;
 
 export default FooterComp;

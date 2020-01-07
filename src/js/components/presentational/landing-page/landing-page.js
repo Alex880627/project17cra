@@ -7,7 +7,14 @@ import TherapistListDetails from "../therapist-list-details/therapist-list-detai
 import logoVertical from "../../../../data/images/icons/logo-vertical-big.svg";
 import "./landing-page.css";
 
-const LandinPage = props => {
+
+if (process.env.NODE_ENV !== 'production') {
+  const whyDidYouRender = require('@welldone-software/why-did-you-render');
+  whyDidYouRender(React);
+}
+
+
+const LandinPage = React.memo( props => {
   let landingSentence = props.language.landingSentence;
   const isBigScreen = () => window.innerWidth / window.innerHeight > 1.35;
   return (
@@ -36,6 +43,8 @@ const LandinPage = props => {
       <PrivacyPolicyNotification {...props} />
     </>
   );
-};
+});
+
+LandinPage.whyDidYouRender = true;
 
 export default LandinPage;

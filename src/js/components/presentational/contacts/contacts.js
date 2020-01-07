@@ -5,7 +5,12 @@ import logo from "../../../../data/images/icons/logo-horizontal-big.svg";
 import exercise from "../../../../data/images/icons/exercise.png";
 import "./contacts.css";
 
-const Contacts = props => {
+if (process.env.NODE_ENV !== "production") {
+  const whyDidYouRender = require("@welldone-software/why-did-you-render");
+  whyDidYouRender(React);
+}
+
+const Contacts = React.memo(props => {
   let contacts = props.language.contacts;
   return (
     <div className="contacts-wrapper">
@@ -35,12 +40,14 @@ const Contacts = props => {
               {contacts["contacts info"].email}
             </span>
           </p>
-          <img className="exercise-picture" src={exercise}/>
+          <img className="exercise-picture" src={exercise} />
         </div>
         <GoogleMapConfigured />
       </div>
     </div>
   );
-};
+});
+
+Contacts.whyDidYouRender = true;
 
 export default Contacts;

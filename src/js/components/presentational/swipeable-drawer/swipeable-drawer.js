@@ -4,6 +4,11 @@ import React from "react";
 import "./swipeable-drawer.css";
 import Backdrop from "@material-ui/core/Modal/SimpleBackdrop";
 
+
+if (process.env.NODE_ENV !== 'production') {
+  const whyDidYouRender = require('@welldone-software/why-did-you-render');
+  whyDidYouRender(React);
+}
 /**
  * Prevents scrolling of content behind the backdrop.
  */

@@ -3,6 +3,11 @@ import useOnScreen from "../../../hooks/useScreen";
 import therapists from "../../../../data/images/icons/therapists.png";
 import "./therapist-list.css";
 
+if (process.env.NODE_ENV !== "production") {
+  const whyDidYouRender = require("@welldone-software/why-did-you-render");
+  whyDidYouRender(React);
+}
+
 function importAll(r) {
   return r.keys().map(e => {
     return r(e);
@@ -25,7 +30,7 @@ const picArrayHover = importAll(
   )
 );
 
-const TherapistList = props => {
+const TherapistList = React.memo(props => {
   let collagues = props.language.collagues;
   return (
     <>
@@ -40,7 +45,10 @@ const TherapistList = props => {
             alt="therapist icon"
           />
         </div>
-        <div className="therapist-pictures" style={{animation: "fadeIn 3s ease"}}>
+        <div
+          className="therapist-pictures"
+          style={{ animation: "fadeIn 3s ease" }}
+        >
           {picArray.map((element, index) => {
             return (
               <Therapists
@@ -57,51 +65,48 @@ const TherapistList = props => {
       </div>
     </>
   );
-};
+});
 
-const Therapists = ({
-  element,
-  index,
-  picArrayHover,
-  collagues,
-  showTherapistDetails
-}) => {
-  let ref = useRef(null);
-  let isOnScreen = useOnScreen(ref);
-  return (
-    <div
-      className={
-        isOnScreen && window.innerWidth < 768
-          ? "therapist therapist-mobile-view"
-          : "therapist"
-      }
-      ref={ref}
-      key={element}
-    >
-      <img
-        key={`${element} image`}
-        src={element}
-        onMouseOver={e => {
-          e.currentTarget.src = picArrayHover[index];
-        }}
-        onMouseLeave={e => (e.currentTarget.src = element)}
-        id={collagues.therapists[index].name}
-        onClick={() => {
-          showTherapistDetails(collagues.therapists[index].name);
-        }}
-        alt="studio 17 therapist"
-      />
+const Therapists = React.memo(
+  ({ element, index, picArrayHover, collagues, showTherapistDetails }) => {
+    let ref = useRef(null);
+    let isOnScreen = useOnScreen(ref);
+    return (
       <div
-        className="therapist-info"
-        key={`${element} info`}
-        style={{ animation: "fadeInUp 1s ease" }}
+        className={
+          isOnScreen && window.innerWidth < 768
+            ? "therapist therapist-mobile-view"
+            : "therapist"
+        }
+        ref={ref}
+        key={element}
       >
-        <h4>{collagues.therapists[index].name}</h4>
-        <p>{collagues.therapists[index].occupation}</p>
-        <button>{collagues.details}</button>
+        <img
+          key={`${element} image`}
+          src={element}
+          onMouseOver={e => {
+            e.currentTarget.src = picArrayHover[index];
+          }}
+          onMouseLeave={e => (e.currentTarget.src = element)}
+          id={collagues.therapists[index].name}
+          onClick={() => {
+            showTherapistDetails(collagues.therapists[index].name);
+          }}
+          alt="studio 17 therapist"
+        />
+        <div
+          className="therapist-info"
+          key={`${element} info`}
+          style={{ animation: "fadeInUp 1s ease" }}
+        >
+          <h4>{collagues.therapists[index].name}</h4>
+          <p>{collagues.therapists[index].occupation}</p>
+          <button>{collagues.details}</button>
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+);
 
+TherapistList.whyDidYouRender = true;
 export default TherapistList;

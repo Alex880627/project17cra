@@ -16,6 +16,11 @@ import groupIcon from "../../../../data/images/icons/group-icon-black.png";
 import mail from "../../../../data/images/icons/mail.png";
 import './side-drawer.css';
 
+if (process.env.NODE_ENV !== 'production') {
+  const whyDidYouRender = require('@welldone-software/why-did-you-render');
+  whyDidYouRender(React);
+}
+
 const useStyles = makeStyles({
   list: {
     width: 250
@@ -26,7 +31,7 @@ const useStyles = makeStyles({
 });
 
 
-export default function SideDrawer(props) {
+const SideDrawer = React.memo((props) => {
   const scroller = Scroll.scroller;
   const icons = [
     treatmentsIcon,
@@ -115,4 +120,6 @@ export default function SideDrawer(props) {
       </SwipeableDrawer>
     </div>
   );
-}
+});
+
+export default SideDrawer;

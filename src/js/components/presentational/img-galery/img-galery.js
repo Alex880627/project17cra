@@ -1,8 +1,13 @@
 import React from "react";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import CircularProgress from '@material-ui/core/CircularProgress';
+import CircularProgress from "@material-ui/core/CircularProgress";
 
 import "./img-galery.css";
+
+if (process.env.NODE_ENV !== "production") {
+  const whyDidYouRender = require("@welldone-software/why-did-you-render");
+  whyDidYouRender(React);
+}
 
 function importAll(r) {
   return r.keys().map(e => {
@@ -26,7 +31,7 @@ const thumbnails = importAll(
   )
 );
 
-class Galery extends React.Component {
+class Galery extends React.PureComponent {
   state = { modalIsOpen: false };
   state = { currentModal: null };
   state = { pictures: [] };
@@ -56,20 +61,18 @@ class Galery extends React.Component {
     return (
       <>
         <div className="galery-wrapper">
+          {/* <CircularProgress disableShrink /> */}
           {thumbnails.map((element, index) => {
             return (
               <div className="thumbnails" key={element.source}>
                 <img
                   src={element.source}
                   onClick={() => {
-                    if(this.state.pictures.length<1){
-                      this.setImage()
-                      .then(() => {
+                    if (this.state.pictures.length < 1) {
+                      this.setImage().then(() => {
                         this.toggleModal(index);
-                        console.log("genyua")
-                        
-                      })
-                    }else{
+                      });
+                    } else {
                       this.toggleModal(index);
                     }
                   }}
@@ -92,7 +95,6 @@ class Galery extends React.Component {
               />
             </Modal>
           ) : null}
-          <CircularProgress disableShrink />
         </ModalGateway>
       </>
     );

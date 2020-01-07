@@ -5,7 +5,12 @@ import swipeableModal from "../swipeable-drawer/swipeable-drawer";
 import modal from "../modal/modal";
 import ToolTip from "../tool-tip/tool-tip";
 
-const ThreapistDetailsComp = props => {
+if (process.env.NODE_ENV !== 'production') {
+  const whyDidYouRender = require('@welldone-software/why-did-you-render');
+  whyDidYouRender(React);
+}
+
+const ThreapistDetailsComp = React.memo( props => {
   let therapistsObject = {};
   function importAll(r) {
     return r.keys().forEach((e, i) => {
@@ -101,7 +106,9 @@ const ThreapistDetailsComp = props => {
       </div>
     </div>
   );
-};
+});
+
+ThreapistDetailsComp.whyDidYouRender = true;
 
 const TherapistListDetails =
   window.innerWidth > 768
