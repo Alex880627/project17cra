@@ -1,31 +1,35 @@
 import huFlag from "../../../../data/images/icons/hu-flag.jpg";
 import enFlag from "../../../../data/images/icons/en-flag.jpg";
 import "./language-picker.css";
-
+import { useSelector, useDispatch } from "react-redux";
 import React, { useState, useEffect } from "react";
+import {
+  changeLangToENAction,
+  changeLangToHUAction
+} from "../../../actions/change-language-action";
+import {
+  setLoadingAction,
+  unsetLoadingAction
+} from "../../../actions/loading-actions";
 
 if (process.env.NODE_ENV !== 'production') {
   const whyDidYouRender = require('@welldone-software/why-did-you-render');
   whyDidYouRender(React);
 }
 
-const LanguagePickerButton = React.memo(({
-  language,
-  changeLanguageToEN,
-  changeLanguageToHU,
-  setLoading,
-  unsetLoading
-}) => {
+const LanguagePickerButton = () => {
+  const dispatch = useDispatch();
+  const language = useSelector(state => state.changeLanguage.language.lang)
   const [height, setHeight] = useState("2.5em");
   const setLang = () => {
-    setLoading();
+    dispatch(setLoadingAction());
     setTimeout(() => {
-      language.lang === "Magyar" ? changeLanguageToEN() : changeLanguageToHU();
+      language === "Magyar" ? dispatch(changeLangToENAction()) : dispatch(changeLangToHUAction());
     
     }, 300);
   };
   useEffect(() => {
-    unsetLoading();
+    dispatch(unsetLoadingAction());
   }, [language]);
   return (
     <ul className="languagepicker">
@@ -35,8 +39,8 @@ const LanguagePickerButton = React.memo(({
             height === "2.5em" ? setHeight("5em") : setHeight("2.5em");
           }}
         >
-          <img src={language.lang === "Magyar" ? huFlag : enFlag} alt="flag" />
-          {language.lang === "Magyar" ? "Magyar" : "English"}
+          <img src={language === "Magyar" ? huFlag : enFlag} alt="flag" />
+          {language === "Magyar" ? "Magyar" : "English"}
         </li>
       ) : null}
 
@@ -46,12 +50,12 @@ const LanguagePickerButton = React.memo(({
           setHeight("2.5em");
         }}
       >
-        <img src={language.lang === "Magyar" ? enFlag : huFlag} alt="flag" />
-        {language.lang === "Magyar" ? "English" : "Magyar"}
+        <img src={language === "Magyar" ? enFlag : huFlag} alt="flag" />
+        {language === "Magyar" ? "English" : "Magyar"}
       </li>
     </ul>
   );
-});
+};
 
 LanguagePickerButton.whyDidYouRender=true;
 

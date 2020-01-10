@@ -1,4 +1,5 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import "./loader.css";
 
 
@@ -7,13 +8,14 @@ if (process.env.NODE_ENV !== "production") {
   whyDidYouRender(React);
 }
 
-const LoaderComp = React.memo(({ loading }) => {
+const LoaderComp = () => {
+  const loading = useSelector(state => state.loadingReducer.loading)
   return loading ? (
     <div className="loader-wrapper">
       <div className="loader" />
     </div>
   ) : null;
-});
+};
 
 LoaderComp.whyDidYouRender = true;
 export default LoaderComp;

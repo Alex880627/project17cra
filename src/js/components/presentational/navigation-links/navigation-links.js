@@ -1,21 +1,25 @@
 import React from "react";
+import { useSelector, useDispatch } from "react-redux";
 import treatmentsIcon from "../../../../data/images/icons/treatments-icon-white.png";
 import contactsIcon from "../../../../data/images/icons/contactsIcon-white.png";
 import therapists from "../../../../data/images/icons/therapists.png";
 import walletIcon from "../../../../data/images/icons/wallet-icon-white.png";
 import groupIcon from "../../../../data/images/icons/group-icon.png";
 import mail from "../../../../data/images/icons/mail-icon-white.png";
+import { setBlurAction, unsetBlurAction } from "../../../actions/set-blur-action";
 
-if (process.env.NODE_ENV !== 'production') {
-  const whyDidYouRender = require('@welldone-software/why-did-you-render');
+if (process.env.NODE_ENV !== "production") {
+  const whyDidYouRender = require("@welldone-software/why-did-you-render");
   whyDidYouRender(React);
 }
 
 const Scroll = require("react-scroll");
 const scroller = Scroll.scroller;
 
-const NavigationLinks = React.memo(props => {
-  let navbar = props.language.navbar;
+const NavigationLinks = (props) => {
+  const dispatch = useDispatch();
+  const navbar = useSelector(state => state.changeLanguage.language.navbar);
+  const header = useSelector(state => state.headerReducer.header,)
   const link = element => {
     scroller.scrollTo(element, {
       duration: 0,
@@ -27,14 +31,14 @@ const NavigationLinks = React.memo(props => {
     <div
       className="navigation"
       onMouseEnter={() => {
-        props.setBlur();
+        dispatch(setBlurAction());
       }}
       onMouseLeave={() => {
-        props.unsetBlur();
+        dispatch(unsetBlurAction());
       }}
     >
       <a
-        className={props.header === "treatments" ? "underline" : ""}
+        className={header === "treatments" ? "underline" : ""}
         onClick={() => {
           link("treatments");
         }}
@@ -46,7 +50,7 @@ const NavigationLinks = React.memo(props => {
         </span>
       </a>
       <a
-        className={props.header === "colleagues" ? "underline" : ""}
+        className={header === "colleagues" ? "underline" : ""}
         onClick={() => {
           link("colleagues");
         }}
@@ -58,7 +62,7 @@ const NavigationLinks = React.memo(props => {
         </span>
       </a>
       <a
-        className={props.header === "prices" ? "underline" : ""}
+        className={header === "prices" ? "underline" : ""}
         onClick={() => {
           link("prices");
         }}
@@ -70,7 +74,7 @@ const NavigationLinks = React.memo(props => {
         </span>
       </a>
       <a
-        className={props.header === "group sessions" ? "underline" : ""}
+        className={header === "group sessions" ? "underline" : ""}
         onClick={() => {
           link("group sessions");
         }}
@@ -83,7 +87,7 @@ const NavigationLinks = React.memo(props => {
         </span>
       </a>
       <a
-        className={props.header === "contacts" ? "underline" : ""}
+        className={header === "contacts" ? "underline" : ""}
         onClick={() => {
           link("contacts");
         }}
@@ -105,8 +109,8 @@ const NavigationLinks = React.memo(props => {
       </a>
     </div>
   );
-});
+};
 
-NavigationLinks.whyDidYouRender = true
+NavigationLinks.whyDidYouRender = true;
 
 export default NavigationLinks;

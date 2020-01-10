@@ -15,7 +15,7 @@ if (process.env.NODE_ENV !== 'production') {
   whyDidYouRender(React);
 }
 
-const NavBar = React.memo(props => {
+const NavBar = React.memo(() => {
   const [innerWidth, setInnerWidth] = useState(window.innerWidth);
   const ref = useRef(null);
   const onScreen = useOnScreen(ref, 0.01);
@@ -31,19 +31,19 @@ const NavBar = React.memo(props => {
   }, []);
   return (
     <>
-      <CoverPic {...props} />
+      <CoverPic />
       <nav className={onScreen ? "main-navbar-shrink" : "main-navbar"}>
-        <HamburgerMenu {...props} />
+        <HamburgerMenu />
         {innerWidth > 1000 ? (
-          <NavigationLinks {...props} />
+          <NavigationLinks />
         ) : innerWidth > 768 ? (
           <img id="front-mobile-logo" src={logoAndText} alt="studio17 logo" />
         ) : null}
 
-        <Loader {...props} />
-        <UpNavButton />
-        <EmailSending {...props} />
-        <LanguagePicker {...props} />
+        <Loader />
+        <UpNavButton onScreen={onScreen}/>
+        <EmailSending />
+        <LanguagePicker />
       </nav>
       <div className="helperDiv" ref={ref}></div>
     </>

@@ -21,7 +21,8 @@
     "react-scroll": "^1.7.14",
     "redux": "^4.0.4",
     "redux-immutable-state-invariant": "^2.1.0",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0"
   },
   "scripts": {
     "start:production": "npm run build && npm run start:prod",

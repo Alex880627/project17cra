@@ -1,4 +1,9 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  openSideBarAction,
+  closeSideBarAction
+} from "../../../actions/toogle-side-bar-action";
 import "./hamburger-menu.css";
 import logo from "../../../../data/images/icons/logo-small.png";
 
@@ -7,12 +12,14 @@ if (process.env.NODE_ENV !== "production") {
   whyDidYouRender(React);
 }
 
-const HamburgerMenu = React.memo(({ openSideBar, closeSideBar, sideBar }) => {
+const HamburgerMenu = () => {
+  const sideBar = useSelector(state => state.toogleSideBar.sideBar);
+  const dispatch = useDispatch();
   const toogleNavbar = () => {
     if (sideBar === true) {
-      closeSideBar();
+      dispatch(closeSideBarAction());
     } else {
-      openSideBar();
+      dispatch(openSideBarAction());
     }
   };
   return window.innerWidth > 1000 ? (
@@ -28,7 +35,7 @@ const HamburgerMenu = React.memo(({ openSideBar, closeSideBar, sideBar }) => {
       <span />
     </div>
   );
-});
+};
 
 HamburgerMenu.whyDidYouRender = true;
 export default HamburgerMenu;
