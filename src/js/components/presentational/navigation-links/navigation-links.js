@@ -6,20 +6,19 @@ import therapists from "../../../../data/images/icons/therapists.png";
 import walletIcon from "../../../../data/images/icons/wallet-icon-white.png";
 import groupIcon from "../../../../data/images/icons/group-icon.png";
 import mail from "../../../../data/images/icons/mail-icon-white.png";
-import { setBlurAction, unsetBlurAction } from "../../../actions/set-blur-action";
-
-if (process.env.NODE_ENV !== "production") {
-  const whyDidYouRender = require("@welldone-software/why-did-you-render");
-  whyDidYouRender(React);
-}
+import {
+  setBlurAction,
+  unsetBlurAction
+} from "../../../actions/set-blur-action";
+import { showEmailAction } from "../../../actions/email-action";
 
 const Scroll = require("react-scroll");
 const scroller = Scroll.scroller;
 
-const NavigationLinks = (props) => {
+const NavigationLinks = () => {
   const dispatch = useDispatch();
   const navbar = useSelector(state => state.changeLanguage.language.navbar);
-  const header = useSelector(state => state.headerReducer.header,)
+  const header = useSelector(state => state.headerReducer.header);
   const link = element => {
     scroller.scrollTo(element, {
       duration: 0,
@@ -99,7 +98,11 @@ const NavigationLinks = (props) => {
           <span className="double-arrow">{" »"}</span>
         </span>
       </a>
-      <a onClick={props.showEmail}>
+      <a
+        onClick={() => {
+          dispatch(showEmailAction());
+        }}
+      >
         <img src={mail} />
         <span>
           {" "}
@@ -110,7 +113,5 @@ const NavigationLinks = (props) => {
     </div>
   );
 };
-
-NavigationLinks.whyDidYouRender = true;
 
 export default NavigationLinks;

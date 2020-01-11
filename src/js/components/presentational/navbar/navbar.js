@@ -10,11 +10,6 @@ import CoverPic from "../cover-pic/cover-pic";
 import useOnScreen from "../../../hooks/useScreen";
 import "./navbar.css";
 
-if (process.env.NODE_ENV !== 'production') {
-  const whyDidYouRender = require('@welldone-software/why-did-you-render');
-  whyDidYouRender(React);
-}
-
 const NavBar = React.memo(() => {
   const [innerWidth, setInnerWidth] = useState(window.innerWidth);
   const ref = useRef(null);
@@ -49,7 +44,4 @@ const NavBar = React.memo(() => {
     </>
   );
 });
-
-NavBar.whyDidYouRender= true;
-
 export default NavBar;

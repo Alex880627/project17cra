@@ -7,11 +7,6 @@ import {
 import "./hamburger-menu.css";
 import logo from "../../../../data/images/icons/logo-small.png";
 
-if (process.env.NODE_ENV !== "production") {
-  const whyDidYouRender = require("@welldone-software/why-did-you-render");
-  whyDidYouRender(React);
-}
-
 const HamburgerMenu = () => {
   const sideBar = useSelector(state => state.toogleSideBar.sideBar);
   const dispatch = useDispatch();
@@ -37,5 +32,4 @@ const HamburgerMenu = () => {
   );
 };
 
-HamburgerMenu.whyDidYouRender = true;
 export default HamburgerMenu;

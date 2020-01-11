@@ -5,10 +5,6 @@ import {
   setHeaderUnderlineAction
 } from "../../../actions/setHeader-underline";
 
-if (process.env.NODE_ENV !== "production") {
-  const whyDidYouRender = require("@welldone-software/why-did-you-render");
-  whyDidYouRender(React);
-}
 
 export const withLazyLoad = (Component, id, color = "#265C42") => {
   return () => {
@@ -30,9 +26,9 @@ export const withLazyLoad = (Component, id, color = "#265C42") => {
       setLoad(true);
       setHeight("auto");
     }
-    if (isOnScreen && header !== id && window.innerWidth > 1000) {
+   /*  if (isOnScreen && header !== id && window.innerWidth > 1000) {
       dispatch(setHeaderUnderlineAction(id));
-    }
+    } */
     return (
       <div id={id} className="lazy-load-wrapper" style={style} ref={ref}>
         {load ? (
@@ -44,7 +40,5 @@ export const withLazyLoad = (Component, id, color = "#265C42") => {
     );
   };
 };
-
-withLazyLoad.whyDidYouRender = true;
 
 export default withLazyLoad;

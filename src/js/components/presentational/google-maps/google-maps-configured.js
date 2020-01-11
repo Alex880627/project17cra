@@ -1,11 +1,6 @@
 import Map from "./google-maps";
 import React from "react";
 
-if (process.env.NODE_ENV !== "production") {
-  const whyDidYouRender = require("@welldone-software/why-did-you-render");
-  whyDidYouRender(React);
-}
-
 const createInfoWindow = (e, map) => {
   const contentString =
     '<div id="content" style="line-height:0;text-align:center; ">' +
@@ -23,7 +18,7 @@ const createInfoWindow = (e, map) => {
   InfoWindow.open(map);
 };
 
-const GoogleMapConfigured = React.memo(() => {
+const GoogleMapConfigured = () => {
   return (
     <Map
       id="map"
@@ -45,7 +40,7 @@ const GoogleMapConfigured = React.memo(() => {
       }}
     />
   );
-});
+}
 
 const styles = [
   { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
@@ -127,7 +122,5 @@ const styles = [
     stylers: [{ color: "#17263c" }]
   }
 ];
-
-GoogleMapConfigured.whyDidYouRender = true;
 
 export default GoogleMapConfigured;

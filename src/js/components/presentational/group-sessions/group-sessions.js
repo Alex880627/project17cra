@@ -1,20 +1,19 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getGroupSessionDates } from "../../../actions/get-group-session-dates-actions";
+import { showEmailAction } from "../../../actions/email-action";
 import { OvalButton } from "../oval-button/oval-button";
 import groupIcon from "../../../../data/images/icons/group-icon.png";
 import "./group-sessions.css";
 
-if (process.env.NODE_ENV !== "production") {
-  const whyDidYouRender = require("@welldone-software/why-did-you-render");
-  whyDidYouRender(React);
-}
-
-const GroupSessionsContainer = React.memo(props => {
-  if (props.groupSessionDates < 1) {
-    props.getGroupSessionDates();
+const GroupSessionsContainer = () => {
+  const dispatch = useDispatch();
+  const groupSessionStoreData = useSelector(state=> state.groupSessionDatesReducer.groupSessionDates)
+  const groupSessions = useSelector(state=> state.changeLanguage.language["group sessions"])
+  if (groupSessionStoreData < 1) {
+    getGroupSessionDates(dispatch);
   }
-  const groupSessionDates = [...props.groupSessionDates];
-  let groupSessions = props.language["group sessions"];
-
+  const groupSessionsLocalArray = [...groupSessionStoreData];
   const makeMultiArrayFromDataByHours = objArray => {
     objArray.sort((a, b) => parseFloat(a.hour) - parseFloat(b.hour));
     let resultArr = [];
@@ -63,7 +62,7 @@ const GroupSessionsContainer = React.memo(props => {
                 );
               })}
             </div>
-            {makeMultiArrayFromDataByHours(groupSessionDates).map(element => {
+            {makeMultiArrayFromDataByHours(groupSessionsLocalArray).map(element => {
               return (
                 <div className="table-row" key={`${Math.random()}`}>
                   <div className="table-element">
@@ -104,12 +103,10 @@ const GroupSessionsContainer = React.memo(props => {
             <span>{groupSessions.resignationText}</span>
           </h5>
         </div>
-        <OvalButton text={groupSessions.buttonText} onClick={props.showEmail} />
+        <OvalButton text={groupSessions.buttonText} onClick={()=>{dispatch(showEmailAction())}} />
       </div>
     </>
   );
-});
-
-GroupSessionsContainer.whyDidYouRender = true;
+};
 
 export default GroupSessionsContainer;

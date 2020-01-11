@@ -5,17 +5,13 @@ import {
   openSnackBarError
 } from "../../../actions/snack-bar-actions";
 import { hideEmailAction } from "../../../actions/email-action";
-
+import giveProps from "../../container/give-props";
 import sendInfo from "../../../services/send-info";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
 import "./email-sending.css";
 import modal from "../modal/modal";
-if (process.env.NODE_ENV !== "production") {
-  const whyDidYouRender = require("@welldone-software/why-did-you-render");
-  whyDidYouRender(React);
-}
 
 const LoaderComp = () => {
   return (
@@ -143,8 +139,6 @@ const EmailSendingComp = () => {
   );
 };
 
-const EmailSending = modal(EmailSendingComp, "email");
-
-EmailSendingComp.whyDidYouRender = true;
+const EmailSending = giveProps(modal(EmailSendingComp, "email"));
 
 export default EmailSending;

@@ -72,7 +72,7 @@ const SideDrawer = React.memo((props) => {
   const sideList = side => (
     <div
       className={classes.list}
-      style={{"-webkit-overflow-scrolling": "touch"}}
+      style={{"WebkitOverflowScrolling": "touch"}}
       role="presentation"
       onClick={toggleDrawer(side, false)}
       onKeyDown={toggleDrawer(side, false)}

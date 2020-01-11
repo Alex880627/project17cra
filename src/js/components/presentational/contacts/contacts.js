@@ -5,12 +5,7 @@ import logo from "../../../../data/images/icons/logo-horizontal-big.svg";
 import exercise from "../../../../data/images/icons/exercise.png";
 import "./contacts.css";
 
-if (process.env.NODE_ENV !== "production") {
-  const whyDidYouRender = require("@welldone-software/why-did-you-render");
-  whyDidYouRender(React);
-}
-
-const Contacts = React.memo(props => {
+const Contacts = props => {
   let contacts = props.language.contacts;
   return (
     <div className="contacts-wrapper">
@@ -46,8 +41,6 @@ const Contacts = React.memo(props => {
       </div>
     </div>
   );
-});
-
-Contacts.whyDidYouRender = true;
+}
 
 export default Contacts;

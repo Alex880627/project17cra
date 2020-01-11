@@ -1,16 +1,11 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import "./footer.css";
 import Galery from "../img-galery/img-galery";
 import privacyPdf from "../../../../data/privacy-policy/privacy-policy.pdf";
 
-if (process.env.NODE_ENV !== "production") {
-  const whyDidYouRender = require("@welldone-software/why-did-you-render");
-  whyDidYouRender(React);
-}
-
-const FooterComp = React.memo( props => {
-  let footer = props.language.footer;
-  let contacts = props.language.contacts;
+const FooterComp = () => {
+  let footer = useSelector(state => state.changeLanguage.language.footer)
   return (
     <div className="footer-wrapper">
       <div className="pre-footer">
@@ -55,8 +50,6 @@ const FooterComp = React.memo( props => {
       </div>
     </div>
   );
-})
-
-FooterComp.whyDidYouRender = true;
+}
 
 export default FooterComp;

@@ -12,11 +12,6 @@ import {
   unsetLoadingAction
 } from "../../../actions/loading-actions";
 
-if (process.env.NODE_ENV !== 'production') {
-  const whyDidYouRender = require('@welldone-software/why-did-you-render');
-  whyDidYouRender(React);
-}
-
 const LanguagePickerButton = () => {
   const dispatch = useDispatch();
   const language = useSelector(state => state.changeLanguage.language.lang)
@@ -56,7 +51,5 @@ const LanguagePickerButton = () => {
     </ul>
   );
 };
-
-LanguagePickerButton.whyDidYouRender=true;
 
 export default LanguagePickerButton;

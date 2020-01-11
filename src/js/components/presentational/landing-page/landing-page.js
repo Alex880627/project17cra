@@ -1,4 +1,5 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import NavBar from "../navbar/navbar";
 import ScrollDown from "../scroll-down-icon/scroll-down-icon";
 import PrivacyPolicyNotification from "../privacy-policy/privacy-policy";
@@ -7,20 +8,13 @@ import TherapistListDetails from "../therapist-list-details/therapist-list-detai
 import logoVertical from "../../../../data/images/icons/logo-vertical-big.svg";
 import "./landing-page.css";
 
-
-if (process.env.NODE_ENV !== 'production') {
-  const whyDidYouRender = require('@welldone-software/why-did-you-render');
-  whyDidYouRender(React);
-}
-
-
-const LandinPage = React.memo( props => {
-  let landingSentence = props.language.landingSentence;
+const LandinPage = props => {
+  const landingSentence = useSelector(state=>state.changeLanguage.language.landingSentence)
   const isBigScreen = () => window.innerWidth / window.innerHeight > 1.35;
   return (
     <>
-      <GlobalSnackBar {...props} />
-      <NavBar {...props} />
+      <GlobalSnackBar />
+      <NavBar />
       <TherapistListDetails {...props} />
       <ScrollDown />
       <div className="landing-page" id="page-up" role="main" aria-labelledby="treatments">
@@ -43,8 +37,6 @@ const LandinPage = React.memo( props => {
       <PrivacyPolicyNotification {...props} />
     </>
   );
-});
-
-LandinPage.whyDidYouRender = true;
+};
 
 export default LandinPage;

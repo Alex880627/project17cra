@@ -23,16 +23,7 @@ import {
   openSnackBarError,
   closeSnackBar
 } from "../../actions/snack-bar-actions";
-import {
-  getSessionDates,
-  getSessionDatesSuccess,
-  getSessionDatesFail
-} from "../../actions/get-group-session-dates-actions";
 import getData from "../../services/get-data";
-import {
-  setHeaderUnderlineAction,
-  unsetHeaderUnderlineAction,
-} from "../../actions/setHeader-underline";
 
 const mapDispatchToProps = dispatch => ({
   changeLanguageToHU: () => {
@@ -79,22 +70,6 @@ const mapDispatchToProps = dispatch => ({
   },
   closeSnackBar: () => {
     dispatch(closeSnackBar());
-  },
-  getGroupSessionDates: () => {
-    dispatch(getSessionDates());
-    getData("https://studio17.duckdns.org/api/csoporttorna/lista")
-      .then(data => {
-        dispatch(getSessionDatesSuccess(data));
-      })
-      .catch(error => {
-        dispatch(getSessionDatesFail());
-      });
-  },
-  setHeaderUnderLine: (payload) => {
-    dispatch(setHeaderUnderlineAction(payload));
-  },
-  unsetHeaderUnderLine: () => {
-    dispatch(unsetHeaderUnderlineAction());
   }
 });
 
@@ -105,7 +80,6 @@ const mapStateToProps = state => ({
   sideBar: state.toogleSideBar.sideBar,
   email: state.emailReducer.email,
   blur: state.blurReducer.blur,
-  header: state.headerReducer.header,
   therapistDetails: state.therapistReducer.therapistDetails,
   therapistName: state.therapistReducer.therapistName,
   snackBar: state.snackBarReducer.snackBar

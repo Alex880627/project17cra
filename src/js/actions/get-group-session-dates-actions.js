@@ -1,4 +1,5 @@
 import { GET_SESSION_DATES, GET_SESSION_DATES_SUCCESS, GET_SESSION_DATES_FAIL } from '../constants/constants';
+import getData from "../services/get-data";
 
 const getSessionDates = () => ({
   type: GET_SESSION_DATES,
@@ -12,4 +13,14 @@ const getSessionDatesFail = () => ({
   type: GET_SESSION_DATES_FAIL,
 });
 
-export { getSessionDates, getSessionDatesSuccess, getSessionDatesFail };
+export const getGroupSessionDates = (dispatch) => {
+  dispatch(getSessionDates());
+  getData("https://studio17.duckdns.org/api/csoporttorna/lista")
+    .then(data => {
+      dispatch(getSessionDatesSuccess(data));
+    })
+    .catch(error => {
+      dispatch(getSessionDatesFail());
+    });
+}
+
