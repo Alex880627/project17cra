@@ -1,5 +1,5 @@
 const initState = {
-  gallery: true
+  gallery: false,
 };
 
 const galleryReducer = (state=initState, action) => {

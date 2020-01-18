@@ -4,11 +4,6 @@ import React from "react";
 import "./swipeable-drawer.css";
 import Backdrop from "@material-ui/core/Modal/SimpleBackdrop";
 
-
-if (process.env.NODE_ENV !== 'production') {
-  const whyDidYouRender = require('@welldone-software/why-did-you-render');
-  whyDidYouRender(React);
-}
 /**
  * Prevents scrolling of content behind the backdrop.
  */
@@ -35,10 +30,13 @@ export default function swipeableModal(ComponentParam, storeParam) {
     render() {
       return (
         <SwipeableDrawer
+          style={{pointerEvents: "all"}}
           className="swipeable-modal"
           anchor="left"
           disableBackdropClick={true}
-          onBackdropClick={{onClose: () => this.props[`hide${this.capitalize(storeParam)}`]}}
+          onBackdropClick={{
+            onClose: () => this.props[`hide${this.capitalize(storeParam)}`]
+          }}
           BackdropInvisible={false}
           anchorOrigin={{ vertical: "top", horizontal: "left" }}
           transformOrigin={{ vertical: "top", horizontal: "left" }}
@@ -46,7 +44,6 @@ export default function swipeableModal(ComponentParam, storeParam) {
           open={this.props[`${storeParam}`]}
           onClose={this.props[`hide${this.capitalize(storeParam)}`]}
           children={<ComponentParam {...this.props} />}
-
         ></SwipeableDrawer>
       );
     }
