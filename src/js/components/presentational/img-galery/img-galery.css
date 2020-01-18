@@ -15,6 +15,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .thumbnails-row {
@@ -54,7 +55,7 @@
 
 @media only screen and (max-width: 768px) {
   .gallery {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
   }
   .gallery .close-gallery {
     top: 5px;

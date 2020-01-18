@@ -97,7 +97,7 @@ const gridMobile = [
   ]
 ];
 
-if(window.innerWidth<768){
+if (window.innerWidth < 768) {
   grid = gridMobile;
 }
 
@@ -132,9 +132,8 @@ class Galery extends React.PureComponent {
           }
         >
           <div className="gallery">
-            {window.innerWidth < 768 ? (
-              <CloseButton hideFunction={this.props.hideGallery} />
-            ) : null}
+            <CloseButton hideFunction={this.props.hideGallery} />
+
             {grid.map(e => {
               return (
                 <div className="thumbnails-row">
@@ -145,7 +144,7 @@ class Galery extends React.PureComponent {
                         key={element.source}
                         style={{
                           width: `${element.size * this.getGallerySize()}vw`,
-                          height: "22vh"
+                          height: "19vh"
                         }}
                       >
                         <div
