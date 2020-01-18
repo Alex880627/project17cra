@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import modal from "../modal/modal";
 import CloseButton from "../close-button/close-button";
@@ -46,7 +46,7 @@ const grid = [
 ];
 
 grid.forEach((element, i) => {
-  element["source"] = images[i].source;
+  element["source"] = thumbnails[i].source;
   element["index"] = i;
 });
 
@@ -83,58 +83,66 @@ class Galery extends React.PureComponent {
     const { modalIsOpen } = this.state;
     return (
       <>
-        <div className="gallery">
-          {window.innerWidth < 768 ? (
-            <CloseButton hideFunction={this.props.hideGallery} />
-          ) : null}
-          {gridMulti.map(e => {
-            return (
-              <div className="thumbnails-row">
-                {e.map(element => {
-                  return (
-                    <div
-                      className="thumbnails"
-                      key={element.source}
-                      style={{
-                        width: `${element.size * this.getGallerySize()}vw`,
-                        height: "22vh"
-                      }}
-                    >
+        <Suspense
+          fallback={
+            <div className="loader-wrapper">
+              <div className="loader" />
+            </div>
+          }
+        >
+          <div className="gallery">
+            {window.innerWidth < 768 ? (
+              <CloseButton hideFunction={this.props.hideGallery} />
+            ) : null}
+            {gridMulti.map(e => {
+              return (
+                <div className="thumbnails-row">
+                  {e.map(element => {
+                    return (
                       <div
+                        className="thumbnails"
+                        key={element.source}
                         style={{
-                          backgroundImage: `url('${element.source}')`,
-                          backgroundPosition: "center",
-                          width: "100%",
-                          height: "100%",
-                          backgroundSize: "cover"
+                          width: `${element.size * this.getGallerySize()}vw`,
+                          height: "22vh"
                         }}
-                        onClick={() => {
-                          this.toggleModal(element.index);
-                        }}
-                      ></div>
-                    </div>
-                  );
-                })}
-              </div>
-            );
-          })}
-        </div>
+                      >
+                        <div
+                          style={{
+                            backgroundImage: `url('${element.source}')`,
+                            backgroundPosition: "center",
+                            width: "100%",
+                            height: "100%",
+                            backgroundSize: "cover"
+                          }}
+                          onClick={() => {
+                            this.toggleModal(element.index);
+                          }}
+                        ></div>
+                      </div>
+                    );
+                  })}
+                </div>
+              );
+            })}
+          </div>
 
-        <ModalGateway allowFullscreen={false} touchstart={this.toggleModal}>
-          {modalIsOpen ? (
-            <Modal
-              onClose={this.toggleModal}
-              allowFullscreen={true}
-              closeOnBackdropClick={true}
-            >
-              <Carousel
-                views={images}
-                components={{ Footer: Footer }}
-                currentIndex={this.state.currentModal}
-              />
-            </Modal>
-          ) : null}
-        </ModalGateway>
+          <ModalGateway allowFullscreen={false} touchstart={this.toggleModal}>
+            {modalIsOpen ? (
+              <Modal
+                onClose={this.toggleModal}
+                allowFullscreen={true}
+                closeOnBackdropClick={true}
+              >
+                <Carousel
+                  views={images}
+                  components={{ Footer: Footer }}
+                  currentIndex={this.state.currentModal}
+                />
+              </Modal>
+            ) : null}
+          </ModalGateway>
+        </Suspense>
       </>
     );
   }
