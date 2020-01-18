@@ -30,17 +30,14 @@ export default function swipeableModal(ComponentParam, storeParam) {
     render() {
       return (
         <SwipeableDrawer
-          style={{pointerEvents: "all"}}
           className="swipeable-modal"
           anchor="left"
-          disableBackdropClick={true}
           onBackdropClick={{
             onClose: () => this.props[`hide${this.capitalize(storeParam)}`]
           }}
           BackdropInvisible={false}
           anchorOrigin={{ vertical: "top", horizontal: "left" }}
           transformOrigin={{ vertical: "top", horizontal: "left" }}
-          BackdropComponent={BackDropIOSWorkaround}
           open={this.props[`${storeParam}`]}
           onClose={this.props[`hide${this.capitalize(storeParam)}`]}
           children={<ComponentParam {...this.props} />}
