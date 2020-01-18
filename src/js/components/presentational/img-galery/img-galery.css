@@ -53,6 +53,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .gallery {
+    background-color: black;
+  }
   .gallery .close-gallery {
     top: 5px;
     right: 5px;
