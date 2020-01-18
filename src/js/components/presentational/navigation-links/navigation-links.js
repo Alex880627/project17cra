@@ -1,10 +1,12 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
+import { openGalleryAction } from "../../../actions/gallery-action";
 import treatmentsIcon from "../../../../data/images/icons/treatments-icon-white.png";
 import contactsIcon from "../../../../data/images/icons/contactsIcon-white.png";
 import therapists from "../../../../data/images/icons/therapists.png";
 import walletIcon from "../../../../data/images/icons/wallet-icon-white.png";
 import groupIcon from "../../../../data/images/icons/group-icon.png";
+import pictureBlack from "../../../../data/images/icons/pictures-white.png";
 import mail from "../../../../data/images/icons/mail-icon-white.png";
 import {
   setBlurAction,
@@ -37,7 +39,6 @@ const NavigationLinks = () => {
       }}
     >
       <a
-        className={header === "treatments" ? "underline" : ""}
         onClick={() => {
           link("treatments");
         }}
@@ -49,7 +50,6 @@ const NavigationLinks = () => {
         </span>
       </a>
       <a
-        className={header === "colleagues" ? "underline" : ""}
         onClick={() => {
           link("colleagues");
         }}
@@ -61,7 +61,6 @@ const NavigationLinks = () => {
         </span>
       </a>
       <a
-        className={header === "prices" ? "underline" : ""}
         onClick={() => {
           link("prices");
         }}
@@ -73,7 +72,6 @@ const NavigationLinks = () => {
         </span>
       </a>
       <a
-        className={header === "group sessions" ? "underline" : ""}
         onClick={() => {
           link("group sessions");
         }}
@@ -86,7 +84,6 @@ const NavigationLinks = () => {
         </span>
       </a>
       <a
-        className={header === "contacts" ? "underline" : ""}
         onClick={() => {
           link("contacts");
         }}
@@ -95,6 +92,18 @@ const NavigationLinks = () => {
         <span>
           {" "}
           {navbar.contacts}
+          <span className="double-arrow">{" »"}</span>
+        </span>
+      </a>
+      <a
+        onClick={() => {
+          dispatch(openGalleryAction());
+        }}
+      >
+        <img src={pictureBlack} />
+        <span>
+          {" "}
+          {navbar.pictures}
           <span className="double-arrow">{" »"}</span>
         </span>
       </a>

@@ -14,12 +14,8 @@ import therapists from "../../../../data/images/icons/therapistsBlack.png";
 import walletIcon from "../../../../data/images/icons/wallet-icon.png";
 import groupIcon from "../../../../data/images/icons/group-icon-black.png";
 import mail from "../../../../data/images/icons/mail.png";
-import './side-drawer.css';
-
-if (process.env.NODE_ENV !== 'production') {
-  const whyDidYouRender = require('@welldone-software/why-did-you-render');
-  whyDidYouRender(React);
-}
+import pictures from "../../../../data/images/icons/pictures-black.png";
+import "./side-drawer.css";
 
 const useStyles = makeStyles({
   list: {
@@ -30,8 +26,7 @@ const useStyles = makeStyles({
   }
 });
 
-
-const SideDrawer = React.memo((props) => {
+const SideDrawer = React.memo(props => {
   const scroller = Scroll.scroller;
   const icons = [
     treatmentsIcon,
@@ -39,6 +34,7 @@ const SideDrawer = React.memo((props) => {
     therapists,
     walletIcon,
     contactsIcon,
+    pictures,
     mail
   ];
   let navbar = props.language.navbar;
@@ -72,41 +68,61 @@ const SideDrawer = React.memo((props) => {
   const sideList = side => (
     <div
       className={classes.list}
-      style={{"WebkitOverflowScrolling": "touch"}}
+      style={{ WebkitOverflowScrolling: "touch" }}
       role="presentation"
       onClick={toggleDrawer(side, false)}
       onKeyDown={toggleDrawer(side, false)}
     >
       <List>
         {Object.entries(navbar).map((element, index) => {
-          return element[0] !== "contactUs" ? (
-            <ListItem
-              button
-              key={"text"}
-              onClick={() => {
-                link(`${element[0]}`);
-              }}
-            >
-              <ListItemText primary={element[1]} />
-              <ListItemIcon>
-                <img src={icons[index]} id="drawer-icons" />
-              </ListItemIcon>
-            </ListItem>
-          ) : (
-            <ListItem
-              button
-              key={"text"}
-              onClick={e => {
-                e.stopPropagation();
-                props.showEmail();
-              }}
-            >
-              <ListItemText primary={element[1]} />
-              <ListItemIcon style={{ pointerEvents: "none" }}>
-                <img src={icons[index]} id="drawer-icons" />
-              </ListItemIcon>
-            </ListItem>
-          );
+          if (element[0] !== "contactUs" && element[0] !== "pictures") {
+            return (
+              <ListItem
+                button
+                key={"text"}
+                onClick={() => {
+                  link(`${element[0]}`);
+                }}
+              >
+                <ListItemText primary={element[1]} />
+                <ListItemIcon>
+                  <img src={icons[index]} id="drawer-icons" />
+                </ListItemIcon>
+              </ListItem>
+            );
+          } else if (element[0] === "pictures") {
+            return (
+              <ListItem
+                button
+                key={"text"}
+                onClick={e => {
+                  e.stopPropagation();
+                  props.showGallery();
+                }}
+              >
+                <ListItemText primary={element[1]} />
+                <ListItemIcon style={{ pointerEvents: "none" }}>
+                  <img src={icons[index]} id="drawer-icons" />
+                </ListItemIcon>
+              </ListItem>
+            );
+          } else {
+            return (
+              <ListItem
+                button
+                key={"text"}
+                onClick={e => {
+                  e.stopPropagation();
+                  props.showEmail();
+                }}
+              >
+                <ListItemText primary={element[1]} />
+                <ListItemIcon style={{ pointerEvents: "none" }}>
+                  <img src={icons[index]} id="drawer-icons" />
+                </ListItemIcon>
+              </ListItem>
+            );
+          }
         })}
       </List>
     </div>
@@ -114,9 +130,13 @@ const SideDrawer = React.memo((props) => {
 
   return (
     <div>
-      <SwipeableDrawer open={props.sideBar} onOpen={toggleDrawer("left", true)} onClose={toggleDrawer("left", false)}>
-          {sideList("left")}
-          <Divider />
+      <SwipeableDrawer
+        open={props.sideBar}
+        onOpen={toggleDrawer("left", true)}
+        onClose={toggleDrawer("left", false)}
+      >
+        {sideList("left")}
+        <Divider />
       </SwipeableDrawer>
     </div>
   );

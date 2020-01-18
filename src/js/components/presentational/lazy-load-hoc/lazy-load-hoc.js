@@ -1,10 +1,6 @@
 import React, { useRef, useState, Suspense , useEffect} from "react";
 import { useSelector, useDispatch } from 'react-redux';
 import useOnScreen from "../../../hooks/useScreen";
-import {
-  setHeaderUnderlineAction
-} from "../../../actions/setHeader-underline";
-
 
 export const withLazyLoad = (Component, id, color = "#265C42") => {
   return () => {
@@ -26,9 +22,6 @@ export const withLazyLoad = (Component, id, color = "#265C42") => {
       setLoad(true);
       setHeight("auto");
     }
-   /*  if (isOnScreen && header !== id && window.innerWidth > 1000) {
-      dispatch(setHeaderUnderlineAction(id));
-    } */
     return (
       <div id={id} className="lazy-load-wrapper" style={style} ref={ref}>
         {load ? (

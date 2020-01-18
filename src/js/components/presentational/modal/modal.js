@@ -12,7 +12,6 @@ export default function modal(ComponentParam, storeParam) {
       return s.charAt(0).toUpperCase() + s.slice(1);
     };
     render() {
-      console.log(storeParam, "gennaauau");
       return (
           <Modal
             open={this.props[`${storeParam}`]}

@@ -9,10 +9,12 @@ import blurReducer from "./blur-reducer";
 import loadingReducer from "./loading-reducer";
 import groupSessionDatesReducer from "./get-group-session-dates-reducer";
 import headerReducer from "./header-reducer";
+import galleryReducer from "./gallery-reducer";
 
 const rootReducer = combineReducers({
   groupSessionDatesReducer,
   changeLanguage,
+  galleryReducer,
   toogleSideBar,
   emailReducer,
   loadingReducer,

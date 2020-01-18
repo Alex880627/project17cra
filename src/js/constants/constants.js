@@ -26,3 +26,6 @@ export const GET_SESSION_DATES_FAIL = 'GET_SESSION_DATES_FAIL';
 
 export const SET_HEADER = 'SET_HEADER';
 export const UNSET_HEADER = 'UNSET_HEADER';
+
+export const OPEN_GALLERY = 'OPEN_GALLERY';
+export const CLOSE_GALLERY = 'CLOSE_GALLERY';

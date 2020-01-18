@@ -1,8 +1,11 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import "./footer.css";
-import Galery from "../img-galery/img-galery";
+import GalleryModal from "../img-galery/img-galery";
 import privacyPdf from "../../../../data/privacy-policy/privacy-policy.pdf";
+import giveProps from "../../container/give-props";
+
+const GalleryModalWithProps = giveProps(GalleryModal);
 
 const FooterComp = () => {
   let footer = useSelector(state => state.changeLanguage.language.footer)
@@ -11,16 +14,6 @@ const FooterComp = () => {
       <div className="pre-footer">
         <div className="contact-info-footer">
           <div className="contact-description">
-            <iframe
-              src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/Studio17gyogytorna&width=308&height=120&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=299633294303411"
-              width="308"
-              height="120"
-              style={{ border: "none", overflow: "hidden" }}
-              scrolling="no"
-              frameborder="0"
-              allowTransparency="true"
-              allow="encrypted-media"
-            ></iframe>
             {/* <div>
               Icons made by{" "}
               <a
@@ -37,7 +30,7 @@ const FooterComp = () => {
           </div>
         </div>
         <div className="pictures-galery">
-          <Galery />
+          <GalleryModalWithProps />
         </div>
       </div>
       <div className="footer-divider" />

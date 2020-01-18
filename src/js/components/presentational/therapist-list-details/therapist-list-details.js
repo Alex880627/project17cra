@@ -5,7 +5,7 @@ import swipeableModal from "../swipeable-drawer/swipeable-drawer";
 import modal from "../modal/modal";
 import ToolTip from "../tool-tip/tool-tip";
 
-const ThreapistDetailsComp = React.memo( props => {
+const ThreapistDetailsComp = props => {
   let therapistsObject = {};
   function importAll(r) {
     return r.keys().forEach((e, i) => {
@@ -101,7 +101,7 @@ const ThreapistDetailsComp = React.memo( props => {
       </div>
     </div>
   );
-});
+};
 
 const TherapistListDetails =
   window.innerWidth > 768

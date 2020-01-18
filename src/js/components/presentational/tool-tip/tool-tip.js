@@ -7,11 +7,6 @@ import Typography from "@material-ui/core/Typography";
 import ClickAwayListener from "@material-ui/core/ClickAwayListener";
 import "./tool-tip.scss";
 
-if (process.env.NODE_ENV !== "production") {
-  const whyDidYouRender = require("@welldone-software/why-did-you-render");
-  whyDidYouRender(React);
-}
-
 const HtmlTooltip = withStyles(theme => ({
   tooltip: {
     backgroundColor: "white",
@@ -25,7 +20,7 @@ const HtmlTooltip = withStyles(theme => ({
   }
 }))(Tooltip);
 
-const ToolTip = React.memo(props => {
+const ToolTip = props => {
   const [open, setOpen] = useState(false);
   const handleTooltipClose = () => {
     setOpen(false);
@@ -65,8 +60,6 @@ const ToolTip = React.memo(props => {
       </HtmlTooltip>
     </ClickAwayListener>
   );
-});
-
-ToolTip.whyDidYouRender = true;
+};
 
 export default ToolTip;

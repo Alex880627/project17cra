@@ -9,7 +9,7 @@ import { TherapistListLazy } from "./lazy-load-imports";
 import { PricesListWithLazy } from "./lazy-load-imports";
 import { GroupSessionsLazy } from "./lazy-load-imports";
 import { ContactsLazy } from "./lazy-load-imports";
-import { FooterLazy } from "./lazy-load-imports"; 
+import { FooterWithProps } from "./index"; 
 
 if (process.env.NODE_ENV !== 'production') {
   const whyDidYouRender = require('@welldone-software/why-did-you-render');
@@ -27,7 +27,7 @@ const App = () => {
       <PricesListWithLazy />
       <GroupSessionsLazy />
       <ContactsLazy />
-      <FooterLazy />
+      <FooterWithProps />
     </>
   );
 };

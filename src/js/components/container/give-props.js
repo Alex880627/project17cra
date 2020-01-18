@@ -1,4 +1,4 @@
-import { connect } from 'react-redux'
+import { connect } from "react-redux";
 import React, { Component } from "react";
 import {
   changeLangToENAction,
@@ -23,7 +23,10 @@ import {
   openSnackBarError,
   closeSnackBar
 } from "../../actions/snack-bar-actions";
-import getData from "../../services/get-data";
+import {
+  closeGalleryAction,
+  openGalleryAction
+} from "../../actions/gallery-action";
 
 const mapDispatchToProps = dispatch => ({
   changeLanguageToHU: () => {
@@ -31,6 +34,12 @@ const mapDispatchToProps = dispatch => ({
   },
   changeLanguageToEN: () => {
     dispatch(changeLangToENAction());
+  },
+  hideGallery: () => {
+    dispatch(closeGalleryAction());
+  },
+  showGallery: () => {
+    dispatch(openGalleryAction());
   },
   openSideBar: () => {
     dispatch(openSideBarAction());
@@ -79,6 +88,7 @@ const mapStateToProps = state => ({
   loading: state.loadingReducer.loading,
   sideBar: state.toogleSideBar.sideBar,
   email: state.emailReducer.email,
+  gallery: state.galleryReducer.gallery,
   blur: state.blurReducer.blur,
   therapistDetails: state.therapistReducer.therapistDetails,
   therapistName: state.therapistReducer.therapistName,

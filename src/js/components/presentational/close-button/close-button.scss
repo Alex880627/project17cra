@@ -1,0 +1,24 @@
+.close-button {
+  pointer-events: all;
+  z-index: 88888;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .close-button {
+    top: 5px;
+    right: 5px;
+  }
+}

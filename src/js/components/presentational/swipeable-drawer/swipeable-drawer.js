@@ -17,7 +17,7 @@ export class BackDropIOSWorkaround extends React.PureComponent {
     event.preventDefault();
   }
   render() {
-    return <Backdrop {...this.props} onTouchMove={this.onTouchMove} />;
+    return <Backdrop onTouchMove={this.onTouchMove} />;
   }
 }
 
