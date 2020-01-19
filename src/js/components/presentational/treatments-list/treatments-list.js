@@ -28,7 +28,7 @@ const TreatementDropdown = ({ element }) => {
       if (currentElement.style.height === "3.2rem") {
         open ? setOpen(false) : setOpen(true);
         currentElement.style.height = `${(currentElement.scrollHeight / 100) *
-          4.8}em`;
+          7}rem`;
         currentElement.style.borderBottom = "1px solid rgb(143, 143, 143)";
         currentElement.style.margin = "13px";
       } else {
