@@ -13,7 +13,6 @@ import {
   showTherapistDetails,
   hideTherapistDetails
 } from "../../actions/therapist-details-action";
-import { setBlurAction, unsetBlurAction } from "../../actions/set-blur-action";
 import {
   setLoadingAction,
   unsetLoadingAction
@@ -53,12 +52,6 @@ const mapDispatchToProps = dispatch => ({
   hideEmail: () => {
     dispatch(hideEmailAction());
   },
-  setBlur: () => {
-    dispatch(setBlurAction());
-  },
-  unsetBlur: () => {
-    dispatch(unsetBlurAction());
-  },
   setLoading: () => {
     dispatch(setLoadingAction());
   },
@@ -89,7 +82,6 @@ const mapStateToProps = state => ({
   sideBar: state.toogleSideBar.sideBar,
   email: state.emailReducer.email,
   gallery: state.galleryReducer.gallery,
-  blur: state.blurReducer.blur,
   therapistDetails: state.therapistReducer.therapistDetails,
   therapistName: state.therapistReducer.therapistName,
   snackBar: state.snackBarReducer.snackBar

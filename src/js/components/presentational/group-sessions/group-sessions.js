@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getGroupSessionDates } from "../../../actions/get-group-session-dates-actions";
 import { showEmailAction } from "../../../actions/email-action";
 import { OvalButton } from "../oval-button/oval-button";
+import { openGalleryAction } from "../../../actions/gallery-action";
 import groupIcon from "../../../../data/images/icons/group-icon.png";
 import "./group-sessions.css";
 
@@ -103,7 +104,10 @@ const GroupSessionsContainer = () => {
             <span>{groupSessions.resignationText}</span>
           </h5>
         </div>
-        <OvalButton text={groupSessions.buttonText} onClick={()=>{dispatch(showEmailAction())}} />
+        <div className="button-wrapper">
+        <OvalButton text={groupSessions.buttonTextLeft} noBorderRight onClick={()=>{dispatch(showEmailAction())}} />
+        <OvalButton text={groupSessions.buttonTextRight} noBorderLeft transparent onClick={()=>{dispatch(openGalleryAction())}}/>
+        </div>
       </div>
     </>
   );

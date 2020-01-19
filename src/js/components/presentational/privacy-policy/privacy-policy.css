@@ -34,7 +34,7 @@
   opacity: 1;
   border: none;
   border-radius: 3px;
-  background-color: #EB4335;
+  background-color: #2caf27;
   color: white;
 }
 
@@ -43,8 +43,8 @@
 }
 
 .privacy-policy a {
-  color: #7171ff;
-  text-decoration: none;
+  text-decoration: underline;
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {

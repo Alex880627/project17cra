@@ -21,11 +21,12 @@
     padding-bottom: 15px;
   }
   > p {
-    text-indent: 10px;
     margin: 0;
   }
+  > p:not(:first-of-type) {
+    text-indent: 10px;
+  }
   p {
-    text-align: justify;
     font-size: $miniFontSize;
     font-family: Work Sans;
     line-height: $defaultLineHeight;

@@ -14,28 +14,6 @@
     "details": "Bővebben",
     "therapists": [
       {
-        "name": "Agócs Szilvia",
-        "nick name": "Szilvia ",
-        "occupation": "Gyógytornász",
-        "school": "(Semmelweis Egyetem)",
-        "phone number": "0630 401 9871",
-        "email": "studio17gyogytorna@gmail.com",
-        "details": [
-          "Számomra soha nem volt kérdés, hogy segítő szakmában fogok elhelyezkedni: ez a hivatásom. A pácienseimmel való közvetlen kapcsolat kialakítása fontos alapját képezi a munkámnak, a panaszok kezeléséhez elengedhetetlennek tartom a személyes motivációk megértését. Kórházi munkám során számtalan foglalkozási ártalommal, mozgásszervi panasszal találkozom nap mint nap, melyek kezelésében széleskörű tapasztalatot szereztem az elmúlt években. Gyakran alkalmazom a porckorong eredetű panaszok visszaszorítására világszerte elismert McKenzie módszert.",
-          "Célom, hogy az eddig megszerzett tudásommal a hozzám betérő vendégek elérjék a számukra kitűzött célt, legyen szó a panaszmentes mindennapokról, a sporthoz való visszatalálásról, vagy az esetlegesen kialakuló panaszok megelőzéséről."
-        ],
-        "color": "#b5ffd9",
-        "techniques": {
-          "title": "Alkalmazott technikák",
-          "data": [
-            "McKenzie módszer",
-            "FDM (Fascia Disztorziós Modell)",
-            "Kinesio tape",
-            "SMR henger"
-          ]
-        }
-      },
-      {
         "name": "Csikós Panka",
         "nick name": "Panka",
         "occupation": "Gyógytornász",
@@ -54,6 +32,28 @@
             "FDM (Fascia Disztorziós Modell)",
             "Kinesio tape",
             "Idegmobilizáció"
+          ]
+        }
+      },
+      {
+        "name": "Agócs Szilvia",
+        "nick name": "Szilvi",
+        "occupation": "Gyógytornász",
+        "school": "(Semmelweis Egyetem)",
+        "phone number": "0630 401 9871",
+        "email": "studio17gyogytorna@gmail.com",
+        "details": [
+          "Számomra soha nem volt kérdés, hogy segítő szakmában fogok elhelyezkedni: ez a hivatásom. A pácienseimmel való közvetlen kapcsolat kialakítása fontos alapját képezi a munkámnak, a panaszok kezeléséhez elengedhetetlennek tartom a személyes motivációk megértését. Kórházi munkám során számtalan foglalkozási ártalommal, mozgásszervi panasszal találkozom nap mint nap, melyek kezelésében széleskörű tapasztalatot szereztem az elmúlt években. Gyakran alkalmazom a porckorong eredetű panaszok visszaszorítására világszerte elismert McKenzie módszert.",
+          "Célom, hogy az eddig megszerzett tudásommal a hozzám betérő vendégek elérjék a számukra kitűzött célt, legyen szó a panaszmentes mindennapokról, a sporthoz való visszatalálásról, vagy az esetlegesen kialakuló panaszok megelőzéséről."
+        ],
+        "color": "#b5ffd9",
+        "techniques": {
+          "title": "Alkalmazott technikák",
+          "data": [
+            "McKenzie módszer",
+            "FDM (Fascia Disztorziós Modell)",
+            "Kinesio tape",
+            "SMR henger"
           ]
         }
       },
@@ -111,7 +111,7 @@
         "nick name": "Eszter",
         "occupation": "Gyógytornász",
         "school": "(Semmelweis Egyetem)",
-        "phone number": "06301966193",
+        "phone number": "0630 196 6193",
         "email": "studio17gyogytorna@gmail.com",
         "details": [
           "A testmozgás iránti kíváncsiságom gyermekkorom óta az életem része: 10 éven keresztül hivatásszerűen táncoltam, míg végül amellett döntöttem, hogy mélyebben megismerkedem az emberi test működésével.",
@@ -126,7 +126,6 @@
             "FDM (Fascia Disztorziós Modell)",
             "Kinesio tape ragasztás",
             "Állkapocs ízületi terápia",
-            "Függesztési technikák",
             "Kinesio tape",
             "Lágyrész manuálterápia"
           ]
@@ -136,7 +135,7 @@
         "name": "Veress Livienne",
         "nick name": "Livienne",
         "occupation": "Gyógymasszőr",
-        "phone number": "06301966193",
+        "phone number": "0630 196 6193",
         "email": "studio17gyogytorna@gmail.com",
         "details": [
           "Gyógymasszőri tanulmányaimat Hawaiin végeztem, ahol egy helyi sámántól ősi polinéz gyógymódokat is tanultam (így például a Lomi Lomi masszázst), így egyszerre nyerhettem betekintést a modern és az ősi rehabilitációs technikák rejtelmeibe. Holisztikus szemlélettel dolgozom: vallom, hogy az emberi test, lélek és szellem hármasát együttesen, egymást támogatva érdemes kezelni. Testünk káprázatos dolgokra képes, ha megfelelően támogatjuk és törődünk vele. Kezeléseimet minden esetben személyre szabva, a páciens aktuális testi-lelki állapotát figyelembe véve, több technikát vegyítve állítom össze."
@@ -176,7 +175,8 @@
     "intervalText": " 45-55 perc",
     "heading": "Hogyan készülj a csoportos órákra?",
     "description": "Kérjük, hogy csoportos óráinkra a pontos kezdés érdekében érkezzen 5-10 perccel korábban, hogy az átöltözésre is maradjon idő. Az alkalmakra kényelmes, szabad mozgást biztosító ruhát javaslunk. Cipőre nincs szükség. Stúdiónkban öltöző, zuhanyzó, törülköző, tusfürdő, vendégpapucs és ivóvíz áll vendégeink rendelkezésére.",
-    "buttonText": "Kérdése van? Keressen bizalommal!",
+    "buttonTextLeft": "Kérdése van?",
+    "buttonTextRight": "Nézzen körül nálunk!",
     "resignation": "Lemondás:",
     "resignationText": " A részvétel 12 órával a torna kezdete előtt telefonon lemondható. Ennél közelebbi órakezdés esetén a részvételi díj 50%-át felszámítjuk.",
     "days": {
@@ -269,7 +269,7 @@
         "description": [
           "A kinesio tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel anyaga nem tartalmaz gyógyszert, a mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
         ],
-        "therapist": ["Zsuzsa", "Panka", "Szilvia "]
+        "therapist": ["Zsuzsa", "Panka", "Szilvi"]
       },
       {
         "title": "Gyógymasszázs",
@@ -287,18 +287,18 @@
         "therapist": ["Panka"]
       },
       {
-        "title": "FDM (Fascia Disztorziós Modell)",
+        "title": "Fascia Disztorziós Modell",
         "description": [
           "Az FDM módszer egy új, különösen hatékony mozgásterápiás eljárás, melyet ma már világszerte egyre szélesebb körben alkalmaznak. Az FDM elismerten a leggyorsabban terjedő fájdalomcsillapító terápia: szinte azonnal jelentkező pozitív hatása ízületi, izom és szervi problémákra is megoldást jelenthet."
         ],
         "therapist": ["Panka", "Livienne"]
       },
       {
-        "title": "SI-terápia (AKA gerinc- és nyakkezelés)",
+        "title": "SI-terápia",
         "description": [
           "A SI-terápia alapját a Japánban kifejlesztett AKA gerinckezelés képezi. A kezelés során a keresztcsont és a csípőcsont közötti ízületet – a SI ízületet – kimozgatva feloldjuk az ízületben keletkezett feszültséget, ezáltal csökkenve vagy teljesen megszűntetve a deréktáji és nyaki fájdalmat. A módszer gerinc- és mozgásszervi problémák kezelése egyaránt alkalmas."
         ],
-        "therapist": ["Panka", "Livienne", "Szilvia "]
+        "therapist": ["Panka", "Livienne", "Szilvi"]
       },
       {
         "title": "Lomi Lomi",
@@ -346,14 +346,15 @@
     ]
   },
   "privacy policy": {
-    "sentence": "Az oldalon a felhasználóélmény javítása érdekében sütiket használunk. Az oldal használatával elfogadod a",
+    "sentence": "Az oldalon a felhasználóélmény javítása érdekében sütiket használunk. Az oldal használatával elfogadja a",
     "link": "Felhasználási Feltételeinket",
     "button": "Rendben"
   },
   "upButton": ".fel",
   "landingSentence": {
-    "coverSentenceLeft": "Nincs több fájdalom, ",
+    "coverSentenceLeft": "Nincs több fájdalom, \b",
     "coverSentenceRight": "csak ",
-    "coverSentenceColored": "szabad mozgás!"
+    "coverSentenceColored": "szabad mozgás!",
+    "coverDescription": "Gyógytorna és gyógymasszázs az V. kerület szívében. Megelőzés, fájdalomcsökkentés és rehabilitáció egy helyen."
   }
 }

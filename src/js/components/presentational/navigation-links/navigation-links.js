@@ -8,10 +8,6 @@ import walletIcon from "../../../../data/images/icons/wallet-icon-white.png";
 import groupIcon from "../../../../data/images/icons/group-icon.png";
 import pictureBlack from "../../../../data/images/icons/pictures-white.png";
 import mail from "../../../../data/images/icons/mail-icon-white.png";
-import {
-  setBlurAction,
-  unsetBlurAction
-} from "../../../actions/set-blur-action";
 import { showEmailAction } from "../../../actions/email-action";
 
 const Scroll = require("react-scroll");
@@ -20,7 +16,6 @@ const scroller = Scroll.scroller;
 const NavigationLinks = () => {
   const dispatch = useDispatch();
   const navbar = useSelector(state => state.changeLanguage.language.navbar);
-  const header = useSelector(state => state.headerReducer.header);
   const link = element => {
     scroller.scrollTo(element, {
       duration: 0,
@@ -31,12 +26,6 @@ const NavigationLinks = () => {
   return (
     <div
       className="navigation"
-      onMouseEnter={() => {
-        dispatch(setBlurAction());
-      }}
-      onMouseLeave={() => {
-        dispatch(unsetBlurAction());
-      }}
     >
       <a
         onClick={() => {

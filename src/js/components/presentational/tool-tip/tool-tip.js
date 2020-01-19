@@ -13,7 +13,7 @@ const HtmlTooltip = withStyles(theme => ({
     opacity: 1,
     margin: "20px",
     color: "black",
-    boxShadow: "0px 0px 20px 1px black",
+    boxShadow: "0px 2px 4px 1px black",
     lineHeight: "20px",
     maxWidth: 400,
     fontSize: theme.typography.pxToRem(12)
@@ -43,11 +43,22 @@ const ToolTip = props => {
         title={
           <>
             <Typography color="inherit">
-              <em>{props.techniqueTitle}</em>
+              <h4
+                style={{
+                  paddingLeft: "10px",
+                  paddingBottom: "0px",
+                  marginTop: "10px",
+                  marginBottom: "0px"
+                }}
+              >
+                {props.techniqueTitle}
+              </h4>
             </Typography>
 
             <br />
-            <p>{props.description}</p>
+            <p style={{ padding: "10px", paddingTop: "0px", marginTop: "0px" }}>
+              {props.description}
+            </p>
           </>
         }
       >

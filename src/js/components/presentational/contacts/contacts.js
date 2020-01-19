@@ -1,4 +1,5 @@
 import React from "react";
+import { useDispatch } from "react-redux";
 import GoogleMapConfigured from "../google-maps/google-maps-configured";
 import contactsIcon from "../../../../data/images/icons/contactsIcon.png";
 import logo from "../../../../data/images/icons/logo-horizontal-big.svg";

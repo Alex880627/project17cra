@@ -22,12 +22,14 @@
 }
 
 .treatment > p {
-  text-indent: 10px;
   margin: 0;
 }
 
+.treatment > p:not(:first-of-type) {
+  text-indent: 10px;
+}
+
 .treatment p {
-  text-align: justify;
   font-size: 0.9375rem;
   font-family: Work Sans;
   line-height: 1.5rem;

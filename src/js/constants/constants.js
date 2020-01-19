@@ -10,9 +10,6 @@ export const HIDE_EMAIL = 'HIDE_EMAIL';
 export const SHOW_THERAPIST = 'SHOW_THERAPIST';
 export const HIDE_THERAPIST = 'HIDE_THERAPIST';
 
-export const SET_BLUR = 'SET_BLUR';
-export const UNSET_BLUR = 'UNSET_BLUR';
-
 export const SET_LOADING = 'SET_LOADING';
 export const UNSET_LOADING = 'UNSET_LOADING';
 

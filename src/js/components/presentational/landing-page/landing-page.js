@@ -10,7 +10,7 @@ import "./landing-page.css";
 
 const LandinPage = props => {
   const landingSentence = useSelector(state=>state.changeLanguage.language.landingSentence)
-  const isBigScreen = () => window.innerWidth / window.innerHeight > 1.35;
+  const isBigScreen = () => window.innerWidth > 1000;
   return (
     <>
       <GlobalSnackBar />
@@ -20,6 +20,7 @@ const LandinPage = props => {
       <div className="landing-page" id="page-up" role="main" aria-labelledby="treatments">
         {isBigScreen() ? (
           <>
+          <div className="cover-sentence-header">
             <h3 className="left-sentence">
               {landingSentence.coverSentenceLeft}
             </h3>
@@ -27,6 +28,10 @@ const LandinPage = props => {
               {landingSentence.coverSentenceRight}
               <span>{landingSentence.coverSentenceColored}</span>
             </h3>
+          </div>
+          <div className="cover-description">
+            {landingSentence.coverDescription}
+          </div>
           </>
         ) : (
           <div className="cover-logo">

@@ -3,11 +3,6 @@ import "./scroll-down-icon.css";
 const Scroll = require("react-scroll");
 const scroller = Scroll.scroller;
 
-if (process.env.NODE_ENV !== "production") {
-  const whyDidYouRender = require("@welldone-software/why-did-you-render");
-  whyDidYouRender(React);
-}
-
 const ScrollDown = React.memo(() => {
   const link = element => {
     scroller.scrollTo(element, {
@@ -29,7 +24,5 @@ const ScrollDown = React.memo(() => {
     </a>
   );
 });
-
-ScrollDown.whyDidYouRender = true;
 
 export default ScrollDown;

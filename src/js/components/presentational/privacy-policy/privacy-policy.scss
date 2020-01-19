@@ -24,15 +24,15 @@
     opacity: 1;
     border: none;
     border-radius: 3px;
-    background-color: $mainRedcolor;
+    background-color: $secondaryGreenColor;
     color: white;
     &:hover {
       cursor: pointer;
     }
   }
   a {
-    color: rgb(113, 113, 255);
-    text-decoration: none;
+    text-decoration: underline;
+    color: white;
   }
   
 }

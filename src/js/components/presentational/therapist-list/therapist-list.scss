@@ -111,7 +111,6 @@
   position: absolute;
   animation: slideInDown 0.3s;
   .therapist-content {
-    text-indent: 10px;
     background-color: #ffffff;
     padding-left: 15px;
     padding-right: 15px;
@@ -124,6 +123,9 @@
     white-space: pre-line;
     p {
       margin: 0;
+    }
+    > p:not(:first-of-type) {
+      text-indent: 10px;
     }
   }
   .therapist-heading {
@@ -154,8 +156,7 @@
       width: 75px;
       height: 75px;
       border-radius: 50%;
-      margin: 0;
-      margin-right: 15px;
+      margin: 10px;
     }
   }
   .content-box {
