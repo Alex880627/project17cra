@@ -6,7 +6,11 @@ import PrivacyPolicyNotification from "../privacy-policy/privacy-policy";
 import GlobalSnackBar from "../snack-bar/snack-bar";
 import TherapistListDetails from "../therapist-list-details/therapist-list-details";
 import logoVertical from "../../../../data/images/icons/logo-vertical-big.svg";
+import GalleryModal from "../img-galery/img-galery";
+import giveProps from "../../container/give-props";
 import "./landing-page.css";
+
+const GalleryModalWithProps = giveProps(GalleryModal);
 
 const LandinPage = props => {
   const landingSentence = useSelector(state=>state.changeLanguage.language.landingSentence)
@@ -14,6 +18,7 @@ const LandinPage = props => {
   return (
     <>
       <GlobalSnackBar />
+      <GalleryModalWithProps />
       <NavBar />
       <TherapistListDetails {...props} />
       <ScrollDown />

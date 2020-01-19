@@ -1,13 +1,15 @@
 import React from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { showEmailAction } from "../../../actions/email-action";
 import GoogleMapConfigured from "../google-maps/google-maps-configured";
 import contactsIcon from "../../../../data/images/icons/contactsIcon.png";
 import logo from "../../../../data/images/icons/logo-horizontal-big.svg";
 import exercise from "../../../../data/images/icons/exercise.png";
 import "./contacts.css";
 
-const Contacts = props => {
-  let contacts = props.language.contacts;
+const Contacts = () => {
+  const contacts = useSelector(state=> state.changeLanguage.language.contacts);
+  const dispatch = useDispatch();
   return (
     <div className="contacts-wrapper">
       <div className="contacts-heading">
@@ -32,7 +34,7 @@ const Contacts = props => {
             {contacts["contacts info"]["ringbell number"]}
           </p>
           <p>
-            <span onClick={props.showEmail}>
+            <span onClick={()=> {dispatch(showEmailAction())}}>
               {contacts["contacts info"].email}
             </span>
           </p>

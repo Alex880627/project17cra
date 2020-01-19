@@ -29,9 +29,6 @@ const FooterComp = () => {
             </div> */}
           </div>
         </div>
-        <div className="pictures-galery">
-          <GalleryModalWithProps />
-        </div>
       </div>
       <div className="footer-divider" />
       <div className="footer">
