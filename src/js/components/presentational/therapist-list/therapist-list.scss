@@ -319,12 +319,17 @@
     height: auto;
   }
 
+ 
   .therapist-details > .content-box > .details {
     display: flex;
     flex-direction: column;
     .therapist-contacts {
       padding: 10px;
       width: auto;
+      .phone,
+      .email {
+        font-size: $miniFontSize;
+      }
     }
     .therapist-techniques {
       padding: 10px;

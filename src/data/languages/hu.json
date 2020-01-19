@@ -269,27 +269,12 @@
           "Az Evminov módszer egy speciálisan kifejlesztett ortopédiai segédeszköz, az Evminov Profilaktor használatán alapszik. A módszer hatékony segítséget nyújt a helytelen testtartás, a gerincferdülés, a porckorongsérv és egyéb gerincbetegségek megelőzésében és enyhítésében.",
           "A profilaktor egy fából készült, különleges technológiával előállított gerinc-rehabilitációs eszköz, mely megkönnyíti a gerincet érintő problémák helyreállítását, és az esetleges műtét utáni rehabilitációt. Az Evminov torna a finoman adagolt nyújtásra, tehermentesítésre és a gerinc melletti mélyizmok erősítésére épül."
         ],
-        "therapist": ["Szilvia", "Panka", "Zsuzsanna"]
+        "therapist": ["Szilvia", "Panka", "Endre", "Zsuzsanna"]
       },
       {
         "title": "Schroth terápia",
         "description": [
           "A gyermekkori gerincferdülés (scoliosis) és a Scheuermann kór kezelésére kialakított módszer rendkívül hatékonyan enyhíti a gerinc kóros görbületének fokozódását és a kialakult – vagy kialakulóban lévő – izomdiszbalanszokat. A terápia ötvözi a különböző testhelyzeketben végzett korrekciós légzést, aktív nyújtózást és izomerősítést. Komoly koncentrációt igénylő torna, mely otthoni gyakorlást is megkíván, ezért kisgyermekkorban eleinte játékkal kevert gyakorlatokkal haladunk. A gyermekkorban kialakult gerincferdülés felnőttkorban is okozhat fájdalmat, így a Schroth terápia nem kizárólag gyerekeknek hasznos."
-        ],
-        "therapist": ["Zsuzsa", "Panka", "Szilvia"]
-      },
-      {
-        "title": "Gerinctorna",
-        "description": [
-          "A csoportos gerinctornát azoknak a vendégeinknek ajánljuk, akik egész nap ülőmunkát végeznek és szeretnék javítani a testtartásukat, illetve csökkenteni a kisebb ízületi fájdalmaikat. A foglalkozás során fokozott figyelmet fordítunk a mozdulatok helyes kivitelezésére és a mély tartóizmok erősítésére. A 4-6 fős, kiscsoportos órákat Sugár Szilvia gyógytornász kollegánk tartja."
-        ],
-        "therapist": ["Panka", "Szilvia"]
-      },
-      {
-        "title": "Evminov csoportos óra",
-        "description": [
-          "Az Evminov padon, megnyújtott testhelyzetben végzett izomerősítő gyakorlatok hatékonyan és gyorsan csökkentik a porckorong problémák miatt kialakult fájdalmakat. A torna a gerinc melletti mély hátizmokat és a hasizmokat is erősíti, így a gyakorlatok hatása a padról leszállva, a nyújtott helyzet megszűnése után is tart.",
-          "Csoportos óráinkon a bemelegítés után nyújtó és erősítő gyakorlatok váltják egymást, időt hagyva a megfelelő mennyiségű pihenésnek is. Egy egyórás Evminov gyakorlatsor a nap bármelyik pontján, kortól függetlenül kikapcsol és átmozgat!"
         ],
         "therapist": ["Panka", "Szilvia"]
       },
@@ -298,43 +283,70 @@
         "description": [
           "A McKenzie módszer egy biomechanikailag, élettanilag és anatómiailag is alátámasztott terápia, melyet mindig a páciensek aktív közreműködésével alkalmazunk. A torna során a beteg saját maga képes befolyásolni a kialakuló fájdalmat, aminek segítségével bizonyos idő után terapeutától függetlenül is kezelni tudja a panaszait."
         ],
-        "therapist": ["Panka", "Szilvia"]
+        "therapist": ["Szilvi", "Eszter", "Szilvia"]
       },
       {
         "title": "Kinesio tape ragasztás",
         "description": [
           "A kinesio tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel anyaga nem tartalmaz gyógyszert, a mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
         ],
-        "therapist": ["Zsuzsa", "Panka", "Szilvi"]
-      },
-      {
+        "therapist": ["Panka", "Szilvi", "Eszter", "Endre", "Szilvia"]
+      },{
         "title": "Funkcionális gyógytorna",
         "description": [
           "Egy komolyabb sérülés, egy műtét, vagy egyes, hosszabb ideje jelen lévő fájdalmak és problémák jelentős mértékben befolyásolják az életünk és a testünk minőségét. Ilyenkor sérülnek a velünk született mozgásminták is, melyek helyreállítása alapvető fontosságú. A rehabilitációhoz minden ilyen esetben funkcionális, egyénre szabott gyógytorna szükséges.",
           "A személyre szabott kezelés előnye, hogy a magánóra keretei között a gyógytornász fókuszált figyelmet fordíthat a betegre. A fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája minden esetben az egyéni gyógytorna. Ülő- vagy megterhelő fizikai munka esetén, alak- és egészségmegőrzési célból, az ízületek és izmok mozgékonyságának megőrzésére, esetleg bármilyen későbbi probléma megelőzésére szintén javasolt egyéni kezelést foglalni."
         ],
-        "therapist": ["Panka"]
-      },
-      {
-        "title": "Gyógymasszázs",
-        "description": [
-          "A Gyógymasszázs tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel nem tartalmaz gyógyszert, mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
-        ],
-        "therapist": ["Szilvia"]
+        "therapist": ["Szilvia", "Panka", "Eszter", "Szilvi"]
       },
       {
         "title": "Fascia Disztorziós Modell",
         "description": [
           "Az FDM módszer egy új, különösen hatékony mozgásterápiás eljárás, melyet ma már világszerte egyre szélesebb körben alkalmaznak. Az FDM elismerten a leggyorsabban terjedő fájdalomcsillapító terápia: szinte azonnal jelentkező pozitív hatása ízületi, izom és szervi problémákra is megoldást jelenthet."
         ],
-        "therapist": ["Panka", "Livienne"]
+        "therapist": ["Szilvi", "Eszter", "Endre", "Zsuzsanna", "Panka"]
+      },
+      {
+        "title": "Lágylézer",
+        "description": [
+          "Kézi lágylézer készülékünk nagyszerű kiegészítése egyéb terápiáinknak. Hatékonyan és kíméletesen csökkenti a fájdalmat és a gyulladást, legyen szó sportsérülésről vagy ízületi bántalmakról. Gyorsítja a sebgyógyulást és az egészséges hegképződést."
+        ],
+        "therapist": ["Panka", "Szilvia"]
+      },
+      {
+        "title": "SMR henger",
+        "description": [
+          "Az SMR vagy masszázs henger gyakori használata segíti az izmok egészséges működését, megelőzi a sportsérüléseket, illetve támogatja a problémamentes mozgás visszaszerzését és megtartását. Megfelelően használva a henger az adott izmot körülvevő hártyákat masszírozza át: az izom ellazul, visszanyeri a normális tónusát, és megszűnnek a fájdalmas izomcsomók és -feszülések."
+        ],
+        "therapist": ["Szilvi"]
+      },
+      {
+        "title": "Állkapocs ízületi kezelés",
+        "description": [
+          "Az állkapcsunk az egyik legtöbbet dolgoztatott ízületünk. Megbetegedése akár olyan problémák hátterében is állhat, mint a fülzúgás, fejfájás, szédülés, nyaki és vállövi fájdalom. A kezelés során kiemelt szerepe van a tartásjavító gyakorlatoknak, a váll-nyak területén végzett izomlazító fogásoknak. Magát az állkapocs ízületet manuálisan mobilizáljuk, a körülötte lévő szöveti feszüléseket nyomásos technikával oldjuk. A terápiával javul az állkapocs ízület mozgástartománya, a testartás, csökken a lokális és a kisugárzó fájdalom, és helyreáll a rágóízület izomegyensúlya."
+        ],
+        "therapist": ["Eszter"]
+      },
+      {
+        "title": "Lágyrész manuálterápia",
+        "description": [
+          "A lágyrész manuálterápia vagy mobilizáció célja a kötőszövet és az izom összetapadásainak, zsugorodásának vagy megnyúlásásnak helyreállítása. Gondos állapotfelmérés után a szükséges terület kezelése manuális fogásokkal, többek közt a Trigger pontok oldásával történik."
+        ],
+        "therapist": ["Eszter"]
+      },
+      {
+        "title": "Perifériás idegmobilizáció",
+        "description": [
+          "A terápia célja az idegi eredetű fájdalom csillapítása. A kezelés során speciális fogásokkal szabadítjuk fel a letapadt, becsípődött, vagy nyomás alá került végtagi idegeket. Ez a módszer jól alkalmazható végtag zsibbadás, éjszakai izomgörcsök, vagy a végtagokban érzett gyengeség, diszkomfort megszüntetésére."
+        ],
+        "therapist": ["Szilvi", "Panka"]
       },
       {
         "title": "SI-terápia",
         "description": [
           "A SI-terápia alapját a Japánban kifejlesztett AKA gerinckezelés képezi. A kezelés során a keresztcsont és a csípőcsont közötti ízületet – a SI ízületet – kimozgatva feloldjuk az ízületben keletkezett feszültséget, ezáltal csökkenve vagy teljesen megszűntetve a deréktáji és nyaki fájdalmat. A módszer gerinc- és mozgásszervi problémák kezelése egyaránt alkalmas."
         ],
-        "therapist": ["Panka", "Livienne", "Szilvi"]
+        "therapist": ["Zsuzsanna"]
       },
       {
         "title": "Lomi Lomi",
@@ -348,21 +360,21 @@
         "description": [
           "A nyirokdrenázsként, nyirokelvezetésként is ismert módszer olyan speciális masszázsfajta, amely a nyirokelfolyást javítja. Rendszeres alkalmazása megszűnteti a szöveti nyirokpangást, aktiválja az immunrendszert, serkenti a salakanyagok elszállítását, így a sejtek és a szövetek regenerálódását, csökkenti a gyulladáskészséget, illetve elősegíti a meglevő gyulladások, sebek gyógyulását."
         ],
-        "therapist": ["Livienne"]
+        "therapist": ["Zsuzsanna"]
       },
       {
         "title": "Flossing terápia",
         "description": [
           "Kompressziós terápia, melyet ízületi és izombántalmak hatékony, gyors kezelésére, illetve fájdalomcsillapításra alkalmazunk. A módszer a szöveti regenerációt is radikálisan serkenti. A kezelés során 1,5-2 percre erős gumiszalagokat tekerünk a panaszos terület köré, majd ezeket gyorsan visszaeresztve érjük el a jótékony hatást."
         ],
-        "therapist": ["Livienne"]
+        "therapist": ["Zsuzsanna", "Endre"]
       },
       {
         "title": "Köpölyözés",
         "description": [
           "A kínai orvoslásban a köpölyözés a test energia-áramlását (azaz a csí áramlását) befolyásolja: a terápiát blokkolt vagy stagnáló áramlás újraindítására alkalmazzák. A nyugati szakemberek az izmok kezelésére és a véráram felpezsdítésére használják a köpölyözést."
         ],
-        "therapist": ["Livienne"]
+        "therapist": ["Zsuzsanna", "Endre", "Livienne"]
       },
       {
         "title": "Derék- és nyakprotokoll",
@@ -370,14 +382,36 @@
           "A mozgásszervi problémák kezelésére összeállított „protokoll” eljárások ötvözik a modern nyugati oszteopátia és a hagyományos kínai manuálterápia módszereit. A meghatározott sorrendben végzett lazító és nyújtó fogások, a kineziológiai tapasz, illetve a fülakupunktúra együttes alkalmazása gyors és eredményes gyógyulást biztosít.",
           "A kezelés időtartama: 90 perc"
         ],
-        "therapist": ["Livienne"]
+        "therapist": ["Zsuzsanna"]
       },
       {
         "title": "Gua Sha masszázs",
         "description": [
           "A kínai orvoslás elismert reflexológiai kezelése szó szerint annyit tesz, hogy „minden rossz kikaparása”. A masszázs hagyományosan egy csontból vagy kőből készült lemezzel történik; a kezelt testrészeken megjelenő bőrirritáció pontos diagnózist nyújt az egyes helytelenül működő belső szervekről."
         ],
-        "therapist": ["Livienne"]
+        "therapist": ["Zsuzsanna"]
+      },
+      {
+        "title": "Evminov csoportos óra",
+        "description": [
+          "Az Evminov padon, megnyújtott testhelyzetben végzett izomerősítő gyakorlatok hatékonyan és gyorsan csökkentik a porckorong problémák miatt kialakult fájdalmakat. A torna a gerinc melletti mély hátizmokat és a hasizmokat is erősíti, így a gyakorlatok hatása a padról leszállva, a nyújtott helyzet megszűnése után is tart.",
+          "Csoportos óráinkon a bemelegítés után nyújtó és erősítő gyakorlatok váltják egymást, időt hagyva a megfelelő mennyiségű pihenésnek is. Egy egyórás Evminov gyakorlatsor a nap bármelyik pontján, kortól függetlenül kikapcsol és átmozgat!"
+        ],
+        "therapist": ["Panka", "Szilvia"]
+      },
+      {
+        "title": "Gerinctorna",
+        "description": [
+          "A csoportos gerinctornát azoknak a vendégeinknek ajánljuk, akik egész nap ülőmunkát végeznek és szeretnék javítani a testtartásukat, illetve csökkenteni a kisebb ízületi fájdalmaikat. A foglalkozás során fokozott figyelmet fordítunk a mozdulatok helyes kivitelezésére és a mély tartóizmok erősítésére. A 4-6 fős, kiscsoportos órákat Sugár Szilvia gyógytornász kollegánk tartja."
+        ],
+        "therapist": ["Szilvia"]
+      },
+      {
+        "title": "Tao Yin",
+        "description": [
+          "Ősi kínai terápiás mozgás, melyet az egészség megőrzésére, az öngyógyítás elősegítésére és a lelki egyensúly megtalálására fejlesztetek ki évszázadokon át. A lágy mozgások közben növekszik az életenergia a testünkben, és testi-lelki harmónia jön létre. A gyakorlatok során egyenletes, mély légzésekkel a tudatunkat fejlesztjük, miközben kihasználva testünk teljes mozgástartományát növeljük a fizikai rugalmasságunkat is."
+        ],
+        "therapist": ["Szilvia"]
       }
     ]
   },

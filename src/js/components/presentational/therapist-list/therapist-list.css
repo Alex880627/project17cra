@@ -479,6 +479,10 @@
     padding: 10px;
     width: auto;
   }
+  .therapist-details > .content-box > .details .therapist-contacts .phone,
+  .therapist-details > .content-box > .details .therapist-contacts .email {
+    font-size: 0.9375rem;
+  }
   .therapist-details > .content-box > .details .therapist-techniques {
     padding: 10px;
     width: auto;
