@@ -4,8 +4,8 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  width: 40px;
-  height: 40px;
+  width: 2rem;
+  height: 2rem;
   background-position: center;
   background-size: cover;
   -webkit-transition: all 0.3s;

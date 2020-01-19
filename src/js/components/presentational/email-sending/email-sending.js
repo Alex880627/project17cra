@@ -65,14 +65,14 @@ const EmailSendingComp = () => {
       .then(json => {
         setIsLoading(false);
         const message =
-          language.lang === "Magyar" ? json.messageHU : json.messageEN;
+          language === "Magyar" ? json.messageHU : json.messageEN;
         dispatch(openSnackBarSuccess(message));
         dispatch(hideEmailAction());
       })
       .catch(error => {
         setIsLoading(false);
         const message =
-          language.lang === "Magyar" ? error.messageHU : error.messageEN;
+          language === "Magyar" ? error.messageHU : error.messageEN;
         dispatch(openSnackBarError(message));
         dispatch(hideEmailAction());
       });

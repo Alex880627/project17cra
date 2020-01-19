@@ -58,8 +58,8 @@
         }
       },
       {
-        "name": "Erasimus Zsuzsa",
-        "nick name": "Zsuzsa",
+        "name": "Erasimus Zsuzsanna",
+        "nick name": "Zsuzsanna",
         "occupation": "Gyógymasszőr",
         "phone number": "0620 244 1602",
         "email": "studio17gyogytorna@gmail.com",
@@ -107,6 +107,27 @@
         }
       },
       {
+        "name": "Mészáros Endre",
+        "nick name": "Endre",
+        "occupation": "Gyógymasszőr",
+        "phone number": "0670 530 0217",
+        "email": "studio17gyogytorna@gmail.com",
+        "details": [
+          "Mozgásterapeutaként ízületi és izomfájdalmak, sportsérülésekből vagy műtéti hegekből adódó problémák, illetve régóta fennálló, szűnni nem akaró panaszok enyhítésével foglalkozom. A masszázs egy fárasztó nap után is lazítást, kikapcsolódást jelenthet. Meglévő összes tudásommal azon leszek, hogy vendégeim elégedetten és fájdalom nélkül távozzanak a kezelés után."
+        ],
+        "color": "#b5ffd9",
+        "techniques": {
+          "title": "Alkalmazott technikák",
+          "data": [
+            "Sportmasszázs",
+            "Fascia Disztorziós Modell",
+            "Kinesio tape",
+            "Köpöly",
+            "Evminov gerinc-rehabilitáció"
+          ]
+        }
+      },
+      {
         "name": "Andorka Eszter",
         "nick name": "Eszter",
         "occupation": "Gyógytornász",
@@ -124,7 +145,7 @@
           "data": [
             "McKenzie módszer",
             "FDM (Fascia Disztorziós Modell)",
-            "Kinesio tape ragasztás",
+            "Kinesio tape",
             "Állkapocs ízületi terápia",
             "Kinesio tape",
             "Lágyrész manuálterápia"
@@ -173,7 +194,7 @@
     "group sessions title": "Csoportos órák",
     "interval": "Időtartam:",
     "intervalText": " 45-55 perc",
-    "heading": "Hogyan készülj a csoportos órákra?",
+    "heading": "Hogyan készüljön az órákra?",
     "description": "Kérjük, hogy csoportos óráinkra a pontos kezdés érdekében érkezzen 5-10 perccel korábban, hogy az átöltözésre is maradjon idő. Az alkalmakra kényelmes, szabad mozgást biztosító ruhát javaslunk. Cipőre nincs szükség. Stúdiónkban öltöző, zuhanyzó, törülköző, tusfürdő, vendégpapucs és ivóvíz áll vendégeink rendelkezésére.",
     "buttonTextLeft": "Kérdése van?",
     "buttonTextRight": "Nézzen körül nálunk!",
@@ -219,14 +240,14 @@
   },
   "footer": {
     "copyright": "Minden jog fenntartva. 2019.",
-    "facebook": "Kövess bennünket a facebookon is!",
+    "facebook": "Kövess bennünket!",
     "privacy policy": "Adatkezelései tájékoztató",
     "name": "Studio 17 - Gyógytorna és gyógymasszázs stúdió",
     "email": {
-      "email header": "Írj nekünk e-mailt!",
-      "email input": "Add meg az e-mail címed",
-      "name input": "Add meg a teljes neved",
-      "message": "Üzeneted...",
+      "email header": "Írjon nekünk!",
+      "email input": "Az Ön e-mail címe",
+      "name input": "Teljes neve",
+      "message": "Üzenete...",
       "send": "Küldés"
     }
   },
@@ -240,15 +261,15 @@
           "Minden kezelésünk során a legelső alkalom egy általános állapotfelmérés, melyen a terapeuta részletesen kikérdezi Önt egészségügyi állapotáról. Kérjük mindenképpen hozza magával orvosi dokumentációját, illetve (amennyiben van) MR vagy CT felvételeit is!",
           "A vizsgálat egy órát vesz igénybe, és fehérneműben történik. Az állapotfelmérés a teljes test pontos megfigyelése, vizsgálata miatt elengedhetetlen. A felmérés során a terapeuta folyamatosan tájékoztatást ad a talált elváltozásokról, a lehetséges problémákról és azok okaikról, illetve a különböző kezelési lehetőségekről. A mozgásvizsgálat és a speciális tesztek után a cél egy közös kezelési terv kialakítása, kezdve a rövidtávú célkitűzések meghatározásával."
         ],
-        "therapist": ["Zsuzsa", "Panka", "Szilvia"]
+        "therapist": ["Panka", "Szilvi", "Eszter", "Szilvia"]
       },
       {
-        "title": "Evminov módszer",
+        "title": "Evminov gerinc-rehabilitáció",
         "description": [
           "Az Evminov módszer egy speciálisan kifejlesztett ortopédiai segédeszköz, az Evminov Profilaktor használatán alapszik. A módszer hatékony segítséget nyújt a helytelen testtartás, a gerincferdülés, a porckorongsérv és egyéb gerincbetegségek megelőzésében és enyhítésében.",
           "A profilaktor egy fából készült, különleges technológiával előállított gerinc-rehabilitációs eszköz, mely megkönnyíti a gerincet érintő problémák helyreállítását, és az esetleges műtét utáni rehabilitációt. Az Evminov torna a finoman adagolt nyújtásra, tehermentesítésre és a gerinc melletti mélyizmok erősítésére épül."
         ],
-        "therapist": ["Zsuzsa"]
+        "therapist": ["Szilvia", "Panka", "Zsuzsanna"]
       },
       {
         "title": "Schroth terápia",
@@ -256,6 +277,21 @@
           "A gyermekkori gerincferdülés (scoliosis) és a Scheuermann kór kezelésére kialakított módszer rendkívül hatékonyan enyhíti a gerinc kóros görbületének fokozódását és a kialakult – vagy kialakulóban lévő – izomdiszbalanszokat. A terápia ötvözi a különböző testhelyzeketben végzett korrekciós légzést, aktív nyújtózást és izomerősítést. Komoly koncentrációt igénylő torna, mely otthoni gyakorlást is megkíván, ezért kisgyermekkorban eleinte játékkal kevert gyakorlatokkal haladunk. A gyermekkorban kialakult gerincferdülés felnőttkorban is okozhat fájdalmat, így a Schroth terápia nem kizárólag gyerekeknek hasznos."
         ],
         "therapist": ["Zsuzsa", "Panka", "Szilvia"]
+      },
+      {
+        "title": "Gerinctorna",
+        "description": [
+          "A csoportos gerinctornát azoknak a vendégeinknek ajánljuk, akik egész nap ülőmunkát végeznek és szeretnék javítani a testtartásukat, illetve csökkenteni a kisebb ízületi fájdalmaikat. A foglalkozás során fokozott figyelmet fordítunk a mozdulatok helyes kivitelezésére és a mély tartóizmok erősítésére. A 4-6 fős, kiscsoportos órákat Sugár Szilvia gyógytornász kollegánk tartja."
+        ],
+        "therapist": ["Panka", "Szilvia"]
+      },
+      {
+        "title": "Evminov csoportos óra",
+        "description": [
+          "Az Evminov padon, megnyújtott testhelyzetben végzett izomerősítő gyakorlatok hatékonyan és gyorsan csökkentik a porckorong problémák miatt kialakult fájdalmakat. A torna a gerinc melletti mély hátizmokat és a hasizmokat is erősíti, így a gyakorlatok hatása a padról leszállva, a nyújtott helyzet megszűnése után is tart.",
+          "Csoportos óráinkon a bemelegítés után nyújtó és erősítő gyakorlatok váltják egymást, időt hagyva a megfelelő mennyiségű pihenésnek is. Egy egyórás Evminov gyakorlatsor a nap bármelyik pontján, kortól függetlenül kikapcsol és átmozgat!"
+        ],
+        "therapist": ["Panka", "Szilvia"]
       },
       {
         "title": "McKenzie torna",
