@@ -5,7 +5,6 @@ import useOnScreen from "../../../hooks/useScreen";
 export const withLazyLoad = (Component, id, color = "#265C42") => {
   return () => {
     const ref = useRef(null);
-    const dispatch = useDispatch()
     const [load, setLoad] = useState(false);
     const [height, setHeight] = useState("100vh");
     const isOnScreen = useOnScreen(ref, 0.6);
