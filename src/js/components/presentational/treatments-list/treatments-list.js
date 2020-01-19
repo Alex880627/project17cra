@@ -50,6 +50,8 @@ const TreatementDropdown = ({ element }) => {
       style={{ animation: "fadeInLeft 2s ease" }}
       className="treatment"
       onClick={changeHeight}
+      key={element.title}
+      id={element.title}
       style={{
         height: "2.8em",
         transition: "all 0.3s",
