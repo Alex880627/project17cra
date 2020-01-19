@@ -1,15 +1,12 @@
 import React, { useState, useEffect } from "react";
 import privacyPdf from "../../../../data/privacy-policy/privacy-policy.pdf"
+import { useSelector } from "react-redux";
 import "./privacy-policy.css";
 
-if (process.env.NODE_ENV !== 'production') {
-  const whyDidYouRender = require('@welldone-software/why-did-you-render');
-  whyDidYouRender(React);
-}
-
-
-const PrivacyPolicyComp = React.memo( props => {
+const PrivacyPolicyComp = () => {
   const storage = window.localStorage;
+  const policy = useSelector(state=>state.changeLanguage.language["privacy policy"])
+
   const [show, setShow] = useState(false);
   useEffect(() => {
     const time = storage.getItem('acceptedPrivacyTime');
@@ -21,7 +18,6 @@ const PrivacyPolicyComp = React.memo( props => {
       setShow(true);
     }
   }, [storage]);
-  let policy=props.language["privacy policy"];
   return (
       <div className="privacy-policy" style={!show? {bottom: "-60%", transition: 'bottom 1.8s'}:null}>
       <p>
@@ -35,8 +31,6 @@ const PrivacyPolicyComp = React.memo( props => {
       </p>
     </div>
   );
-});
-
-PrivacyPolicyComp.whyDidYouRender = true;
+};
 
 export default PrivacyPolicyComp;

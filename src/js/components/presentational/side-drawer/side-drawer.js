@@ -5,9 +5,12 @@ import Divider from "@material-ui/core/Divider";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
+import { useSelector, useDispatch } from "react-redux";
 import Scroll from "react-scroll";
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
-
+import { closeSideBarAction } from "../../../actions/toogle-side-bar-action";
+import { showEmailAction } from "../../../actions/email-action";
+import { openGalleryAction } from "../../../actions/gallery-action";
 import treatmentsIcon from "../../../../data/images/icons/treatments-icon.png";
 import contactsIcon from "../../../../data/images/icons/contactsIcon.png";
 import therapists from "../../../../data/images/icons/therapistsBlack.png";
@@ -26,7 +29,7 @@ const useStyles = makeStyles({
   }
 });
 
-const SideDrawer = React.memo(props => {
+const SideDrawer = () => {
   const scroller = Scroll.scroller;
   const icons = [
     treatmentsIcon,
@@ -37,7 +40,10 @@ const SideDrawer = React.memo(props => {
     pictures,
     mail
   ];
-  let navbar = props.language.navbar;
+
+  const navbar = useSelector(state => state.changeLanguage.language.navbar);
+  const sidebar = useSelector(state => state.toogleSideBar.sideBar);
+  const dispatch = useDispatch();
   const classes = useStyles();
   const [state, setState] = React.useState({
     left: false
@@ -53,7 +59,7 @@ const SideDrawer = React.memo(props => {
   };
   const toggleDrawer = (side, open) => event => {
     setTimeout(() => {
-      props.closeSideBar();
+      dispatch(closeSideBarAction());
     }, 100);
 
     if (
@@ -97,7 +103,7 @@ const SideDrawer = React.memo(props => {
                 key={"text"}
                 onClick={e => {
                   e.stopPropagation();
-                  props.showGallery();
+                  dispatch(openGalleryAction());
                 }}
               >
                 <ListItemText primary={element[1]} />
@@ -113,7 +119,7 @@ const SideDrawer = React.memo(props => {
                 key={"text"}
                 onClick={e => {
                   e.stopPropagation();
-                  props.showEmail();
+                  dispatch(showEmailAction());
                 }}
               >
                 <ListItemText primary={element[1]} />
@@ -131,7 +137,7 @@ const SideDrawer = React.memo(props => {
   return (
     <div>
       <SwipeableDrawer
-        open={props.sideBar}
+        open={sidebar}
         onOpen={toggleDrawer("left", true)}
         onClose={toggleDrawer("left", false)}
       >
@@ -140,6 +146,6 @@ const SideDrawer = React.memo(props => {
       </SwipeableDrawer>
     </div>
   );
-});
+};
 
 export default SideDrawer;

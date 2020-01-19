@@ -5,8 +5,6 @@ import GalleryModal from "../img-galery/img-galery";
 import privacyPdf from "../../../../data/privacy-policy/privacy-policy.pdf";
 import giveProps from "../../container/give-props";
 
-const GalleryModalWithProps = giveProps(GalleryModal);
-
 const FooterComp = () => {
   let footer = useSelector(state => state.changeLanguage.language.footer)
   return (
