@@ -25,7 +25,7 @@ const Contacts = () => {
       <div className="flex-wrapper">
         <div className="address-details">
           <div className="logo-wrapper">
-            <img src={logo} />
+            <img src={logo} alt="studio17 logo"/>
           </div>
           <p>{contacts["contacts info"].address}</p>
           <p>{contacts["contacts info"].city}</p>
