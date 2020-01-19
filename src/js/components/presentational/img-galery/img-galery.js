@@ -152,7 +152,7 @@ class Galery extends React.PureComponent {
           })}
         </div>
 
-        <ModalGateway allowFullscreen={false} touchstart={this.toggleModal}>
+        <ModalGateway touchstart={this.toggleModal}>
           {modalIsOpen ? (
             <Modal
               onClose={this.toggleModal}
