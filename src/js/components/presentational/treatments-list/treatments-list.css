@@ -11,7 +11,8 @@
 }
 
 .treatment h3 {
-  font-size: 1rem;
+  padding: 4px;
+  font-size: 1.0625rem;
   color: #000000;
   width: 100%;
   font-weight: 100 !important;
@@ -188,7 +189,7 @@
   width: 10px;
   height: 10px;
   left: 50%;
-  top: 53%;
+  top: 60%;
   margin-top: -5px;
   border-width: 2px;
   border-style: solid;
@@ -211,7 +212,7 @@
   width: 10px;
   height: 10px;
   left: 50%;
-  top: 53%;
+  top: 60%;
   margin-top: -15px;
   border-width: 2px;
   border-style: solid;

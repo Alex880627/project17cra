@@ -450,6 +450,9 @@
     -webkit-animation: none;
             animation: none;
   }
+  .therapist-details .therapist-heading > div p {
+    font-size: 0.8125rem;
+  }
   .therapist-details .therapist-content {
     font-size: 14px;
   }

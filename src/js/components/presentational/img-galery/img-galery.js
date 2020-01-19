@@ -77,7 +77,7 @@ let gridMulti = [];
 
 if (window.innerWidth < 768) {
   grid = gridMobile;
-  images = imagesMobile;
+  /* images = imagesMobile; */
 }
 
 grid.forEach((element, i) => {

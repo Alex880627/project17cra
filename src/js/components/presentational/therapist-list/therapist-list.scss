@@ -229,7 +229,6 @@
   }
 }
 
-
 #fade-out-background {
   opacity: 0;
   transition: opacity 1s;
@@ -248,7 +247,7 @@
   }
 }
 
- @keyframes slideInDown {
+@keyframes slideInDown {
   from {
     transform: translate3d(0, -100%, 0);
     visibility: visible;
@@ -299,6 +298,13 @@
     position: relative;
     overflow-x: hidden;
     animation: none;
+    .therapist-heading {
+      > div {
+        p {
+          font-size: $extraMiniFontSize;
+        }
+      }
+    }
     .therapist-content {
       font-size: 14px;
     }

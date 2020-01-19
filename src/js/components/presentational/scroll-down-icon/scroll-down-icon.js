@@ -8,7 +8,7 @@ const ScrollDown = React.memo(() => {
     scroller.scrollTo(element, {
       duration: 700,
       smooth: "easeInOutExpo",
-      offset: 0
+      offset: -50
     });
   };
   return (

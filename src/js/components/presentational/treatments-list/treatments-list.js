@@ -1,21 +1,20 @@
 import React, { useRef, useEffect, useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { showTherapistDetails } from "../../../actions/therapist-details-action";
 import treatmentsIcon from "../../../../data/images/icons/treatments-icon.png";
 import "./treatments-list.css";
 
-if (process.env.NODE_ENV !== "production") {
-  const whyDidYouRender = require("@welldone-software/why-did-you-render");
-  whyDidYouRender(React);
-}
-
-const TreatementDropdown = React.memo(({ element, props }) => {
-  const language = props.language;
+const TreatementDropdown = ({ element }) => {
+  const treatments = useSelector(state=> state.changeLanguage.language.treatments)
+  const therapists = useSelector(state=> state.changeLanguage.language.collagues.therapists)
+  const dispatch = useDispatch();
   const [open, setOpen] = useState(false);
   let treatmentRef = useRef(null);
   useEffect(() => {
     if (!treatmentRef.current) {
       treatmentRef.current = true;
     } else {
-      treatmentRef.current.style.height === "2.5em"
+      treatmentRef.current.style.height === "2.8em"
         ? setOpen(false)
         : setOpen(true);
     }
@@ -24,14 +23,14 @@ const TreatementDropdown = React.memo(({ element, props }) => {
   const changeHeight = () => {
     let currentElement = treatmentRef.current;
     if (currentElement) {
-      if (currentElement.style.height === "2.5em") {
+      if (currentElement.style.height === "2.8em") {
         open ? setOpen(false) : setOpen(true);
         currentElement.style.height = `${(currentElement.scrollHeight / 100) *
           6.4}em`;
         currentElement.style.borderBottom = "1px solid rgb(143, 143, 143)";
         currentElement.style.margin = "13px";
       } else {
-        currentElement.style.height = "2.5em";
+        currentElement.style.height = "2.8em";
         currentElement.style.margin = "0px";
         currentElement.style.borderBottom = "0px solid black";
         setOpen(false);
@@ -39,7 +38,7 @@ const TreatementDropdown = React.memo(({ element, props }) => {
       currentElement.parentNode.childNodes.forEach(element => {
         element.childNodes[0].style.transform = "scaleY(1)";
         return element !== treatmentRef.current
-          ? ((element.style.height = "2.5em"),
+          ? ((element.style.height = "2.8em"),
             (element.style.margin = "0px"),
             (element.style.borderBottom = "0px solid black"))
           : null;
@@ -52,7 +51,7 @@ const TreatementDropdown = React.memo(({ element, props }) => {
       className="treatment"
       onClick={changeHeight}
       style={{
-        height: "2.5em",
+        height: "2.8em",
         transition: "all 0.3s",
         cursor: "pointer"
       }}
@@ -73,7 +72,7 @@ const TreatementDropdown = React.memo(({ element, props }) => {
       ))}
       <div className="choose-therapist-section">
         <p className="provider-question">
-          {language.treatments["provider sentence"]}
+          {treatments["provider sentence"]}
         </p>
         <div className="therapist-details-list">
           {element.therapist.map(therapist => {
@@ -82,14 +81,14 @@ const TreatementDropdown = React.memo(({ element, props }) => {
                 key={therapist}
                 onClick={e => {
                   e.stopPropagation();
-                  const therapistObjectFromNickname = language.collagues.therapists.filter(
+                  const therapistObjectFromNickname = therapists.filter(
                     e => {
                       return e["nick name"] === therapist;
                     }
                   );
-                  props.showTherapistDetails(
+                  dispatch(showTherapistDetails(
                     therapistObjectFromNickname[0].name
-                  );
+                  ));
                 }}
               >
                 {therapist}
@@ -100,10 +99,10 @@ const TreatementDropdown = React.memo(({ element, props }) => {
       </div>
     </div>
   );
-});
+};
 
-const TreatmentsList = React.memo( props => {
-  let treatments = props.language.treatments;
+const TreatmentsList = props => {
+  const treatments = useSelector(state=> state.changeLanguage.language.treatments)
   return (
     <div className="treatments-section-wrapper">
       <div className="heading">
@@ -121,17 +120,12 @@ const TreatmentsList = React.memo( props => {
           return (
             <TreatementDropdown
               element={element}
-              props={props}
-              key={element.title}
             />
           );
         })}
       </div>
     </div>
   );
-});
-
-TreatementDropdown.whyDidYouRender = true;
-TreatmentsList.whyDidYouRender = true;
+};
 
 export default TreatmentsList;

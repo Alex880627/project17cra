@@ -199,15 +199,15 @@
       },
       {
         "name": "Egyéni gyógytorna",
-        "price": "8000/4000 Ft",
-        "description": "A személyre szabott gyógytorna a fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája.",
-        "duration": "55/30 perc"
+        "price": "8000 Ft",
+        "description": "A személyre szabott gyógytorna a fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája. 30 perces alkalom is foglalható (4000 Ft).",
+        "duration": "55 perc"
       },
       {
         "name": "Gyógymasszázs",
-        "price": "8000/4000 Ft",
-        "description": "Stúdiónkban számos típusú gyógymasszázs elérhető, legyen szó a napi szintű stresszkezelésről, a sportolói teljesítmény növeléséről, vagy a prevencióról.",
-        "duration": "55/30 perc"
+        "price": "8000-10 000 Ft",
+        "description": "Stúdiónkban számos típusú gyógymasszázs elérhető, legyen szó a napi szintű stresszkezelésről, a sportolói teljesítmény növeléséről, vagy a prevencióról. 30 perces alkalom is foglalható (4000-5000 Ft).",
+        "duration": "55 perc"
       },
       {
         "name": "Csoportos gerictorna",
@@ -272,19 +272,19 @@
         "therapist": ["Zsuzsa", "Panka", "Szilvi"]
       },
       {
-        "title": "Gyógymasszázs",
-        "description": [
-          "A Gyógymasszázs tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel nem tartalmaz gyógyszert, mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
-        ],
-        "therapist": ["Szilvia"]
-      },
-      {
         "title": "Funkcionális gyógytorna",
         "description": [
           "Egy komolyabb sérülés, egy műtét, vagy egyes, hosszabb ideje jelen lévő fájdalmak és problémák jelentős mértékben befolyásolják az életünk és a testünk minőségét. Ilyenkor sérülnek a velünk született mozgásminták is, melyek helyreállítása alapvető fontosságú. A rehabilitációhoz minden ilyen esetben funkcionális, egyénre szabott gyógytorna szükséges.",
           "A személyre szabott kezelés előnye, hogy a magánóra keretei között a gyógytornász fókuszált figyelmet fordíthat a betegre. A fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája minden esetben az egyéni gyógytorna. Ülő- vagy megterhelő fizikai munka esetén, alak- és egészségmegőrzési célból, az ízületek és izmok mozgékonyságának megőrzésére, esetleg bármilyen későbbi probléma megelőzésére szintén javasolt egyéni kezelést foglalni."
         ],
         "therapist": ["Panka"]
+      },
+      {
+        "title": "Gyógymasszázs",
+        "description": [
+          "A Gyógymasszázs tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel nem tartalmaz gyógyszert, mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
+        ],
+        "therapist": ["Szilvia"]
       },
       {
         "title": "Fascia Disztorziós Modell",
