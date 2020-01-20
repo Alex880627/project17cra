@@ -5,17 +5,12 @@
   position: relative;
   width: 100%;
   height: auto;
-  background-color: #17263c;
   display: flex;
   flex-direction: column;
   align-items: left;
-  p {
-    padding-left: 20px;
-    color: white;
-    margin: 8px;
-  }
   .pre-footer {
     display: flex;
+    background-color: rgba(#17263c, 0.5);
     justify-content: space-between;
   }
   .footer-divider {
@@ -25,6 +20,7 @@
   }
   .footer {
     display: flex;
+    background-color: #17263c;
     justify-content: space-around;
     align-items: center;
     height: auto;
@@ -52,11 +48,7 @@
 .contact-description {
   display: flex;
   justify-content: center;
-  width: 500px;
-  height: 100%;
-  iframe {
-    margin-top: 50px;
-  }
+  height: auto;
 }
 
 @media only screen and (max-width: 1000px) {

@@ -55,14 +55,16 @@
   .therapist-details-list {
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     height: auto;
     p {
       padding: 5px;
       margin-left: 5px;
       margin-right: 5px;
+      margin-bottom: 2px;
       text-shadow: 0px 0px 2px black;
-      border: 1px solid $mainGreenColor;
-      color: white;
+      color: rgb(255, 255, 255);
+      box-shadow: 0px 1.5px 1px 1px rgb(87, 87, 87);
       background-color: rgba($mainGreenColor, 0.7);
       border-radius: 5px;
       &:hover {

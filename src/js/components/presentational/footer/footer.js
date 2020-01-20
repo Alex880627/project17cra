@@ -1,9 +1,22 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import "./footer.css";
-import GalleryModal from "../img-galery/img-galery";
 import privacyPdf from "../../../../data/privacy-policy/privacy-policy.pdf";
-import giveProps from "../../container/give-props";
+
+function importAll(r) {
+  return r.keys().map((e, i) => {
+    return { source: r(e) };
+  });
+}
+
+let images = importAll(
+  require.context(
+    "../../../../data/images/egeszsegpenztar",
+    false,
+    /\.(png|jpe?g|svg|jpg)$/
+  )
+);
+
 
 const FooterComp = () => {
   let footer = useSelector(state => state.changeLanguage.language.footer)

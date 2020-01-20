@@ -22,8 +22,6 @@ const TreatementDropdown = ({ element }) => {
 
   const changeHeight = () => {
     let currentElement = treatmentRef.current;
-    console.log(currentElement.id);
-    
     if (currentElement) {
       if (currentElement.style.height === "3.2rem") {
         open ? setOpen(false) : setOpen(true);
