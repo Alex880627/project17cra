@@ -1,9 +1,11 @@
 @import "../../../../data/shared-styles/shared-animations";
 
 .oval-button {
-  background-color: $secondaryGreenColor;
   p {
     margin: 0;
     padding: 3px 10px 3px 10px;
+  }
+  &:hover {
+    background-color: black;
   }
 }

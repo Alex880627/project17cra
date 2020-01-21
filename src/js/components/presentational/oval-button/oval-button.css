@@ -1,32 +1,32 @@
 @-webkit-keyframes fadeInLeftDown {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(-5%, 5%, 0);
-            transform: translate3d(-5%, 5%, 0);
+    -webkit-transform: scale(0.5) translate3d(-5%, 5%, 0);
+            transform: scale(0.5) translate3d(-5%, 5%, 0);
   }
   30% {
-    opacity: 1;
+    opacity: 0.7;
   }
   100% {
     opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    -webkit-transform: scale(1) translate3d(0, 0, 0);
+            transform: scale(1) translate3d(0, 0, 0);
   }
 }
 
 @keyframes fadeInLeftDown {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(-5%, 5%, 0);
-            transform: translate3d(-5%, 5%, 0);
+    -webkit-transform: scale(0.5) translate3d(-5%, 5%, 0);
+            transform: scale(0.5) translate3d(-5%, 5%, 0);
   }
   30% {
-    opacity: 1;
+    opacity: 0.7;
   }
   100% {
     opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    -webkit-transform: scale(1) translate3d(0, 0, 0);
+            transform: scale(1) translate3d(0, 0, 0);
   }
 }
 
@@ -278,12 +278,12 @@
   }
 }
 
-.oval-button {
-  background-color: #2caf27;
-}
-
 .oval-button p {
   margin: 0;
   padding: 3px 10px 3px 10px;
+}
+
+.oval-button:hover {
+  background-color: black;
 }
 /*# sourceMappingURL=oval-button.css.map */

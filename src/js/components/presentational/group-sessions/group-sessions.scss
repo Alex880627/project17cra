@@ -27,6 +27,15 @@
   margin-bottom: 35px;
 }
 
+.session-types-sentence {
+  color: white;
+  max-width: 40rem;
+  text-align: justify;
+  margin: 20px;
+  font-family: Work Sans;
+  font-size: $miniFontSize;
+}
+
 .group-sessions-description > p,
 h5 {
   color: rgb(255, 255, 255);
@@ -84,7 +93,7 @@ h5 {
 .group-sessions-table {
   margin: 0 auto;
   position: relative;
-  max-width: 41.825em;
+  max-width: 45rem;
   min-height: 400px;
   display: flex;
   flex-direction: column;

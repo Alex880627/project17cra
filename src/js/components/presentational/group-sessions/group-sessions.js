@@ -48,6 +48,7 @@ const GroupSessionsContainer = () => {
             alt="time table icon"
           />
         </div>
+        <p className="session-types-sentence">{groupSessions["session types sentence"]}</p>
         <div
           className="group-sessions-table-wrapper"
           style={{ animation: "fadeIn 3s ease" }}
