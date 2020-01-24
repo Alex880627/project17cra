@@ -62,13 +62,15 @@
   align-items: center;
   p {
     font-size: $midFontSize;
-    text-align: left;
+    text-align: center;
     font-family: Arbutus Slab;
     color: $mainGreenColor;
+    line-height: $defaultLineHeight;
   }
   .health-care-images {
     width: 100%;
-    padding: 20px;
+    padding-bottom: 25px;
+    padding-top: 25px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -85,7 +87,7 @@
 
 @media only screen and (max-width: 768px) {
   .treatments-list {
-    width: 95%;
+    width: 90%;
   }
   .prices-heading {
     @include headerStyle(column, $mainBlackColor, 55px, 20px);

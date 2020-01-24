@@ -127,14 +127,16 @@
 
 .health-care-wrapper p {
   font-size: 1.0625rem;
-  text-align: left;
+  text-align: center;
   font-family: Arbutus Slab;
   color: #265c42;
+  line-height: 1.5rem;
 }
 
 .health-care-wrapper .health-care-images {
   width: 100%;
-  padding: 20px;
+  padding-bottom: 25px;
+  padding-top: 25px;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -158,7 +160,7 @@
 
 @media only screen and (max-width: 768px) {
   .treatments-list {
-    width: 95%;
+    width: 90%;
   }
   .prices-heading {
     margin-top: 20px;
