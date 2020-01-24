@@ -90,20 +90,16 @@
   .prices-heading {
     @include headerStyle(column, $mainBlackColor, 55px, 20px);
   }
-  .treatments-list:nth-child(1) {
-    border-top: 1px solid black;
-  }
-
-  .treatments-list:nth-child(2) {
-    border-top: 1px solid black;
-  }
   .treatments-list-wrapper {
     display: flex;
-    max-width: 95%;
+
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+  }
+  .health-care-wrapper {
+    max-width: 95%;
   }
   .health-care-images {
     img {

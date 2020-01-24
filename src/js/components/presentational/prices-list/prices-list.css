@@ -187,17 +187,10 @@
     width: 55px;
     height: auto;
   }
-  .treatments-list:nth-child(1) {
-    border-top: 1px solid black;
-  }
-  .treatments-list:nth-child(2) {
-    border-top: 1px solid black;
-  }
   .treatments-list-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    max-width: 95%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-orient: horizontal;
@@ -209,6 +202,9 @@
             align-items: center;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .health-care-wrapper {
+    max-width: 95%;
   }
   .health-care-images img {
     padding: 6px;
