@@ -82,6 +82,12 @@
   transition: width 0.3s;
 }
 
+.main-navbar .languagepicker {
+  margin-top: -4px;
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.7);
+}
+
 .main-navbar a:hover {
   color: white;
   cursor: pointer;
@@ -240,12 +246,12 @@
   width: 100%;
   height: 100%;
   z-index: 1;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .up-button > img:hover {
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .visible {

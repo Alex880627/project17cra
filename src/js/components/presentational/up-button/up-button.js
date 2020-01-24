@@ -1,5 +1,6 @@
 import React from "react";
 import buttonUp from "../../../../data/images/icons/button-up-png.png";
+import "./up-button.css";
 const Scroll = require("react-scroll");
 const scroller = Scroll.scroller;
 

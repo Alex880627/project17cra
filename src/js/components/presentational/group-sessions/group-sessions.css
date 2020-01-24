@@ -108,6 +108,15 @@ h5 {
   color: white;
 }
 
+.group-sessions-description > :first-child {
+  margin-top: 20px;
+}
+
+.group-sessions-details {
+  border: none;
+  margin-bottom: 15px;
+}
+
 .group-sessions-description > p {
   font-family: Work Sans;
   font-weight: 100;
@@ -159,8 +168,8 @@ h5 {
 .group-sessions-table .table-row {
   margin: 5px 10px 5px 10px;
   background-color: white;
-  -webkit-box-shadow: 0 0 2px 1px black;
-          box-shadow: 0 0 2px 1px black;
+  -webkit-box-shadow: 0 2px 2px 1px black;
+          box-shadow: 0 2px 2px 1px black;
 }
 
 .group-sessions-table div {
@@ -204,6 +213,7 @@ h5 {
 
 .group-sessions-table div .header {
   background-color: transparent;
+  font-size: 1rem;
 }
 
 @media only screen and (max-width: 768px) {

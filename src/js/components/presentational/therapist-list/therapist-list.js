@@ -1,12 +1,8 @@
 import React, { useRef } from "react";
 import useOnScreen from "../../../hooks/useScreen";
+import { useSelector } from "react-redux";
 import therapists from "../../../../data/images/icons/therapists.png";
 import "./therapist-list.css";
-
-if (process.env.NODE_ENV !== "production") {
-  const whyDidYouRender = require("@welldone-software/why-did-you-render");
-  whyDidYouRender(React);
-}
 
 function importAll(r) {
   return r.keys().map(e => {
@@ -30,8 +26,8 @@ const picArrayHover = importAll(
   )
 );
 
-const TherapistList = React.memo(props => {
-  let collagues = props.language.collagues;
+const TherapistList = props => {
+  let collagues = useSelector(state => state.changeLanguage.language.collagues);
   return (
     <>
       <div className="therapist-wrapper">
@@ -65,7 +61,7 @@ const TherapistList = React.memo(props => {
       </div>
     </>
   );
-});
+};
 
 const Therapists = React.memo(
   ({ element, index, picArrayHover, collagues, showTherapistDetails }) => {
@@ -108,5 +104,4 @@ const Therapists = React.memo(
   }
 );
 
-TherapistList.whyDidYouRender = true;
 export default TherapistList;

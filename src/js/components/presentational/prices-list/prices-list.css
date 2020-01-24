@@ -64,7 +64,7 @@
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 
 .treatments-list {
@@ -82,7 +82,7 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .treatments-list p:nth-child(1) {
@@ -106,12 +106,54 @@
   font-size: 0.9375rem;
 }
 
-.treatments-list:nth-child(1) {
-  border-top: none;
+.health-care-wrapper {
+  width: 45rem;
+  height: auto;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.treatments-list:nth-child(2) {
-  border-top: none;
+.health-care-wrapper p {
+  font-size: 1.0625rem;
+  text-align: left;
+  font-family: Arbutus Slab;
+  color: #265c42;
+}
+
+.health-care-wrapper .health-care-images {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.health-care-wrapper .health-care-images img {
+  margin: 8px;
+  width: 100px;
+  height: auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -167,6 +209,9 @@
             align-items: center;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .health-care-images img {
+    padding: 6px;
   }
 }
 /*# sourceMappingURL=prices-list.css.map */

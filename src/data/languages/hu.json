@@ -191,7 +191,6 @@
     }
   },
   "group sessions": {
-    "session types sentence": "Stúdiónkban a következő kiscsoportos órákat van lehetőséged kipróbálni (4-6 fő): Evminov csoporttorna, Gerinctorna, Taoyn.",
     "group sessions title": "Csoportos órák",
     "interval": "Időtartam:",
     "intervalText": " 45-55 perc",
@@ -200,6 +199,8 @@
     "buttonTextLeft": "Kérdése van?",
     "buttonTextRight": "Nézzen körül nálunk!",
     "resignation": "Lemondás:",
+    "types": "Típusok:",
+    "types sentence": "Evminov csoporttorna, Gerinctorna, Taoyn. (4-6 fő)",
     "resignationText": " A részvétel 12 órával a torna kezdete előtt telefonon lemondható. Ennél közelebbi órakezdés esetén a részvételi díj 50%-át felszámítjuk.",
     "days": {
       "monday": "Hétfő",

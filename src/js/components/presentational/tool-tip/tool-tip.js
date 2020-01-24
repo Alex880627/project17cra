@@ -13,7 +13,7 @@ const HtmlTooltip = withStyles(theme => ({
     opacity: 1,
     margin: "20px",
     color: "black",
-    boxShadow: "0px 2px 4px 1px black",
+    boxShadow: "0px 2px 45px -16px black",
     lineHeight: "20px",
     maxWidth: 400,
     fontSize: theme.typography.pxToRem(12)
