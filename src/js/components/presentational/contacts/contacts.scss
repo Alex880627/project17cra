@@ -24,7 +24,7 @@
   align-items: center;
   .contacts-heading {
     @include headerStyle(row-reverse, $mainBlackColor, 35px, 30px);
-  }  
+  }
 }
 
 .flex-wrapper {
@@ -32,10 +32,29 @@
   margin-bottom: 100px;
 }
 
+.fa-icon-wrapper {
+  &:hover {
+    cursor: default;
+  }
+  margin-right: 10px;
+  margin-left: 20px;
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #045e72;
+  text-align: center;
+  .fa-icon-style {
+    position: relative;
+    top: calc(50% - 10px);
+    font-size: 20px;
+  }
+}
+
 .address-details {
   line-height: 0px;
   color: white;
-  background-color: #252F3E;
+  background-color: #003d4c; // 003d4c, 045e72
   width: 500px;
   position: relative;
   display: flex;
@@ -52,23 +71,25 @@
       max-height: 80px;
     }
   }
-  h4{
+  h4 {
     margin: 20px;
     padding-top: 20px;
     color: white;
   }
   p {
-    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     white-space: pre;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: $miniFontSize;
-    span {
-      text-decoration: underline;
-      cursor:pointer;
-    }
-    &:last-child {
-      padding-bottom: 20px;
-    }
+  }
+}
+
+.icons-with-text {
+  margin: 5px;
+  &:nth-last-child(2) {
+    margin-bottom: 20px;
   }
 }
 
@@ -80,7 +101,7 @@
   .contacts-wrapper {
     .contacts-heading {
       @include headerStyle(column, $mainBlackColor, 55px, 20px);
-    }  
+    }
   }
   .flex-wrapper {
     display: flex;
@@ -108,7 +129,6 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
-
   .flex-wrapper {
     display: flex;
     flex-direction: column;

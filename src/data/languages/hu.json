@@ -213,6 +213,7 @@
   "prices": {
     "prices title": "Áraink",
     "occasion": "/alkalom",
+    "health providers heading": "Szerződött egészségpénztár partnereink: ",
     "treatments": [
       {
         "name": "Állapotfelmérés",
@@ -293,7 +294,8 @@
           "A kinesio tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel anyaga nem tartalmaz gyógyszert, a mellékhatásoktól sem kell tartani. A szalag víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
         ],
         "therapist": ["Panka", "Szilvi", "Eszter", "Endre", "Szilvia"]
-      },{
+      },
+      {
         "title": "Funkcionális gyógytorna",
         "description": [
           "Egy komolyabb sérülés, egy műtét, vagy egyes, hosszabb ideje jelen lévő fájdalmak és problémák jelentős mértékben befolyásolják az életünk és a testünk minőségét. Ilyenkor sérülnek a velünk született mozgásminták is, melyek helyreállítása alapvető fontosságú. A rehabilitációhoz minden ilyen esetben funkcionális, egyénre szabott gyógytorna szükséges.",

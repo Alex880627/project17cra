@@ -294,6 +294,12 @@
   font-size: 1.0625rem;
 }
 
+.therapist-details .content-box .details .therapist-contacts .phone i,
+.therapist-details .content-box .details .therapist-contacts .email i {
+  color: white;
+  font-size: 15px;
+}
+
 .therapist-details .content-box .details .therapist-contacts .phone a,
 .therapist-details .content-box .details .therapist-contacts .email a {
   text-decoration: none;

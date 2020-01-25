@@ -1,6 +1,4 @@
 import React, { useRef } from "react";
-import phone from "../../../../data/images/icons/phone.png";
-import mail from "../../../../data/images/icons/mail-white.png";
 import swipeableModal from "../swipeable-drawer/swipeable-drawer";
 import modal from "../modal/modal";
 import ToolTip from "../tool-tip/tool-tip";
@@ -73,7 +71,7 @@ const ThreapistDetailsComp = props => {
           <div className="therapist-contacts">
             <div className="phone">
               <div>
-                <img src={phone} />
+                <i class="fas fa-phone-alt white"></i>
               </div>
               <a href={`tel: +36${therapist["phone number"]}`}>
                 {therapist["phone number"]}
@@ -81,7 +79,7 @@ const ThreapistDetailsComp = props => {
             </div>
             <div className="email">
               <div>
-                <img src={mail} />
+                <i class="fas fa-envelope-open"></i>
               </div>
               <p
                 onClick={() => {
@@ -95,9 +93,9 @@ const ThreapistDetailsComp = props => {
         </div>
       </div>
       <div className="therapist-content">
-      {therapist.details.map(e => {
-        return <p>{e}</p>;
-      })}
+        {therapist.details.map(e => {
+          return <p>{e}</p>;
+        })}
       </div>
     </div>
   );

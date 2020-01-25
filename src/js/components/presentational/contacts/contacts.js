@@ -4,6 +4,7 @@ import { showEmailAction } from "../../../actions/email-action";
 import GoogleMapConfigured from "../google-maps/google-maps-configured";
 import contactsIcon from "../../../../data/images/icons/contactsIcon.png";
 import logo from "../../../../data/images/icons/logo-horizontal-big.svg";
+import bellRing from "../../../../data/images/icons/bell-solid.svg";
 import exercise from "../../../../data/images/icons/exercise.png";
 import "./contacts.css";
 
@@ -27,13 +28,26 @@ const Contacts = () => {
           <div className="logo-wrapper">
             <img src={logo} alt="studio17 logo" />
           </div>
-          <p>{contacts["contacts info"].city}</p>
-          <p>{contacts["contacts info"].address}</p>
-          <p>
+          <p className="icons-with-text">
+            <span className="fa-icon-wrapper">
+              <i class="fas fa-map-marker-alt fa-icon-style"></i>
+            </span>
+            <span>
+              <p>{contacts["contacts info"].city}</p>
+              <p>{contacts["contacts info"].address}</p>
+            </span>
+          </p>
+          <p className="icons-with-text">
+            <span className="fa-icon-wrapper">
+              <i className="fas fa-bell fa-layers fa-icon-style"></i>
+            </span>
             {contacts["contacts info"].ringbell}:{" "}
             {contacts["contacts info"]["ringbell number"]}
           </p>
-          <p>
+          <p className="icons-with-text">
+            <span className="fa-icon-wrapper">
+              <i className="fas fa-envelope-open fa-icon-style"></i>
+            </span>
             <span
               onClick={() => {
                 dispatch(showEmailAction());

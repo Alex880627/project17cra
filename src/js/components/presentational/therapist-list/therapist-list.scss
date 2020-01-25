@@ -193,6 +193,10 @@
           display: flex;
           align-items: center;
           font-size: $midFontSize;
+          i {
+            color: white;
+            font-size: 15px;
+          }
           a {
             text-decoration: none;
             color: black;

@@ -10,7 +10,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: white;
+  background-color: #045e72;
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
@@ -30,7 +30,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #17263c;
+  background-color: #003d4c;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;

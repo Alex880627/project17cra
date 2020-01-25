@@ -7,8 +7,8 @@ import "./prices-list.css";
 const healtProviders = [
   "MKB egészségpénztár",
   "Allianz egészségpénztár",
-  "OTP egészségpénztár",
   "Generali egészségpénztár",
+  "OTP egészségpénztár",
   "Patika egészségpénztár",
   "Premium egészségpénztár"
 ];
@@ -56,7 +56,7 @@ const PricesComp = () => {
         })}
       </div>
       <div className="health-care-wrapper">
-        <p>{"Szerződött egészségpénztár partnereink: "}</p>
+        <p>{prices["health providers heading"]}</p>
         <div className="health-care-images">
           {images.map((image, index) => {
             return (
