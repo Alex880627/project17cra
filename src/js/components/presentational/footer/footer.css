@@ -10,7 +10,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #045e72;
+  background-color: #333940;
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
@@ -20,7 +20,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #265c42;
+  background-color: #333940;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -30,7 +30,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #003d4c;
+  background-color: #202429;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -39,18 +39,18 @@
   height: auto;
   width: 100%;
   line-height: 0;
-  font-size: 0.9375rem;
+  font-size: 0.8125rem;
 }
 
 .footer-wrapper .footer p {
-  padding: 10px;
-  color: white;
+  padding: 5px;
+  color: #b3b3b3;
   text-align: center;
 }
 
 .footer-wrapper .footer a {
-  padding: 20px;
-  color: white;
+  padding: 10px;
+  color: #b3b3b3;
   text-align: center;
   text-decoration: none;
 }
@@ -58,6 +58,39 @@
 .footer-wrapper .footer a:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.pre-footer > .navigation {
+  padding: 30px;
+  max-width: 130px;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #b3b3b3;
+  font-size: 0.9375rem;
+  text-transform: capitalize;
+}
+
+.pre-footer > .navigation a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.pre-footer > .navigation a:hover:hover::after {
+  width: 100%;
+}
+
+.pre-footer > .navigation img {
+  display: none;
+}
+
+.pre-footer > .navigation .double-arrow {
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {

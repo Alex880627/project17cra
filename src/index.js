@@ -1,10 +1,11 @@
 import React from "react";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import { Provider } from "react-redux";
+import GA from "./js/components/presentational/google-analytics/google-analytics";
 import ReactDOM from "react-dom";
 import App from "./js/components/app";
 import NoMatch from "./js/components/presentational/no-match/no-match";
-import './index.css'
+import "./index.css";
 import * as serviceWorker from "./js/services/serviceWorker";
 import configureStore from "./js/store/configure-store";
 
@@ -12,9 +13,10 @@ const store = configureStore();
 
 ReactDOM.render(
   <Router>
+    {GA.init() && <GA.RouteTracker />}
     <Provider store={store}>
       <Switch>
-        {<Route exact path="/" component={App} />}
+        <Route exact path="/" component={App} />
         <Route path="*" component={NoMatch} />
       </Switch>
     </Provider>

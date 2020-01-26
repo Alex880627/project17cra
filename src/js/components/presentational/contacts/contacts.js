@@ -4,7 +4,6 @@ import { showEmailAction } from "../../../actions/email-action";
 import GoogleMapConfigured from "../google-maps/google-maps-configured";
 import contactsIcon from "../../../../data/images/icons/contactsIcon.png";
 import logo from "../../../../data/images/icons/logo-horizontal-big.svg";
-import bellRing from "../../../../data/images/icons/bell-solid.svg";
 import exercise from "../../../../data/images/icons/exercise.png";
 import "./contacts.css";
 
@@ -55,6 +54,17 @@ const Contacts = () => {
             >
               {contacts["contacts info"].email}
             </span>
+          </p>
+          <p className="icons-with-text">
+            <span className="fa-icon-wrapper">
+              <i className="fab fa-facebook-f fa-icon-style"></i>
+            </span>
+            <a
+              href="https://www.facebook.com/Studio17gyogytorna/"
+              target="_blank"
+            >
+              {contacts["contacts info"].facebook}
+            </a>
           </p>
           <img className="exercise-picture" src={exercise} />
         </div>

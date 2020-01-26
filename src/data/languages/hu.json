@@ -182,6 +182,7 @@
   "contacts": {
     "contacts title": "Hol talál bennünket?",
     "contacts info": {
+      "facebook": "Facebook oldalunk",
       "name": "STUDIO 17",
       "address": "Falk Miksa utca 17,  2. emelet 6.",
       "city": "Budapest 1055",
@@ -242,8 +243,7 @@
     ]
   },
   "footer": {
-    "copyright": "Minden jog fenntartva. 2019.",
-    "facebook": "Kövess bennünket!",
+    "copyright": "Minden jog fenntartva.",
     "privacy policy": "Adatkezelései tájékoztató",
     "name": "Studio 17 - Gyógytorna és gyógymasszázs stúdió",
     "email": {

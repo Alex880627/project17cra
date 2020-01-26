@@ -7,30 +7,30 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  background-color: #045e72;
+  background-color: #333940;
   align-items: left;
   .pre-footer {
     display: flex;
-    background-color: $mainGreenColor;
+    background-color: #333940;
     justify-content: space-between;
   }
   .footer {
     display: flex;
-    background-color: #003d4c;
+    background-color: #202429;
     justify-content: space-around;
     align-items: center;
     height: auto;
     width: 100%;
     line-height: 0;
-    font-size: $miniFontSize;
+    font-size: $extraMiniFontSize;
     p {
-      padding: 10px;
-      color: white;
+      padding: 5px;
+      color: rgb(179, 179, 179);
       text-align: center;
     }
     a {
-      padding: 20px;
-      color: white;
+      padding: 10px;
+      color: rgb(179, 179, 179);
       text-align: center;
       text-decoration: none;
       &:hover {
@@ -40,10 +40,33 @@
     }
   }
 }
-
+.pre-footer > .navigation {
+  padding: 30px;
+  max-width: 130px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(179, 179, 179);
+  font-size: $miniFontSize;
+  text-transform: capitalize;
+  a {
+    &:hover {
+      color: rgba(255, 255, 255, 1);
+      cursor: pointer;
+      &:hover::after {
+        width: 100%;
+      }
+    }
+  }
+  img {
+    display: none;
+  }
+  .double-arrow {
+    color: white;
+  }
+}
 
 @media only screen and (max-width: 1000px) {
- 
 }
 
 @media only screen and (max-width: 768px) {

@@ -70,8 +70,8 @@
   margin-right: 10px;
   margin-left: 20px;
   float: left;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background-color: #045e72;
   text-align: center;
@@ -83,14 +83,14 @@
 
 .fa-icon-wrapper .fa-icon-style {
   position: relative;
-  top: calc(50% - 10px);
-  font-size: 20px;
+  top: calc(50% - 7px);
+  font-size: 15px;
 }
 
 .address-details {
   line-height: 0px;
   color: white;
-  background-color: #003d4c;
+  background-color: #333940;
   width: 500px;
   position: relative;
   display: -webkit-box;
@@ -146,11 +146,37 @@
 }
 
 .icons-with-text {
+  color: white;
   margin: 5px;
 }
 
+.icons-with-text a {
+  color: white;
+}
+
 .icons-with-text:nth-last-child(2) {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+
+.icons-with-text:nth-last-child(2):hover {
+  cursor: pointer;
+}
+
+.icons-with-text:nth-last-child(3) {
+  text-decoration: underline;
+}
+
+.icons-with-text:nth-last-child(3):hover {
+  cursor: pointer;
+}
+
+.icons-with-text:first-of-type {
+  margin-bottom: 0;
+}
+
+p.icons-with-text:first-child {
+  margin: 0;
 }
 
 .address-details > h4 {
@@ -196,14 +222,14 @@
     width: 95%;
   }
   .flex-wrapper .address-details {
-    height: 300px;
+    height: 350px;
     width: 100% !important;
     margin: 0 auto;
   }
   #map {
     position: relative;
     width: auto;
-    height: 300px;
+    height: 350px;
     margin-left: 0px;
     margin-top: 20px;
   }
@@ -227,14 +253,14 @@
     width: auto;
   }
   .flex-wrapper .address-details {
-    height: 300px;
+    height: 350px;
     width: 40.625em;
     margin: 0 auto;
   }
   #map {
     position: relative;
     width: 40.625em;
-    height: 300px;
+    height: 350px;
     margin-left: 0px;
     margin-top: 20px;
   }
