@@ -3,6 +3,8 @@
   width: 500px;
   height: inherit;
   margin-left: 20px;
+  -webkit-box-shadow: 0px 2px 4px 1px #222222;
+          box-shadow: 0px 2px 4px 1px #222222;
 }
 
 .exercise-picture {
@@ -73,7 +75,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: #045e72;
+  background-color: rgba(38, 92, 66, 0.7);
   text-align: center;
 }
 
@@ -88,9 +90,11 @@
 }
 
 .address-details {
+  -webkit-box-shadow: 0 2px 4px 1px #222222;
+          box-shadow: 0 2px 4px 1px #222222;
   line-height: 0px;
-  color: white;
-  background-color: #333940;
+  color: #222222;
+  background-color: #ffffff;
   width: 500px;
   position: relative;
   display: -webkit-box;
@@ -127,7 +131,7 @@
 .address-details h4 {
   margin: 20px;
   padding-top: 20px;
-  color: white;
+  color: #222222;
 }
 
 .address-details p {
@@ -146,12 +150,12 @@
 }
 
 .icons-with-text {
-  color: white;
+  color: #222222;
   margin: 5px;
 }
 
 .icons-with-text a {
-  color: white;
+  color: #222222;
 }
 
 .icons-with-text:nth-last-child(2) {
@@ -177,6 +181,10 @@
 
 p.icons-with-text:first-child {
   margin: 0;
+}
+
+.fa-icon-style {
+  color: white;
 }
 
 .address-details > h4 {
@@ -226,6 +234,9 @@ p.icons-with-text:first-child {
     width: 100% !important;
     margin: 0 auto;
   }
+  .flex-wrapper .address-details .logo-wrapper img {
+    max-height: 100px;
+  }
   #map {
     position: relative;
     width: auto;
@@ -256,6 +267,9 @@ p.icons-with-text:first-child {
     height: 350px;
     width: 40.625em;
     margin: 0 auto;
+  }
+  .flex-wrapper .address-details .logo-wrapper img {
+    max-height: 120px;
   }
   #map {
     position: relative;

@@ -5,6 +5,7 @@
   width: 500px;
   height: inherit;
   margin-left: 20px;
+  box-shadow: 0px 2px 4px 1px $mainBlackColor;
 }
 
 .exercise-picture {
@@ -42,7 +43,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: #045e72;
+  background-color: rgb($mainGreenColor);
   text-align: center;
   .fa-icon-style {
     position: relative;
@@ -52,9 +53,10 @@
 }
 
 .address-details {
+  box-shadow: 0 2px 4px 1px $mainBlackColor;
   line-height: 0px;
-  color: white;
-  background-color: #333940; 
+  color: $mainBlackColor;
+  background-color: #ffffff;
   width: 500px;
   position: relative;
   display: flex;
@@ -74,7 +76,7 @@
   h4 {
     margin: 20px;
     padding-top: 20px;
-    color: white;
+    color: $mainBlackColor;
   }
   p {
     display: flex;
@@ -87,10 +89,10 @@
 }
 
 .icons-with-text {
-  color: white;
+  color: $mainBlackColor;
   margin: 5px;
   a {
-    color: white;
+    color: $mainBlackColor;
   }
   &:nth-last-child(2) {
     margin-bottom: 30px;
@@ -105,13 +107,17 @@
       cursor: pointer;
     }
   }
-  &:first-of-type{
+  &:first-of-type {
     margin-bottom: 0;
   }
 }
 
 p.icons-with-text:first-child {
   margin: 0;
+}
+
+.fa-icon-style {
+  color: white;
 }
 
 .address-details > h4 {
@@ -132,6 +138,11 @@ p.icons-with-text:first-child {
       height: 350px;
       width: 100% !important;
       margin: 0 auto;
+      .logo-wrapper {
+        img {
+          max-height: 100px;
+        }
+      }
     }
   }
   #map {
@@ -158,8 +169,14 @@ p.icons-with-text:first-child {
       height: 350px;
       width: 40.625em;
       margin: 0 auto;
+      .logo-wrapper {
+        img {
+          max-height: 120px;
+        }
+      }
     }
   }
+ 
   #map {
     position: relative;
     width: 40.625em;

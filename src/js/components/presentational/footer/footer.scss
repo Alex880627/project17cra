@@ -13,6 +13,24 @@
     display: flex;
     background-color: #333940;
     justify-content: space-between;
+    .fa-icon-wrapper {
+      &:hover {
+        cursor: default;
+      }
+      margin-right: 10px;
+      margin-left: 20px;
+      float: left;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: rgba($mainBlackColor, 0.7);
+      text-align: center;
+      .fa-icon-style {
+        position: relative;
+        top: calc(50% - 7px);
+        font-size: 15px;
+      }
+    }
   }
   .footer {
     display: flex;
@@ -40,9 +58,10 @@
     }
   }
 }
+
 .pre-footer > .navigation {
   padding: 30px;
-  max-width: 130px;
+  max-width: 140px;
   margin-left: 10px;
   display: flex;
   flex-direction: column;
@@ -50,6 +69,7 @@
   font-size: $miniFontSize;
   text-transform: capitalize;
   a {
+    padding: 3px;
     &:hover {
       color: rgba(255, 255, 255, 1);
       cursor: pointer;
@@ -63,6 +83,14 @@
   }
   .double-arrow {
     color: white;
+  }
+}
+
+.icons-credit {
+  font-size: $miniFontSize;
+  color: rgb(179, 179, 179) !important;
+  a {
+    color: rgb(179, 179, 179) !important;
   }
 }
 

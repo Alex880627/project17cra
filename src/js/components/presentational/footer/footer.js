@@ -20,12 +20,24 @@ const FooterComp = () => {
             www.flaticon.com
           </a>
         </div> */}
-         <a href={privacyPdf} target="blank">
-          {footer["privacy policy"]}
-        </a> 
+        <div>
+          <a href={privacyPdf} target="blank">
+            {footer["privacy policy"]}
+          </a>
+          <div className="icons-credit">
+            Icons made by{" "}
+            <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
+              Freepik
+            </a>{" "}
+            from{" "}
+            <a href="https://www.flaticon.com/" title="Flaticon">
+              www.flaticon.com
+            </a>
+          </div>
+        </div>
       </div>
       <div className="footer">
-        <p>{"©2019 Studio 17 - "+footer.copyright}</p>
+        <p>{"©2019 Studio 17 - " + footer.copyright}</p>
       </div>
     </div>
   );
