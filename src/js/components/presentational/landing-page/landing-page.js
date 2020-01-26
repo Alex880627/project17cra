@@ -20,7 +20,7 @@ const LandinPage = props => {
       <GlobalSnackBar />
       <GalleryModalWithProps />
       <NavBar />
-      <TherapistListDetails {...props} />
+      <TherapistListDetails />
       <ScrollDown />
       <div className="landing-page" id="page-up" role="main" aria-labelledby="treatments">
         {isBigScreen() ? (

@@ -1,5 +1,5 @@
 import React, { useRef, useState, Suspense , useEffect} from "react";
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 import useOnScreen from "../../../hooks/useScreen";
 
 export const withLazyLoad = (Component, id, color = "#265C42") => {

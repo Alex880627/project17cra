@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import useOnScreen from "../../../hooks/useScreen";
-import { useSelector } from "react-redux";
+import { showTherapistDetails } from "../../../actions/therapist-details-action";
+import { useSelector, useDispatch } from "react-redux";
 import therapists from "../../../../data/images/icons/therapists.png";
 import "./therapist-list.css";
 
@@ -26,7 +27,7 @@ const picArrayHover = importAll(
   )
 );
 
-const TherapistList = props => {
+const TherapistList = () => {
   let collagues = useSelector(state => state.changeLanguage.language.collagues);
   return (
     <>
@@ -53,7 +54,6 @@ const TherapistList = props => {
                 index={index}
                 picArrayHover={picArrayHover}
                 collagues={collagues}
-                showTherapistDetails={props.showTherapistDetails}
               />
             );
           })}
@@ -63,8 +63,9 @@ const TherapistList = props => {
   );
 };
 
-const Therapists = React.memo(
-  ({ element, index, picArrayHover, collagues, showTherapistDetails }) => {
+const Therapists = 
+  ({ element, index, picArrayHover, collagues }) => {
+    const dispatch = useDispatch();
     let ref = useRef(null);
     let isOnScreen = useOnScreen(ref);
     return (
@@ -86,7 +87,7 @@ const Therapists = React.memo(
           onMouseLeave={e => (e.currentTarget.src = element)}
           id={collagues.therapists[index].name}
           onClick={() => {
-            showTherapistDetails(collagues.therapists[index].name);
+            dispatch(showTherapistDetails(collagues.therapists[index].name));
           }}
           alt="studio 17 therapist"
         />
@@ -101,7 +102,6 @@ const Therapists = React.memo(
         </div>
       </div>
     );
-  }
-);
+  };
 
 export default TherapistList;

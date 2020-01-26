@@ -1,17 +1,29 @@
 import React, { useRef } from "react";
+import giveProps from "../../container/give-props";
+import { showEmailAction } from "../../../actions/email-action";
+import { useSelector, useDispatch } from "react-redux";
 import swipeableModal from "../swipeable-drawer/swipeable-drawer";
 import modal from "../modal/modal";
 import ToolTip from "../tool-tip/tool-tip";
 
-const ThreapistDetailsComp = props => {
+const ThreapistDetailsComp = () => {
+  const dispatch = useDispatch();
+  const therapists = useSelector(
+    state => state.changeLanguage.language.collagues.therapists
+  );
+  const therapistName = useSelector(
+    state => state.therapistReducer.therapistName
+  );
+  const treatmentsList = useSelector(
+    state => state.changeLanguage.language.treatments["treatments list"]
+  );
   let therapistsObject = {};
   function importAll(r) {
     return r.keys().forEach((e, i) => {
-      therapistsObject[props.language.collagues.therapists[i]["nick name"]] = r(
-        e
-      );
+      therapistsObject[therapists[i]["nick name"]] = r(e);
     });
   }
+
   importAll(
     require.context(
       "../../../../data/images/therapists/hover",
@@ -19,26 +31,26 @@ const ThreapistDetailsComp = props => {
       /\.(png|jpe?g|svg|jpg)$/
     )
   );
-  let therapistName = props.therapistName;
-  let filteredArray = props.language.collagues.therapists.filter(element => {
+  let filteredArray = therapists.filter(element => {
     return element.name === therapistName;
   });
   let therapist = filteredArray[0];
-
   const getTherapistPic = () => {
     return therapistsObject[therapist["nick name"]];
   };
   const ref = useRef(null);
 
   const getDescriptionFromTechnique = technique => {
-    let searchedTechnique = props.language.treatments[
-      "treatments list"
-    ].filter(e => e.title.includes(technique));
+    let searchedTechnique = treatmentsList.filter(e =>
+      e.title.includes(technique)
+    );
 
     return searchedTechnique.length > 0
       ? searchedTechnique[0]
       : { title: "Huppsz not implemented yet", description: "" };
   };
+
+  
   return (
     <div className="therapist-details" ref={ref}>
       <div className="therapist-heading">
@@ -83,7 +95,7 @@ const ThreapistDetailsComp = props => {
               </div>
               <p
                 onClick={() => {
-                  props.showEmail();
+                  dispatch(showEmailAction());
                 }}
               >
                 {therapist["email"]}
@@ -103,7 +115,7 @@ const ThreapistDetailsComp = props => {
 
 const TherapistListDetails =
   window.innerWidth > 768
-    ? modal(ThreapistDetailsComp, "therapistDetails")
-    : swipeableModal(ThreapistDetailsComp, "therapistDetails");
+    ? giveProps(modal(ThreapistDetailsComp, "therapistDetails"))
+    : giveProps(swipeableModal(ThreapistDetailsComp, "therapistDetails"));
 
 export default TherapistListDetails;

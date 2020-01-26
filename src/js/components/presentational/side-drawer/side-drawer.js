@@ -54,7 +54,7 @@ const SideDrawer = () => {
       delay: 0,
       duration: 0,
       smooth: "easeInOutExpo",
-      offset: -50
+      offset: -53
     });
   };
   const toggleDrawer = (side, open) => event => {
