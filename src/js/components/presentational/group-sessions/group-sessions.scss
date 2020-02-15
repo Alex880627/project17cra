@@ -55,10 +55,6 @@ h5 {
   }
 }
 
-.group-sessions-description >:last-child {
-  margin-bottom: 20px;
-}
-
 .group-sessions-description > h1 {
   margin-top: 20px;
   font-family: Arbutus Slab;
@@ -141,6 +137,31 @@ h5 {
     .header {
       background-color: transparent;
       font-size: $smallFontSize;
+    }
+  }
+}
+
+.therapist-login {
+  line-height: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    text-decoration: underline;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  span {
+    i {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    a {
+      color: white;
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }

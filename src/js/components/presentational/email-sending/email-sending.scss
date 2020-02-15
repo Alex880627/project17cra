@@ -39,6 +39,11 @@
   font-weight: bold;
 }
 
+.email-section button:disabled {
+  background-color: #9b9b9b;
+  box-shadow:0px 0px 10px -5px #000000;
+}
+
 .email-section button:hover {
   background-color: #265c42;
 }

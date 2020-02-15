@@ -7,6 +7,8 @@ import {
   changeLangToENAction,
   changeLangToHUAction
 } from "../../../actions/change-language-action";
+
+import { openSnackBarError } from "../../../actions/snack-bar-actions";
 import {
   setLoadingAction,
   unsetLoadingAction
@@ -14,13 +16,18 @@ import {
 
 const LanguagePickerButton = () => {
   const dispatch = useDispatch();
-  const language = useSelector(state => state.changeLanguage.language.lang)
+  const language = useSelector(state => state.changeLanguage.language.lang);
   const [height, setHeight] = useState("2.5em");
   const setLang = () => {
-    dispatch(setLoadingAction());
+    /* dispatch(setLoadingAction()); */
     setTimeout(() => {
-      language === "Magyar" ? dispatch(changeLangToENAction()) : dispatch(changeLangToHUAction());
-    
+      language === "Magyar"
+        ? dispatch(
+            openSnackBarError(
+              "Same in english! \n Just kidding! Coming Soon :)"
+            ) /* changeLangToENAction() */
+          )
+        : dispatch(changeLangToHUAction());
     }, 300);
   };
   useEffect(() => {

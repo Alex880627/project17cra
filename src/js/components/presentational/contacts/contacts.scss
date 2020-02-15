@@ -43,7 +43,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: rgb($mainGreenColor);
+  background-color: $mainGreenColor;
   text-align: center;
   .fa-icon-style {
     position: relative;
@@ -133,10 +133,10 @@ p.icons-with-text:first-child {
   .flex-wrapper {
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 97%;
     .address-details {
       height: 350px;
-      width: 100% !important;
+      width: 100%;
       margin: 0 auto;
       .logo-wrapper {
         img {

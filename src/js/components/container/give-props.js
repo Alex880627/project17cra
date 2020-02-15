@@ -10,6 +10,11 @@ import {
   openGalleryAction
 } from "../../actions/gallery-action";
 
+import {
+  showBugreportAction,
+  hideBugreportAction
+} from "../../actions/bugreport-action";
+
 const mapDispatchToProps = dispatch => ({
   hideGallery: () => {
     dispatch(closeGalleryAction());
@@ -28,11 +33,18 @@ const mapDispatchToProps = dispatch => ({
   },
   hideTherapistDetails: () => {
     dispatch(hideTherapistDetails());
-  }
+  },
+  showBugreport: () => {
+    dispatch(showBugreportAction());
+  },
+  hideBugreport: () => {
+    dispatch(hideBugreportAction());
+  },
 });
 
 const mapStateToProps = state => ({
   email: state.emailReducer.email,
+  bugreport: state.bugreportReducer.bugreport,
   gallery: state.galleryReducer.gallery,
   therapistDetails: state.therapistReducer.therapistDetails,
 });

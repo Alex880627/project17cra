@@ -26,3 +26,6 @@ export const UNSET_HEADER = 'UNSET_HEADER';
 
 export const OPEN_GALLERY = 'OPEN_GALLERY';
 export const CLOSE_GALLERY = 'CLOSE_GALLERY';
+
+export const HIDE_BUGREPORT = "HIDE_BUGREPORT";
+export const SHOW_BUGREPORT = "SHOW_BUGREPORT";

@@ -9,8 +9,10 @@ import loadingReducer from "./loading-reducer";
 import groupSessionDatesReducer from "./get-group-session-dates-reducer";
 import headerReducer from "./header-reducer";
 import galleryReducer from "./gallery-reducer";
+import bugreportReducer from "./bugreport-reducer";
 
 const rootReducer = combineReducers({
+  bugreportReducer,
   groupSessionDatesReducer,
   changeLanguage,
   galleryReducer,

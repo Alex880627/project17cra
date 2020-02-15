@@ -4,14 +4,14 @@ import {
   openSnackBarSuccess,
   openSnackBarError
 } from "../../../actions/snack-bar-actions";
-import { hideEmailAction } from "../../../actions/email-action";
 import giveProps from "../../container/give-props";
 import sendInfo from "../../../services/send-info";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
-import "./email-sending.css";
+import "./bug-report.css";
 import modal from "../modal/modal";
+import { hideBugreportAction } from "../../../actions/bugreport-action";
 
 const LoaderComp = () => {
   return (
@@ -24,108 +24,90 @@ const LoaderComp = () => {
 const CssTextField = withStyles({
   root: {
     "& label.Mui-focused": {
-      color: "black"
+      color: "white"
     },
     "& .MuiInput-underline:after": {
-      borderBottomColor: "black"
+      borderBottomColor: "white"
     },
     "& .MuiOutlinedInput-root": {
       "&.Mui-focused fieldset": {
-        borderColor: "black",
-        border: "1px solid black"
+        borderColor: "white",
+        border: "1px solid white"
       }
     }
   }
 })(TextField);
 
-const EmailSendingComp = () => {
+const BugreportComp = () => {
   const dispatch = useDispatch();
-  const language = useSelector(
-    state => state.changeLanguage.language.lang
+  const language = useSelector(state => state.changeLanguage.language.lang);
+  const bugreport = useSelector(
+    state => state.changeLanguage.language.bugreport
   );
-  const email = useSelector(
-    state => state.changeLanguage.language.footer.email
-  );
-  const [userEmail, setUserEmail] = useState("");
-  const [userName, setUserName] = useState("");
-  const [userMessage, setUserMessage] = useState("");
+  const [title, setTitle] = useState("");
+  const [description, setDescription] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [disabled, setDisabled] = useState(true);
   const isDisabled = () => {
-    return userEmail.trim() !== "" && userName.trim() !== "" && userMessage.trim() !== ""? setDisabled(false): setDisabled(true);
+    return title.trim() !== "" && description.trim() !== ""? setDisabled(false): setDisabled(true);
   };
   useEffect(() => {
     isDisabled();
-  }, [userEmail, userMessage, userName])
+  }, [title, description])
   const onSubmit = e => {
     setIsLoading(true);
     e.preventDefault();
     sendInfo(
       {
-        email: userEmail.trim(),
-        name: userName.trim(),
-        message: userMessage.trim()
+        title: title.trim(),
+        description: description.trim()
       },
-      "https://studio17.duckdns.org/api/uzenetkuldes"
+      "https://studio17.duckdns.org/api/hibajelentes"
     )
       .then(json => {
         setIsLoading(false);
-        const message =
-          language === "Magyar" ? json.messageHU : json.messageEN;
+        const message = language === "Magyar" ? json.messageHU : json.messageEN;
         dispatch(openSnackBarSuccess(message));
-        dispatch(hideEmailAction());
+        dispatch(hideBugreportAction());
       })
       .catch(error => {
         setIsLoading(false);
         const message =
           language === "Magyar" ? error.messageHU : error.messageEN;
         dispatch(openSnackBarError(message));
-        dispatch(hideEmailAction());
+        dispatch(hideBugreportAction());
       });
   };
   const handleChange = e => {
-    isDisabled();
     return e.target.value;
   };
 
   return (
     <>
-      <div className="email-section">
-        <h3>{email["email header"]}</h3>
+      <div className="bugreport-section">
+        <h3>{bugreport["title"]}</h3>
         <form onSubmit={onSubmit}>
           <CssTextField
             autoFocus={true}
             id="filled-basic"
-            label={email["email input"]}
+            label={bugreport["bug"]}
             margin="dense"
             variant="filled"
-            name="email"
-            type="email"
+            name="title"
+            type="text"
             required
             autoComplete="off"
             onChange={e => {
-              setUserEmail(handleChange(e));
+              setTitle(handleChange(e));
             }}
           />
           <CssTextField
             id="filled-basic"
-            label={email["name input"]}
-            margin="dense"
-            variant="filled"
-            name="name"
-            type="name"
-            required
-            autoComplete="off"
-            onChange={e => {
-              setUserName(handleChange(e));
-            }}
-          />
-          <CssTextField
-            id="filled-basic"
-            label={email.message}
+            label={bugreport.description}
             margin="dense"
             variant="filled"
             name="message"
+            name="description"
             type="text"
             required
             multiline
@@ -134,10 +116,13 @@ const EmailSendingComp = () => {
             cols="40"
             autoComplete="off"
             onChange={e => {
-              setUserMessage(handleChange(e));
+              setDescription(handleChange(e));
             }}
           />
-          <Button type="submit" disabled={disabled}>{email.send}</Button>
+          <Button type="submit" disabled={disabled}>
+            {" "}
+            {bugreport.send}
+          </Button>
         </form>
       </div>
       {isLoading ? <LoaderComp /> : null}
@@ -145,6 +130,6 @@ const EmailSendingComp = () => {
   );
 };
 
-const EmailSending = giveProps(modal(EmailSendingComp, "email"));
+const Bugreport = giveProps(modal(BugreportComp, "bugreport"));
 
-export default EmailSending;
+export default Bugreport;

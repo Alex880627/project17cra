@@ -12,25 +12,9 @@
   .pre-footer {
     display: flex;
     background-color: #333940;
-    justify-content: space-between;
-    .fa-icon-wrapper {
-      &:hover {
-        cursor: default;
-      }
-      margin-right: 10px;
-      margin-left: 20px;
-      float: left;
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      background-color: rgba($mainBlackColor, 0.7);
-      text-align: center;
-      .fa-icon-style {
-        position: relative;
-        top: calc(50% - 7px);
-        font-size: 15px;
-      }
-    }
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-around;
   }
   .footer {
     display: flex;
@@ -57,6 +41,17 @@
       }
     }
   }
+}
+
+.studio17-logo-footer {
+  margin-left: 5px;
+  margin-top: 60px;
+  height: 50px;
+  width: 200px;
+  filter: invert(98%) sepia(97%) saturate(4950%) hue-rotate(193deg) brightness(125%) contrast(107%);  
+  background-image: url("../../../../data/images/icons/logo-horizontal-without-logo.svg");
+  background-position: center;
+  background-size: cover;
 }
 
 .pre-footer > .navigation {
@@ -86,21 +81,80 @@
   }
 }
 
-.icons-credit {
-  font-size: $miniFontSize;
-  color: rgb(179, 179, 179) !important;
-  a {
-    color: rgb(179, 179, 179) !important;
+.fa-lock {
+  margin-right: 11px;
+  display: inline;
+  font-size: 19px;
+  color: #ffffff;
+}
+.fa-icons {
+  margin-right: 10px;
+  display: inline;
+  font-size: 19px;
+  color: #ffffff;
+}
+
+.fa-bug {
+  margin-right: 10px;
+  display: inline;
+  font-size: 19px;
+  color: #ffffff;
+}
+
+.privacy-policy-link {
+  text-decoration: none;
+  font-size: $extraMiniFontSize;
+  color: rgb(179, 179, 179);
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  &:visited {
+    color: rgb(179, 179, 179);
   }
 }
 
-@media only screen and (max-width: 1000px) {
+.icons-credit {
+  font-size: $extraMiniFontSize;
+  color: rgb(179, 179, 179);
+  a {
+    color: rgb(179, 179, 179);;
+  }
+}
+
+.aditional-description-with-icons {
+   width:auto;
+   padding: 30px;
+   > * {
+     padding: 5px;
+   }
+}
+
+.error-report {
+  display: flex;
+  align-items: center;
+  font-size: $extraMiniFontSize;
+  color: white;
+  p {
+    margin: 0;
+    color: rgb(179, 179, 179);;
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
-  .footer {
+  .pre-footer {
     justify-content: center;
     flex-direction: column-reverse;
     align-items: center;
+    .studio17-logo-footer {
+      display: none;
+    }
+  }
+  .pre-footer > .navigation {
+    display: none;
   }
 }

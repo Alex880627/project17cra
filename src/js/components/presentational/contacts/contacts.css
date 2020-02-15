@@ -75,7 +75,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: rgba(38, 92, 66, 0.7);
+  background-color: #265c42;
   text-align: center;
 }
 
@@ -227,11 +227,11 @@ p.icons-with-text:first-child {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 95%;
+    width: 97%;
   }
   .flex-wrapper .address-details {
     height: 350px;
-    width: 100% !important;
+    width: 100%;
     margin: 0 auto;
   }
   .flex-wrapper .address-details .logo-wrapper img {

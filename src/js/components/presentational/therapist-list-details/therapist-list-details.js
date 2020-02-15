@@ -15,7 +15,7 @@ const ThreapistDetailsComp = () => {
     state => state.therapistReducer.therapistName
   );
   const treatmentsList = useSelector(
-    state => state.changeLanguage.language.treatments["treatments list"]
+    state => state.changeLanguage.language["tooltip-treatments"]
   );
   let therapistsObject = {};
   function importAll(r) {
@@ -42,9 +42,8 @@ const ThreapistDetailsComp = () => {
 
   const getDescriptionFromTechnique = technique => {
     let searchedTechnique = treatmentsList.filter(e =>
-      e.title.includes(technique)
+      e.title === technique
     );
-
     return searchedTechnique.length > 0
       ? searchedTechnique[0]
       : { title: "Huppsz not implemented yet", description: "" };
@@ -67,8 +66,7 @@ const ThreapistDetailsComp = () => {
         <div className="details">
           <div className="therapist-techniques">
             {therapist.techniques.data.map(technique => {
-              let searchText = technique.split(" ")[0];
-              let techniqueObject = getDescriptionFromTechnique(searchText);
+              let techniqueObject = getDescriptionFromTechnique(technique);
               return (
                 <>
                   <ToolTip

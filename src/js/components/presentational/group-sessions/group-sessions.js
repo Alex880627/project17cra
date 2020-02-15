@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getGroupSessionDates } from "../../../actions/get-group-session-dates-actions";
+import { showTherapistDetails } from "../../../actions/therapist-details-action";
 import { showEmailAction } from "../../../actions/email-action";
 import { OvalButton } from "../oval-button/oval-button";
 import { openGalleryAction } from "../../../actions/gallery-action";
@@ -14,6 +15,9 @@ const GroupSessionsContainer = () => {
   );
   const groupSessions = useSelector(
     state => state.changeLanguage.language["group sessions"]
+  );
+  const therapists = useSelector(
+    state => state.changeLanguage.language.collagues["therapists"]
   );
   if (groupSessionStoreData < 1) {
     getGroupSessionDates(dispatch);
@@ -62,8 +66,34 @@ const GroupSessionsContainer = () => {
             <span>{groupSessions.resignationText}</span>
           </h5>
           <h5>
-          {groupSessions.types}{" "}
-            <span>{groupSessions["types sentence"]}</span>
+            {groupSessions.types} <span>{groupSessions["types sentence"]}</span>
+          </h5>
+          <h5>
+            {groupSessions.login}{" "}
+            <span className="groupsession-login">
+              {groupSessions.therapists.map(e => {
+                let t = therapists.filter(oneTherapist => {
+                  return oneTherapist["nick name"] === e;
+                })[0];
+                return (
+                  <div className="therapist-login">
+                    <p
+                      onClick={() => {
+                        dispatch(showTherapistDetails(t.name));
+                      }}
+                    >
+                      {t["nick name"]}
+                    </p>
+                    <span>
+                      <i class="fas fa-phone-alt white"></i>{" "}
+                      <a href={`tel: +36${t["phone number"]}`}>
+                        {" (" + t["phone number"] + ")"}
+                      </a>
+                    </span>
+                  </div>
+                );
+              })}
+            </span>
           </h5>
         </div>
         <div

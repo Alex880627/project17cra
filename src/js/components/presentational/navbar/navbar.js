@@ -8,6 +8,7 @@ import Loader from "../loader/loader";
 import logoAndText from "../../../../data/images/icons/logo-small.png";
 import CoverPic from "../cover-pic/cover-pic";
 import useOnScreen from "../../../hooks/useScreen";
+import Bugreport from "../bug-report/bug-report";
 import "./navbar.css";
 
 const NavBar = React.memo(() => {
@@ -36,8 +37,9 @@ const NavBar = React.memo(() => {
         ) : null}
 
         <Loader />
-        <UpNavButton onScreen={onScreen}/>
+        <UpNavButton onScreen={onScreen} />
         <EmailSending />
+        <Bugreport />
         <LanguagePicker />
       </nav>
       <div className="helperDiv" ref={ref}></div>
