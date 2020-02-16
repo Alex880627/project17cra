@@ -11,8 +11,7 @@
   margin: auto;
   margin-top: 10%;
   max-width: 30%;
-  height: 380px;
-  height: 45vh;
+  height: fit-content;
 }
 
 .bugreport-section form {
@@ -37,6 +36,9 @@
   resize: vertical;
   background-color: #bd3a1a;
   font-weight: bold;
+  &:hover {
+    background-color: #bd3a1a;
+  }
 }
 
 .bugreport-section button:disabled {
@@ -46,11 +48,27 @@
 
 .bugreport-section input {
   height: 1.25em;
-  color: white;
+  color: rgb(255, 255, 255);
+}
+
+.bugreport-section {
+  .MuiFilledInput-underline:after {
+    border-bottom: 2px solid #9b9b9b !important;
+  }
+}
+
+.bugreport-section textarea::placeholder {
+  color: rgb(255, 255, 255);
+  background-color: white;
 }
 
 .bugreport-section textarea {
   color: white;
+  
+  &::after {
+    color: white;
+    background-color: #ffffff;
+  }
 }
 
 .bugreport-section h4 {

@@ -87,11 +87,14 @@ h5 {
 .group-sessions-description > h5 {
   font-size: 0.9375rem;
   font-family: Arbutus Slab;
+  font-style: italic;
   margin-top: 3px;
   margin-bottom: 6px;
 }
 
 .group-sessions-description > h5 span {
+  color: #cecece;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 100;
   font-style: normal;
   font-family: Work Sans;
@@ -239,11 +242,16 @@ h5 {
 }
 
 .therapist-login span a {
-  color: white;
+  color: #cecece;
 }
 
 .therapist-login span a:hover {
   cursor: pointer;
+}
+
+.group-therapists {
+  padding-top: 30px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {

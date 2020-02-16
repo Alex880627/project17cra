@@ -201,6 +201,10 @@
   .pre-footer .studio17-logo-footer {
     display: none;
   }
+  .pre-footer .aditional-description-with-icons {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .pre-footer > .navigation {
     display: none;
   }

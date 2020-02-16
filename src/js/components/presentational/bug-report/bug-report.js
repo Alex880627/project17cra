@@ -49,11 +49,13 @@ const BugreportComp = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [disabled, setDisabled] = useState(true);
   const isDisabled = () => {
-    return title.trim() !== "" && description.trim() !== ""? setDisabled(false): setDisabled(true);
+    return title.trim() !== "" && description.trim() !== ""
+      ? setDisabled(false)
+      : setDisabled(true);
   };
   useEffect(() => {
     isDisabled();
-  }, [title, description])
+  }, [title, description]);
   const onSubmit = e => {
     setIsLoading(true);
     e.preventDefault();
@@ -96,6 +98,11 @@ const BugreportComp = () => {
             name="title"
             type="text"
             required
+            InputLabelProps={{
+              style: {
+                color: "white"
+              }
+            }}
             autoComplete="off"
             onChange={e => {
               setTitle(handleChange(e));
@@ -114,6 +121,11 @@ const BugreportComp = () => {
             rowsMax="4"
             rows="7"
             cols="40"
+            InputLabelProps={{
+              style: {
+                color: "white"
+              }
+            }}
             autoComplete="off"
             onChange={e => {
               setDescription(handleChange(e));

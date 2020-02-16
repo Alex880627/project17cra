@@ -68,7 +68,7 @@ const GroupSessionsContainer = () => {
           <h5>
             {groupSessions.types} <span>{groupSessions["types sentence"]}</span>
           </h5>
-          <h5>
+          <h5 className="group-therapists">
             {groupSessions.login}{" "}
             <span className="groupsession-login">
               {groupSessions.therapists.map(e => {
