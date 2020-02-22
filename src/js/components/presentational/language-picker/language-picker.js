@@ -24,7 +24,7 @@ const LanguagePickerButton = () => {
       language === "Magyar"
         ? dispatch(
             openSnackBarError(
-              "We don't speak english! \n Just kidding! Coming Soon :)"
+              "We don't speak english! \n Just kiddingŪ! Coming Soon :)"
             ) /* changeLangToENAction() */
           )
         : dispatch(changeLangToHUAction());
