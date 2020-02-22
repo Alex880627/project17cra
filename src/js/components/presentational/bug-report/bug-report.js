@@ -64,7 +64,7 @@ const BugreportComp = () => {
         title: title.trim(),
         description: description.trim()
       },
-      "https://studio17.duckdns.org/api/hibajelentes"
+      `${process.env.REACT_APP_BASE_URL}/api/hibajelentes`
     )
       .then(json => {
         setIsLoading(false);

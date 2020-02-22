@@ -139,11 +139,8 @@
 
 .privacy-policy-link:hover {
   cursor: pointer;
+  color: white;
   text-decoration: underline;
-}
-
-.privacy-policy-link:visited {
-  color: #b3b3b3;
 }
 
 .icons-credit {
@@ -153,6 +150,10 @@
 
 .icons-credit a {
   color: #b3b3b3;
+}
+
+.icons-credit a:hover {
+  color: white;
 }
 
 .aditional-description-with-icons {
@@ -181,6 +182,7 @@
 }
 
 .error-report p:hover {
+  color: white;
   cursor: pointer;
   text-decoration: underline;
 }

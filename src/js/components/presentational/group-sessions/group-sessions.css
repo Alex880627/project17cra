@@ -249,6 +249,10 @@ h5 {
   cursor: pointer;
 }
 
+.group-sessions-description > p {
+  color: #cecece;
+}
+
 .group-therapists {
   padding-top: 30px;
   text-align: center;

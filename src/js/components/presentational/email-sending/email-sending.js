@@ -66,7 +66,7 @@ const EmailSendingComp = () => {
         name: userName.trim(),
         message: userMessage.trim()
       },
-      "https://studio17.duckdns.org/api/uzenetkuldes"
+      `${process.env.REACT_APP_BASE_URL}/api/uzenetkuldes`
     )
       .then(json => {
         setIsLoading(false);
@@ -87,6 +87,8 @@ const EmailSendingComp = () => {
     isDisabled();
     return e.target.value;
   };
+  console.log(`${process.env.REACT_APP_BASE_URL}/api/uzenetkuldes`);
+  
 
   return (
     <>

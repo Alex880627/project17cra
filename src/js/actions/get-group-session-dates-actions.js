@@ -15,7 +15,7 @@ const getSessionDatesFail = () => ({
 
 export const getGroupSessionDates = (dispatch) => {
   dispatch(getSessionDates());
-  getData("https://studio17.duckdns.org/api/csoporttorna/lista")
+  getData(`${process.env.REACT_APP_BASE_URL}/api/csoporttorna/lista`)
     .then(data => {
       dispatch(getSessionDatesSuccess(data));
     })
