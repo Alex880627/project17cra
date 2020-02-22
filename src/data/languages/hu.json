@@ -44,7 +44,7 @@
         "phone number": "06 30 401 9871",
         "email": "studio17gyogytorna@gmail.com",
         "details": [
-          "Számomra soha nem volt kérdés, hogy segítő szakmában fogok elhelyezkedni: ez a hivatásom. A pácienseimmel való közvetlen kapcsolat kialakítása fontos alapját képezi a munkámnak, a panaszok kezeléséhez elengedhetetlennek tartom a személyes motivációk megértését. Kórházi munkám során számtalan foglalkozási ártalommal, mozgásszervi panasszal találkozom nap mint nap, melyek kezelésében széleskörű tapasztalatot szereztem az elmúlt években. Gyakran alkalmazom a porckorong eredetű panaszok visszaszorítására világszerte elismert McKenzie módszert.",
+          "Számomra soha nem volt kérdés, hogy segítő szakmában fogok elhelyezkedni: ez a hivatásom. A pácienseimmel való közvetlen kapcsolat kialakítása fontos alapját képezi a munkámnak, a panaszok kezeléséhez elengedhetetlennek tartom a személyes motivációk megértését és az alapos anamnézis felvételt. Kórházi munkám során számtalan foglalkozási ártalommal, mozgásszervi panasszal találkozom nap mint nap, melyek kezelésében széleskörű tapasztalatot szereztem az elmúlt években. Gyakran alkalmazom a porckorong eredetű panaszok visszaszorítására világszerte elismert McKenzie módszert, az izom és ízületi bántalmak fájdalmának csökkentésére pedig az FDM (manuális fájdalomcsillapítás) módszerét.",
           "Célom, hogy az eddig megszerzett tudásommal a hozzám betérő vendégek elérjék a számukra kitűzött célt, legyen szó a panaszmentes mindennapokról, a sporthoz való visszatalálásról, vagy az esetlegesen kialakuló problémák megelőzéséről."
         ],
         "color": "#b5ffd9",
@@ -53,21 +53,19 @@
           "data": [
             "McKenzie torna",
             "FDM",
-            "Kinesio tape",
-            "SMR henger",
-            "Idegmobilizáció"
+            "SMR henger"
           ]
         }
       },
       {
         "name": "Erasimus Zsuzsanna",
         "nick name": "Zsuzsanna",
-        "occupation": "Masszázs terapeuta",
+        "occupation": "Masszőr",
         "phone number": "06 70 615 1519",
         "email": "studio17gyogytorna@gmail.com",
-        "details": [
-          "Két fiúgyermek büszke anyukája vagyok. 2016-ban végeztem el a svédmasszőri-, majd a rákövetkező évben a gyógy-és sportmasszőri képzéseket, illetve azóta is folyamatosan képzem magam.",
-          "Egy hosszan elhúzódó mozgásszervi probléma sokak életét megkeserítheti, kortól függetlenül. A sportolói teljesítmény növelése, az aktív korú munkavállalók napi szintű stresszkezelése, illetve az idősödő korosztály aktívan töltött éveinek meghosszabbítása egyaránt munkám fontos területeit képezik. Akár a mozgásszegény és stresszes életmódnak, akár a genetikának köszönhetőek a panaszok, a masszázsterápia minden esetben bizonyítottan kedvező hatással van rájuk. Személyre szabott kezeléssorozata után garantáltan jobban érzi majd magát a bőrében. Keressen bizalommal!"
+        "details": ["2016-ban végeztem el a svédmasszőri-, majd a rákövetkező évben a gyógy-és sportmasszőri képzéseket, illetve azóta is folyamatosan tovább képzem magam.",
+          "Egy hosszan elhúzódó mozgásszervi probléma sokak életét megkeserítheti, kortól és nemtől függetlenül. A sportolói teljesítmény növelése, az aktív korú munkavállalók napi szintű stresszkezelése, illetve az idősödő korosztály aktívan töltött éveinek meghosszabbítása egyaránt munkám fontos területeit képezik. A masszázs alkalmazásával - szükség szerint kiegészítő kezelésekkel együtt - eredményesen csökkenthetőek a fájdalmak, ezáltal javul a közérzet, az életminőség. A kedvező hatás minden esetben bizonyított, mind a mozgásszegény és stresszes életmódból fakadó, mind a genetikai eredetű mozgásszervi elváltozások, panaszok esetében. Munkám során kiemelt figyelmet fordítok a személyre szabott kezelésekre, melyek nagymértékben hozzájárulnak a masszázs sikeréhez. Kérem, keressen bizalommal!"
+          
         ],
         "color": "#e67c6c",
         "techniques": {
@@ -76,12 +74,11 @@
             "Svédmasszázs",
             "Sportmasszázs",
             "FDM",
-            "SI-terápia",
-            "Nyirokmasszázs",
+            "SI-kezelés",
             "Derék- és nyakprotokoll",
             "Flossing terápia",
             "Köpölyözés",
-            "Gua Sha masszázs"
+            "Gua Sha kezelés"
           ]
         }
       },
@@ -110,11 +107,11 @@
       {
         "name": "Mészáros Endre",
         "nick name": "Endre",
-        "occupation": "Masszázs terapeuta",
+        "occupation": "Masszőr",
         "phone number": "06 70 530 0217",
         "email": "studio17gyogytorna@gmail.com",
         "details": [
-          "Mozgásterapeutaként ízületi és izomfájdalmak, sportsérülésekből vagy műtéti hegekből adódó problémák, illetve régóta fennálló, szűnni nem akaró panaszok enyhítésével foglalkozom. A masszázs egy fárasztó nap után is lazítást, kikapcsolódást jelenthet. Meglévő összes tudásommal azon leszek, hogy vendégeim elégedetten és fájdalom nélkül távozzanak a kezelés után."
+          "Masszőrként ízületi és izomfájdalmak, sportsérülésekből vagy műtéti hegekből adódó problémák, illetve régóta fennálló, szűnni nem akaró panaszok enyhítésével foglalkozom. A masszázs egy fárasztó nap után is lazítást, kikapcsolódást jelenthet. Meglévő összes tudásommal azon leszek, hogy vendégeim elégedetten és fájdalom nélkül távozzanak a kezelés után."
         ],
         "color": "#b5ffd9",
         "techniques": {
@@ -131,20 +128,20 @@
       {
         "name": "Andorka Eszter",
         "nick name": "Eszter",
-        "occupation": "Gyógytornász",
+        "occupation": "Diplomás Gyógytornász",
         "school": "(Semmelweis Egyetem)",
         "phone number": "06 30 196 6193",
         "email": "studio17gyogytorna@gmail.com",
         "details": [
           "A testmozgás iránti kíváncsiságom gyermekkorom óta az életem része: 10 éven keresztül hivatásszerűen táncoltam, míg végül amellett döntöttem, hogy mélyebben megismerkedem az emberi test működésével.",
-          "Kórházi munkám során főként degeneratív és gyulladásos eredetű mozgásszervi problémákkal küzdő páciensekkel találkozom. Gerincproblémákkal, csípő-, térd-, és bokaízületi panaszokkal foglalkozom, illetve különös gondot fordítok a nyaki eredetű gerincproblémákkal és az állkapocs ízületi gondokkal járó tünetek enyhítésére. Munkám fontos része a prevenció, külön figyelmet szentelek az ergonómiai szempontok átbeszélésére is."
+          "Kórházi munkám során főként degeneratív és gyulladásos eredetű mozgásszervi problémákkal küzdő páciensekkel találkozom. Gerincproblémákkal, csípő-, térd-, és bokaízületi panaszokkal foglalkozom, illetve különös gondot fordítok a nyaki eredetű gerincproblémákkal és az állkapocs ízületi gondokkal járó tünetek enyhítésére. Munkám fontos része a prevenció, külön figyelmet szentelek az ergonómiai szempontok átbeszélésére is.",
+          "Az óráimon igyekszem olyan barátságos hangulatot kialakítani, mely során a pácienseimet legjobb szakmai tudásomnak megfelelően, egyénre szabottan célzott terápiában részesítem. Célom, hogy a gyógytorna után újra megtapasztalhassák a mozgás szabadságának örömét."
         ],
         "color": "#b5ffd9",
         "techniques": {
           "title": "Alkalmazott technikák",
           "data": [
             "McKenzie torna",
-            "FDM",
             "SMR henger",
             "Kinesio tape",
             "Állkapocs ízületi kezelés",
@@ -155,7 +152,7 @@
       {
         "name": "Veress Livienne",
         "nick name": "Livienne",
-        "occupation": "Masszázs terapeuta",
+        "occupation": "Masszőr",
         "phone number": "06 30 196 6193",
         "email": "studio17gyogytorna@gmail.com",
         "details": [
@@ -346,9 +343,9 @@
         "therapist": ["Szilvi", "Panka"]
       },
       {
-        "title": "SI-terápia",
+        "title": "SI-kezelés",
         "description": [
-          "A SI-terápia alapját a Japánban kifejlesztett AKA gerinckezelés képezi. A kezelés során a keresztcsont és a csípőcsont közötti ízületet – a SI ízületet – kimozgatva feloldjuk az ízületben keletkezett feszültséget, ezáltal csökkenve vagy teljesen megszüntetve a deréktáji és nyaki fájdalmat. A módszer gerinc- és mozgásszervi problémák kezelése egyaránt alkalmas."
+          "A SI-kezelés alapját a Japánban kifejlesztett AKA gerinckezelés képezi. A kezelés során a keresztcsont és a csípőcsont közötti ízületet – a SI ízületet – kimozgatva feloldjuk az ízületben keletkezett feszültséget, ezáltal csökkenve vagy teljesen megszüntetve a deréktáji és nyaki fájdalmat. A módszer gerinc- és mozgásszervi problémák kezelése egyaránt alkalmas."
         ],
         "therapist": ["Zsuzsanna"]
       },
@@ -360,13 +357,6 @@
         "therapist": ["Livienne"]
       },
       {
-        "title": "Nyirokmasszázs",
-        "description": [
-          "A nyirokdrenázsként, nyirokelvezetésként is ismert módszer olyan speciális masszázsfajta, amely a nyirokelfolyást javítja. Rendszeres alkalmazása megszünteti a szöveti nyirokpangást, aktivizálja az immunrendszert és serkenti a salakanyagok elszállítását. A sejtek és a szövetek regenerálódásával csökken a gyulladáskészség, illetve a meglevő gyulladások, sebek is könnyebben gyógyulnak."
-        ],
-        "therapist": ["Zsuzsanna"]
-      },
-      {
         "title": "Derék- és nyakprotokoll",
         "description": [
           "A mozgásszervi problémák kezelésére összeállított „protokoll” eljárások ötvözik a modern nyugati oszteopátia és a hagyományos kínai manuálterápia módszereit. A meghatározott sorrendben végzett lazító és nyújtó fogások, a kineziológiai tapasz, illetve a fülakupunktúra együttes alkalmazása gyors és eredményes gyógyulást biztosít.",
@@ -375,9 +365,9 @@
         "therapist": ["Zsuzsanna"]
       },
       {
-        "title": "Gua Sha masszázs",
+        "title": "Gua Sha kezelés",
         "description": [
-          "A kínai orvoslás elismert reflexológiai kezelése szó szerint annyit tesz, hogy „minden rossz kikaparása”. A masszázs hagyományosan egy csontból vagy kőből készült lemezzel történik; a kezelt testrészeken megjelenő bőrirritáció pontos diagnózist nyújt az egyes, helytelenül működő belső szervekről."
+          "A kínai orvoslás elismert reflexológiai kezelése szó szerint annyit tesz, hogy „minden rossz kikaparása”. A kezelés hagyományosan egy csontból vagy kőből készült lemezzel történik; a kezelt testrészeken megjelenő bőrirritáció pontos diagnózist nyújt az egyes, helytelenül működő belső szervekről."
         ],
         "therapist": ["Zsuzsanna"]
       },
@@ -560,9 +550,9 @@
       "therapist": ["Szilvi", "Panka"]
     },
     {
-      "title": "SI-terápia",
+      "title": "SI-kezelés",
       "description": [
-        "A SI-terápia alapját a Japánban kifejlesztett AKA gerinckezelés képezi. A kezelés során a keresztcsont és a csípőcsont közötti ízületet – a SI ízületet – kimozgatva feloldjuk az ízületben keletkezett feszültséget, ezáltal csökkenve vagy teljesen megszüntetve a deréktáji és nyaki fájdalmat. A módszer gerinc- és mozgásszervi problémák kezelése egyaránt alkalmas."
+        "A SI-kezelés alapját a Japánban kifejlesztett AKA gerinckezelés képezi. A kezelés során a keresztcsont és a csípőcsont közötti ízületet – a SI ízületet – kimozgatva feloldjuk az ízületben keletkezett feszültséget, ezáltal csökkenve vagy teljesen megszüntetve a deréktáji és nyaki fájdalmat. A módszer gerinc- és mozgásszervi problémák kezelése egyaránt alkalmas."
       ],
       "therapist": ["Zsuzsanna"]
     },
@@ -574,13 +564,6 @@
       "therapist": ["Livienne"]
     },
     {
-      "title": "Nyirokmasszázs",
-      "description": [
-        "A nyirokdrenázsként, nyirokelvezetésként is ismert módszer olyan speciális masszázsfajta, amely a nyirokelfolyást javítja. Rendszeres alkalmazása megszünteti a szöveti nyirokpangást, aktivizálja az immunrendszert és serkenti a salakanyagok elszállítását. A sejtek és a szövetek regenerálódásával csökken a gyulladáskészség, illetve a meglevő gyulladások, sebek is könnyebben gyógyulnak."
-      ],
-      "therapist": ["Zsuzsanna"]
-    },
-    {
       "title": "Derék- és nyakprotokoll",
       "description": [
         "A mozgásszervi problémák kezelésére összeállított „protokoll” eljárások ötvözik a modern nyugati oszteopátia és a hagyományos kínai manuálterápia módszereit. A meghatározott sorrendben végzett lazító és nyújtó fogások, a kineziológiai tapasz, illetve a fülakupunktúra együttes alkalmazása gyors és eredményes gyógyulást biztosít.",
@@ -589,9 +572,9 @@
       "therapist": ["Zsuzsanna"]
     },
     {
-      "title": "Gua Sha masszázs",
+      "title": "Gua Sha kezelés",
       "description": [
-        "A kínai orvoslás elismert reflexológiai kezelése szó szerint annyit tesz, hogy „minden rossz kikaparása”. A masszázs hagyományosan egy csontból vagy kőből készült lemezzel történik; a kezelt testrészeken megjelenő bőrirritáció pontos diagnózist nyújt az egyes, helytelenül működő belső szervekről."
+        "A kínai orvoslás elismert reflexológiai kezelése szó szerint annyit tesz, hogy „minden rossz kikaparása”. A kezelés hagyományosan egy csontból vagy kőből készült lemezzel történik; a kezelt testrészeken megjelenő bőrirritáció pontos diagnózist nyújt az egyes, helytelenül működő belső szervekről."
       ],
       "therapist": ["Zsuzsanna"]
     },
