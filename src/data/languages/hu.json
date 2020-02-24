@@ -395,8 +395,8 @@
   },
   "upButton": ".fel",
   "landingSentence": {
-    "coverSentenceLeft": "Nincs több fájdalom, \b",
-    "coverSentenceRight": "csak ",
+    "coverSentenceLeft": "Nincs több fájdalom, ",
+    "coverSentenceRight": " csak ",
     "coverSentenceColored": "szabad mozgás!",
     "coverDescription": "Gyógytorna és masszázs az V. kerület szívében. Megelőzés, fájdalomcsökkentés és rehabilitáció egy helyen."
   },
