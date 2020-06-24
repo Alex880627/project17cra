@@ -15,13 +15,13 @@ const FooterComp = () => {
         <NavigationLinks />
         <div className="aditional-description-with-icons">
           <div className="privacy-policy-footer">
-            <i class="fas fa-lock fa-icon-style"></i>
+            <i className="fas fa-lock fa-icon-style"></i>
             <a href={privacyPdf} target="blank" className="privacy-policy-link">
               {footer["privacy policy"]}
             </a>
           </div>
           <div className="icons-credit">
-            <i class="fas fa-icons fa-icon-style"></i>
+            <i className="fas fa-icons fa-icon-style"></i>
             {footer.icons}{" "}
             <a
               href="https://www.flaticon.com/authors/freepik"
@@ -33,7 +33,7 @@ const FooterComp = () => {
             {footer["icons-made"]}{" "}
           </div>
           <div className="error-report">
-            <i class="fas fa-bug fa-icon-style"></i>
+            <i className="fas fa-bug fa-icon-style"></i>
             <p
               onClick={() => {
                 dispatch(showBugreportAction());

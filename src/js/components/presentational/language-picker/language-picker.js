@@ -4,13 +4,11 @@ import "./language-picker.css";
 import { useSelector, useDispatch } from "react-redux";
 import React, { useState, useEffect } from "react";
 import {
-  changeLangToENAction,
   changeLangToHUAction
 } from "../../../actions/change-language-action";
 
 import { openSnackBarError } from "../../../actions/snack-bar-actions";
 import {
-  setLoadingAction,
   unsetLoadingAction
 } from "../../../actions/loading-actions";
 

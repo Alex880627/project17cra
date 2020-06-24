@@ -19,7 +19,7 @@ const GroupSessionsContainer = () => {
   const therapists = useSelector(
     state => state.changeLanguage.language.collagues["therapists"]
   );
-  if (groupSessionStoreData < 1) {
+  if (groupSessionStoreData.length < 1) {
     getGroupSessionDates(dispatch);
   }
   const groupSessionsLocalArray = [...groupSessionStoreData];
