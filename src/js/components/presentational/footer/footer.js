@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../../../data/images/icons/logo-horizontal-big.svg";
 import { useSelector, useDispatch } from "react-redux";
 import { showBugreportAction } from "../../../actions/bugreport-action";
 import "./footer.css";
