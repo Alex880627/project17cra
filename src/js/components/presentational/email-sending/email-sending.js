@@ -87,9 +87,7 @@ const EmailSendingComp = () => {
     isDisabled();
     return e.target.value;
   };
-  console.log(`${process.env.REACT_APP_BASE_URL}/api/uzenetkuldes`);
   
-
   return (
     <>
       <div className="email-section">

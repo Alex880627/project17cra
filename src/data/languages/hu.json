@@ -50,11 +50,7 @@
         "color": "#b5ffd9",
         "techniques": {
           "title": "Alkalmazott technikák",
-          "data": [
-            "McKenzie torna",
-            "FDM",
-            "SMR henger"
-          ]
+          "data": ["McKenzie torna", "FDM", "SMR henger"]
         }
       },
       {
@@ -63,9 +59,9 @@
         "occupation": "Masszőr",
         "phone number": "06 70 615 1519",
         "email": "studio17gyogytorna@gmail.com",
-        "details": ["2016-ban végeztem el a svédmasszőri-, majd a rákövetkező évben a gyógy-és sportmasszőri képzéseket, illetve azóta is folyamatosan tovább képzem magam.",
+        "details": [
+          "2016-ban végeztem el a svédmasszőri-, majd a rákövetkező évben a gyógy-és sportmasszőri képzéseket, illetve azóta is folyamatosan tovább képzem magam.",
           "Egy hosszan elhúzódó mozgásszervi probléma sokak életét megkeserítheti, kortól és nemtől függetlenül. A sportolói teljesítmény növelése, az aktív korú munkavállalók napi szintű stresszkezelése, illetve az idősödő korosztály aktívan töltött éveinek meghosszabbítása egyaránt munkám fontos területeit képezik. A masszázs alkalmazásával - szükség szerint kiegészítő kezelésekkel együtt - eredményesen csökkenthetőek a fájdalmak, ezáltal javul a közérzet, az életminőség. A kedvező hatás minden esetben bizonyított, mind a mozgásszegény és stresszes életmódból fakadó, mind a genetikai eredetű mozgásszervi elváltozások, panaszok esetében. Munkám során kiemelt figyelmet fordítok a személyre szabott kezelésekre, melyek nagymértékben hozzájárulnak a masszázs sikeréhez. Kérem, keressen bizalommal!"
-          
         ],
         "color": "#e67c6c",
         "techniques": {
@@ -174,6 +170,32 @@
             "Kua Lua"
           ]
         }
+      },
+      {
+        "name": "Hetyey Veronika",
+        "nick name": "Veronika",
+        "occupation": "Gyógytornász",
+        "phone number": "06 20 580 1564",
+        "email": "studio17gyogytorna@gmail.com",
+        "details": [
+          "Gyógytornász diplomámat 2017-ben szereztem a Semmelweis Egyetem Egészségtudományi Karán, majd másfél évig mozgássérült gyermekek mindennapos fejlesztésével foglalkoztam. A gyermekek gyógytornáját továbbra is szívügyemnek tekintem, így itt, a Studio17-ben is szeretettel várom őket.",
+          "Jelenleg főleg a gerinccel kapcsolatos kórképek kezelései töltik ki a mindennapjaimat, többek között porckorongsérv vagy megelőző fázisai, akut derékfájás, gerincferdülés prevenciója és rehabilitációja. Nagyon fontosnak tartom a preventív gyógytornát, és a már kialakult panaszok enyhítésében is szívesen nyújtok segítséget.",
+          "Hivatásom, hogy mihamarabb segítsek a hozzám forduló vendégeimnek, tüneteiket csökkenteni tudjam, továbbá olyan megoldást keressek, mellyel hosszú távú eredményt érhetünk el. Ezért is tartom kiemeltem fontosnak a folyamatos fejlődésemet, továbbképzéseken való részvételemet és a gyakorlati tudásom bővítését.",
+          "Elengedhetetlennek tartom, hogy pácienseim értsék, hogy mely terápiát/tornát miért végzünk, így ők is aktív résztvevői legyenek saját gyógyulásuknak."
+        ],
+        "color": "#b5ffd9",
+        "techniques": {
+          "title": "Alkalmazott technikák",
+          "data": [
+            "Kinesio tape",
+            "SMR henger",
+            "Evminov módszer",
+            "McKenzie torna",
+            "FDM",
+            "Állkapocs ízületi kezelés",
+            "Lágyrész manuálterápia"
+          ]
+        }
       }
     ]
   },
@@ -194,7 +216,7 @@
     "group sessions title": "Csoportos gyógytorna",
     "interval": "Időtartam:",
     "login": "Bejelentkezés:",
-    "therapists": ["Panka", "Szilvia"],
+    "therapists": ["Panka", "Veronika"],
     "intervalText": " 45-55 perc",
     "heading": "Hogyan készüljön az órákra?",
     "description": "Kérjük, hogy csoportos óráinkra a pontos kezdés érdekében érkezzen 5-10 perccel korábban, hogy az átöltözésre is maradjon idő. Az alkalmakra kényelmes, szabad mozgást biztosító ruhát javaslunk. Cipőre nincs szükség. Stúdiónkban öltöző, zuhanyzó, törülköző, tusfürdő, vendégpapucs és ivóvíz áll vendégeink rendelkezésére.",
