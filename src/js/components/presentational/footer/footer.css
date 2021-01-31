@@ -86,7 +86,6 @@
           flex-direction: column;
   color: #b3b3b3;
   font-size: 0.9375rem;
-  text-transform: capitalize;
 }
 
 .pre-footer > .navigation a {

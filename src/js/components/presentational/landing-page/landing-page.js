@@ -30,7 +30,7 @@ const LandinPage = props => {
               {landingSentence.coverSentenceLeft}
             </h3>
             <h3 className="right-sentence">
-              {landingSentence.coverSentenceRight}
+              <span className="connect-word">{landingSentence.coverSentenceRight}</span>
               <span>{landingSentence.coverSentenceColored}</span>
             </h3>
           </div>

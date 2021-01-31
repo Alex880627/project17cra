@@ -50,11 +50,7 @@
         "color": "#b5ffd9",
         "techniques": {
           "title": "Alkalmazott technikák",
-          "data": [
-            "McKenzie torna",
-            "FDM",
-            "SMR henger"
-          ]
+          "data": ["McKenzie torna", "FDM", "SMR henger"]
         }
       },
       {
@@ -63,9 +59,9 @@
         "occupation": "Masszőr",
         "phone number": "06 70 615 1519",
         "email": "studio17gyogytorna@gmail.com",
-        "details": ["2016-ban végeztem el a svédmasszőri-, majd a rákövetkező évben a gyógy-és sportmasszőri képzéseket, illetve azóta is folyamatosan tovább képzem magam.",
+        "details": [
+          "2016-ban végeztem el a svédmasszőri-, majd a rákövetkező évben a gyógy-és sportmasszőri képzéseket, illetve azóta is folyamatosan tovább képzem magam.",
           "Egy hosszan elhúzódó mozgásszervi probléma sokak életét megkeserítheti, kortól és nemtől függetlenül. A sportolói teljesítmény növelése, az aktív korú munkavállalók napi szintű stresszkezelése, illetve az idősödő korosztály aktívan töltött éveinek meghosszabbítása egyaránt munkám fontos területeit képezik. A masszázs alkalmazásával - szükség szerint kiegészítő kezelésekkel együtt - eredményesen csökkenthetőek a fájdalmak, ezáltal javul a közérzet, az életminőség. A kedvező hatás minden esetben bizonyított, mind a mozgásszegény és stresszes életmódból fakadó, mind a genetikai eredetű mozgásszervi elváltozások, panaszok esetében. Munkám során kiemelt figyelmet fordítok a személyre szabott kezelésekre, melyek nagymértékben hozzájárulnak a masszázs sikeréhez. Kérem, keressen bizalommal!"
-          
         ],
         "color": "#e67c6c",
         "techniques": {
@@ -78,7 +74,8 @@
             "Derék- és nyakprotokoll",
             "Flossing terápia",
             "Köpölyözés",
-            "Gua Sha kezelés"
+            "Gua Sha kezelés",
+            "Lágylézer"
           ]
         }
       },
@@ -153,7 +150,7 @@
         "name": "Veress Livienne",
         "nick name": "Livienne",
         "occupation": "Masszőr",
-        "phone number": "06 30 196 6193",
+        "phone number": "06 30 409 1174",
         "email": "studio17gyogytorna@gmail.com",
         "details": [
           "Gyógymasszőri tanulmányaimat Hawaiin végeztem, ahol egy helyi sámántól ősi polinéz gyógymódokat is tanultam (így például a Lomi Lomi masszázst), így egyszerre nyerhettem betekintést a modern és az ősi rehabilitációs technikák rejtelmeibe. Holisztikus szemlélettel dolgozom: vallom, hogy az emberi testet komplex egészként érdemes kezelni, ahol minden mindennel összefügg. Testünk káprázatos dolgokra képes, ha megfelelően támogatjuk és törődünk vele. Kezeléseimet minden esetben személyre szabva, a páciens aktuális állapotát figyelembe véve, több technikát vegyítve állítom össze."
@@ -171,6 +168,32 @@
             "Streching",
             "Neuromuszkuláris technika",
             "Kua Lua"
+          ]
+        }
+      },
+      {
+        "name": "Hetyey Veronika",
+        "nick name": "Veronika",
+        "occupation": "Gyógytornász",
+        "phone number": "06 20 580 1564",
+        "email": "studio17gyogytorna@gmail.com",
+        "details": [
+          "Gyógytornász diplomámat 2017-ben szereztem a Semmelweis Egyetem Egészségtudományi Karán, majd másfél évig mozgássérült gyermekek mindennapos fejlesztésével foglalkoztam. A gyermekek gyógytornáját továbbra is szívügyemnek tekintem, így itt, a Studio17-ben is szeretettel várom őket.",
+          "Jelenleg főleg a gerinccel kapcsolatos kórképek kezelései töltik ki a mindennapjaimat, többek között porckorongsérv vagy megelőző fázisai, akut derékfájás, gerincferdülés prevenciója és rehabilitációja. Nagyon fontosnak tartom a preventív gyógytornát, és a már kialakult panaszok enyhítésében is szívesen nyújtok segítséget.",
+          "Hivatásom, hogy mihamarabb segítsek a hozzám forduló vendégeimnek, tüneteiket csökkenteni tudjam, továbbá olyan megoldást keressek, mellyel hosszú távú eredményt érhetünk el. Ezért is tartom kiemeltem fontosnak a folyamatos fejlődésemet, továbbképzéseken való részvételemet és a gyakorlati tudásom bővítését.",
+          "Elengedhetetlennek tartom, hogy pácienseim értsék, hogy mely terápiát/tornát miért végzünk, így ők is aktív résztvevői legyenek saját gyógyulásuknak."
+        ],
+        "color": "#b5ffd9",
+        "techniques": {
+          "title": "Alkalmazott technikák",
+          "data": [
+            "Kinesio tape",
+            "SMR henger",
+            "Evminov módszer",
+            "McKenzie torna",
+            "FDM",
+            "Állkapocs ízületi kezelés",
+            "Lágyrész manuálterápia"
           ]
         }
       }
@@ -193,7 +216,7 @@
     "group sessions title": "Csoportos gyógytorna",
     "interval": "Időtartam:",
     "login": "Bejelentkezés:",
-    "therapists": ["Panka", "Szilvia"],
+    "therapists": ["Panka", "Veronika"],
     "intervalText": " 45-55 perc",
     "heading": "Hogyan készüljön az órákra?",
     "description": "Kérjük, hogy csoportos óráinkra a pontos kezdés érdekében érkezzen 5-10 perccel korábban, hogy az átöltözésre is maradjon idő. Az alkalmakra kényelmes, szabad mozgást biztosító ruhát javaslunk. Cipőre nincs szükség. Stúdiónkban öltöző, zuhanyzó, törülköző, tusfürdő, vendégpapucs és ivóvíz áll vendégeink rendelkezésére.",
@@ -230,7 +253,7 @@
       },
       {
         "name": "Masszázs",
-        "price": "8000-10 000 Ft",
+        "price": "9000-10 000 Ft",
         "description": "Stúdiónkban számos típusú masszázs elérhető, legyen szó a napi szintű stresszkezelésről, a sportolói teljesítmény növeléséről, vagy a prevencióról. 30 perces alkalom is foglalható (4000-5000 Ft).",
         "duration": "55 perc"
       },
@@ -304,7 +327,7 @@
         "description": [
           "A kinesio tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel a szalag anyaga nem tartalmaz gyógyszert, a mellékhatásoktól sem kell tartani. A tape víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
         ],
-        "therapist": ["Panka", "Szilvi", "Eszter", "Endre", "Szilvia"]
+        "therapist": ["Panka", "Eszter", "Endre", "Szilvia"]
       },
       {
         "title": "Funkcionális gyógytorna",
@@ -319,7 +342,7 @@
         "description": [
           "Az FDM módszer egy új, különösen hatékony mozgásterápiás eljárás, melyet ma már világszerte egyre szélesebb körben alkalmaznak. Az FDM elismerten a leggyorsabban terjedő fájdalomcsillapító terápia: szinte azonnal jelentkező pozitív hatása ízületi, izom és szervi problémákra is megoldást jelenthet."
         ],
-        "therapist": ["Szilvi", "Eszter", "Endre", "Zsuzsanna", "Panka"]
+        "therapist": ["Szilvi", "Endre", "Zsuzsanna", "Panka"]
       },
       {
         "title": "Állkapocs ízületi kezelés",
@@ -340,7 +363,7 @@
         "description": [
           "A terápia célja az idegi eredetű fájdalom csillapítása. A kezelés során speciális fogásokkal szabadítjuk fel a letapadt, becsípődött, vagy nyomás alá került végtagi idegeket. Ez a módszer jól alkalmazható végtag zsibbadás, éjszakai izomgörcsök, vagy a végtagokban érzett gyengeség, diszkomfort megszüntetésére."
         ],
-        "therapist": ["Szilvi", "Panka"]
+        "therapist": ["Panka"]
       },
       {
         "title": "SI-kezelés",
@@ -352,7 +375,7 @@
       {
         "title": "Lomi Lomi",
         "description": [
-          "Ez az ősi polinéz gyógymód nem puszta masszázs: központjában a teljes test kezelése áll. A Lomi Lomi titkos technikáját a régi korokban csak a kiválasztottak sajátíthatták el, hogy így gyógyítsák a falu népét, vagy harcosaikat kísérjék a háborúba. A hawaiiak szerint a befogadót nem helyrehozni kell, hanem végigkísérni a testi-lelki gyógyulás ösvényén. A Lomi Lomi egy csodálatos belső utazás: a különböző testtájak egyidejű kezelésének, az elfogadó, szerető érintésnek és az egyénre szabott terápiának köszönhetően még a legfeszültebbek is képesek ellazulni."
+          "Ez az ősi polinéz gyógymód nem puszta masszázs: központjában a teljes test kezelése áll. A Lomi Lomi titkos technikáját a régi korokban csak a kiválasztottak sajátíthatták el, hogy így gyógyítsák a falu népét, vagy harcosaikat kísérjék a háborúba. A hawaiiak szerint a befogadót nem helyrehozni kell, hanem végigkísérni a testi-lelki gyógyulás ösvényén. A Lomi Lomi egy csodálatos belső utazás: a különböző testtájak egyidejű kezelésének, az elfogadó, szerető érintésnek és az egyénre szabott terápiának köszönhetően még a legfeszültebbek is képesek ellazulni. Időtartama 1,5-2 óra, ára 22000Ft."
         ],
         "therapist": ["Livienne"]
       },
@@ -369,7 +392,7 @@
         "description": [
           "A kínai orvoslás elismert reflexológiai kezelése szó szerint annyit tesz, hogy „minden rossz kikaparása”. A kezelés hagyományosan egy csontból vagy kőből készült lemezzel történik; a kezelt testrészeken megjelenő bőrirritáció pontos diagnózist nyújt az egyes, helytelenül működő belső szervekről."
         ],
-        "therapist": ["Zsuzsanna"]
+        "therapist": ["Zsuzsanna", "Livienne"]
       },
       {
         "title": "Kiscsoportos gerinctorna",
@@ -394,8 +417,8 @@
   },
   "upButton": ".fel",
   "landingSentence": {
-    "coverSentenceLeft": "Nincs több fájdalom, \b",
-    "coverSentenceRight": "csak ",
+    "coverSentenceLeft": "Nincs több fájdalom, ",
+    "coverSentenceRight": " csak ",
     "coverSentenceColored": "szabad mozgás!",
     "coverDescription": "Gyógytorna és masszázs az V. kerület szívében. Megelőzés, fájdalomcsökkentés és rehabilitáció egy helyen."
   },
@@ -426,7 +449,7 @@
       "description": [
         "Kézi lágylézer készülékünk nagyszerű kiegészítése egyéb terápiáinknak. Hatékonyan és kíméletesen csökkenti a fájdalmat és a gyulladást, legyen szó sportsérülésről vagy ízületi bántalmakról. A lágylézer gyorsítja a sebgyógyulást és az egészséges hegképződést."
       ],
-      "therapist": ["Panka", "Szilvia"]
+      "therapist": ["Panka", "Szilvia", "Zsuzsanna"]
     },
     {
       "title": "Kua Lua",
@@ -488,14 +511,14 @@
       "title": "Evminov módszer",
       "description": [
         "Az Evminov módszer egy speciálisan kifejlesztett ortopédiai segédeszköz, az Evminov Profilaktor használatán alapszik. A terápia hatékony segítséget nyújt a helytelen testtartás, a gerincferdülés, a porckorongsérv és egyéb gerincbetegségek megelőzésében és enyhítésében.",
-        "A profilaktor egy fából készült, különleges technológiával előállított gerinc-rehabilitációs eszköz, mely megkönnyíti a gerincet érintő problémák helyreállítását, és az esetleges műtét utáni rehabilitációt. Az Evminov padon, megnyújtott testhelyzetben végzett izomerősítő gyakorlatok hatékonyan és gyorsan csökkentik a porckorong problémák miatt kialakult fájdalmakat. Az Evminov torna a finoman adagolt nyújtásra, tehermentesítésre és a gerinc melletti mélyizmok erősítésére épül. A gyakorlatok jótékony hatása a padról leszállva, a nyújtott helyzet megszűnése után is tart."
+        "Az Evminov padon, megnyújtott testhelyzetben végzett izomerősítő gyakorlatok hatékonyan és gyorsan csökkentik a porckorong problémák miatt kialakult fájdalmakat. Az Evminov torna a finoman adagolt nyújtásra, tehermentesítésre és a gerinc melletti mélyizmok erősítésére épül."
       ],
       "therapist": ["Szilvia", "Panka", "Endre", "Zsuzsanna"]
     },
     {
       "title": "Schroth terápia",
       "description": [
-        "A gyermekkori gerincferdülés (scoliosis) és a Scheuermann kór kezelésére kialakított módszer rendkívül hatékonyan enyhíti a gerinc kóros görbületének fokozódását és a kialakult – vagy kialakulóban lévő – izomdiszbalanszokat. A terápia ötvözi a különböző testhelyzeketben végzett korrekciós légzést, aktív nyújtózást és izomerősítést. Komoly koncentrációt igénylő torna, mely otthoni gyakorlást is megkíván, ezért kisgyermekkorban eleinte játékkal kevert gyakorlatokkal haladunk. A gyermekkorban kialakult gerincferdülés felnőttkorban is okozhat fájdalmat, így a Schroth terápia nem kizárólag gyerekeknek hasznos."
+        "A gyermekkori gerincferdülés (scoliosis) és a Scheuermann kór kezelésére kialakított módszer rendkívül hatékonyan enyhíti a gerinc kóros görbületének fokozódását és a kialakult – vagy kialakulóban lévő – izomdiszbalanszokat. A terápia ötvözi a különböző testhelyzeketben végzett korrekciós légzést, aktív nyújtózást és izomerősítést."
       ],
       "therapist": ["Panka", "Szilvia"]
     },
@@ -509,9 +532,9 @@
     {
       "title": "Kinesio tape",
       "description": [
-        "A kinesio tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel a szalag anyaga nem tartalmaz gyógyszert, a mellékhatásoktól sem kell tartani. A tape víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
+        "A kinesio tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is."
       ],
-      "therapist": ["Panka", "Szilvi", "Eszter", "Endre", "Szilvia"]
+      "therapist": ["Panka", "Eszter", "Endre", "Szilvia"]
     },
     {
       "title": "Funkcionális gyógytorna",
@@ -526,12 +549,12 @@
       "description": [
         "Az FDM módszer egy új, különösen hatékony mozgásterápiás eljárás, melyet ma már világszerte egyre szélesebb körben alkalmaznak. Az FDM elismerten a leggyorsabban terjedő fájdalomcsillapító terápia: szinte azonnal jelentkező pozitív hatása ízületi, izom és szervi problémákra is megoldást jelenthet."
       ],
-      "therapist": ["Szilvi", "Eszter", "Endre", "Zsuzsanna", "Panka"]
+      "therapist": ["Szilvi", "Endre", "Zsuzsanna", "Panka"]
     },
     {
       "title": "Állkapocs ízületi kezelés",
       "description": [
-        "Az állkapcsunk az egyik legtöbbet dolgoztatott ízületünk. Megbetegedése akár olyan problémák hátterében is állhat, mint a fülzúgás, fejfájás, szédülés, nyaki és vállövi fájdalom. A kezelés során kiemelt szerepe van a tartásjavító gyakorlatoknak, a váll-nyak területén végzett izomlazító fogásoknak. Magát az állkapocs ízületet manuálisan mobilizáljuk, a körülötte lévő szöveti feszüléseket nyomásos technikával oldjuk. A terápiával javul az állkapocs ízület mozgástartománya, a testartás, csökken a lokális és a kisugárzó fájdalom, és helyreáll a rágóízület izomegyensúlya."
+        "Az állkapcsunk az egyik legtöbbet dolgoztatott ízületünk. Megbetegedése akár olyan problémák hátterében is állhat, mint a fülzúgás, fejfájás, szédülés, nyaki és vállövi fájdalom. A kezelés során kiemelt szerepe van a tartásjavító gyakorlatoknak, a váll-nyak területén végzett izomlazító fogásoknak. Magát az állkapocs ízületet manuálisan mobilizáljuk, a körülötte lévő szöveti feszüléseket nyomásos technikával oldjuk."
       ],
       "therapist": ["Eszter"]
     },
@@ -547,7 +570,7 @@
       "description": [
         "A terápia célja az idegi eredetű fájdalom csillapítása. A kezelés során speciális fogásokkal szabadítjuk fel a letapadt, becsípődött, vagy nyomás alá került végtagi idegeket. Ez a módszer jól alkalmazható végtag zsibbadás, éjszakai izomgörcsök, vagy a végtagokban érzett gyengeség, diszkomfort megszüntetésére."
       ],
-      "therapist": ["Szilvi", "Panka"]
+      "therapist": ["Panka"]
     },
     {
       "title": "SI-kezelés",
@@ -559,7 +582,7 @@
     {
       "title": "Lomi Lomi",
       "description": [
-        "Ez az ősi polinéz gyógymód nem puszta masszázs: központjában a teljes test kezelése áll. A Lomi Lomi titkos technikáját a régi korokban csak a kiválasztottak sajátíthatták el, hogy így gyógyítsák a falu népét, vagy harcosaikat kísérjék a háborúba. A hawaiiak szerint a befogadót nem helyrehozni kell, hanem végigkísérni a testi-lelki gyógyulás ösvényén. A Lomi Lomi egy csodálatos belső utazás: a különböző testtájak egyidejű kezelésének, az elfogadó, szerető érintésnek és az egyénre szabott terápiának köszönhetően még a legfeszültebbek is képesek ellazulni."
+        "A Lomi Lomi egy csodálatos belső utazás: a különböző testtájak egyidejű kezelésének, az elfogadó, szerető érintésnek és az egyénre szabott terápiának köszönhetően még a legfeszültebbek is képesek ellazulni."
       ],
       "therapist": ["Livienne"]
     },
@@ -576,7 +599,7 @@
       "description": [
         "A kínai orvoslás elismert reflexológiai kezelése szó szerint annyit tesz, hogy „minden rossz kikaparása”. A kezelés hagyományosan egy csontból vagy kőből készült lemezzel történik; a kezelt testrészeken megjelenő bőrirritáció pontos diagnózist nyújt az egyes, helytelenül működő belső szervekről."
       ],
-      "therapist": ["Zsuzsanna"]
+      "therapist": ["Zsuzsanna", "Livienne"]
     },
     {
       "title": "Kiscsoportos gerinctorna",
@@ -588,7 +611,7 @@
     {
       "title": "Tao Yin",
       "description": [
-        "Ősi kínai terápiás mozgás, melyet az egészség megőrzésére, az öngyógyítás elősegítésére és a lelki egyensúly megtalálására fejlesztetek ki évszázadokon át. A lágy mozgások közben a testünkben növekszik az életenergia, és testi-lelki harmónia jön létre. A gyakorlatok során az egyenletes, mély légzésekkel a tudatunkat fejlesztjük, miközben - kihasználva testünk teljes mozgástartományát - a fizikai rugalmasságunkat is növeljük."
+        "Ősi kínai terápiás mozgás, melyet az egészség megőrzésére, az öngyógyítás elősegítésére és a lelki egyensúly megtalálására fejlesztetek ki. A lágy mozgások közben a testünkben növekszik az életenergia, és testi-lelki harmónia jön létre. A gyakorlatok során az egyenletes, mély légzésekkel a tudatunkat fejlesztjük, miközben a fizikai rugalmasságunkat is növeljük."
       ],
       "therapist": ["Szilvia"]
     }
