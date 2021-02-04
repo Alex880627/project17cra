@@ -77,7 +77,8 @@ const TreatementDropdown = ({ element }) => {
           {treatments["provider sentence"]}
         </p>
         <div className="therapist-details-list">
-          {element.therapist.map(therapist => {
+          {
+          element.therapist.map(therapist => {
             return (
               <p
                 key={therapist}
