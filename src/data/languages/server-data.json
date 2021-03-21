@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "_id": "5de2c52587a9a436bf5b1328",
+      "day": "tuesday",
+      "hour": "7:30",
+      "type": "Evminov",
+      "therapist": "Panka"
+    },
+    {
+      "_id": "5de2c52d87a9a436bf5b1329",
+      "day": "tuesday",
+      "hour": "13:00",
+      "type": "Evminov",
+      "therapist": "Panka"
+    },
+    {
+      "_id": "5de2c53687a9a436bf5b132a",
+      "day": "tuesday",
+      "hour": "17:00",
+      "type": "Evminov",
+      "therapist": "Panka"
+    },
+    {
+      "_id": "5de2c55587a9a436bf5b132d",
+      "day": "thursday",
+      "hour": "7:30",
+      "type": "Evminov",
+      "therapist": "Panka"
+    },
+    {
+      "_id": "5de2c55e87a9a436bf5b132e",
+      "day": "thursday",
+      "hour": "17:00",
+      "type": "Evminov",
+      "therapist": "Panka"
+    },
+    {
+      "_id": "5ffcb1fa5e387c692e161841",
+      "day": "monday",
+      "hour": "17:00",
+      "type": "Gerinctorna",
+      "therapist": "Veronika"
+    },
+    {
+      "_id": "5ffcb21b5e387c692e161842",
+      "day": "monday",
+      "hour": "18:00",
+      "type": "Evminov",
+      "therapist": "Veronika"
+    },
+    {
+      "_id": "5ffcb2255e387c692e161843",
+      "day": "wednesday",
+      "hour": "18:00",
+      "type": "Evminov",
+      "therapist": "Veronika"
+    }
+  ]
+}

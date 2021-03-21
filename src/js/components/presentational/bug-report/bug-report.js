@@ -114,7 +114,6 @@ const BugreportComp = () => {
             margin="dense"
             variant="filled"
             name="message"
-            name="description"
             type="text"
             required
             multiline
