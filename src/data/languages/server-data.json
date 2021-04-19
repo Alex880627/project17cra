@@ -2,38 +2,24 @@
   "data": [
     {
       "_id": "5de2c52587a9a436bf5b1328",
-      "day": "tuesday",
-      "hour": "7:30",
+      "day": "wednesday",
+      "hour": "11:00",
       "type": "Evminov",
-      "therapist": "Panka"
-    },
-    {
-      "_id": "5de2c52d87a9a436bf5b1329",
-      "day": "tuesday",
-      "hour": "13:00",
-      "type": "Evminov",
-      "therapist": "Panka"
+      "therapist": "Veronika"
     },
     {
       "_id": "5de2c53687a9a436bf5b132a",
       "day": "tuesday",
       "hour": "17:00",
       "type": "Evminov",
-      "therapist": "Panka"
+      "therapist": "Szilvia"
     },
     {
       "_id": "5de2c55587a9a436bf5b132d",
       "day": "thursday",
       "hour": "7:30",
       "type": "Evminov",
-      "therapist": "Panka"
-    },
-    {
-      "_id": "5de2c55e87a9a436bf5b132e",
-      "day": "thursday",
-      "hour": "17:00",
-      "type": "Evminov",
-      "therapist": "Panka"
+      "therapist": "Szilvia"
     },
     {
       "_id": "5ffcb1fa5e387c692e161841",

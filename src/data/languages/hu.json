@@ -219,7 +219,7 @@
     "group sessions title": "Csoportos gyógytorna",
     "interval": "Időtartam:",
     "login": "Bejelentkezés:",
-    "therapists": ["Panka", "Veronika"],
+    "therapists": ["Szilvia", "Veronika"],
     "intervalText": " 45-55 perc",
     "heading": "Hogyan készüljön az órákra?",
     "description": "Kérjük, hogy csoportos óráinkra a pontos kezdés érdekében érkezzen 5-10 perccel korábban, hogy az átöltözésre is maradjon idő. Az alkalmakra kényelmes, szabad mozgást biztosító ruhát javaslunk. Cipőre nincs szükség. Stúdiónkban öltöző, zuhanyzó, törülköző, tusfürdő, vendégpapucs és ivóvíz áll vendégeink rendelkezésére.",
@@ -227,7 +227,7 @@
     "buttonTextRight": "Nézzen körül nálunk!",
     "resignation": "Lemondás:",
     "types": "Kiscsoportos óráink (4-6 fő):",
-    "types sentence": "Evminov csoporttorna, Gerinctorna, Tao Yin, Pilates",
+    "types sentence": "Evminov csoporttorna, Gerinctorna.",
     "resignationText": " A részvétel 12 órával a torna kezdete előtt telefonon lemondható. Ennél közelebbi órakezdés esetén a részvételi díj 50%-át felszámítjuk.",
     "days": {
       "monday": "Hétfő",
