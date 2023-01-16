@@ -127,55 +127,6 @@
         }
       },
       {
-        "name": "Andorka Eszter",
-        "nick name": "Eszter",
-        "occupation": "Diplomás Gyógytornász",
-        "school": "(Semmelweis Egyetem)",
-        "phone number": "06 30 196 6193",
-        "email": "studio17gyogytorna@gmail.com",
-        "details": [
-          "A testmozgás iránti kíváncsiságom gyermekkorom óta az életem része: 10 éven keresztül hivatásszerűen táncoltam, míg végül amellett döntöttem, hogy mélyebben megismerkedem az emberi test működésével.",
-          "Kórházi munkám során főként degeneratív és gyulladásos eredetű mozgásszervi problémákkal küzdő páciensekkel találkozom. Gerincproblémákkal, csípő-, térd-, és bokaízületi panaszokkal foglalkozom, illetve különös gondot fordítok a nyaki eredetű gerincproblémákkal és az állkapocs ízületi gondokkal járó tünetek enyhítésére. Munkám fontos része a prevenció, külön figyelmet szentelek az ergonómiai szempontok átbeszélésére is.",
-          "Az óráimon igyekszem olyan barátságos hangulatot kialakítani, mely során a pácienseimet legjobb szakmai tudásomnak megfelelően, egyénre szabottan célzott terápiában részesítem. Célom, hogy a gyógytorna után újra megtapasztalhassák a mozgás szabadságának örömét."
-        ],
-        "color": "#b5ffd9",
-        "techniques": {
-          "title": "Alkalmazott technikák",
-          "data": [
-            "McKenzie torna",
-            "SMR henger",
-            "Kinesio tape",
-            "Állkapocs ízületi kezelés",
-            "Lágyrész manuálterápia"
-          ]
-        }
-      },
-      {
-        "name": "Veress Livienne",
-        "nick name": "Livienne",
-        "occupation": "Masszőr",
-        "phone number": "06 30 409 1174",
-        "email": "studio17gyogytorna@gmail.com",
-        "details": [
-          "Gyógymasszőri tanulmányaimat Hawaiin végeztem, ahol egy helyi sámántól ősi polinéz gyógymódokat is tanultam (így például a Lomi Lomi masszázst), így egyszerre nyerhettem betekintést a modern és az ősi rehabilitációs technikák rejtelmeibe. Holisztikus szemlélettel dolgozom: vallom, hogy az emberi testet komplex egészként érdemes kezelni, ahol minden mindennel összefügg. Testünk káprázatos dolgokra képes, ha megfelelően támogatjuk és törődünk vele. Kezeléseimet minden esetben személyre szabva, a páciens aktuális állapotát figyelembe véve, több technikát vegyítve állítom össze."
-        ],
-        "color": "#b5ffd9",
-        "techniques": {
-          "title": "Alkalmazott technikák",
-          "data": [
-            "Mélyszöveti masszázs",
-            "Sportmasszázs",
-            "Svédmasszázs",
-            "Lomi Lomi",
-            "Köpölyözés",
-            "Gua Sha masszázs",
-            "Streching",
-            "Neuromuszkuláris technika",
-            "Kua Lua"
-          ]
-        }
-      },
-      {
         "name": "Hetyey Veronika",
         "nick name": "Veronika",
         "occupation": "Gyógytornász",
@@ -244,27 +195,27 @@
     "treatments": [
       {
         "name": "Állapotfelmérés",
-        "price": "10 000 Ft",
+        "price": "12 000 / 15 000 Ft",
         "description": "A legelső kezelési alkalom egy egyórás általános állapotfelmérés egy közös kezelési terv kialakításához.",
-        "duration": "55 perc"
+        "duration": "60 perc / 90 perc"
       },
       {
         "name": "Egyéni gyógytorna",
-        "price": "8000 Ft",
-        "description": "A személyre szabott gyógytorna a fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája. 30 perces alkalom is foglalható (4000 Ft).",
+        "price": "10 000 Ft",
+        "description": "A személyre szabott gyógytorna a fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája.",
         "duration": "55 perc"
       },
       {
         "name": "Masszázs",
-        "price": "9000-10 000 Ft",
-        "description": "Stúdiónkban számos típusú masszázs elérhető, legyen szó a napi szintű stresszkezelésről, a sportolói teljesítmény növeléséről, vagy a prevencióról. 30 perces alkalom is foglalható (4000-5000 Ft).",
+        "price": "10 000 Ft",
+        "description": "Stúdiónkban számos típusú masszázs elérhető, legyen szó a napi szintű stresszkezelésről, a sportolói teljesítmény növeléséről, vagy a prevencióról.",
         "duration": "55 perc"
       },
       {
         "name": "Csoportos gyógytorna",
-        "price": "2500 Ft",
+        "price": "3000 / 14000 / 28000 Ft",
         "description": "Csoportos Evminov- és gerinctornáink ideális megoldást jelenthetnek az egésznapos ülőmunkát végzőknek. Kortól függetlenül kikapcsolnak, átmozgatnak.",
-        "duration": "55 perc"
+        "duration": "55 perc / 5 alkalom / 10 alkalom"
       }
     ]
   },
@@ -299,7 +250,7 @@
           "Minden kezelésünk során a legelső alkalom egy általános állapotfelmérés, melyen a terapeuta részletesen kikérdezi Önt egészségügyi állapotáról. Kérjük mindenképpen hozza magával orvosi dokumentációját, illetve (amennyiben van) MR vagy CT felvételeit is!",
           "A vizsgálat egy órát vesz igénybe, és fehérneműben történik. Az állapotfelmérés a teljes test pontos megfigyelése, vizsgálata miatt elengedhetetlen. A felmérés során a terapeuta folyamatosan tájékoztatást ad a talált elváltozásokról, a lehetséges problémákról és azok okaikról, illetve a különböző kezelési lehetőségekről. A mozgásvizsgálat és a speciális tesztek után a cél egy közös kezelési terv kialakítása, kezdve a rövidtávú célkitűzések meghatározásával."
         ],
-        "therapist": ["Panka", "Eszter", "Szilvia", "Tamara", "Veronika"]
+        "therapist": ["Panka", "Szilvia", "Tamara", "Veronika"]
       },
       {
         "title": "Evminov gerinc-rehabilitáció",
@@ -323,7 +274,7 @@
         "description": [
           "A McKenzie módszer egy biomechanikailag, élettanilag és anatómiailag is alátámasztott terápia, melyet mindig a páciensek aktív közreműködésével alkalmazunk. A torna során a beteg saját maga képes befolyásolni a kialakuló fájdalmat, aminek segítségével bizonyos idő után terapeutától függetlenül is kezelni tudja a panaszait."
         ],
-        "therapist": ["Eszter", "Szilvia", "Veronika"]
+        "therapist": [ "Szilvia", "Veronika"]
       },
       {
         "title": "Kinesio tape ragasztás",
@@ -332,7 +283,6 @@
         ],
         "therapist": [
           "Panka",
-          "Eszter",
           "Endre",
           "Szilvia",
           "Veronika",
@@ -345,7 +295,7 @@
           "Egy komolyabb sérülés, egy műtét, vagy egyes, hosszabb ideje jelen lévő fájdalmak és problémák jelentős mértékben befolyásolják az életünk és a testünk minőségét. Ilyenkor sérülnek a velünk született mozgásminták is, melyek helyreállítása alapvető fontosságú. A rehabilitációhoz minden ilyen esetben funkcionális, egyénre szabott gyógytorna szükséges.",
           "A személyre szabott kezelés előnye, hogy a magánóra keretei között a gyógytornász fókuszált figyelmet fordíthat a betegre. A fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája minden esetben az egyéni gyógytorna. Ülő- vagy megterhelő fizikai munka esetén, alak- és egészségmegőrzési célból, az ízületek és izmok mozgékonyságának fenntartására, esetleg bármilyen későbbi probléma megelőzésére szintén javasolt egyéni kezelést foglalni."
         ],
-        "therapist": ["Szilvia", "Panka", "Eszter", "Tamara", "Veronika"]
+        "therapist": ["Szilvia", "Panka", "Tamara", "Veronika"]
       },
       {
         "title": "Fascia Disztorziós Modell",
@@ -353,20 +303,6 @@
           "Az FDM módszer egy új, különösen hatékony mozgásterápiás eljárás, melyet ma már világszerte egyre szélesebb körben alkalmaznak. Az FDM elismerten a leggyorsabban terjedő fájdalomcsillapító terápia: szinte azonnal jelentkező pozitív hatása ízületi, izom és szervi problémákra is megoldást jelenthet."
         ],
         "therapist": ["Endre", "Zsuzsanna", "Panka", "Veronika"]
-      },
-      {
-        "title": "Állkapocs ízületi kezelés",
-        "description": [
-          "Az állkapcsunk az egyik legtöbbet dolgoztatott ízületünk. Megbetegedése akár olyan problémák hátterében is állhat, mint a fülzúgás, fejfájás, szédülés, nyaki és vállövi fájdalom. A kezelés során kiemelt szerepe van a tartásjavító gyakorlatoknak, a váll-nyak területén végzett izomlazító fogásoknak. Magát az állkapocs ízületet manuálisan mobilizáljuk, a körülötte lévő szöveti feszüléseket nyomásos technikával oldjuk. A terápiával javul az állkapocs ízület mozgástartománya, a testartás, csökken a lokális és a kisugárzó fájdalom, és helyreáll a rágóízület izomegyensúlya."
-        ],
-        "therapist": ["Eszter"]
-      },
-      {
-        "title": "Lágyrész manuálterápia",
-        "description": [
-          "A lágyrész manuálterápia vagy mobilizáció célja a kötőszövet és az izom összetapadásainak, zsugorodásának, vagy megnyúlásásnak helyreállítása. Gondos állapotfelmérés után a szükséges terület kezelése manuális fogásokkal, többek közt a triggerpontok oldásával történik."
-        ],
-        "therapist": ["Eszter"]
       },
       {
         "title": "Perifériás idegmobilizáció",
@@ -390,13 +326,6 @@
         "therapist": ["Zsuzsanna"]
       },
       {
-        "title": "Lomi Lomi",
-        "description": [
-          "Ez az ősi polinéz gyógymód nem puszta masszázs: központjában a teljes test kezelése áll. A Lomi Lomi titkos technikáját a régi korokban csak a kiválasztottak sajátíthatták el, hogy így gyógyítsák a falu népét, vagy harcosaikat kísérjék a háborúba. A hawaiiak szerint a befogadót nem helyrehozni kell, hanem végigkísérni a testi-lelki gyógyulás ösvényén. A Lomi Lomi egy csodálatos belső utazás: a különböző testtájak egyidejű kezelésének, az elfogadó, szerető érintésnek és az egyénre szabott terápiának köszönhetően még a legfeszültebbek is képesek ellazulni. Időtartama 1,5-2 óra, ára 22000Ft."
-        ],
-        "therapist": ["Livienne"]
-      },
-      {
         "title": "Derék- és nyakprotokoll",
         "description": [
           "A mozgásszervi problémák kezelésére összeállított „protokoll” eljárások ötvözik a modern nyugati oszteopátia és a hagyományos kínai manuálterápia módszereit. A meghatározott sorrendben végzett lazító és nyújtó fogások, a kineziológiai tapasz, illetve a fülakupunktúra együttes alkalmazása gyors és eredményes gyógyulást biztosít.",
@@ -409,7 +338,7 @@
         "description": [
           "A kínai orvoslás elismert reflexológiai kezelése szó szerint annyit tesz, hogy „minden rossz kikaparása”. A kezelés hagyományosan egy csontból vagy kőből készült lemezzel történik; a kezelt testrészeken megjelenő bőrirritáció pontos diagnózist nyújt az egyes, helytelenül működő belső szervekről."
         ],
-        "therapist": ["Zsuzsanna", "Livienne"]
+        "therapist": ["Zsuzsanna"]
       },
       {
         "title": "Kiscsoportos gerinctorna",
@@ -452,14 +381,14 @@
       "description": [
         "A kínai orvoslásban a köpölyözés a test energia-áramlását (azaz a csí áramlását) befolyásolja: a terápiát blokkolt vagy stagnáló áramlás újraindítására alkalmazzák. A nyugati szakemberek az izmok kezelésére és a véráram felpezsdítésére használják a köpölyözést."
       ],
-      "therapist": ["Zsuzsanna", "Livienne", "Endre"]
+      "therapist": ["Zsuzsanna", "Endre"]
     },
     {
       "title": "SMR henger",
       "description": [
         "Az SMR vagy masszázs henger gyakori használata segíti az izmok egészséges működését, megelőzi a sportsérüléseket, illetve támogatja a problémamentes mozgás visszaszerzését és megtartását. Megfelelően használva a henger az adott izmot körülvevő hártyákat masszírozza át: az izom ellazul, visszanyeri a normális tónusát, és megszűnnek a fájdalmas izomcsomók, feszülések."
       ],
-      "therapist": ["Eszter", "Veronika"]
+      "therapist": ["Veronika"]
     },
     {
       "title": "Lágylézer",
@@ -469,53 +398,18 @@
       "therapist": ["Panka", "Szilvia", "Zsuzsanna"]
     },
     {
-      "title": "Kua Lua",
-      "description": [
-        "A Kua Lua a hawaii Lomi Lomi masszázs egyik eleme, mely a háton való lépegetéssel, illetve nyomáspontok használatával lazítja az izmokat. Az intenzív Kua Lua különösen az erősebb masszázstechnikák kedvelőinek ajánlott. A kezelés korrigálja a testtartást, csillapítja az esetleges izomfájdalmakat, javítja a közérzetet és visszaállítja az egészséges áramlást. A Kua Lua önálló masszázsként is igénybe vehető, de az egész testes Lomi Lomi masszázs integrált részeként is kérhető."
-      ],
-      "therapist": ["Livienne"]
-    },
-    {
-      "title": "Neuromuszkuláris technika",
-      "description": [
-        "Lágyrész kezelési módszer, mely alkalmas az izomlazításra, feszes vagy rövidült izmok nyújtására, miközben az ízületek tartási stabilitását is fejleszti."
-      ],
-      "therapist": ["Livienne"]
-    },
-    {
-      "title": "Streching",
-      "description": [
-        "Nyújtás, melynek célja az izmok és ízületek rugalmasságának megtartása és fejlesztése. A stretching aktív és passzív technikák egyvelege, amelyek segítségével csökken a sérülésveszély és gyorsul a szövetek regenerációja."
-      ],
-      "therapist": ["Livienne"]
-    },
-    {
-      "title": "Triggerpont terápia",
-      "description": [
-        "Fókuszában az emberi test izomszövetében található feszültségcsomók állnak. A triggerpont helye gyakran nem egyezik a fájdalom helyével, így a triggerpontok elhelyezkedésének ismerete nélkülözhetetlen a tartós gyógyuláshoz. Ez a kezelés megszünteti a kisugárzó fájdalom valódi okát."
-      ],
-      "therapist": ["Eszter"]
-    },
-    {
       "title": "Sportmasszázs",
       "description": [
         "Nem csak sportolóknak ajánlott masszázsforma, mely a sérülések utáni rehabilitációban és megelőzésként is egyaránt hatékony. Intenzív masszázsfogásokkal pezsdíti a vérkeringést, segítségével a szövetek rugalmasága is javul, illetve sérülések utáni hegszövet lebontására, fájdalomcsillapításra is használják. Javítja a sport teljesítményt, meghosszabítva ezzel az aktív, sportban töltött éveket. "
       ],
-      "therapist": ["Zsuzsanna", "Endre", "Livienne"]
+      "therapist": ["Zsuzsanna", "Endre"]
     },
     {
       "title": "Svédmasszázs",
       "description": [
         "Európában a legelterjedtebb masszázsforma, mely a sport- és gyógymasszázs alapja is. A klasszikus svédmasszázs egész testre kiterjed: az izmok, az inak és az ízületek átdolgozására épül. Ellazítja a feszülő, görcsös izomzatot és elősegíti a helyes mozgást."
       ],
-      "therapist": ["Zsuzsanna", "Livienne"]
-    },
-    {
-      "title": "Mélyszöveti masszázs",
-      "description": [
-        "A mélyszöveti masszázs az izom és kötőszövet mélyebb masszírozása, fókuszában a feszült izmok oldása és ellazítása áll. A kezelés során speciális fogásokkal mélyen átdolgozzuk a letapadt szöveteket és izmokat, elősegítve a gyors regenerációt és a salakanyagok távozását."
-      ],
-      "therapist": ["Livienne"]
+      "therapist": ["Zsuzsanna"]
     },
     {
       "title": "Állapotfelmérés",
@@ -523,7 +417,7 @@
         "Minden kezelésünk során a legelső alkalom egy általános állapotfelmérés, melyen a terapeuta részletesen kikérdezi Önt egészségügyi állapotáról. Kérjük mindenképpen hozza magával orvosi dokumentációját, illetve (amennyiben van) MR vagy CT felvételeit is!",
         "A vizsgálat egy órát vesz igénybe, és fehérneműben történik. Az állapotfelmérés a teljes test pontos megfigyelése, vizsgálata miatt elengedhetetlen. A felmérés során a terapeuta folyamatosan tájékoztatást ad a talált elváltozásokról, a lehetséges problémákról és azok okaikról, illetve a különböző kezelési lehetőségekről. A mozgásvizsgálat és a speciális tesztek után a cél egy közös kezelési terv kialakítása, kezdve a rövidtávú célkitűzések meghatározásával."
       ],
-      "therapist": ["Panka", "Eszter", "Szilvia"]
+      "therapist": ["Panka", "Szilvia"]
     },
     {
       "title": "Evminov módszer",
@@ -552,14 +446,14 @@
       "description": [
         "A McKenzie módszer egy biomechanikailag, élettanilag és anatómiailag is alátámasztott terápia, melyet mindig a páciensek aktív közreműködésével alkalmazunk. A torna során a beteg saját maga képes befolyásolni a kialakuló fájdalmat, aminek segítségével bizonyos idő után terapeutától függetlenül is kezelni tudja a panaszait."
       ],
-      "therapist": ["Eszter", "Szilvia", "Veronika"]
+      "therapist": [ "Szilvia", "Veronika"]
     },
     {
       "title": "Kinesio tape",
       "description": [
         "A kinesio tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is."
       ],
-      "therapist": ["Panka", "Eszter", "Endre", "Szilvia"]
+      "therapist": ["Panka","Endre", "Szilvia"]
     },
     {
       "title": "Funkcionális gyógytorna",
@@ -567,7 +461,7 @@
         "Egy komolyabb sérülés, egy műtét, vagy egyes, hosszabb ideje jelen lévő fájdalmak és problémák jelentős mértékben befolyásolják az életünk és a testünk minőségét. Ilyenkor sérülnek a velünk született mozgásminták is, melyek helyreállítása alapvető fontosságú. A rehabilitációhoz minden ilyen esetben funkcionális, egyénre szabott gyógytorna szükséges.",
         "A személyre szabott kezelés előnye, hogy a magánóra keretei között a gyógytornász fókuszált figyelmet fordíthat a betegre. A fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája minden esetben az egyéni gyógytorna. Ülő- vagy megterhelő fizikai munka esetén, alak- és egészségmegőrzési célból, az ízületek és izmok mozgékonyságának fenntartására, esetleg bármilyen későbbi probléma megelőzésére szintén javasolt egyéni kezelést foglalni."
       ],
-      "therapist": ["Panka", "Eszter", "Szilvia", "Tamara", "Veronika"]
+      "therapist": ["Panka", "Szilvia", "Tamara", "Veronika"]
     },
     {
       "title": "FDM",
@@ -575,20 +469,6 @@
         "Az FDM módszer egy új, különösen hatékony mozgásterápiás eljárás, melyet ma már világszerte egyre szélesebb körben alkalmaznak. Az FDM elismerten a leggyorsabban terjedő fájdalomcsillapító terápia: szinte azonnal jelentkező pozitív hatása ízületi, izom és szervi problémákra is megoldást jelenthet."
       ],
       "therapist": ["Endre", "Zsuzsanna", "Panka", "Tamara"]
-    },
-    {
-      "title": "Állkapocs ízületi kezelés",
-      "description": [
-        "Az állkapcsunk az egyik legtöbbet dolgoztatott ízületünk. Megbetegedése akár olyan problémák hátterében is állhat, mint a fülzúgás, fejfájás, szédülés, nyaki és vállövi fájdalom. A kezelés során kiemelt szerepe van a tartásjavító gyakorlatoknak, a váll-nyak területén végzett izomlazító fogásoknak. Magát az állkapocs ízületet manuálisan mobilizáljuk, a körülötte lévő szöveti feszüléseket nyomásos technikával oldjuk."
-      ],
-      "therapist": ["Eszter"]
-    },
-    {
-      "title": "Lágyrész manuálterápia",
-      "description": [
-        "A lágyrész manuálterápia vagy mobilizáció célja a kötőszövet és az izom összetapadásainak, zsugorodásának, vagy megnyúlásásnak helyreállítása. Gondos állapotfelmérés után a szükséges terület kezelése manuális fogásokkal, többek közt a triggerpontok oldásával történik."
-      ],
-      "therapist": ["Eszter"]
     },
     {
       "title": "Idegmobilizáció",
@@ -605,13 +485,6 @@
       "therapist": ["Zsuzsanna"]
     },
     {
-      "title": "Lomi Lomi",
-      "description": [
-        "A Lomi Lomi egy csodálatos belső utazás: a különböző testtájak egyidejű kezelésének, az elfogadó, szerető érintésnek és az egyénre szabott terápiának köszönhetően még a legfeszültebbek is képesek ellazulni."
-      ],
-      "therapist": ["Livienne"]
-    },
-    {
       "title": "Derék- és nyakprotokoll",
       "description": [
         "A mozgásszervi problémák kezelésére összeállított „protokoll” eljárások ötvözik a modern nyugati oszteopátia és a hagyományos kínai manuálterápia módszereit. A meghatározott sorrendben végzett lazító és nyújtó fogások, a kineziológiai tapasz, illetve a fülakupunktúra együttes alkalmazása gyors és eredményes gyógyulást biztosít.",
@@ -624,7 +497,7 @@
       "description": [
         "A kínai orvoslás elismert reflexológiai kezelése szó szerint annyit tesz, hogy „minden rossz kikaparása”. A kezelés hagyományosan egy csontból vagy kőből készült lemezzel történik; a kezelt testrészeken megjelenő bőrirritáció pontos diagnózist nyújt az egyes, helytelenül működő belső szervekről."
       ],
-      "therapist": ["Zsuzsanna", "Livienne"]
+      "therapist": ["Zsuzsanna"]
     },
     {
       "title": "Kiscsoportos gerinctorna",
