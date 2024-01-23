@@ -150,6 +150,28 @@
             "Idegmobilizáció"
           ]
         }
+      },
+      {
+        "name": "Németh-Deák Viktor",
+        "nick name": "Viktor",
+        "occupation": "Masszőr",
+        "phone number": "06 20 539 29 98",
+        "email": "studio17gyogytorna@gmail.com",
+        "details": [
+          "A Yumeiho® masszázs módszere 2019 óta az életem része, s több mint 20 éve foglalkozom alternatív gyógymódok alkalmazásával.",
+          "Reiki mesterként tanítom az energiagyógyászatot és öngyógyítást. Önismereti utamon mind a test, mind a lélek gyógyulásának és fejlesztésének fontos szerepet tulajdonítok.", 
+          "Egy kínai közmondás szerint: “Jó orvos az, akinek gyógyultak a páciensei. Vallom, hogy ez minden segítő szakmára igaz és támogatlak abban, hogy a tested harmonikus állapota mihamarabb visszatérjen.",
+          "A Yumeiho® tradicionális technikájával segítek, hogy egy komplex rendszerben szemlélve jobban megértsd a testedet. Ez a módszer a masszázs és az ízületi manipulációs elemek váltakozásával idézi elő a javulást számtalan mozgásszervi panasz esetén.",
+          "Közös utunk akkor ér véget, ha a tünetek megszűntek és a tested visszazökkent az egyensúlyi helyzetébe. Ezután nincs más dolgod, mint fenntartani a javasolt testtartási és testhasználati változtatásokat. Ha időnként úgy érzed, hogy ideje egy kis átmozgatásnak vagy korrekciónak, akkor várlak vissza szeretettel."
+          
+        ],
+        "color": "#b5ffd9",
+        "techniques": {
+          "title": "Alkalmazott technikák",
+          "data": [
+            "Yumeiho® masszázs"
+          ]
+        }
       }
     ]
   },
@@ -277,6 +299,13 @@
         "therapist": [ "Szilvia", "Veronika"]
       },
       {
+        "title": "Yumeiho® masszázs",
+        "description": [
+          "A  Yumeiho® egy tradicionális keleti technika, amelyet Saionji Masayuki (japán mester) foglalt rendszerbe. Masszázs és izületi manipulációs elemek váltakozásával, hatékonyan és eredményesen idézi elő a javulást számtalan mozgásszervi panasz esetén, illetve a test egyéb funkcióit is kedvezően befolyásolhatja. A kezelés során mélyizom masszázst is alkalmazunk görgető, nyomó, gyúró mozdulatokkal, mellyel elősegítjük a letapadt, befeszült, becsípődött izmok ellazulását, helyes tónusát és helyzetét. A csontok és izületek pedig manipulációs, korrekciós technikákkal kerülnek ideális pozícióba. Ez javítja az izületek mozgásterjedelmét és helyreállítja a hibás ízületműködést."
+        ],
+        "therapist": [ "Viktor"]
+      },
+      {
         "title": "Kinesio tape ragasztás",
         "description": [
           "A kinesio tape terápia a mozgásszervi problémák esetében gyors, fájdalommentes és hatékony segítséget nyújt. Alkalmazható ficamok, húzódások, sportsérülések, gerinc- és végtagfájdalmak kezelésekor, valamint a mozgásszervi műtétek utáni rehabilitációban is. Kifejezetten hatékony gyógytornával együtt alkalmazva, és mivel a szalag anyaga nem tartalmaz gyógyszert, a mellékhatásoktól sem kell tartani. A tape víz- és légáteresztő, így fürödni vagy sportolni is kényelmesen lehet vele."
@@ -368,6 +397,13 @@
         "Élete során mindenki érzett már kellemetlenséget okozó ízületi fájdalmat, “kimozdulást”, amely kisebb-nagyobb traumák, vagy egy-egy rossz testhelyzet miatt is kialakulhattak. A Dorn-terápia egy kézzel végzett ízületi korrekciós technika, amely a saját speciális fogásrendszerén keresztül állítja helyre ezeket a rossz helyzetbe került ízületeket és izmokat, így szüntetve meg a kialakult fájdalmat."
       ],
       "therapist": ["Tamara"]
+    },
+    {
+      "title": "Yumeiho® masszázs",
+      "description": [
+        "A  Yumeiho® egy tradicionális keleti technika, amelyet Saionji Masayuki (japán mester) foglalt rendszerbe. Masszázs és izületi manipulációs elemek váltakozásával, hatékonyan és eredményesen idézi elő a javulást számtalan mozgásszervi panasz esetén, illetve a test egyéb funkcióit is kedvezően befolyásolhatja. A kezelés során mélyizom masszázst is alkalmazunk görgető, nyomó, gyúró mozdulatokkal, mellyel elősegítjük a letapadt, befeszült, becsípődött izmok ellazulását, helyes tónusát és helyzetét. A csontok és izületek pedig manipulációs, korrekciós technikákkal kerülnek ideális pozícióba. Ez javítja az izületek mozgásterjedelmét és helyreállítja a hibás ízületműködést."
+      ],
+      "therapist": [ "Viktor"]
     },
     {
       "title": "Flossing terápia",
