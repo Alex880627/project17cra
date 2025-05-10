@@ -36,27 +36,7 @@
           ]
         }
       },
-      {
-        "name": "Balambér Tamara",
-        "nick name": "Tamara",
-        "occupation": "Gyógytornász",
-        "phone number": "06 30 557 5339",
-        "email": "studio17gyogytorna@gmail.com",
-        "details": [
-          "Gyógytornász tanulmányaimat a Pécsi Tudományegyetemen végeztem. Kezeléseim során mindig törekszem az egyénre szabott terápiára, mivel így érhetjük el a legjobb eredményt. Jelenleg manuálterapeuta képzésemet folytatom a Semmelweis Egyetemen, ebből kifolyólag kezeléseim fontos részét képezik a maunáltechnikai fogások és ismeretek. Emellett folyamatosan bővítem tudásom különböző tanfolyamokon, hogy minél teljeskörűbb ellátást biztosíthassak pácienseim számára. "
-        ],
-        "color": "#b5ffd9",
-        "techniques": {
-          "title": "Alkalmazott technikák",
-          "data": [
-            "Kinesio tape",
-            "Flossing terápia",
-            "Evminov módszer",
-            "Dorn-terápia",
-            "FDM"
-          ]
-        }
-      },
+      
       {
         "name": "Erasimus Zsuzsanna",
         "nick name": "Zsuzsanna",
@@ -125,31 +105,6 @@
             "Evminov módszer"
           ]
         }
-      },
-      {
-        "name": "Hetyey Veronika",
-        "nick name": "Veronika",
-        "occupation": "Gyógytornász",
-        "phone number": "06 20 580 1564",
-        "email": "studio17gyogytorna@gmail.com",
-        "details": [
-          "Gyógytornász diplomámat 2017-ben szereztem a Semmelweis Egyetem Egészségtudományi Karán, majd másfél évig mozgássérült gyermekek mindennapos fejlesztésével foglalkoztam. A gyermekek gyógytornáját továbbra is szívügyemnek tekintem, így itt, a Studio17-ben is szeretettel várom őket.",
-          "Jelenleg főleg a gerinccel kapcsolatos kórképek kezelései töltik ki a mindennapjaimat, többek között porckorongsérv vagy megelőző fázisai, akut derékfájás, gerincferdülés prevenciója és rehabilitációja. Nagyon fontosnak tartom a preventív gyógytornát, és a már kialakult panaszok enyhítésében is szívesen nyújtok segítséget.",
-          "Hivatásom, hogy mihamarabb segítsek a hozzám forduló vendégeimnek, tüneteiket csökkenteni tudjam, továbbá olyan megoldást keressek, mellyel hosszú távú eredményt érhetünk el. Ezért is tartom kiemeltem fontosnak a folyamatos fejlődésemet, továbbképzéseken való részvételemet és a gyakorlati tudásom bővítését.",
-          "Elengedhetetlennek tartom, hogy pácienseim értsék, hogy mely terápiát/tornát miért végzünk, így ők is aktív résztvevői legyenek saját gyógyulásuknak."
-        ],
-        "color": "#b5ffd9",
-        "techniques": {
-          "title": "Alkalmazott technikák",
-          "data": [
-            "Kinesio tape",
-            "SMR henger",
-            "Evminov módszer",
-            "McKenzie torna",
-            "FDM",
-            "Idegmobilizáció"
-          ]
-        }
       }
     ]
   },
@@ -170,7 +125,7 @@
     "group sessions title": "Csoportos gyógytorna",
     "interval": "Időtartam:",
     "login": "Bejelentkezés:",
-    "therapists": ["Szilvia", "Veronika"],
+    "therapists": ["Szilvia"],
     "intervalText": " 45-55 perc",
     "heading": "Hogyan készüljön az órákra?",
     "description": "Kérjük, hogy csoportos óráinkra a pontos kezdés érdekében érkezzen 5-10 perccel korábban, hogy az átöltözésre is maradjon idő. Az alkalmakra kényelmes, szabad mozgást biztosító ruhát javaslunk. Cipőre nincs szükség. Stúdiónkban öltöző, zuhanyzó, törülköző, tusfürdő, vendégpapucs és ivóvíz áll vendégeink rendelkezésére.",
@@ -250,7 +205,7 @@
           "Minden kezelésünk során a legelső alkalom egy általános állapotfelmérés, melyen a terapeuta részletesen kikérdezi Önt egészségügyi állapotáról. Kérjük mindenképpen hozza magával orvosi dokumentációját, illetve (amennyiben van) MR vagy CT felvételeit is!",
           "A vizsgálat egy órát vesz igénybe, és fehérneműben történik. Az állapotfelmérés a teljes test pontos megfigyelése, vizsgálata miatt elengedhetetlen. A felmérés során a terapeuta folyamatosan tájékoztatást ad a talált elváltozásokról, a lehetséges problémákról és azok okaikról, illetve a különböző kezelési lehetőségekről. A mozgásvizsgálat és a speciális tesztek után a cél egy közös kezelési terv kialakítása, kezdve a rövidtávú célkitűzések meghatározásával."
         ],
-        "therapist": ["Panka", "Szilvia", "Tamara", "Veronika"]
+        "therapist": ["Panka", "Szilvia"]
       },
       {
         "title": "Evminov gerinc-rehabilitáció",
@@ -274,7 +229,7 @@
         "description": [
           "A McKenzie módszer egy biomechanikailag, élettanilag és anatómiailag is alátámasztott terápia, melyet mindig a páciensek aktív közreműködésével alkalmazunk. A torna során a beteg saját maga képes befolyásolni a kialakuló fájdalmat, aminek segítségével bizonyos idő után terapeutától függetlenül is kezelni tudja a panaszait."
         ],
-        "therapist": [ "Szilvia", "Veronika"]
+        "therapist": [ "Szilvia"]
       },
       {
         "title": "Kinesio tape ragasztás",
@@ -284,9 +239,7 @@
         "therapist": [
           "Panka",
           "Endre",
-          "Szilvia",
-          "Veronika",
-          "Tamara"
+          "Szilvia"
         ]
       },
       {
@@ -295,14 +248,14 @@
           "Egy komolyabb sérülés, egy műtét, vagy egyes, hosszabb ideje jelen lévő fájdalmak és problémák jelentős mértékben befolyásolják az életünk és a testünk minőségét. Ilyenkor sérülnek a velünk született mozgásminták is, melyek helyreállítása alapvető fontosságú. A rehabilitációhoz minden ilyen esetben funkcionális, egyénre szabott gyógytorna szükséges.",
           "A személyre szabott kezelés előnye, hogy a magánóra keretei között a gyógytornász fókuszált figyelmet fordíthat a betegre. A fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája minden esetben az egyéni gyógytorna. Ülő- vagy megterhelő fizikai munka esetén, alak- és egészségmegőrzési célból, az ízületek és izmok mozgékonyságának fenntartására, esetleg bármilyen későbbi probléma megelőzésére szintén javasolt egyéni kezelést foglalni."
         ],
-        "therapist": ["Szilvia", "Panka", "Tamara", "Veronika"]
+        "therapist": ["Szilvia", "Panka"]
       },
       {
         "title": "Fascia Disztorziós Modell",
         "description": [
           "Az FDM módszer egy új, különösen hatékony mozgásterápiás eljárás, melyet ma már világszerte egyre szélesebb körben alkalmaznak. Az FDM elismerten a leggyorsabban terjedő fájdalomcsillapító terápia: szinte azonnal jelentkező pozitív hatása ízületi, izom és szervi problémákra is megoldást jelenthet."
         ],
-        "therapist": ["Endre", "Zsuzsanna", "Panka", "Veronika"]
+        "therapist": ["Endre", "Zsuzsanna", "Panka"]
       },
       {
         "title": "Perifériás idegmobilizáció",
@@ -310,13 +263,6 @@
           "A terápia célja az idegi eredetű fájdalom csillapítása. A kezelés során speciális fogásokkal szabadítjuk fel a letapadt, becsípődött, vagy nyomás alá került végtagi idegeket. Ez a módszer jól alkalmazható végtag zsibbadás, éjszakai izomgörcsök, vagy a végtagokban érzett gyengeség, diszkomfort megszüntetésére."
         ],
         "therapist": ["Panka"]
-      },
-      {
-        "title": "Dorn-terápia",
-        "description": [
-          "Élete során mindenki érzett már kellemetlenséget okozó ízületi fájdalmat, “kimozdulást”, amely kisebb-nagyobb traumák, vagy egy-egy rossz testhelyzet miatt is kialakulhattak. A Dorn-terápia egy kézzel végzett ízületi korrekciós technika, amely a saját speciális fogásrendszerén keresztül állítja helyre ezeket a rossz helyzetbe került ízületeket és izmokat, így szüntetve meg a kialakult fájdalmat."
-        ],
-        "therapist": ["Tamara"]
       },
       {
         "title": "SI-kezelés",
@@ -363,18 +309,11 @@
   },
   "tooltip-treatments": [
     {
-      "title": "Dorn-terápia",
-      "description": [
-        "Élete során mindenki érzett már kellemetlenséget okozó ízületi fájdalmat, “kimozdulást”, amely kisebb-nagyobb traumák, vagy egy-egy rossz testhelyzet miatt is kialakulhattak. A Dorn-terápia egy kézzel végzett ízületi korrekciós technika, amely a saját speciális fogásrendszerén keresztül állítja helyre ezeket a rossz helyzetbe került ízületeket és izmokat, így szüntetve meg a kialakult fájdalmat."
-      ],
-      "therapist": ["Tamara"]
-    },
-    {
       "title": "Flossing terápia",
       "description": [
         "Kompressziós terápia, melyet ízületi és izombántalmak hatékony, gyors kezelésére, illetve fájdalomcsillapításra alkalmazunk. A módszer a szöveti regenerációt is radikálisan serkenti. A kezelés során 1,5-2 percre erős gumiszalagokat tekerünk a panaszos terület köré, majd ezeket gyorsan visszaeresztve érjük el a jótékony hatást."
       ],
-      "therapist": ["Zsuzsanna", "Tamara"]
+      "therapist": ["Zsuzsanna"]
     },
     {
       "title": "Köpölyözés",
@@ -382,13 +321,6 @@
         "A kínai orvoslásban a köpölyözés a test energia-áramlását (azaz a csí áramlását) befolyásolja: a terápiát blokkolt vagy stagnáló áramlás újraindítására alkalmazzák. A nyugati szakemberek az izmok kezelésére és a véráram felpezsdítésére használják a köpölyözést."
       ],
       "therapist": ["Zsuzsanna", "Endre"]
-    },
-    {
-      "title": "SMR henger",
-      "description": [
-        "Az SMR vagy masszázs henger gyakori használata segíti az izmok egészséges működését, megelőzi a sportsérüléseket, illetve támogatja a problémamentes mozgás visszaszerzését és megtartását. Megfelelően használva a henger az adott izmot körülvevő hártyákat masszírozza át: az izom ellazul, visszanyeri a normális tónusát, és megszűnnek a fájdalmas izomcsomók, feszülések."
-      ],
-      "therapist": ["Veronika"]
     },
     {
       "title": "Lágylézer",
@@ -429,10 +361,8 @@
         "Szilvia",
         "Panka",
         "Endre",
-        "Zsuzsanna",
-        "Veronika",
-        "Tamara"
-      ]
+        "Zsuzsanna"
+       ]
     },
     {
       "title": "Schroth terápia",
@@ -446,7 +376,7 @@
       "description": [
         "A McKenzie módszer egy biomechanikailag, élettanilag és anatómiailag is alátámasztott terápia, melyet mindig a páciensek aktív közreműködésével alkalmazunk. A torna során a beteg saját maga képes befolyásolni a kialakuló fájdalmat, aminek segítségével bizonyos idő után terapeutától függetlenül is kezelni tudja a panaszait."
       ],
-      "therapist": [ "Szilvia", "Veronika"]
+      "therapist": [ "Szilvia"]
     },
     {
       "title": "Kinesio tape",
@@ -461,21 +391,21 @@
         "Egy komolyabb sérülés, egy műtét, vagy egyes, hosszabb ideje jelen lévő fájdalmak és problémák jelentős mértékben befolyásolják az életünk és a testünk minőségét. Ilyenkor sérülnek a velünk született mozgásminták is, melyek helyreállítása alapvető fontosságú. A rehabilitációhoz minden ilyen esetben funkcionális, egyénre szabott gyógytorna szükséges.",
         "A személyre szabott kezelés előnye, hogy a magánóra keretei között a gyógytornász fókuszált figyelmet fordíthat a betegre. A fennálló mozgásszervi betegségek gyógyításának illetve megelőzésének leghatékonyabb formája minden esetben az egyéni gyógytorna. Ülő- vagy megterhelő fizikai munka esetén, alak- és egészségmegőrzési célból, az ízületek és izmok mozgékonyságának fenntartására, esetleg bármilyen későbbi probléma megelőzésére szintén javasolt egyéni kezelést foglalni."
       ],
-      "therapist": ["Panka", "Szilvia", "Tamara", "Veronika"]
+      "therapist": ["Panka", "Szilvia"]
     },
     {
       "title": "FDM",
       "description": [
         "Az FDM módszer egy új, különösen hatékony mozgásterápiás eljárás, melyet ma már világszerte egyre szélesebb körben alkalmaznak. Az FDM elismerten a leggyorsabban terjedő fájdalomcsillapító terápia: szinte azonnal jelentkező pozitív hatása ízületi, izom és szervi problémákra is megoldást jelenthet."
       ],
-      "therapist": ["Endre", "Zsuzsanna", "Panka", "Tamara"]
+      "therapist": ["Endre", "Zsuzsanna", "Panka"]
     },
     {
       "title": "Idegmobilizáció",
       "description": [
         "A terápia célja az idegi eredetű fájdalom csillapítása. A kezelés során speciális fogásokkal szabadítjuk fel a letapadt, becsípődött, vagy nyomás alá került végtagi idegeket. Ez a módszer jól alkalmazható végtag zsibbadás, éjszakai izomgörcsök, vagy a végtagokban érzett gyengeség, diszkomfort megszüntetésére."
       ],
-      "therapist": ["Panka", "Veronika"]
+      "therapist": ["Panka"]
     },
     {
       "title": "SI-kezelés",
@@ -504,7 +434,7 @@
       "description": [
         "A 4-6 fős gerinctornát azoknak a vendégeinknek ajánljuk, akik egész nap ülőmunkát végeznek és szeretnék javítani a testtartásukat, illetve csökkenteni a kisebb ízületi fájdalmaikat. A foglalkozás során fokozott figyelmet fordítunk a mozdulatok helyes kivitelezésére és a mély tartóizmok erősítésére."
       ],
-      "therapist": ["Veronika"]
+      "therapist": ["Szilvia"]
     }
   ]
 }
